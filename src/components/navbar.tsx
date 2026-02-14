@@ -16,9 +16,9 @@ export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-neutral-100 bg-white/80 backdrop-blur-md">
+    <header className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-        <Link href="/" className="text-lg font-semibold tracking-tight text-neutral-900">
+        <Link href="/" className="text-lg font-semibold tracking-tight text-foreground">
           Applied Longevity
         </Link>
 
@@ -28,7 +28,7 @@ export function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm text-neutral-500 transition-colors hover:text-neutral-900"
+              className="text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground"
             >
               {link.label}
             </Link>
@@ -50,13 +50,13 @@ export function Navbar() {
 
       {/* Mobile nav */}
       {mobileOpen && (
-        <nav className="border-t border-neutral-100 bg-white px-6 py-4 md:hidden">
+        <nav className="border-t border-border bg-background px-6 py-4 md:hidden">
           <div className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm text-neutral-600 hover:text-neutral-900"
+                className="text-sm text-muted-foreground hover:text-foreground"
                 onClick={() => setMobileOpen(false)}
               >
                 {link.label}

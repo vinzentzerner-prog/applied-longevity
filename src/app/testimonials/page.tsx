@@ -48,13 +48,13 @@ export default function Testimonials() {
       {/* Header */}
       <Section className="pt-28 md:pt-36 pb-12">
         <div className="max-w-2xl">
-          <p className="text-sm font-medium uppercase tracking-widest text-neutral-400">
+          <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground/60">
             Client experiences
           </p>
-          <h1 className="mt-4 text-4xl font-semibold tracking-tight text-neutral-900 md:text-5xl">
+          <h1 className="mt-4 text-4xl font-semibold tracking-tight text-foreground md:text-5xl">
             Testimonials
           </h1>
-          <p className="mt-6 text-lg leading-relaxed text-neutral-500">
+          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
             Hear from clients who have been through the process. These are
             placeholder testimonials — replace them with real stories as they
             come in.
@@ -63,22 +63,21 @@ export default function Testimonials() {
       </Section>
 
       {/* Testimonial grid */}
-      <Section className="bg-neutral-50 pt-12">
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <Section className="bg-secondary pt-12">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((testimonial) => (
             <Card
               key={testimonial.name}
-              className="border-neutral-100 bg-white"
             >
               <CardContent className="pt-6">
-                <blockquote className="text-sm leading-relaxed text-neutral-600">
+                <blockquote className="text-sm leading-relaxed text-muted-foreground">
                   &ldquo;{testimonial.quote}&rdquo;
                 </blockquote>
-                <div className="mt-6 border-t border-neutral-100 pt-4">
-                  <p className="text-sm font-semibold text-neutral-900">
+                <div className="mt-6 border-t border-border pt-4">
+                  <p className="text-sm font-semibold text-foreground">
                     {testimonial.name}
                   </p>
-                  <p className="text-xs text-neutral-400">
+                  <p className="text-xs text-muted-foreground/60">
                     {testimonial.detail}
                   </p>
                 </div>
@@ -91,10 +90,10 @@ export default function Testimonials() {
       {/* CTA */}
       <Section>
         <div className="text-center">
-          <h2 className="text-3xl font-semibold tracking-tight text-neutral-900">
+          <h2 className="text-3xl font-semibold tracking-tight text-foreground">
             Join them
           </h2>
-          <p className="mx-auto mt-4 max-w-md text-lg text-neutral-500">
+          <p className="mx-auto mt-4 max-w-md text-lg text-muted-foreground">
             When a spot opens, we&apos;ll review your application and reach out
             to schedule a call.
           </p>
