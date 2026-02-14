@@ -76,13 +76,13 @@ export default function Pillars() {
       {/* Header */}
       <Section className="pt-28 md:pt-36 pb-12">
         <div className="max-w-2xl">
-          <p className="text-sm font-medium uppercase tracking-widest text-neutral-400">
+          <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground/60">
             The framework
           </p>
-          <h1 className="mt-4 text-4xl font-semibold tracking-tight text-neutral-900 md:text-5xl">
+          <h1 className="mt-4 text-4xl font-semibold tracking-tight text-foreground md:text-5xl">
             Five pillars
           </h1>
-          <p className="mt-6 text-lg leading-relaxed text-neutral-500">
+          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
             Longevity isn&apos;t one thing — it&apos;s five things working together.
             We address each pillar individually and as part of an integrated
             system.
@@ -95,25 +95,25 @@ export default function Pillars() {
         <Section
           key={pillar.id}
           id={pillar.id}
-          className={index % 2 === 0 ? "bg-neutral-50" : ""}
+          className={index % 2 === 0 ? "bg-secondary" : ""}
         >
           <div className="max-w-2xl">
-            <span className="text-sm font-medium text-neutral-300">
+            <span className="text-sm font-medium text-muted-foreground/40">
               {pillar.number}
             </span>
-            <h2 className="mt-2 text-3xl font-semibold tracking-tight text-neutral-900">
+            <h2 className="mt-2 text-3xl font-semibold tracking-tight text-foreground">
               {pillar.title}
             </h2>
-            <p className="mt-6 text-base leading-relaxed text-neutral-500">
+            <p className="mt-6 text-base leading-relaxed text-muted-foreground">
               {pillar.description}
             </p>
             <ul className="mt-8 space-y-3">
               {pillar.details.map((detail) => (
                 <li
                   key={detail}
-                  className="flex items-start gap-3 text-sm text-neutral-600"
+                  className="flex items-start gap-3 text-sm text-muted-foreground"
                 >
-                  <span className="mt-1.5 block h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-300" />
+                  <span className="mt-1.5 block h-1.5 w-1.5 shrink-0 rounded-full bg-border" />
                   {detail}
                 </li>
               ))}
@@ -123,12 +123,12 @@ export default function Pillars() {
       ))}
 
       {/* CTA */}
-      <Section className="bg-neutral-900 text-white">
+      <Section className="bg-stone-900 text-stone-50">
         <div className="text-center">
           <h2 className="text-3xl font-semibold tracking-tight">
             See how it all fits together
           </h2>
-          <p className="mx-auto mt-4 max-w-md text-lg text-neutral-400">
+          <p className="mx-auto mt-4 max-w-md text-lg text-stone-400">
             Every pillar reinforces the others. The result is a protocol that
             compounds over time.
           </p>
@@ -137,7 +137,7 @@ export default function Pillars() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-neutral-600 text-neutral-200 hover:bg-neutral-800 hover:text-white"
+                className="border-stone-600 text-stone-200 hover:bg-stone-800 hover:text-white"
               >
                 How It Works
               </Button>
@@ -145,7 +145,7 @@ export default function Pillars() {
             <Link href="/apply">
               <Button
                 size="lg"
-                className="bg-white text-neutral-900 hover:bg-neutral-100"
+                className="bg-white text-stone-900 hover:bg-stone-100"
               >
                 Apply Now
               </Button>
