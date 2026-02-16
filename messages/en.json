@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "services": "Services",
+    "method": "Method",
+    "results": "Results",
+    "contact": "Contact",
+    "cta": "Get Started"
+  },
+  "footer": {
+    "tagline": "Evidence-based coaching for lasting health.",
+    "services": "Services",
+    "method": "Method",
+    "results": "Results",
+    "contact": "Contact",
+    "copyright": "© {year} Applied Longevity. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "overline": "Performance coaching",
+      "title": "Build strength, endurance, and health that lasts",
+      "subtitle": "Individualized, evidence-based coaching for ambitious people who want to perform at their best — for decades, not just seasons.",
+      "cta": "Start your journey",
+      "secondary": "Learn our method"
+    },
+    "about": {
+      "title": "About",
+      "body": "I've been a passionate athlete for over 15 years, and along the way I naturally started coaching people around me. What began as helping friends improve performance turned into a deep interest in building strength, endurance, and health that lasts.\n\nToday I work with only 3–5 clients at a time for a minimum of six months. We begin with four weeks of baseline monitoring to understand your current habits, constraints, and stressors—so the plan is sustainable from day one. From there, we build an individualized strategy across training, nutrition, sleep, and recovery, and track progress with objective metrics (e.g., VO₂ max, fitness benchmarks, and wearable data) plus regular check-ins."
+    },
+    "pillars": {
+      "title": "What we work on",
+      "training": {
+        "title": "Training",
+        "description": "Periodized strength and endurance programming tailored to your goals, schedule, and recovery capacity."
+      },
+      "nutrition": {
+        "title": "Nutrition",
+        "description": "Practical nutrition strategies grounded in science — no fads, no extremes, just what works for you."
+      },
+      "recovery": {
+        "title": "Sleep & Recovery",
+        "description": "Optimizing the other 22 hours: sleep hygiene, stress management, and recovery protocols."
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "overline": "Services",
+      "title": "What I offer",
+      "subtitle": "A small, focused practice built around deep work with a handful of committed clients."
+    },
+    "coaching": {
+      "title": "1-on-1 Coaching",
+      "description": "Six-month minimum engagement. We start with four weeks of baseline monitoring, then build and iterate on a fully individualized plan across training, nutrition, sleep, and recovery.",
+      "features": [
+        "Baseline health & habit assessment",
+        "Custom training programming",
+        "Nutrition strategy & guidance",
+        "Sleep & recovery optimization",
+        "Weekly check-ins & plan adjustments",
+        "Wearable data integration & tracking"
+      ]
+    },
+    "consultation": {
+      "title": "Initial Consultation",
+      "description": "A 60-minute deep-dive to understand your goals, current habits, and constraints. You'll leave with clarity on whether coaching is the right fit.",
+      "cta": "Book a consultation"
+    }
+  },
+  "method": {
+    "hero": {
+      "overline": "Our method",
+      "title": "How we work together",
+      "subtitle": "A structured, evidence-based approach designed for lasting results — not quick fixes."
+    },
+    "steps": [
+      {
+        "number": "01",
+        "title": "Baseline Monitoring",
+        "description": "Four weeks of tracking your current habits, biometrics, and stressors to build a complete picture of where you are."
+      },
+      {
+        "number": "02",
+        "title": "Strategy Design",
+        "description": "We co-create an individualized plan across training, nutrition, sleep, and recovery — realistic and sustainable from day one."
+      },
+      {
+        "number": "03",
+        "title": "Implementation",
+        "description": "Execute the plan with full support: weekly check-ins, real-time adjustments, and accountability."
+      },
+      {
+        "number": "04",
+        "title": "Measure & Iterate",
+        "description": "Track progress with objective metrics — VO₂ max, fitness benchmarks, wearable data — and refine the approach continuously."
+      }
+    ]
+  },
+  "results": {
+    "hero": {
+      "overline": "Results",
+      "title": "What clients achieve",
+      "subtitle": "Real outcomes from a process that prioritizes consistency and long-term adaptation."
+    },
+    "metrics": [
+      { "value": "6+", "label": "Month minimum engagement" },
+      { "value": "3–5", "label": "Clients at a time" },
+      { "value": "100%", "label": "Individualized approach" }
+    ],
+    "testimonials": {
+      "title": "Client stories",
+      "items": [
+        {
+          "quote": "The structured approach transformed how I think about training and recovery. Six months in, I'm stronger and more consistent than I've been in years.",
+          "author": "Client A",
+          "detail": "6-month coaching engagement"
+        },
+        {
+          "quote": "What sets this apart is the data-driven iteration. Every adjustment is based on real metrics, not guesswork.",
+          "author": "Client B",
+          "detail": "Ongoing coaching"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "hero": {
+      "overline": "Contact",
+      "title": "Let's talk",
+      "subtitle": "Ready to invest in your health for the long term? Start with a conversation."
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Tell me about your goals",
+      "submit": "Send message"
+    },
+    "info": {
+      "title": "What to expect",
+      "description": "I'll respond within 48 hours. If it's a good fit, we'll schedule a 60-minute consultation to dive deeper into your goals, habits, and constraints."
+    }
+  }
+}

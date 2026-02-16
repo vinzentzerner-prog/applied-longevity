@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "services": "Leistungen",
+    "method": "Methode",
+    "results": "Ergebnisse",
+    "contact": "Kontakt",
+    "cta": "Jetzt starten"
+  },
+  "footer": {
+    "tagline": "Evidenzbasiertes Coaching für nachhaltige Gesundheit.",
+    "services": "Leistungen",
+    "method": "Methode",
+    "results": "Ergebnisse",
+    "contact": "Kontakt",
+    "copyright": "© {year} Applied Longevity. Alle Rechte vorbehalten."
+  },
+  "home": {
+    "hero": {
+      "overline": "Performance Coaching",
+      "title": "Kraft, Ausdauer und Gesundheit, die hält",
+      "subtitle": "Individuelles, evidenzbasiertes Coaching für ambitionierte Menschen, die langfristig auf höchstem Niveau performen wollen — nicht nur eine Saison lang.",
+      "cta": "Starte deine Reise",
+      "secondary": "Unsere Methode"
+    },
+    "about": {
+      "title": "Über mich",
+      "body": "Ich bin seit über 15 Jahren leidenschaftlicher Sportler und habe über die Jahre ganz natürlich begonnen, Menschen in meinem Umfeld zu coachen. Was als Unterstützung für Freunde startete, wurde zu einer echten Leidenschaft: Leistungsfähigkeit, Kraft, Ausdauer und langfristige Gesundheit nachhaltig aufzubauen.\n\nHeute arbeite ich bewusst nur mit 3–5 Klient:innen gleichzeitig – für mindestens sechs Monate. Wir starten mit vier Wochen Baseline-Monitoring, um deine aktuellen Gewohnheiten, Rahmenbedingungen und Stressoren zu verstehen – damit der Plan von Anfang an alltagstauglich ist. Anschließend entwickeln wir eine individuelle Strategie für Training, Ernährung, Schlaf und Regeneration und messen Fortschritt über objektive Kennzahlen (z. B. VO₂max, Fitness-Benchmarks und Wearable-Daten) sowie regelmäßige Check-ins."
+    },
+    "pillars": {
+      "title": "Woran wir arbeiten",
+      "training": {
+        "title": "Training",
+        "description": "Periodisiertes Kraft- und Ausdauertraining, abgestimmt auf deine Ziele, deinen Zeitplan und deine Regenerationsfähigkeit."
+      },
+      "nutrition": {
+        "title": "Ernährung",
+        "description": "Praktische, wissenschaftlich fundierte Ernährungsstrategien — keine Trends, keine Extreme, nur was für dich funktioniert."
+      },
+      "recovery": {
+        "title": "Schlaf & Regeneration",
+        "description": "Optimierung der anderen 22 Stunden: Schlafhygiene, Stressmanagement und Regenerationsprotokolle."
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "overline": "Leistungen",
+      "title": "Was ich anbiete",
+      "subtitle": "Eine kleine, fokussierte Praxis — aufgebaut auf intensiver Zusammenarbeit mit wenigen engagierten Klient:innen."
+    },
+    "coaching": {
+      "title": "1-zu-1 Coaching",
+      "description": "Mindestens sechs Monate Zusammenarbeit. Wir starten mit vier Wochen Baseline-Monitoring und entwickeln dann einen vollständig individualisierten Plan für Training, Ernährung, Schlaf und Regeneration.",
+      "features": [
+        "Gesundheits- & Gewohnheitsanalyse",
+        "Individuelles Trainingsprogramm",
+        "Ernährungsstrategie & Beratung",
+        "Schlaf- & Regenerationsoptimierung",
+        "Wöchentliche Check-ins & Plananpassung",
+        "Wearable-Datenintegration & Tracking"
+      ]
+    },
+    "consultation": {
+      "title": "Erstgespräch",
+      "description": "Ein 60-minütiges Tiefengespräch, um deine Ziele, aktuellen Gewohnheiten und Rahmenbedingungen zu verstehen. Du gehst mit Klarheit, ob Coaching der richtige Schritt ist.",
+      "cta": "Erstgespräch buchen"
+    }
+  },
+  "method": {
+    "hero": {
+      "overline": "Unsere Methode",
+      "title": "Wie wir zusammenarbeiten",
+      "subtitle": "Ein strukturierter, evidenzbasierter Ansatz für nachhaltige Ergebnisse — keine Abkürzungen."
+    },
+    "steps": [
+      {
+        "number": "01",
+        "title": "Baseline-Monitoring",
+        "description": "Vier Wochen Erfassung deiner aktuellen Gewohnheiten, Biometrie und Stressoren, um ein vollständiges Bild zu erstellen."
+      },
+      {
+        "number": "02",
+        "title": "Strategieentwicklung",
+        "description": "Gemeinsam erstellen wir einen individuellen Plan für Training, Ernährung, Schlaf und Regeneration — realistisch und nachhaltig von Tag eins."
+      },
+      {
+        "number": "03",
+        "title": "Umsetzung",
+        "description": "Umsetzung des Plans mit voller Unterstützung: wöchentliche Check-ins, Echtzeit-Anpassungen und Accountability."
+      },
+      {
+        "number": "04",
+        "title": "Messen & Optimieren",
+        "description": "Fortschritt messen mit objektiven Kennzahlen — VO₂max, Fitness-Benchmarks, Wearable-Daten — und den Ansatz kontinuierlich verfeinern."
+      }
+    ]
+  },
+  "results": {
+    "hero": {
+      "overline": "Ergebnisse",
+      "title": "Was Klient:innen erreichen",
+      "subtitle": "Echte Ergebnisse aus einem Prozess, der Konsistenz und langfristige Anpassung priorisiert."
+    },
+    "metrics": [
+      { "value": "6+", "label": "Monate Mindestdauer" },
+      { "value": "3–5", "label": "Klient:innen gleichzeitig" },
+      { "value": "100%", "label": "Individueller Ansatz" }
+    ],
+    "testimonials": {
+      "title": "Klient:innen-Stimmen",
+      "items": [
+        {
+          "quote": "Der strukturierte Ansatz hat verändert, wie ich über Training und Regeneration denke. Nach sechs Monaten bin ich stärker und konstanter als seit Jahren.",
+          "author": "Klient A",
+          "detail": "6-Monats-Coaching"
+        },
+        {
+          "quote": "Was das hier besonders macht, ist die datengetriebene Iteration. Jede Anpassung basiert auf echten Zahlen, nicht auf Vermutungen.",
+          "author": "Klient B",
+          "detail": "Laufendes Coaching"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "hero": {
+      "overline": "Kontakt",
+      "title": "Lass uns sprechen",
+      "subtitle": "Bereit, langfristig in deine Gesundheit zu investieren? Der erste Schritt ist ein Gespräch."
+    },
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Erzähl mir von deinen Zielen",
+      "submit": "Nachricht senden"
+    },
+    "info": {
+      "title": "Was dich erwartet",
+      "description": "Ich antworte innerhalb von 48 Stunden. Wenn es passt, vereinbaren wir ein 60-minütiges Erstgespräch, um tiefer in deine Ziele, Gewohnheiten und Rahmenbedingungen einzutauchen."
+    }
+  }
+}
