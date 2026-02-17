@@ -4,6 +4,7 @@
     "howItWorks": "So funktioniert's",
     "pillars": "Säulen",
     "testimonials": "Erfahrungen",
+    "about": "Über mich",
     "apply": "Bewerben"
   },
   "footer": {
@@ -12,6 +13,7 @@
     "howItWorks": "So funktioniert's",
     "pillars": "Säulen",
     "testimonials": "Erfahrungen",
+    "about": "Über mich",
     "apply": "Bewerben",
     "copyright": "© {year} Applied Longevity. Alle Rechte vorbehalten."
   },
@@ -217,6 +219,47 @@
     "cta": {
       "title": "Werde Teil davon",
       "body": "Wenn ein Platz frei wird, prüfen wir deine Bewerbung und melden uns für ein Gespräch.",
+      "button": "Jetzt bewerben"
+    }
+  },
+  "about": {
+    "hero": {
+      "overline": "Über den Gründer",
+      "title": "Aus Erfahrung gebaut, nicht aus Theorie.",
+      "body": "Applied Longevity ist aus über 15 Jahren Training, Selbstexperimentation und Coaching im engsten Umfeld entstanden. Das hier ist keine zertifikatsgetriebene Praxis — es ist ein Handwerk, verfeinert durch tausende Stunden realer Arbeit."
+    },
+    "story": {
+      "title": "Hintergrund",
+      "paragraphs": [
+        "Ich bin seit über 15 Jahren leidenschaftlicher Sportler — Wettkampfsport, Krafttraining, Ausdauer und alles dazwischen. Irgendwann begann ich, Freunde und Kollegen zu coachen, zunächst einfach als Weitergabe meiner Erfahrungen. Mit der Zeit wurde daraus etwas Strukturierteres.",
+        "Mich hat die Frage fasziniert: Was braucht es wirklich, um stark, klar und gesund zu bleiben — nicht für Monate, sondern für Jahrzehnte? Die Antwort war kein einzelnes Protokoll oder Biohack. Es war ein System — eines, das Training, Ernährung, Schlaf, emotionale Gesundheit und medizinische Daten zu einem kohärenten Ganzen verbindet.",
+        "Genau das ist Applied Longevity. Eine kleine, fokussierte Praxis, aufgebaut auf diesem System."
+      ]
+    },
+    "philosophy": {
+      "title": "Philosophie",
+      "items": [
+        {
+          "title": "Beobachten vor dem Handeln",
+          "description": "Jede Zusammenarbeit beginnt mit vier Wochen Baseline-Datenerhebung. Wir ändern nichts, bis wir verstehen, wo du wirklich stehst — nicht wo du glaubst zu stehen."
+        },
+        {
+          "title": "Kleine Kapazität, tiefe Arbeit",
+          "description": "Ich arbeite mit 3–5 Klient:innen gleichzeitig, für mindestens sechs Monate. Das ist bewusst nicht skalierbar. Echtes Coaching erfordert echte Aufmerksamkeit."
+        },
+        {
+          "title": "Evidenz statt Ideologie",
+          "description": "Keine Trends, keine Ernährungskriege, keine Wunder-Supplements. Wir messen, was funktioniert — mit Blutbild, Wearables, Fitness-Benchmarks — und passen entsprechend an."
+        },
+        {
+          "title": "Nachhaltig von Grund auf",
+          "description": "Das Ziel ist ein Protokoll, das du über Jahre beibehalten kannst, keine 12-Wochen-Transformation. Wir bauen Gewohnheiten und Systeme, die sich multiplizieren, nicht zusammenbrechen."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Zusammenarbeiten?",
+      "body": "Wenn das resoniert, bewirb dich. Ich lese jede Bewerbung persönlich.",
       "button": "Jetzt bewerben"
     }
   },

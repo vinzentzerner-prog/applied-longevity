@@ -35,6 +35,9 @@ export function Footer() {
             <Link href="/testimonials" className="text-dark-muted hover:text-dark-fg transition-colors">
               {t("testimonials")}
             </Link>
+            <Link href="/about" className="text-dark-muted hover:text-dark-fg transition-colors">
+              {t("about")}
+            </Link>
             <Link href="/apply" className="text-dark-muted hover:text-dark-fg transition-colors">
               {t("apply")}
             </Link>

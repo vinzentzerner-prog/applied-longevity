@@ -4,6 +4,7 @@
     "howItWorks": "How It Works",
     "pillars": "Pillars",
     "testimonials": "Testimonials",
+    "about": "About",
     "apply": "Apply"
   },
   "footer": {
@@ -12,6 +13,7 @@
     "howItWorks": "How It Works",
     "pillars": "Pillars",
     "testimonials": "Testimonials",
+    "about": "About",
     "apply": "Apply",
     "copyright": "© {year} Applied Longevity. All rights reserved."
   },
@@ -217,6 +219,47 @@
     "cta": {
       "title": "Join them",
       "body": "When a spot opens, we'll review your application and reach out to schedule a call.",
+      "button": "Apply Now"
+    }
+  },
+  "about": {
+    "hero": {
+      "overline": "About the founder",
+      "title": "Built from experience, not theory.",
+      "body": "Applied Longevity grew out of 15+ years of training, self-experimentation, and coaching the people closest to me. This is not a certification-driven practice — it's a craft refined through thousands of hours of real-world work."
+    },
+    "story": {
+      "title": "Background",
+      "paragraphs": [
+        "I've been a committed athlete for over 15 years — competitive sports, strength training, endurance work, and everything in between. Along the way I started coaching friends and colleagues, initially just sharing what I'd learned. Over time, that turned into something more structured.",
+        "I became obsessed with the question: what does it actually take to stay strong, sharp, and healthy — not for months, but for decades? The answer wasn't a single protocol or biohack. It was a system — one that integrates training, nutrition, sleep, emotional health, and medical data into a coherent whole.",
+        "That's what Applied Longevity is. A small, focused practice built around that system."
+      ]
+    },
+    "philosophy": {
+      "title": "Philosophy",
+      "items": [
+        {
+          "title": "Observe before you act",
+          "description": "Every engagement starts with four weeks of baseline data collection. We don't change anything until we understand where you actually are — not where you think you are."
+        },
+        {
+          "title": "Small roster, deep work",
+          "description": "I work with 3–5 clients at a time, for a minimum of six months. This is not scalable by design. Real coaching requires real attention."
+        },
+        {
+          "title": "Evidence over ideology",
+          "description": "No fads, no tribal nutrition wars, no magic supplements. We track what works with objective data — bloodwork, wearables, fitness benchmarks — and adjust accordingly."
+        },
+        {
+          "title": "Sustainable by default",
+          "description": "The goal is a protocol you can maintain for years, not a 12-week transformation. We build habits and systems that compound, not crash."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to work together?",
+      "body": "If this resonates, apply below. I read every application personally.",
       "button": "Apply Now"
     }
   },

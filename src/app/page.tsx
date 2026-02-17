@@ -93,6 +93,33 @@ export default function Home() {
         </div>
       </Section>
 
+      {/* About */}
+      <Section className="bg-stone-900 text-stone-50">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-12 lg:gap-20">
+          <div>
+            <h2 className="text-3xl font-semibold tracking-tight">About</h2>
+          </div>
+          <div className="space-y-6">
+            <p className="text-lg leading-relaxed text-stone-400">
+              I&apos;ve been a passionate athlete for over 15 years, and along
+              the way I naturally started coaching people around me. What began
+              as helping friends improve performance turned into a deep interest
+              in building strength, endurance, and health that lasts.
+            </p>
+            <p className="text-lg leading-relaxed text-stone-400">
+              Today I work with only 3–5 clients at a time for a minimum of six
+              months. We begin with four weeks of baseline monitoring to
+              understand your current habits, constraints, and stressors — so the
+              plan is sustainable from day one. From there, we build an
+              individualized strategy across training, nutrition, sleep, and
+              recovery, and track progress with objective metrics (e.g., VO₂
+              max, fitness benchmarks, and wearable data) plus regular
+              check-ins.
+            </p>
+          </div>
+        </div>
+      </Section>
+
       {/* CTA */}
       <Section className="bg-stone-900 text-stone-50">
         <div className="text-center">
