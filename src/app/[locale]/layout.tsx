@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   title: "Applied Longevity",
   description:
     "Premium personal coaching for longevity. Training, nutrition, sleep, emotional health, and medical metrics — all tailored to you.",
+  icons: {
+    icon: "/logo-mark.png",
+    apple: "/logo-mark.png",
+  },
 };
 
 export function generateStaticParams() {

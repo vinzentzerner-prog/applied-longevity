@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
@@ -21,8 +22,15 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6">
-        <Link href="/" className="font-display text-lg font-bold tracking-tight text-foreground">
-          Applied Longevity
+        <Link href="/" className="shrink-0">
+          <Image
+            src="/logo-horizontal.png"
+            alt="Applied Longevity"
+            width={180}
+            height={40}
+            className="h-8 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}
