@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { Section } from "@/components/section";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { FounderImage } from "@/components/founder-image";
 
 interface EngagementItem {
   title: string;
@@ -85,19 +86,22 @@ export default function Home({
       </Section>
 
       {/* About */}
-      <Section dark>
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-12 lg:gap-20">
-          <div>
+      <Section className="bg-muted">
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-12 md:gap-16 items-start">
+          <div className="max-w-xl">
             <h2>{t("about.title")}</h2>
+            <div className="mt-8 space-y-6">
+              {t("about.body")
+                .split("\n\n")
+                .map((paragraph: string, i: number) => (
+                  <p key={i} className="text-lg leading-relaxed text-muted-foreground">
+                    {paragraph}
+                  </p>
+                ))}
+            </div>
           </div>
-          <div className="space-y-6">
-            {t("about.body")
-              .split("\n\n")
-              .map((paragraph: string, i: number) => (
-                <p key={i} className="text-lg leading-relaxed text-dark-muted">
-                  {paragraph}
-                </p>
-              ))}
+          <div className="w-full md:w-64 lg:w-72">
+            <FounderImage />
           </div>
         </div>
       </Section>
