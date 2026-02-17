@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { Section } from "@/components/section";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { FounderImage } from "@/components/founder-image";
 
 interface PhilosophyItem {
   title: string;
@@ -25,14 +26,19 @@ export default function About({
     <>
       {/* Hero */}
       <Section className="pt-28 md:pt-36 pb-12">
-        <div className="max-w-2xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.08em] text-primary">
-            {t("hero.overline")}
-          </p>
-          <h1 className="mt-4">{t("hero.title")}</h1>
-          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            {t("hero.body")}
-          </p>
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-12 md:gap-16 items-start">
+          <div className="max-w-2xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.08em] text-primary">
+              {t("hero.overline")}
+            </p>
+            <h1 className="mt-4">{t("hero.title")}</h1>
+            <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
+              {t("hero.body")}
+            </p>
+          </div>
+          <div className="w-full md:w-72 lg:w-80">
+            <FounderImage />
+          </div>
         </div>
       </Section>
 
