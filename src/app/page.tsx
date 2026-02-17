@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Section } from "@/components/section";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { FounderImage } from "@/components/founder-image";
 
 export default function Home() {
   return (
@@ -94,28 +95,33 @@ export default function Home() {
       </Section>
 
       {/* About */}
-      <Section className="bg-stone-900 text-stone-50">
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-12 lg:gap-20">
-          <div>
-            <h2 className="text-3xl font-semibold tracking-tight">About</h2>
+      <Section className="bg-muted">
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-12 md:gap-16 items-start">
+          <div className="max-w-xl">
+            <h2 className="text-3xl font-semibold tracking-tight text-foreground">
+              About
+            </h2>
+            <div className="mt-8 space-y-6">
+              <p className="text-lg leading-relaxed text-muted-foreground">
+                I&apos;ve been a passionate athlete for over 15 years, and along
+                the way I naturally started coaching people around me. What began
+                as helping friends improve performance turned into a deep interest
+                in building strength, endurance, and health that lasts.
+              </p>
+              <p className="text-lg leading-relaxed text-muted-foreground">
+                Today I work with only 3–5 clients at a time for a minimum of six
+                months. We begin with four weeks of baseline monitoring to
+                understand your current habits, constraints, and stressors — so the
+                plan is sustainable from day one. From there, we build an
+                individualized strategy across training, nutrition, sleep, and
+                recovery, and track progress with objective metrics (e.g., VO₂
+                max, fitness benchmarks, and wearable data) plus regular
+                check-ins.
+              </p>
+            </div>
           </div>
-          <div className="space-y-6">
-            <p className="text-lg leading-relaxed text-stone-400">
-              I&apos;ve been a passionate athlete for over 15 years, and along
-              the way I naturally started coaching people around me. What began
-              as helping friends improve performance turned into a deep interest
-              in building strength, endurance, and health that lasts.
-            </p>
-            <p className="text-lg leading-relaxed text-stone-400">
-              Today I work with only 3–5 clients at a time for a minimum of six
-              months. We begin with four weeks of baseline monitoring to
-              understand your current habits, constraints, and stressors — so the
-              plan is sustainable from day one. From there, we build an
-              individualized strategy across training, nutrition, sleep, and
-              recovery, and track progress with objective metrics (e.g., VO₂
-              max, fitness benchmarks, and wearable data) plus regular
-              check-ins.
-            </p>
+          <div className="w-full md:w-64 lg:w-72">
+            <FounderImage />
           </div>
         </div>
       </Section>
