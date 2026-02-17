@@ -46,11 +46,20 @@ export async function generateMetadata({
       description,
       locale: ogLocale,
       url: canonicalUrl,
+      images: [
+        {
+          url: "/og-image.jpg",
+          width: 1200,
+          height: 630,
+          alt: SITE_NAME,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      images: ["/og-image.jpg"],
     },
     robots: {
       index: true,
@@ -80,6 +89,8 @@ function JsonLd({ locale }: { locale: string }) {
         ? "Evidenzbasiertes Longevity-Coaching für 3–5 Klient:innen gleichzeitig. Training, Ernährung, Schlaf, emotionale Gesundheit und medizinische Werte."
         : "Evidence-based longevity coaching for 3–5 clients at a time. Training, nutrition, sleep, emotional health, and medical metrics — all tailored to you.",
     url: SITE_URL,
+    image: `${SITE_URL}/og-image.jpg`,
+    logo: `${SITE_URL}/logo-mark.png`,
     inLanguage: locale,
     areaServed: "Worldwide",
     serviceType: "Longevity Coaching",
