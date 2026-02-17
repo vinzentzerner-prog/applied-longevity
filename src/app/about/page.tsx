@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Section } from "@/components/section";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { FounderImage } from "@/components/founder-image";
 
 const storyParagraphs = [
   "I've been a committed athlete for over 15 years — competitive sports, strength training, endurance work, and everything in between. Along the way I started coaching friends and colleagues, initially just sharing what I'd learned. Over time, that turned into something more structured.",
@@ -37,19 +38,24 @@ export default function About() {
     <>
       {/* Hero */}
       <Section className="pt-28 md:pt-36 pb-12">
-        <div className="max-w-2xl">
-          <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground/60">
-            About the founder
-          </p>
-          <h1 className="mt-4 text-4xl font-semibold tracking-tight text-foreground md:text-5xl">
-            Built from experience, not theory.
-          </h1>
-          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            Applied Longevity grew out of 15+ years of training,
-            self-experimentation, and coaching the people closest to me. This is
-            not a certification-driven practice — it&apos;s a craft refined
-            through thousands of hours of real-world work.
-          </p>
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-12 md:gap-16 items-start">
+          <div className="max-w-2xl">
+            <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground/60">
+              About the founder
+            </p>
+            <h1 className="mt-4 text-4xl font-semibold tracking-tight text-foreground md:text-5xl">
+              Built from experience, not theory.
+            </h1>
+            <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
+              Applied Longevity grew out of 15+ years of training,
+              self-experimentation, and coaching the people closest to me. This
+              is not a certification-driven practice — it&apos;s a craft refined
+              through thousands of hours of real-world work.
+            </p>
+          </div>
+          <div className="w-full md:w-72 lg:w-80">
+            <FounderImage />
+          </div>
         </div>
       </Section>
 
