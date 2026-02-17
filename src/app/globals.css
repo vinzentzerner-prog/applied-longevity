@@ -1,121 +1,118 @@
 @import "tailwindcss";
 
-/* ——— Self-hosted fonts via @font-face ——— */
-/* Replace placeholder .woff2 files with real ones from fontshare.com */
-
+/* ——— Self-hosted fonts ——— */
+/* Clash Display — headings */
 @font-face {
   font-family: "Clash Display";
-  src: url("/fonts/ClashDisplay-Regular.woff2") format("woff2");
+  src: url("./fonts/ClashDisplay-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Clash Display";
-  src: url("/fonts/ClashDisplay-Semibold.woff2") format("woff2");
+  src: url("./fonts/ClashDisplay-Semibold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Clash Display";
-  src: url("/fonts/ClashDisplay-Bold.woff2") format("woff2");
+  src: url("./fonts/ClashDisplay-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
+/* Satoshi — body / UI */
 @font-face {
   font-family: "Satoshi";
-  src: url("/fonts/Satoshi-Regular.woff2") format("woff2");
+  src: url("./fonts/Satoshi-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Satoshi";
-  src: url("/fonts/Satoshi-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Satoshi";
-  src: url("/fonts/Satoshi-Bold.woff2") format("woff2");
+  src: url("./fonts/Satoshi-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
-/* ——— Design tokens (shadcn/ui compatible CSS variables) ——— */
+/* ——— Design tokens ——— */
 
 :root {
-  /* Core palette */
-  --paper: #FDFBF4;
-  --surface: #FFFFFF;
-  --ink: #1B1B17;
-  --muted: #655040;
-  --border: #BEB3A5;
-  --brand: #EB5140;
-  --brand-hover: #D84738;
-  --dark-bg: #0F0F0D;
-  --sage: #2F6F5E;
+  /* Paper canvas */
+  --background: #FDFBF4;
+  --foreground: #1B1B17;
 
-  /* shadcn/ui variable mapping */
-  --background: var(--paper);
-  --foreground: var(--ink);
-  --card: var(--surface);
-  --card-foreground: var(--ink);
-  --popover: var(--surface);
-  --popover-foreground: var(--ink);
-  --primary: var(--brand);
+  /* Surfaces */
+  --card: #FFFFFF;
+  --card-foreground: #1B1B17;
+
+  /* Primary — coral CTA */
+  --primary: #EB5140;
   --primary-foreground: #FFFFFF;
-  --secondary: var(--paper);
-  --secondary-foreground: var(--ink);
-  --muted-bg: #F5F0E8;
-  --muted-foreground: var(--muted);
-  --accent: var(--sage);
+  --primary-hover: #D84738;
+
+  /* Secondary */
+  --secondary: #FDFBF4;
+  --secondary-foreground: #1B1B17;
+
+  /* Muted */
+  --muted: #F5F0E8;
+  --muted-foreground: #655040;
+
+  /* Accent — sage (sparingly) */
+  --accent: #2F6F5E;
   --accent-foreground: #FFFFFF;
-  --destructive: #E53E3E;
-  --destructive-foreground: #FFFFFF;
-  --ring: var(--brand);
+
+  /* Border */
+  --border: #BEB3A5;
+  --ring: #EB5140;
+
+  /* Dark sections */
+  --dark-bg: #0F0F0D;
+  --dark-fg: #FDFBF4;
+  --dark-muted: #BEB3A5;
+
+  /* Radius */
   --radius: 1rem;
-  --input: var(--border);
 }
 
-/* ——— Tailwind v4 theme tokens ——— */
+/* ——— Tailwind v4 theme ——— */
 
 @theme inline {
-  --color-paper: var(--paper);
-  --color-surface: var(--surface);
-  --color-ink: var(--ink);
-  --color-muted: var(--muted);
-  --color-border: var(--border);
-  --color-brand: var(--brand);
-  --color-brand-hover: var(--brand-hover);
-  --color-dark-bg: var(--dark-bg);
-  --color-sage: var(--sage);
-
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
+  --color-primary-hover: var(--primary-hover);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-dark-bg: var(--dark-bg);
+  --color-dark-fg: var(--dark-fg);
+  --color-dark-muted: var(--dark-muted);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
 
   --font-display: "Clash Display", Georgia, "Times New Roman", serif;
   --font-sans: "Satoshi", system-ui, -apple-system, sans-serif;
-
-  --text-h1: clamp(3rem, 6vw, 5rem);
-  --text-h2: clamp(2rem, 4vw, 3.25rem);
-  --text-h3: clamp(1.5rem, 2.5vw, 2rem);
-  --text-h4: 1.25rem;
-  --text-body: 1.125rem;
-  --text-caption: 0.875rem;
-  --text-overline: 0.75rem;
 }
 
-/* ——— Base styles ——— */
+/* ——— Base ——— */
 
 body {
   background: var(--background);
@@ -123,7 +120,16 @@ body {
   font-family: var(--font-sans);
 }
 
-/* ——— Typography refinements ——— */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #EB514033;
+  color: #1B1B17;
+}
+
+/* ——— Typography ——— */
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);

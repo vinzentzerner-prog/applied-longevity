@@ -1,142 +1,256 @@
 {
   "nav": {
-    "services": "Leistungen",
-    "method": "Methode",
-    "results": "Ergebnisse",
-    "contact": "Kontakt",
-    "cta": "Jetzt starten"
+    "home": "Startseite",
+    "howItWorks": "So funktioniert's",
+    "pillars": "Säulen",
+    "testimonials": "Erfahrungen",
+    "apply": "Bewerben"
   },
   "footer": {
-    "tagline": "Evidenzbasiertes Coaching für nachhaltige Gesundheit.",
-    "services": "Leistungen",
-    "method": "Methode",
-    "results": "Ergebnisse",
-    "contact": "Kontakt",
+    "tagline": "Evidenzbasiertes Longevity-Coaching.",
+    "home": "Startseite",
+    "howItWorks": "So funktioniert's",
+    "pillars": "Säulen",
+    "testimonials": "Erfahrungen",
+    "apply": "Bewerben",
     "copyright": "© {year} Applied Longevity. Alle Rechte vorbehalten."
   },
   "home": {
     "hero": {
-      "overline": "Performance Coaching",
-      "title": "Kraft, Ausdauer und Gesundheit, die hält",
-      "subtitle": "Individuelles, evidenzbasiertes Coaching für ambitionierte Menschen, die langfristig auf höchstem Niveau performen wollen — nicht nur eine Saison lang.",
-      "cta": "Starte deine Reise",
-      "secondary": "Unsere Methode"
+      "title1": "Longevity-Coaching,",
+      "title2": "gemeinsam mit dir.",
+      "body1": "Wir arbeiten mit 3–5 Klient:innen gleichzeitig. Jede Zusammenarbeit beginnt mit einer 4-wöchigen Beobachtungsphase — keine großen Änderungen, nur Daten. Darauf aufbauend entwickeln wir ein Protokoll, das zu deinem Leben passt, nicht umgekehrt.",
+      "body2": "Mindestdauer: 6 Monate. Das ist keine schnelle Lösung.",
+      "cta": "Jetzt bewerben",
+      "secondary": "So funktioniert's"
+    },
+    "capacity": {
+      "overline": "Bewusst begrenzt",
+      "title": "3–5 Klient:innen. Nicht mehr.",
+      "body": "Echtes Coaching erfordert echte Aufmerksamkeit. Wir halten unsere Kapazität bewusst klein, damit jede:r Klient:in die nötige Tiefe und Reaktionsgeschwindigkeit bekommt. Keine Templates. Keine Gruppenprogramme. Nur fokussierte 1-zu-1-Arbeit."
+    },
+    "engagement": {
+      "overline": "Die Zusammenarbeit",
+      "title": "Wie die Arbeit mit uns aussieht",
+      "items": [
+        {
+          "title": "4-Wochen-Baseline",
+          "description": "Bevor wir etwas ändern, beobachten wir. Wir sammeln Daten über deinen Schlaf, dein Training, deine Ernährung, dein Blutbild und deinen Alltag, um zu verstehen, wo du gerade stehst."
+        },
+        {
+          "title": "Individuelles Protokoll",
+          "description": "Basierend auf deiner Baseline erstellen wir ein Protokoll über alle fünf Säulen — Training, Ernährung, Schlaf, emotionale Gesundheit und medizinische Werte — zugeschnitten auf deine Ziele und Rahmenbedingungen."
+        },
+        {
+          "title": "Laufende Optimierung",
+          "description": "Protokolle entwickeln sich weiter. Wir treffen uns regelmäßig, überprüfen die Daten, passen Variablen an und konsolidieren Fortschritte. Das Ziel ist nachhaltiger Progress, keine radikalen Umbrüche."
+        }
+      ]
     },
     "about": {
       "title": "Über mich",
       "body": "Ich bin seit über 15 Jahren leidenschaftlicher Sportler und habe über die Jahre ganz natürlich begonnen, Menschen in meinem Umfeld zu coachen. Was als Unterstützung für Freunde startete, wurde zu einer echten Leidenschaft: Leistungsfähigkeit, Kraft, Ausdauer und langfristige Gesundheit nachhaltig aufzubauen.\n\nHeute arbeite ich bewusst nur mit 3–5 Klient:innen gleichzeitig – für mindestens sechs Monate. Wir starten mit vier Wochen Baseline-Monitoring, um deine aktuellen Gewohnheiten, Rahmenbedingungen und Stressoren zu verstehen – damit der Plan von Anfang an alltagstauglich ist. Anschließend entwickeln wir eine individuelle Strategie für Training, Ernährung, Schlaf und Regeneration und messen Fortschritt über objektive Kennzahlen (z. B. VO₂max, Fitness-Benchmarks und Wearable-Daten) sowie regelmäßige Check-ins."
     },
-    "pillars": {
-      "title": "Woran wir arbeiten",
-      "training": {
-        "title": "Training",
-        "description": "Periodisiertes Kraft- und Ausdauertraining, abgestimmt auf deine Ziele, deinen Zeitplan und deine Regenerationsfähigkeit."
-      },
-      "nutrition": {
-        "title": "Ernährung",
-        "description": "Praktische, wissenschaftlich fundierte Ernährungsstrategien — keine Trends, keine Extreme, nur was für dich funktioniert."
-      },
-      "recovery": {
-        "title": "Schlaf & Regeneration",
-        "description": "Optimierung der anderen 22 Stunden: Schlafhygiene, Stressmanagement und Regenerationsprotokolle."
-      }
+    "cta": {
+      "title": "Bereit anzufangen?",
+      "body": "Bewerbungen werden laufend geprüft. Wenn wir Kapazität haben, vereinbaren wir innerhalb einer Woche ein Kennenlerngespräch.",
+      "button": "Jetzt bewerben"
     }
   },
-  "services": {
+  "pillars": {
     "hero": {
-      "overline": "Leistungen",
-      "title": "Was ich anbiete",
-      "subtitle": "Eine kleine, fokussierte Praxis — aufgebaut auf intensiver Zusammenarbeit mit wenigen engagierten Klient:innen."
+      "overline": "Das Framework",
+      "title": "Fünf Säulen",
+      "body": "Longevity ist nicht eine Sache — es sind fünf Dinge, die zusammenwirken. Wir behandeln jede Säule einzeln und als Teil eines integrierten Systems."
     },
-    "coaching": {
-      "title": "1-zu-1 Coaching",
-      "description": "Mindestens sechs Monate Zusammenarbeit. Wir starten mit vier Wochen Baseline-Monitoring und entwickeln dann einen vollständig individualisierten Plan für Training, Ernährung, Schlaf und Regeneration.",
-      "features": [
-        "Gesundheits- & Gewohnheitsanalyse",
-        "Individuelles Trainingsprogramm",
-        "Ernährungsstrategie & Beratung",
-        "Schlaf- & Regenerationsoptimierung",
-        "Wöchentliche Check-ins & Plananpassung",
-        "Wearable-Datenintegration & Tracking"
-      ]
-    },
-    "consultation": {
-      "title": "Erstgespräch",
-      "description": "Ein 60-minütiges Tiefengespräch, um deine Ziele, aktuellen Gewohnheiten und Rahmenbedingungen zu verstehen. Du gehst mit Klarheit, ob Coaching der richtige Schritt ist.",
-      "cta": "Erstgespräch buchen"
-    }
-  },
-  "method": {
-    "hero": {
-      "overline": "Unsere Methode",
-      "title": "Wie wir zusammenarbeiten",
-      "subtitle": "Ein strukturierter, evidenzbasierter Ansatz für nachhaltige Ergebnisse — keine Abkürzungen."
-    },
-    "steps": [
+    "items": [
       {
         "number": "01",
-        "title": "Baseline-Monitoring",
-        "description": "Vier Wochen Erfassung deiner aktuellen Gewohnheiten, Biometrie und Stressoren, um ein vollständiges Bild zu erstellen."
+        "title": "Training",
+        "description": "Kraft, kardiovaskuläre Fitness, Mobilität und Regeneration — als ein integriertes System programmiert. Wir gestalten das Training rund um deinen Zeitplan, deine Verletzungshistorie und deine langfristigen strukturellen Ziele. Das Ziel: einen Körper aufbauen, der mit 40, 60 und darüber hinaus leistungsfähig ist.",
+        "details": [
+          "Periodisierte Kraftprogrammierung",
+          "Zone-2- und VO2max-Kardiotraining",
+          "Mobilitäts- und Bewegungsqualitätsbewertungen",
+          "Regenerations-Lastmanagement"
+        ]
       },
       {
         "number": "02",
-        "title": "Strategieentwicklung",
-        "description": "Gemeinsam erstellen wir einen individuellen Plan für Training, Ernährung, Schlaf und Regeneration — realistisch und nachhaltig von Tag eins."
+        "title": "Ernährung",
+        "description": "Wir verfolgen einen datenbasierten Ansatz bei der Ernährung — keine Ideologie, keine Trends. Wir verfolgen Biomarker, Körperzusammensetzung und subjektive Energie, um das Ernährungsmuster zu finden, das dein Training, deine kognitive Leistung und deine metabolische Gesundheit unterstützt.",
+        "details": [
+          "Makro- und Mikronährstoffanalyse",
+          "Strategien für Mahlzeiten-Timing und -Zusammensetzung",
+          "Integration von kontinuierlichem Glukose-Monitoring",
+          "Periodische Ernährungsexperimente und -überprüfungen"
+        ]
       },
       {
         "number": "03",
-        "title": "Umsetzung",
-        "description": "Umsetzung des Plans mit voller Unterstützung: wöchentliche Check-ins, Echtzeit-Anpassungen und Accountability."
+        "title": "Schlaf",
+        "description": "Schlaf ist die einzelne Variable mit dem größten Hebel für Gesundheit und Leistung. Wir nutzen Wearable-Daten und subjektive Protokolle, um die Schlafarchitektur zu optimieren — nicht nur die Dauer, sondern die Qualität und Konsistenz jeder Phase.",
+        "details": [
+          "Optimierung der Schlafumgebung",
+          "Abstimmung des zirkadianen Rhythmus",
+          "Wearable-Dateninterpretation (Tief-, REM-Schlaf, Einschlaflatenz)",
+          "Verhaltens- und ergänzende Interventionen"
+        ]
       },
       {
         "number": "04",
-        "title": "Messen & Optimieren",
-        "description": "Fortschritt messen mit objektiven Kennzahlen — VO₂max, Fitness-Benchmarks, Wearable-Daten — und den Ansatz kontinuierlich verfeinern."
+        "title": "Emotionale Gesundheit",
+        "description": "Stress, Beziehungen, Sinn und psychische Resilienz sind nicht getrennt von der körperlichen Gesundheit — sie sind deren Fundament. Wir behandeln die mentalen und emotionalen Dimensionen der Longevity mit der gleichen Sorgfalt wie Training und Ernährung.",
+        "details": [
+          "Stressbelastungs-Assessment und -Management",
+          "Achtsamkeit und kontemplative Praktiken",
+          "Soziale Verbundenheit und Beziehungsqualität",
+          "Werteabgleich und Lebensgestaltung"
+        ]
+      },
+      {
+        "number": "05",
+        "title": "Medizin & Metriken",
+        "description": "Wir arbeiten mit deinem medizinischen Team zusammen, um die Biomarker zu verfolgen, die zählen. Umfassendes Blutbild, fortschrittliche Bildgebung bei Bedarf und longitudinales Tracking geben uns eine objektive Sicht darauf, wie dein Körper auf das Protokoll reagiert.",
+        "details": [
+          "Vierteljährliche umfassende Blutpanels",
+          "Kardiovaskuläre und metabolische Risikomarker",
+          "Hormonelle und inflammatorische Profile",
+          "DEXA, Koronarkalzium und andere Bildgebung"
+        ]
       }
-    ]
-  },
-  "results": {
-    "hero": {
-      "overline": "Ergebnisse",
-      "title": "Was Klient:innen erreichen",
-      "subtitle": "Echte Ergebnisse aus einem Prozess, der Konsistenz und langfristige Anpassung priorisiert."
-    },
-    "metrics": [
-      { "value": "6+", "label": "Monate Mindestdauer" },
-      { "value": "3–5", "label": "Klient:innen gleichzeitig" },
-      { "value": "100%", "label": "Individueller Ansatz" }
     ],
-    "testimonials": {
-      "title": "Klient:innen-Stimmen",
-      "items": [
-        {
-          "quote": "Der strukturierte Ansatz hat verändert, wie ich über Training und Regeneration denke. Nach sechs Monaten bin ich stärker und konstanter als seit Jahren.",
-          "author": "Klient A",
-          "detail": "6-Monats-Coaching"
-        },
-        {
-          "quote": "Was das hier besonders macht, ist die datengetriebene Iteration. Jede Anpassung basiert auf echten Zahlen, nicht auf Vermutungen.",
-          "author": "Klient B",
-          "detail": "Laufendes Coaching"
-        }
-      ]
+    "cta": {
+      "title": "Sieh, wie alles zusammenwirkt",
+      "body": "Jede Säule verstärkt die anderen. Das Ergebnis ist ein Protokoll, das sich über die Zeit multipliziert.",
+      "howItWorks": "So funktioniert's",
+      "apply": "Jetzt bewerben"
     }
   },
-  "contact": {
+  "howItWorks": {
     "hero": {
-      "overline": "Kontakt",
-      "title": "Lass uns sprechen",
-      "subtitle": "Bereit, langfristig in deine Gesundheit zu investieren? Der erste Schritt ist ein Gespräch."
+      "overline": "Prozess",
+      "title": "So funktioniert's",
+      "body": "Jede Zusammenarbeit folgt derselben Drei-Phasen-Struktur. Wir beobachten, bevor wir handeln, bauen methodisch auf und konsolidieren langfristig."
+    },
+    "phases": [
+      {
+        "number": "01",
+        "title": "Beobachten",
+        "duration": "Wochen 1–4",
+        "description": "Wir ändern noch nichts. Vier Wochen lang sammeln wir Baseline-Daten — Schlafarchitektur, Trainingsprotokolle, Ernährungsmuster, Blutbild und subjektives Wohlbefinden. Das gibt uns ein klares Bild, bevor wir eine einzige Variable verändern."
+      },
+      {
+        "number": "02",
+        "title": "Aufbauen",
+        "duration": "Wochen 5–16",
+        "description": "Mit einer soliden Baseline führen wir Änderungen eine Schicht nach der anderen über die fünf Säulen ein. Jede Intervention wird verfolgt und gemessen, damit wir genau wissen, was wirkt. Wir gehen bewusst vor — und stapeln Veränderungen nur, wenn die vorherige Schicht stabilisiert ist."
+      },
+      {
+        "number": "03",
+        "title": "Konsolidieren",
+        "duration": "Fortlaufend",
+        "description": "Sobald das Kernprotokoll steht, wechseln wir zu Wartung und Optimierung. Regelmäßige Check-ins, periodische Retests und saisonale Anpassungen halten dich im Fortschritt, ohne auszubrennen. Hier lebt das Long Game."
+      }
+    ],
+    "application": {
+      "overline": "Erste Schritte",
+      "title": "Wie du dich bewirbst",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Bewerbung einreichen",
+          "description": "Fülle ein kurzes Formular aus — erzähle uns von deinen Zielen, deinem aktuellen Gesundheitsstatus und was du von einer Coaching-Beziehung erwartest."
+        },
+        {
+          "step": "2",
+          "title": "Kennenlerngespräch",
+          "description": "Wenn es passt, vereinbaren wir ein 30-minütiges Gespräch, um deine Situation detaillierter zu besprechen und Fragen zu klären."
+        },
+        {
+          "step": "3",
+          "title": "Onboarding & Baseline",
+          "description": "Sobald wir starten, erhältst du Zugang zu unseren Tracking-Tools und beginnst sofort mit der 4-wöchigen Beobachtungsphase."
+        }
+      ],
+      "cta": "Bewerbung starten"
+    }
+  },
+  "testimonials": {
+    "hero": {
+      "overline": "Klient:innen-Erfahrungen",
+      "title": "Erfahrungsberichte",
+      "body": "Höre von Klient:innen, die den Prozess durchlaufen haben. Dies sind Platzhalter-Erfahrungsberichte — ersetze sie durch echte Geschichten, sobald sie vorliegen."
+    },
+    "items": [
+      {
+        "quote": "Die 4-wöchige Baseline-Phase wirkte anfangs langsam, aber sie hat komplett verändert, wie ich meinen eigenen Körper verstehe. Die gesammelten Daten gaben uns eine Roadmap, die ich allein nie hätte erstellen können.",
+        "name": "James R.",
+        "detail": "Klient, 14 Monate"
+      },
+      {
+        "quote": "Ich habe schon mit Trainern und Ernährungsberater:innen gearbeitet, aber nie mit jemandem, der alle fünf Dimensionen zusammen betrachtet. Die Integration macht den Unterschied.",
+        "name": "Sarah M.",
+        "detail": "Klientin, 9 Monate"
+      },
+      {
+        "quote": "Was ich am meisten schätze, ist die Geduld. Keine übereilten Änderungen, keine dramatischen Umbrüche. Nur stetiger, evidenzbasierter Fortschritt, den ich tatsächlich aufrechterhalten kann.",
+        "name": "David K.",
+        "detail": "Klient, 18 Monate"
+      },
+      {
+        "quote": "Allein die Schlafoptimierung hat sich gelohnt. Mein Tiefschlaf ging von 45 Minuten auf fast zwei Stunden, und alles andere verbesserte sich nachgelagert — Stimmung, Trainingsregeneration, Fokus.",
+        "name": "Maria L.",
+        "detail": "Klientin, 11 Monate"
+      },
+      {
+        "quote": "Ich war skeptisch gegenüber der Säule emotionale Gesundheit, aber sie stellte sich als das fehlende Puzzleteil heraus. Stress richtig zu managen, hat in jedem anderen Bereich Fortschritt freigesetzt.",
+        "name": "Tom W.",
+        "detail": "Klient, 7 Monate"
+      },
+      {
+        "quote": "Jemanden zu haben, der mein Blutbild tatsächlich liest, meine Trainingsdaten versteht und alles miteinander verbindet — diese Aufmerksamkeit ist selten. Die kleine Kapazität macht einen echten Unterschied.",
+        "name": "Elena P.",
+        "detail": "Klientin, 12 Monate"
+      }
+    ],
+    "cta": {
+      "title": "Werde Teil davon",
+      "body": "Wenn ein Platz frei wird, prüfen wir deine Bewerbung und melden uns für ein Gespräch.",
+      "button": "Jetzt bewerben"
+    }
+  },
+  "apply": {
+    "hero": {
+      "overline": "Erste Schritte",
+      "title": "Bewerben",
+      "body": "Fülle das Formular unten aus, um dein Interesse zu bekunden. Wir prüfen jede Bewerbung persönlich und antworten innerhalb einer Woche."
     },
     "form": {
-      "name": "Name",
-      "email": "E-Mail",
-      "message": "Erzähl mir von deinen Zielen",
-      "submit": "Nachricht senden"
+      "placeholder": "Bewerbungsformular-Einbettung",
+      "instructions": "Ersetze dies durch deinen Typeform- oder Tally-Einbettungscode.",
+      "example": "Beispiel: <iframe src=\"https://tally.so/embed/your-form-id\" ...></iframe>"
     },
-    "info": {
-      "title": "Was dich erwartet",
-      "description": "Ich antworte innerhalb von 48 Stunden. Wenn es passt, vereinbaren wir ein 60-minütiges Erstgespräch, um tiefer in deine Ziele, Gewohnheiten und Rahmenbedingungen einzutauchen."
+    "next": {
+      "title": "Was als Nächstes passiert",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Wir prüfen deine Bewerbung",
+          "description": "Jede Bewerbung wird sorgfältig gelesen. Wir suchen nach Übereinstimmung — nicht nur Ziele, sondern Bereitschaft und Engagement für den Prozess."
+        },
+        {
+          "step": "2",
+          "title": "Kennenlerngespräch",
+          "description": "Wenn es eine gegenseitige Passung gibt, vereinbaren wir ein 30-minütiges Gespräch, um deine Situation zu besprechen, Fragen zu klären und nächste Schritte festzulegen."
+        },
+        {
+          "step": "3",
+          "title": "Onboarding beginnt",
+          "description": "Du erhältst Onboarding-Materialien, Zugang zu Tracking-Tools und Anweisungen für deine 4-wöchige Baseline-Beobachtungsphase."
+        }
+      ],
+      "note": "Wir antworten in der Regel innerhalb von 5–7 Werktagen. Falls wir ausgelastet sind, informieren wir dich und setzen dich auf unsere Warteliste."
     }
   }
 }

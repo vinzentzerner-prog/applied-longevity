@@ -19,7 +19,7 @@ export function LanguageSwitcher() {
         onClick={() => switchTo("en")}
         className={cn(
           "px-2 py-1 rounded transition-colors",
-          locale === "en" ? "text-ink" : "text-muted hover:text-ink"
+          locale === "en" ? "text-foreground" : "text-muted-foreground hover:text-foreground"
         )}
       >
         EN
@@ -29,7 +29,7 @@ export function LanguageSwitcher() {
         onClick={() => switchTo("de")}
         className={cn(
           "px-2 py-1 rounded transition-colors",
-          locale === "de" ? "text-ink" : "text-muted hover:text-ink"
+          locale === "de" ? "text-foreground" : "text-muted-foreground hover:text-foreground"
         )}
       >
         DE

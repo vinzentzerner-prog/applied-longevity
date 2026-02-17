@@ -10,7 +10,7 @@ import "../globals.css";
 export const metadata: Metadata = {
   title: "Applied Longevity",
   description:
-    "Evidence-based coaching for lasting strength, endurance, and health.",
+    "Premium personal coaching for longevity. Training, nutrition, sleep, emotional health, and medical metrics — all tailored to you.",
 };
 
 export function generateStaticParams() {
@@ -35,10 +35,10 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body className="font-sans antialiased bg-paper text-ink">
+      <body className="font-sans antialiased">
         <NextIntlClientProvider messages={messages}>
           <Navbar />
-          <main>{children}</main>
+          <main className="min-h-screen">{children}</main>
           <Footer />
         </NextIntlClientProvider>
       </body>
