@@ -223,43 +223,100 @@
     }
   },
   "about": {
+    "eyebrow": "Über den Gründer",
     "hero": {
-      "overline": "Über den Gründer",
-      "title": "Aus Erfahrung gebaut, nicht aus Theorie.",
-      "body": "Applied Longevity ist aus über 15 Jahren Training, Selbstexperimentation und Coaching im engsten Umfeld entstanden. Das hier ist keine zertifikatsgetriebene Praxis — es ist ein Handwerk, verfeinert durch tausende Stunden realer Arbeit."
+      "title": "Aufgebaut aus dem Umdenken — nicht aus der Theorie.",
+      "subtitle": "Nicht aus einem Lehrbuch. Nicht aus einem Zertifikatskurs. Aus 15 Jahren ernsthaftem Training, einer harten Lektion über Extreme — und der Obsession eines Analysten, was die Evidenz wirklich besagt."
     },
-    "story": {
-      "title": "Hintergrund",
-      "paragraphs": [
-        "Ich bin seit über 15 Jahren leidenschaftlicher Sportler — Wettkampfsport, Krafttraining, Ausdauer und alles dazwischen. Irgendwann begann ich, Freunde und Kollegen zu coachen, zunächst einfach als Weitergabe meiner Erfahrungen. Mit der Zeit wurde daraus etwas Strukturierteres.",
-        "Mich hat die Frage fasziniert: Was braucht es wirklich, um stark, klar und gesund zu bleiben — nicht für Monate, sondern für Jahrzehnte? Die Antwort war kein einzelnes Protokoll oder Biohack. Es war ein System — eines, das Training, Ernährung, Schlaf, emotionale Gesundheit und medizinische Daten zu einem kohärenten Ganzen verbindet.",
-        "Genau das ist Applied Longevity. Eine kleine, fokussierte Praxis, aufgebaut auf diesem System."
-      ]
+    "origin": {
+      "eyebrow": "Der Anfang",
+      "title": "Fünfzehn Jahre — auf jede erdenkliche Weise.",
+      "p1": "Ich begann Ende meiner Teenagerjahre ernsthaft zu trainieren — Wettkampfsport, Krafttraining, Ausdauer, alles. Ich ging das so an, wie ich später die Finanzwelt angehen würde: mit Intensität und einer starken Tendenz zur Optimierung. Über Jahre hinweg bedeutete das mehr Volumen, mehr Supplemente, aggressivere Protokolle. Die Ergebnisse waren real. Die Kosten auch.",
+      "p2": "Ich studierte Psychologie und Management, bevor ich tief in die Finanzwelt einstieg und die CAIA-Bezeichnung erwarb — eine der anspruchsvollsten Qualifikationen in der alternativen Investmentanalyse. Diese Ausbildung gab mir etwas, das veränderte, wie ich Gesundheit betrachte: ein Framework, das in Jahrzehnten denkt, nicht in Quartalen. Das Komplexität managt, ohne von Lärm getäuscht zu werden."
+    },
+    "tipping": {
+      "eyebrow": "Die Wende",
+      "title": "Der Moment, in dem ich aufhörte, Gipfel zu jagen.",
+      "p1": "Irgendwann in meinen frühen Dreißigern hatte ich dieselbe Erkenntnis, die gute von großen Investoren trennt. Hochvolatile Strategien sehen in einem Bullenmarkt brillant aus. Aber Compounding über Jahrzehnte entsteht nicht durch Gipfel — sondern durch das Vermeiden katastrophaler Drawdowns. Ich optimierte für das Falsche.",
+      "quote": "Das Ziel hörte auf, so extrem wie möglich zu sein. Es wurde: Wie mache ich das noch mit 70 — und fühle mich dabei genauso gut?",
+      "p2": "Ich reduzierte den Supplement-Stack auf das, was die Evidenz tatsächlich stützt. Ich tauschte maximales Volumen gegen minimale effektive Dosis. Ich begann, Schlaf und Stress genauso ernst zu nehmen wie Trainingsbelastung. Die Ergebnisse sanken nicht — sie kompendierten sich. Das war der Wendepunkt, der alles begründete, wofür Applied Longevity steht."
+    },
+    "credentials": {
+      "eyebrow": "Hintergrund & Qualifikationen",
+      "title": "Warum Hintergrund in einem Feld voller Lärm zählt.",
+      "subtitle": "Jeder kann eine Landing Page bauen und sich Longevity-Coach nennen. Hier ist, was ich tatsächlich mitbringe — und warum jede Qualifikation relevant ist, nicht nur dekorativ.",
+      "items": {
+        "caia": {
+          "tag": "Finanzen",
+          "title": "CAIA — Chartered Alternative Investment Analyst",
+          "description": "Eine der anspruchsvollsten Qualifikationen im Finanzbereich. Das CAIA-Programm schult diszipliniertes Denken über langfristige Portfolios, Risikomanagement und das Filtern von Evidenz aus dem Rauschen. Dasselbe analytische Framework wende ich auf Ihre Gesundheit an — denn Ihr Körper ist ein langfristiger Vermögenswert, der kompoundiert oder verfällt, je nachdem wie er gemanagt wird."
+        },
+        "psychology": {
+          "tag": "Akademisch",
+          "title": "Psychologie & Management",
+          "description": "Verhaltensänderung ist der schwierigste Teil jedes Gesundheitsprotokolls. Ein Abschluss in Psychologie ist hier keine Dekoration — er erklärt, warum Maßnahmen tatsächlich halten. Das Verständnis von Motivation, Gewohnheitsbildung und dem Umgang von Menschen mit Systemen über Zeit ist das, was Coaching, das hält, von Programmen trennt, die nach Woche zwölf auslaufen."
+        },
+        "trainer": {
+          "tag": "Zertifiziert",
+          "title": "Zertifizierter Personal Trainer",
+          "description": "Formale Bestätigung von fünfzehn Jahren gelebter Erfahrung. Programmgestaltung, Bewegungsmechanik, Belastungssteuerung — korrekt und präzise ausgeführt. Die Zertifizierung war kein Ausgangspunkt, sondern ein strukturiertes zweites Gutachten zu allem, was ich durch die Praxis gelernt hatte."
+        },
+        "nutrition": {
+          "tag": "Zertifiziert",
+          "title": "Zertifizierter Ernährungscoach",
+          "description": "Kein Dogma, keine Stammeszugehörigkeit, keine Ernährungskriege. Zertifiziert in Ernährungswissenschaft mit dem expliziten Ziel, Evidenz statt Ideologie anzuwenden. Besonders wertvoll, weil jahrelange persönliche Experimentation mir eine Linse gab, durch die ich die Theorie in der Praxis auf die Probe stellen konnte."
+        }
+      }
+    },
+    "portfolio": {
+      "eyebrow": "Das Framework",
+      "title": "Ihre Gesundheit ist ein Portfolio. Managen Sie es entsprechend.",
+      "p1": "Hier wird mein Hintergrund in alternativen Investments wirklich nützlich — nicht nur eine interessante Randnotiz. Das CAIA-Curriculum lehrt, in Jahrzehnten zu denken, nicht in Quartalen. Über unkorrelierte Anlageklassen zu diversifizieren. Den Nachteil zu schützen, bevor man den Vorteil verfolgt. Entscheidungen auf Basis von Evidenz zu treffen, nicht auf Basis von Narrativen.",
+      "p2": "Ein Longevity-Protokoll funktioniert genauso. Training, Ernährung, Schlaf, Stressresilienz, Blutbild — das sind Ihre Anlageklassen. Sie kompoundieren gemeinsam. Sie ziehen sich auch gegenseitig nach unten, wenn sie falsch gemanagt werden. Die meisten Coaches optimieren einzelne Variablen. Applied Longevity managt das gesamte Portfolio.",
+      "metrics": {
+        "years": {
+          "label": "Jahre Praxis",
+          "description": "Athlet, Experimenter, Coach — in dieser Reihenfolge."
+        },
+        "clients": {
+          "label": "Klient:innen gleichzeitig",
+          "description": "Bewusst nicht skalierbar. Echtes Coaching erfordert echte Aufmerksamkeit."
+        },
+        "minimum": {
+          "label": "Mindestlaufzeit",
+          "description": "Weil bedeutsame Veränderung einen Zeithorizont hat. Wie jede gute Investition."
+        },
+        "baseline": {
+          "label": "Baseline vor jeder Änderung",
+          "description": "Wir beobachten, bevor wir handeln. Jede Zusammenarbeit beginnt hier."
+        }
+      }
     },
     "philosophy": {
-      "title": "Philosophie",
-      "items": [
-        {
+      "eyebrow": "Wie ich arbeite",
+      "title": "Vier Prinzipien, die sich nicht verändert haben.",
+      "items": {
+        "observe": {
           "title": "Beobachten vor dem Handeln",
-          "description": "Jede Zusammenarbeit beginnt mit vier Wochen Baseline-Datenerhebung. Wir ändern nichts, bis wir verstehen, wo du wirklich stehst — nicht wo du glaubst zu stehen."
+          "description": "Jede Zusammenarbeit beginnt mit vier Wochen Baseline-Datenerhebung. Wir ändern nichts, bis wir verstehen, wo Sie wirklich stehen — nicht wo Sie glauben zu stehen."
         },
-        {
+        "roster": {
           "title": "Kleine Kapazität, tiefe Arbeit",
-          "description": "Ich arbeite mit 3–5 Klient:innen gleichzeitig, für mindestens sechs Monate. Das ist bewusst nicht skalierbar. Echtes Coaching erfordert echte Aufmerksamkeit."
+          "description": "Ich arbeite mit 3–5 Klient:innen gleichzeitig, für mindestens sechs Monate. Das ist bewusst nicht skalierbar. Echtes Coaching erfordert echte Aufmerksamkeit. Hier gibt es keine Abkürzungen."
         },
-        {
+        "evidence": {
           "title": "Evidenz statt Ideologie",
-          "description": "Keine Trends, keine Ernährungskriege, keine Wunder-Supplements. Wir messen, was funktioniert — mit Blutbild, Wearables, Fitness-Benchmarks — und passen entsprechend an."
+          "description": "Keine Trends, keine Ernährungskriege, keine Wunder-Supplements. Wir messen, was sich tatsächlich verändert — mit Blutbild, Wearables und Fitness-Benchmarks — und passen entsprechend an."
         },
-        {
-          "title": "Nachhaltig von Grund auf",
-          "description": "Das Ziel ist ein Protokoll, das du über Jahre beibehalten kannst, keine 12-Wochen-Transformation. Wir bauen Gewohnheiten und Systeme, die sich multiplizieren, nicht zusammenbrechen."
+        "sustainable": {
+          "title": "Stabilität als Strategie",
+          "description": "Das Ziel ist ein Protokoll, das Sie über Jahrzehnte beibehalten können — keine 12-Wochen-Transformation. Wir bauen Gewohnheiten und Systeme, die kompoundieren — genauso wie gute langfristige Investitionen."
         }
-      ]
+      }
     },
     "cta": {
       "title": "Zusammenarbeiten?",
-      "body": "Wenn das resoniert, bewirb dich. Ich lese jede Bewerbung persönlich.",
+      "subtitle": "Wenn das resoniert, bewerben Sie sich. Ich lese jede Bewerbung persönlich.",
       "button": "Jetzt bewerben"
     }
   },

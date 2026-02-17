@@ -223,43 +223,100 @@
     }
   },
   "about": {
+    "eyebrow": "About the founder",
     "hero": {
-      "overline": "About the founder",
-      "title": "Built from experience, not theory.",
-      "body": "Applied Longevity grew out of 15+ years of training, self-experimentation, and coaching the people closest to me. This is not a certification-driven practice — it's a craft refined through thousands of hours of real-world work."
+      "title": "Built from rethinking everything.",
+      "subtitle": "Not from a textbook. Not from a certification course. From 15 years of serious training, one hard lesson about extremes, and an analyst's obsession with what the evidence actually says."
     },
-    "story": {
-      "title": "Background",
-      "paragraphs": [
-        "I've been a committed athlete for over 15 years — competitive sports, strength training, endurance work, and everything in between. Along the way I started coaching friends and colleagues, initially just sharing what I'd learned. Over time, that turned into something more structured.",
-        "I became obsessed with the question: what does it actually take to stay strong, sharp, and healthy — not for months, but for decades? The answer wasn't a single protocol or biohack. It was a system — one that integrates training, nutrition, sleep, emotional health, and medical data into a coherent whole.",
-        "That's what Applied Longevity is. A small, focused practice built around that system."
-      ]
+    "origin": {
+      "eyebrow": "The beginning",
+      "title": "Fifteen years of doing it every way.",
+      "p1": "I started training seriously in my late teens — competitive sport, strength training, endurance, everything. I approached it the way I'd later approach finance: with intensity and a bias toward optimization. For years that meant more volume, more supplementation, more aggressive protocols. The results were real. So were the costs.",
+      "p2": "I studied psychology and management, then went deep into finance — earning the CAIA designation, one of the most demanding credentials in alternative investment analysis. That training gave me something that changed how I approached health: a framework for thinking in decades, not quarters. For managing complexity without being fooled by noise."
+    },
+    "tipping": {
+      "eyebrow": "The shift",
+      "title": "The moment I stopped chasing peaks.",
+      "p1": "Somewhere in my early thirties I had the same realization that separates good investors from great ones. High-volatility strategies look brilliant in a bull run. But compounding over decades doesn't come from peaks — it comes from avoiding catastrophic drawdowns. I was optimizing for the wrong thing.",
+      "quote": "The goal stopped being to be as extreme as possible. It became: how do I still be doing this, feeling this good, at 70?",
+      "p2": "I cut the supplement stack to what the evidence actually supported. I traded maximum volume for minimum effective dose. I started treating sleep and stress as seriously as training load. The results didn't drop — they compounded. That was the tipping point that built everything Applied Longevity stands for."
+    },
+    "credentials": {
+      "eyebrow": "Background & credentials",
+      "title": "Why background matters in a field full of noise.",
+      "subtitle": "Anyone can build a landing page and call themselves a longevity coach. Here is what I actually bring — and why each credential is relevant, not decorative.",
+      "items": {
+        "caia": {
+          "tag": "Finance",
+          "title": "CAIA — Chartered Alternative Investment Analyst",
+          "description": "One of the most rigorous designations in finance. The CAIA trains disciplined thinking about long-horizon portfolios, risk management, and filtering evidence from noise. The same analytical framework I apply to your health — because your body is a long-duration asset that compounds or deteriorates based on how it's managed."
+        },
+        "psychology": {
+          "tag": "Academic",
+          "title": "Psychology & Management",
+          "description": "Behavior change is the hardest part of any health protocol. A degree in psychology isn't background color here — it's why interventions actually stick. Understanding motivation, habit formation, and how people relate to systems over time is what separates coaching that lasts from programs that expire at week twelve."
+        },
+        "trainer": {
+          "tag": "Certified",
+          "title": "Certified Personal Trainer",
+          "description": "Formal validation of fifteen years of lived experience. Programming, movement mechanics, load management — done correctly and with precision. The certification mattered not as a starting point but as a structured second opinion on everything I'd learned through practice."
+        },
+        "nutrition": {
+          "tag": "Certified",
+          "title": "Certified Nutrition Coach",
+          "description": "No dogma, no tribe, no nutrition wars. Certified in nutritional science with the explicit goal of applying evidence rather than ideology. Useful precisely because years of personal experimentation gave me a real-world lens to stress-test the theory against."
+        }
+      }
+    },
+    "portfolio": {
+      "eyebrow": "The framework",
+      "title": "Your health is a portfolio. Manage it like one.",
+      "p1": "This is where my background in alternative investments becomes genuinely useful — not just an interesting footnote. The CAIA curriculum teaches you to think in decades, not quarters. To diversify across uncorrelated assets. To protect the downside before chasing the upside. To make decisions based on evidence, not narrative.",
+      "p2": "A longevity protocol works exactly the same way. Training, nutrition, sleep, stress resilience, bloodwork — these are your asset classes. They compound together. They also drag each other down if mismanaged. Most coaches optimize single variables. Applied Longevity manages the whole portfolio.",
+      "metrics": {
+        "years": {
+          "label": "Years of practice",
+          "description": "Athlete, experimenter, coach — in that order."
+        },
+        "clients": {
+          "label": "Clients at any time",
+          "description": "Not scalable by design. Real coaching requires real attention."
+        },
+        "minimum": {
+          "label": "Minimum engagement",
+          "description": "Because meaningful change has a time horizon. Like any good investment."
+        },
+        "baseline": {
+          "label": "Baseline before any change",
+          "description": "We observe before we act. Every engagement starts here."
+        }
+      }
     },
     "philosophy": {
-      "title": "Philosophy",
-      "items": [
-        {
+      "eyebrow": "How I work",
+      "title": "Four principles that haven't changed.",
+      "items": {
+        "observe": {
           "title": "Observe before you act",
           "description": "Every engagement starts with four weeks of baseline data collection. We don't change anything until we understand where you actually are — not where you think you are."
         },
-        {
+        "roster": {
           "title": "Small roster, deep work",
-          "description": "I work with 3–5 clients at a time, for a minimum of six months. This is not scalable by design. Real coaching requires real attention."
+          "description": "I work with 3–5 clients at a time, for a minimum of six months. This is not scalable by design. Real coaching requires real attention. There are no shortcuts here."
         },
-        {
+        "evidence": {
           "title": "Evidence over ideology",
-          "description": "No fads, no tribal nutrition wars, no magic supplements. We track what works with objective data — bloodwork, wearables, fitness benchmarks — and adjust accordingly."
+          "description": "No fads, no tribal nutrition wars, no miracle supplements. We track what actually changes — bloodwork, wearables, fitness benchmarks — and adjust accordingly."
         },
-        {
-          "title": "Sustainable by default",
-          "description": "The goal is a protocol you can maintain for years, not a 12-week transformation. We build habits and systems that compound, not crash."
+        "sustainable": {
+          "title": "Stability as the strategy",
+          "description": "The goal is a protocol you maintain for decades, not a 12-week transformation. We build habits and systems that compound the same way good long-term investments do."
         }
-      ]
+      }
     },
     "cta": {
       "title": "Want to work together?",
-      "body": "If this resonates, apply below. I read every application personally.",
+      "subtitle": "If this resonates, apply below. I read every application personally.",
       "button": "Apply Now"
     }
   },
