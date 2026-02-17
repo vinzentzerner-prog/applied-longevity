@@ -1,4 +1,30 @@
 {
+  "meta": {
+    "home": {
+      "title": "Applied Longevity — Premium 1-on-1 Longevity Coaching",
+      "description": "Evidence-based longevity coaching for 3–5 clients at a time. Training, nutrition, sleep, emotional health, and medical metrics — all tailored to you."
+    },
+    "about": {
+      "title": "About the Founder",
+      "description": "15+ years of serious training, a CAIA designation, and a psychology background — meet the analyst-turned-coach behind Applied Longevity."
+    },
+    "pillars": {
+      "title": "Five Pillars of Longevity",
+      "description": "Training, nutrition, sleep, emotional health, and medical metrics — five pillars integrated into one evidence-based longevity protocol."
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "A three-phase process: 4 weeks of baseline observation, methodical protocol building, and ongoing optimization. See how Applied Longevity coaching works."
+    },
+    "testimonials": {
+      "title": "Client Testimonials",
+      "description": "Hear from clients who have experienced the Applied Longevity process — real stories about sleep optimization, holistic coaching, and sustainable health progress."
+    },
+    "apply": {
+      "title": "Apply for Coaching",
+      "description": "Apply for a spot in our exclusive 3–5 client roster. We review every application personally and respond within one week."
+    }
+  },
   "nav": {
     "home": "Home",
     "howItWorks": "How It Works",
