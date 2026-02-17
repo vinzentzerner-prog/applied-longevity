@@ -1,0 +1,256 @@
+{
+  "nav": {
+    "home": "Home",
+    "howItWorks": "How It Works",
+    "pillars": "Pillars",
+    "testimonials": "Testimonials",
+    "apply": "Apply"
+  },
+  "footer": {
+    "tagline": "Evidence-based longevity coaching.",
+    "home": "Home",
+    "howItWorks": "How It Works",
+    "pillars": "Pillars",
+    "testimonials": "Testimonials",
+    "apply": "Apply",
+    "copyright": "© {year} Applied Longevity. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "title1": "Longevity coaching,",
+      "title2": "done with you.",
+      "body1": "We work with 3–5 clients at a time. Every engagement starts with a 4-week observation period — no major changes, just data. From there we build a protocol that fits your life, not the other way around.",
+      "body2": "Minimum commitment: 6 months. This is not a quick fix.",
+      "cta": "Apply Now",
+      "secondary": "How It Works"
+    },
+    "capacity": {
+      "overline": "By design",
+      "title": "3–5 clients. That's it.",
+      "body": "Real coaching requires real attention. We deliberately keep our roster small so every client gets the depth of analysis and responsiveness they deserve. No templates. No group programs. Just focused, 1-on-1 work."
+    },
+    "engagement": {
+      "overline": "The engagement",
+      "title": "What working with us looks like",
+      "items": [
+        {
+          "title": "4-Week Baseline",
+          "description": "Before we change anything, we observe. We collect data on your sleep, training, nutrition, bloodwork, and daily rhythms to understand where you actually are."
+        },
+        {
+          "title": "Personalized Protocol",
+          "description": "Based on your baseline, we build a protocol across all five pillars — training, nutrition, sleep, emotional health, and medical metrics — tailored to your goals and constraints."
+        },
+        {
+          "title": "Ongoing Iteration",
+          "description": "Protocols evolve. We meet regularly, review data, adjust variables, and consolidate gains. The goal is sustainable progress, not dramatic overhauls."
+        }
+      ]
+    },
+    "about": {
+      "title": "About",
+      "body": "I've been a passionate athlete for over 15 years, and along the way I naturally started coaching people around me. What began as helping friends improve performance turned into a deep interest in building strength, endurance, and health that lasts.\n\nToday I work with only 3–5 clients at a time for a minimum of six months. We begin with four weeks of baseline monitoring to understand your current habits, constraints, and stressors—so the plan is sustainable from day one. From there, we build an individualized strategy across training, nutrition, sleep, and recovery, and track progress with objective metrics (e.g., VO₂ max, fitness benchmarks, and wearable data) plus regular check-ins."
+    },
+    "cta": {
+      "title": "Ready to start?",
+      "body": "Applications are reviewed on a rolling basis. If we have capacity, we'll schedule an introductory call within a week.",
+      "button": "Apply Now"
+    }
+  },
+  "pillars": {
+    "hero": {
+      "overline": "The framework",
+      "title": "Five pillars",
+      "body": "Longevity isn't one thing — it's five things working together. We address each pillar individually and as part of an integrated system."
+    },
+    "items": [
+      {
+        "number": "01",
+        "title": "Training",
+        "description": "Strength, cardiovascular fitness, mobility, and recovery — programmed as one integrated system. We design training around your schedule, injury history, and long-term structural goals. The aim is to build a body that performs well at 40, 60, and beyond.",
+        "details": [
+          "Periodized strength programming",
+          "Zone 2 and VO2max cardiovascular work",
+          "Mobility and movement quality assessments",
+          "Recovery load management"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Nutrition",
+        "description": "We take a data-informed approach to nutrition — no ideology, no fads. We track biomarkers, body composition, and subjective energy to find the dietary pattern that supports your training, cognitive performance, and metabolic health.",
+        "details": [
+          "Macronutrient and micronutrient analysis",
+          "Meal timing and composition strategies",
+          "Continuous glucose monitoring integration",
+          "Periodic dietary experiments and reviews"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Sleep",
+        "description": "Sleep is the single highest-leverage variable for health and performance. We use wearable data and subjective logs to optimize sleep architecture — not just duration, but the quality and consistency of each stage.",
+        "details": [
+          "Sleep environment optimization",
+          "Circadian rhythm alignment",
+          "Wearable data interpretation (deep, REM, latency)",
+          "Behavioral and supplemental interventions"
+        ]
+      },
+      {
+        "number": "04",
+        "title": "Emotional Health",
+        "description": "Stress, relationships, purpose, and psychological resilience are not separate from physical health — they are foundational to it. We address the mental and emotional dimensions of longevity with the same rigor we apply to training and nutrition.",
+        "details": [
+          "Stress load assessment and management",
+          "Mindfulness and contemplative practices",
+          "Social connection and relationship quality",
+          "Values alignment and life design"
+        ]
+      },
+      {
+        "number": "05",
+        "title": "Medical & Metrics",
+        "description": "We work with your medical team to track the biomarkers that matter. Comprehensive bloodwork, advanced imaging when appropriate, and longitudinal tracking give us an objective view of how your body is responding to the protocol.",
+        "details": [
+          "Quarterly comprehensive blood panels",
+          "Cardiovascular and metabolic risk markers",
+          "Hormonal and inflammatory profiles",
+          "DEXA, coronary calcium, and other imaging"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "See how it all fits together",
+      "body": "Every pillar reinforces the others. The result is a protocol that compounds over time.",
+      "howItWorks": "How It Works",
+      "apply": "Apply Now"
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "overline": "Process",
+      "title": "How it works",
+      "body": "Every engagement follows the same three-phase structure. We observe before we act, build methodically, and consolidate for the long term."
+    },
+    "phases": [
+      {
+        "number": "01",
+        "title": "Observe",
+        "duration": "Weeks 1–4",
+        "description": "We don't change anything yet. For four weeks we collect baseline data — sleep architecture, training logs, nutrition patterns, bloodwork, and subjective well-being. This gives us a clear picture of where you are before we touch a single variable."
+      },
+      {
+        "number": "02",
+        "title": "Build",
+        "duration": "Weeks 5–16",
+        "description": "With a solid baseline in hand, we introduce changes one layer at a time across the five pillars. Each intervention is tracked and measured so we know exactly what's working. We move deliberately — stacking changes only when the previous layer has stabilized."
+      },
+      {
+        "number": "03",
+        "title": "Consolidate",
+        "duration": "Ongoing",
+        "description": "Once the core protocol is in place, we shift to maintenance and optimization. Regular check-ins, periodic re-testing, and seasonal adjustments keep you progressing without burning out. This is where the long game lives."
+      }
+    ],
+    "application": {
+      "overline": "Getting started",
+      "title": "How to apply",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Submit your application",
+          "description": "Fill out a brief form telling us about your goals, current health status, and what you're looking for in a coaching relationship."
+        },
+        {
+          "step": "2",
+          "title": "Introductory call",
+          "description": "If there's a good fit, we'll schedule a 30-minute call to discuss your situation in more detail and answer any questions."
+        },
+        {
+          "step": "3",
+          "title": "Onboarding & baseline",
+          "description": "Once we begin, you'll receive access to our tracking tools and start the 4-week observation phase right away."
+        }
+      ],
+      "cta": "Start Your Application"
+    }
+  },
+  "testimonials": {
+    "hero": {
+      "overline": "Client experiences",
+      "title": "Testimonials",
+      "body": "Hear from clients who have been through the process. These are placeholder testimonials — replace them with real stories as they come in."
+    },
+    "items": [
+      {
+        "quote": "The 4-week baseline period seemed slow at first, but it completely changed how I understood my own body. The data we collected gave us a roadmap I never could have built on my own.",
+        "name": "James R.",
+        "detail": "Client, 14 months"
+      },
+      {
+        "quote": "I've worked with trainers and nutritionists before, but never someone who looked at all five dimensions together. The integration is what makes this different.",
+        "name": "Sarah M.",
+        "detail": "Client, 9 months"
+      },
+      {
+        "quote": "What I appreciate most is the patience. No rushed changes, no dramatic overhauls. Just steady, evidence-based progress that I can actually sustain.",
+        "name": "David K.",
+        "detail": "Client, 18 months"
+      },
+      {
+        "quote": "The sleep optimization alone was worth it. My deep sleep went from 45 minutes to nearly two hours, and everything else improved downstream — mood, training recovery, focus.",
+        "name": "Maria L.",
+        "detail": "Client, 11 months"
+      },
+      {
+        "quote": "I was skeptical about the emotional health pillar, but it turned out to be the missing piece. Managing stress properly unlocked progress in every other area.",
+        "name": "Tom W.",
+        "detail": "Client, 7 months"
+      },
+      {
+        "quote": "Having someone who actually reads my bloodwork, understands my training data, and connects it all together — that level of attention is rare. The small roster makes a real difference.",
+        "name": "Elena P.",
+        "detail": "Client, 12 months"
+      }
+    ],
+    "cta": {
+      "title": "Join them",
+      "body": "When a spot opens, we'll review your application and reach out to schedule a call.",
+      "button": "Apply Now"
+    }
+  },
+  "apply": {
+    "hero": {
+      "overline": "Get started",
+      "title": "Apply",
+      "body": "Fill out the form below to express your interest. We review every application personally and respond within one week."
+    },
+    "form": {
+      "placeholder": "Application form embed",
+      "instructions": "Replace this with your Typeform or Tally embed code.",
+      "example": "Example: <iframe src=\"https://tally.so/embed/your-form-id\" ...></iframe>"
+    },
+    "next": {
+      "title": "What happens next",
+      "steps": [
+        {
+          "step": "1",
+          "title": "We review your application",
+          "description": "Every application is read carefully. We're looking for alignment — not just goals, but readiness and commitment to the process."
+        },
+        {
+          "step": "2",
+          "title": "Introductory call",
+          "description": "If there's a mutual fit, we'll schedule a 30-minute call to discuss your situation, answer questions, and determine next steps."
+        },
+        {
+          "step": "3",
+          "title": "Onboarding begins",
+          "description": "You'll receive onboarding materials, access to tracking tools, and instructions for your 4-week baseline observation period."
+        }
+      ],
+      "note": "We typically respond within 5–7 business days. If we're at capacity, we'll let you know and add you to our waitlist."
+    }
+  }
+}

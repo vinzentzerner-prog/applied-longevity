@@ -1,25 +1,36 @@
 "use client";
 
-import Link from "next/link";
+import Image from "next/image";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { LanguageSwitcher } from "@/components/language-switcher";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { href: "/", label: "Home" },
-  { href: "/how-it-works", label: "How It Works" },
-  { href: "/pillars", label: "Pillars" },
-  { href: "/testimonials", label: "Testimonials" },
+  { href: "/" as const, key: "home" as const },
+  { href: "/how-it-works" as const, key: "howItWorks" as const },
+  { href: "/pillars" as const, key: "pillars" as const },
+  { href: "/testimonials" as const, key: "testimonials" as const },
 ];
 
 export function Navbar() {
+  const t = useTranslations("nav");
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-md">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-        <Link href="/" className="text-lg font-semibold tracking-tight text-foreground">
-          Applied Longevity
+    <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-md">
+      <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6">
+        <Link href="/" className="shrink-0">
+          <Image
+            src="/logo-horizontal.png"
+            alt="Applied Longevity"
+            width={180}
+            height={40}
+            className="h-8 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}
@@ -30,13 +41,17 @@ export function Navbar() {
               href={link.href}
               className="text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground"
             >
-              {link.label}
+              {t(link.key)}
             </Link>
           ))}
-          <Link href="/apply">
-            <Button size="sm">Apply</Button>
-          </Link>
         </nav>
+
+        <div className="hidden items-center gap-4 md:flex">
+          <LanguageSwitcher />
+          <Link href="/apply">
+            <Button size="sm">{t("apply")}</Button>
+          </Link>
+        </div>
 
         {/* Mobile toggle */}
         <button
@@ -50,7 +65,7 @@ export function Navbar() {
 
       {/* Mobile nav */}
       {mobileOpen && (
-        <nav className="border-t border-border bg-background px-6 py-4 md:hidden">
+        <nav className="border-t border-border/50 bg-background px-6 py-4 md:hidden">
           <div className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <Link
@@ -59,12 +74,15 @@ export function Navbar() {
                 className="text-sm text-muted-foreground hover:text-foreground"
                 onClick={() => setMobileOpen(false)}
               >
-                {link.label}
+                {t(link.key)}
               </Link>
             ))}
-            <Link href="/apply" onClick={() => setMobileOpen(false)}>
-              <Button size="sm" className="w-full">Apply</Button>
-            </Link>
+            <div className="flex items-center justify-between pt-4 border-t border-border/30">
+              <LanguageSwitcher />
+              <Link href="/apply" onClick={() => setMobileOpen(false)}>
+                <Button size="sm">{t("apply")}</Button>
+              </Link>
+            </div>
           </div>
         </nav>
       )}
