@@ -1,4 +1,30 @@
 {
+  "meta": {
+    "home": {
+      "title": "Applied Longevity — Premium 1-zu-1 Longevity-Coaching",
+      "description": "Evidenzbasiertes Longevity-Coaching für 3–5 Klient:innen gleichzeitig. Training, Ernährung, Schlaf, emotionale Gesundheit und medizinische Werte — individuell auf dich zugeschnitten."
+    },
+    "about": {
+      "title": "Über den Gründer",
+      "description": "15+ Jahre ernsthaftes Training, eine CAIA-Bezeichnung und ein Psychologie-Hintergrund — lerne den Analysten und Coach hinter Applied Longevity kennen."
+    },
+    "pillars": {
+      "title": "Fünf Säulen der Longevity",
+      "description": "Training, Ernährung, Schlaf, emotionale Gesundheit und medizinische Werte — fünf Säulen in einem evidenzbasierten Longevity-Protokoll."
+    },
+    "howItWorks": {
+      "title": "So funktioniert's",
+      "description": "Ein Drei-Phasen-Prozess: 4 Wochen Baseline-Beobachtung, methodischer Protokollaufbau und laufende Optimierung."
+    },
+    "testimonials": {
+      "title": "Klient:innen-Erfahrungen",
+      "description": "Erfahrungsberichte von Klient:innen, die den Applied Longevity Prozess durchlaufen haben — echte Geschichten über Schlafoptimierung, ganzheitliches Coaching und nachhaltige Gesundheit."
+    },
+    "apply": {
+      "title": "Für Coaching bewerben",
+      "description": "Bewirb dich für einen Platz in unserem exklusiven 3–5-Klient:innen-Roster. Wir prüfen jede Bewerbung persönlich und antworten innerhalb einer Woche."
+    }
+  },
   "nav": {
     "home": "Startseite",
     "howItWorks": "So funktioniert's",

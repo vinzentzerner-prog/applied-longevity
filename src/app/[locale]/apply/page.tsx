@@ -1,6 +1,20 @@
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Section } from "@/components/section";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return {
+    title: t("apply.title"),
+    description: t("apply.description"),
+  };
+}
 
 interface NextStep {
   step: string;
