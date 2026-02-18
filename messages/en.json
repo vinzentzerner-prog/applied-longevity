@@ -79,6 +79,36 @@
       "title": "About",
       "body": "I've been a passionate athlete for over 15 years, and along the way I naturally started coaching people around me. What began as helping friends improve performance turned into a deep interest in building strength, endurance, and health that lasts.\n\nToday I work with only 3–5 clients at a time for a minimum of six months. We begin with four weeks of baseline monitoring to understand your current habits, constraints, and stressors—so the plan is sustainable from day one. From there, we build an individualized strategy across training, nutrition, sleep, and recovery, and track progress with objective metrics (e.g., VO₂ max, fitness benchmarks, and wearable data) plus regular check-ins."
     },
+    "deliverables": {
+      "overline": "What you get",
+      "title": "What you get",
+      "items": [
+        {
+          "title": "Tracking hardware included",
+          "description": "You receive the hardware you need for precise tracking — wearables and sensors that we select and set up together."
+        },
+        {
+          "title": "Your personal dashboard",
+          "description": "All your data flows into a dashboard that I review continuously. No numbers without context — every metric is interpreted."
+        },
+        {
+          "title": "Weekly reports",
+          "description": "Every week you receive a short, targeted report: what's working, what we adjust, what comes next. No noise, just signal."
+        }
+      ]
+    },
+    "pillarsPreview": {
+      "title": "The Five Pillars",
+      "subtitle": "Each pillar is part of a system — none stands alone.",
+      "items": [
+        { "title": "Training", "summary": "Strength, endurance, and mobility built for the long term." },
+        { "title": "Nutrition", "summary": "Fueling performance without restrictive diets." },
+        { "title": "Sleep", "summary": "The most underrated performance lever." },
+        { "title": "Emotional Health", "summary": "Stress, mindset, and what holds everything together." },
+        { "title": "Medical & Metrics", "summary": "Bloodwork, biomarkers, and objective tracking." }
+      ],
+      "link": "Learn more about the pillars"
+    },
     "cta": {
       "title": "Ready to start?",
       "body": "Applications are reviewed on a rolling basis. If we have capacity, we'll schedule an introductory call within a week.",
