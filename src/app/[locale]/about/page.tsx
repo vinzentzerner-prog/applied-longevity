@@ -52,6 +52,15 @@ export default function About() {
         </div>
       </Section>
 
+      {/* Philosophy callout — emotional anchor */}
+      <Section>
+        <div className="mx-auto max-w-3xl rounded-lg border-l-4 border-stone-900 bg-stone-50 px-8 py-8 md:px-12 md:py-10">
+          <blockquote className="text-xl font-semibold leading-relaxed tracking-tight text-foreground md:text-2xl">
+            {t("callout")}
+          </blockquote>
+        </div>
+      </Section>
+
       {/* Story */}
       <Section className="bg-secondary">
         <div className="max-w-2xl">
@@ -83,15 +92,6 @@ export default function About() {
               {t("story.p4")}
             </p>
           </div>
-        </div>
-      </Section>
-
-      {/* Philosophy callout — emotional anchor */}
-      <Section className="border-t border-stone-200">
-        <div className="mx-auto max-w-3xl py-8 md:py-12 text-center">
-          <blockquote className="text-2xl font-semibold leading-snug tracking-tight text-foreground md:text-3xl lg:text-4xl">
-            {t("callout")}
-          </blockquote>
         </div>
       </Section>
 
