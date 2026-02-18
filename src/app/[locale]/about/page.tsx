@@ -22,8 +22,13 @@ export async function generateMetadata({
 
 export default function About() {
   const t = useTranslations("about");
-  const credentialKeys = ["caia", "psychology", "trainer", "nutrition"] as const;
-  const philosophyKeys = ["observe", "roster", "evidence", "sustainable"] as const;
+  const philosophyKeys = [
+    "observe",
+    "roster",
+    "evidence",
+    "life",
+    "sustainable",
+  ] as const;
 
   return (
     <>
@@ -47,135 +52,46 @@ export default function About() {
         </div>
       </Section>
 
-      {/* The Early Years */}
+      {/* Story */}
       <Section className="bg-secondary">
         <div className="max-w-2xl">
-          <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground/60 mb-4">
-            {t("origin.eyebrow")}
-          </p>
           <h2 className="text-3xl font-semibold tracking-tight text-foreground">
-            {t("origin.title")}
+            {t("story.title")}
           </h2>
           <div className="mt-8 space-y-6">
-            <p className="text-lg leading-relaxed text-muted-foreground">{t("origin.p1")}</p>
-            <p className="text-lg leading-relaxed text-muted-foreground">{t("origin.p2")}</p>
-          </div>
-        </div>
-      </Section>
-
-      {/* Tipping Point */}
-      <Section className="bg-stone-900 text-stone-50">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
-          <div>
-            <p className="text-sm font-medium uppercase tracking-widest text-stone-500 mb-4">
-              {t("tipping.eyebrow")}
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              {t("story.p1")}
             </p>
-            <h2 className="text-3xl font-semibold tracking-tight text-stone-50">
-              {t("tipping.title")}
-            </h2>
-            <div className="mt-8 space-y-6">
-              <p className="text-lg leading-relaxed text-stone-400">{t("tipping.p1")}</p>
-              <blockquote className="border-l-2 border-stone-500 pl-6">
-                <p className="text-xl leading-relaxed text-stone-200 italic">
-                  {t("tipping.quote")}
-                </p>
-              </blockquote>
-              <p className="text-lg leading-relaxed text-stone-400">{t("tipping.p2")}</p>
-            </div>
-          </div>
-          <div className="relative w-full aspect-[3/4] overflow-hidden rounded-sm">
-            <img
-              src="/founder-gym.jpg"
-              alt="Founder training"
-              className="w-full h-full object-cover grayscale"
-            />
-          </div>
-        </div>
-      </Section>
-
-      {/* Credentials */}
-      <Section>
-        <div className="max-w-2xl mb-12">
-          <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground/60 mb-4">
-            {t("credentials.eyebrow")}
-          </p>
-          <h2 className="text-3xl font-semibold tracking-tight text-foreground">
-            {t("credentials.title")}
-          </h2>
-          <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            {t("credentials.subtitle")}
-          </p>
-        </div>
-        <div className="grid gap-6 md:grid-cols-2">
-          {credentialKeys.map((key) => (
-            <Card key={key}>
-              <CardContent className="pt-6">
-                <p className="text-xs font-medium uppercase tracking-widest text-muted-foreground/60 mb-2">
-                  {t(`credentials.items.${key}.tag`)}
-                </p>
-                <h3 className="text-lg font-semibold text-foreground">
-                  {t(`credentials.items.${key}.title`)}
-                </h3>
-                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                  {t(`credentials.items.${key}.description`)}
-                </p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </Section>
-
-      {/* Portfolio Metaphor */}
-      <Section className="bg-secondary">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-start">
-          <div className="max-w-xl">
-            <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground/60 mb-4">
-              {t("portfolio.eyebrow")}
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              {t("story.p2")}
             </p>
-            <h2 className="text-3xl font-semibold tracking-tight text-foreground">
-              {t("portfolio.title")}
-            </h2>
-            <div className="mt-8 space-y-6">
-              <p className="text-lg leading-relaxed text-muted-foreground">{t("portfolio.p1")}</p>
-              <p className="text-lg leading-relaxed text-muted-foreground">{t("portfolio.p2")}</p>
-            </div>
-          </div>
-          <div className="space-y-0 divide-y divide-border">
-            {[
-              { number: "15+", labelKey: "years" },
-              { number: "3–5", labelKey: "clients" },
-              { number: "6mo", labelKey: "minimum" },
-              { number: "4wk", labelKey: "baseline" },
-            ].map(({ number, labelKey }) => (
-              <div key={labelKey} className="flex items-baseline gap-6 py-6">
-                <span className="text-4xl font-semibold tracking-tight text-foreground w-20 shrink-0">
-                  {number}
-                </span>
-                <div>
-                  <p className="font-medium text-foreground">
-                    {t(`portfolio.metrics.${labelKey}.label`)}
-                  </p>
-                  <p className="text-sm text-muted-foreground mt-0.5">
-                    {t(`portfolio.metrics.${labelKey}.description`)}
-                  </p>
-                </div>
-              </div>
-            ))}
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              {t.rich("story.p3", {
+                link: (chunks) => (
+                  <a
+                    href="https://doi.org/10.7206/cemj.2658-0845.65"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline underline-offset-4 hover:text-foreground transition-colors"
+                  >
+                    {chunks}
+                  </a>
+                ),
+              })}
+            </p>
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              {t("story.p4")}
+            </p>
           </div>
         </div>
       </Section>
 
       {/* Philosophy */}
       <Section>
-        <div className="max-w-2xl mb-12">
-          <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground/60 mb-4">
-            {t("philosophy.eyebrow")}
-          </p>
-          <h2 className="text-3xl font-semibold tracking-tight text-foreground">
-            {t("philosophy.title")}
-          </h2>
-        </div>
-        <div className="grid gap-8 md:grid-cols-2">
+        <h2 className="text-3xl font-semibold tracking-tight text-foreground">
+          {t("philosophy.title")}
+        </h2>
+        <div className="mt-12 grid gap-8 md:grid-cols-2">
           {philosophyKeys.map((key) => (
             <Card key={key}>
               <CardContent className="pt-6">
