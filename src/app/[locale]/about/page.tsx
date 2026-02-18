@@ -35,7 +35,7 @@ export default function About() {
     <>
       {/* Hero */}
       <Section className="pt-28 md:pt-36 pb-12">
-        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-12 md:gap-16 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 md:gap-16 items-start">
           <div className="max-w-2xl">
             <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground/60">
               {t("eyebrow")}
@@ -83,7 +83,7 @@ export default function About() {
                   default
                 />
               </video>
-              <div className="pointer-events-none absolute inset-0 flex items-end justify-start bg-gradient-to-t from-black/50 to-transparent p-6">
+              <div className="pointer-events-none absolute inset-0 flex items-end justify-start bg-gradient-to-t from-black/50 to-transparent p-4 sm:p-6">
                 <p className="text-sm font-medium tracking-wide text-white/90 md:text-base">
                   {t("story.kitesurfTagline")}
                 </p>

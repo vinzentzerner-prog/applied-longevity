@@ -51,7 +51,7 @@ export default function Home({
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground md:text-xl">
             {t("hero.body2")}
           </p>
-          <div className="mt-10 flex gap-4">
+          <div className="mt-10 flex flex-wrap gap-3 sm:gap-4">
             <Link href="/apply">
               <Button size="lg">{t("hero.cta")}</Button>
             </Link>
@@ -101,7 +101,7 @@ export default function Home({
 
       {/* About */}
       <Section className="bg-muted">
-        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-12 md:gap-16 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 md:gap-16 items-start">
           <div className="max-w-xl">
             <h2>{t("about.title")}</h2>
             <div className="mt-8 space-y-6">

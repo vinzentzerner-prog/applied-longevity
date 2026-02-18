@@ -7,7 +7,7 @@ export function Footer() {
 
   return (
     <footer className="bg-dark-bg text-dark-fg">
-      <div className="mx-auto max-w-5xl px-6 py-12 md:py-16">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 md:py-16">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           <div>
             <Image
@@ -22,7 +22,7 @@ export function Footer() {
             </p>
           </div>
 
-          <div className="flex flex-wrap gap-6 text-sm">
+          <div className="flex flex-wrap gap-x-6 gap-y-3 text-sm">
             <Link href="/" className="text-dark-muted hover:text-dark-fg transition-colors">
               {t("home")}
             </Link>

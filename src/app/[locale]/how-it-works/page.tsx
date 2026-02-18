@@ -90,7 +90,7 @@ export default function HowItWorks({
           <h2 className="mt-4">{t("application.title")}</h2>
           <div className="mt-12 space-y-10">
             {applicationSteps.map((item) => (
-              <div key={item.step} className="flex gap-6">
+              <div key={item.step} className="flex gap-4 sm:gap-6">
                 <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-medium text-primary-foreground">
                   {item.step}
                 </div>

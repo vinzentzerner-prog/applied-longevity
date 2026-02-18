@@ -22,7 +22,7 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-md">
-      <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6">
+      <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-4 sm:px-6">
         <Link href="/" className="shrink-0">
           <Image
             src="/logo-horizontal.png"
@@ -66,7 +66,7 @@ export function Navbar() {
 
       {/* Mobile nav */}
       {mobileOpen && (
-        <nav className="border-t border-border/50 bg-background px-6 py-4 md:hidden">
+        <nav className="border-t border-border/50 bg-background px-4 sm:px-6 py-4 md:hidden">
           <div className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <Link

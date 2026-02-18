@@ -50,8 +50,8 @@ export default function Apply({
       {/* Embedded form */}
       <Section className="bg-muted pt-12 pb-12">
         <div className="mx-auto max-w-2xl">
-          <div className="rounded-2xl border border-border bg-card p-8 md:p-12">
-            <div className="flex min-h-[400px] items-center justify-center rounded-lg border-2 border-dashed border-border bg-muted p-8 text-center">
+          <div className="rounded-2xl border border-border bg-card p-4 sm:p-8 md:p-12">
+            <div className="flex min-h-[400px] items-center justify-center rounded-lg border-2 border-dashed border-border bg-muted p-4 sm:p-8 text-center">
               <div>
                 <p className="text-lg font-medium text-muted-foreground/60">
                   {t("form.placeholder")}
