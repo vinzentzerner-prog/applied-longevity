@@ -79,6 +79,36 @@
       "title": "Über mich",
       "body": "Ich bin seit über 15 Jahren leidenschaftlicher Sportler und habe über die Jahre ganz natürlich begonnen, Menschen in meinem Umfeld zu coachen. Was als Unterstützung für Freunde startete, wurde zu einer echten Leidenschaft: Leistungsfähigkeit, Kraft, Ausdauer und langfristige Gesundheit nachhaltig aufzubauen.\n\nHeute arbeite ich bewusst nur mit 3–5 Klient:innen gleichzeitig – für mindestens sechs Monate. Wir starten mit vier Wochen Baseline-Monitoring, um deine aktuellen Gewohnheiten, Rahmenbedingungen und Stressoren zu verstehen – damit der Plan von Anfang an alltagstauglich ist. Anschließend entwickeln wir eine individuelle Strategie für Training, Ernährung, Schlaf und Regeneration und messen Fortschritt über objektive Kennzahlen (z. B. VO₂max, Fitness-Benchmarks und Wearable-Daten) sowie regelmäßige Check-ins."
     },
+    "deliverables": {
+      "overline": "Was du bekommst",
+      "title": "Was du bekommst",
+      "items": [
+        {
+          "title": "Tracking-Hardware inklusive",
+          "description": "Du erhältst die nötige Hardware für präzises Tracking — Wearables und Sensoren, die wir gemeinsam auswählen und einrichten."
+        },
+        {
+          "title": "Dein persönliches Dashboard",
+          "description": "Alle deine Daten fließen in ein Dashboard, das ich laufend überprüfe. Keine Zahlen ohne Kontext — jeder Wert wird eingeordnet."
+        },
+        {
+          "title": "Wöchentliche Reports",
+          "description": "Jede Woche erhältst du einen kurzen, gezielten Report: Was läuft, was wir anpassen, was als Nächstes kommt. Kein Rauschen, nur Signal."
+        }
+      ]
+    },
+    "pillarsPreview": {
+      "title": "Die fünf Säulen",
+      "subtitle": "Jede Säule ist Teil eines Systems — keine steht für sich allein.",
+      "items": [
+        { "title": "Training", "summary": "Kraft, Ausdauer und Mobilität — für die Langstrecke gebaut." },
+        { "title": "Ernährung", "summary": "Leistung fördern, ohne restriktive Diäten." },
+        { "title": "Schlaf", "summary": "Der am meisten unterschätzte Performance-Hebel." },
+        { "title": "Emotionale Gesundheit", "summary": "Stress, Mindset und was alles zusammenhält." },
+        { "title": "Medizin & Metriken", "summary": "Blutwerte, Biomarker und objektives Tracking." }
+      ],
+      "link": "Mehr zu den Säulen"
+    },
     "cta": {
       "title": "Bereit anzufangen?",
       "body": "Bewerbungen werden laufend geprüft. Wenn wir Kapazität haben, vereinbaren wir innerhalb einer Woche ein Kennenlerngespräch.",

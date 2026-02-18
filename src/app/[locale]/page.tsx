@@ -25,6 +25,16 @@ interface EngagementItem {
   description: string;
 }
 
+interface DeliverableItem {
+  title: string;
+  description: string;
+}
+
+interface PillarPreviewItem {
+  title: string;
+  summary: string;
+}
+
 export default function Home({
   params,
 }: {
@@ -34,6 +44,8 @@ export default function Home({
   setRequestLocale(resolvedParams.locale);
   const t = useTranslations("home");
   const engagementItems: EngagementItem[] = t.raw("engagement.items");
+  const deliverableItems: DeliverableItem[] = t.raw("deliverables.items");
+  const pillarPreviewItems: PillarPreviewItem[] = t.raw("pillarsPreview.items");
 
   return (
     <>
@@ -77,7 +89,7 @@ export default function Home({
         </div>
       </Section>
 
-      {/* What you get */}
+      {/* How it works */}
       <Section>
         <p className="text-xs font-semibold uppercase tracking-[0.08em] text-primary">
           {t("engagement.overline")}
@@ -96,6 +108,60 @@ export default function Home({
               </CardContent>
             </Card>
           ))}
+        </div>
+      </Section>
+
+      {/* What you get */}
+      <Section className="bg-muted">
+        <p className="text-xs font-semibold uppercase tracking-[0.08em] text-primary">
+          {t("deliverables.overline")}
+        </p>
+        <h2 className="mt-4">{t("deliverables.title")}</h2>
+        <div className="mt-12 grid gap-8 md:grid-cols-3">
+          {deliverableItems.map((item) => (
+            <Card key={item.title}>
+              <CardContent className="pt-6">
+                <h3 className="text-lg font-semibold text-foreground">
+                  {item.title}
+                </h3>
+                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                  {item.description}
+                </p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </Section>
+
+      {/* Pillars preview */}
+      <Section>
+        <div className="text-center">
+          <h2>{t("pillarsPreview.title")}</h2>
+          <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
+            {t("pillarsPreview.subtitle")}
+          </p>
+        </div>
+        <div className="mt-12 grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-5">
+          {pillarPreviewItems.map((item) => (
+            <div
+              key={item.title}
+              className="rounded-lg border bg-card p-4 text-center"
+            >
+              <h3 className="text-sm font-semibold text-foreground">
+                {item.title}
+              </h3>
+              <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
+                {item.summary}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="mt-10 text-center">
+          <Link href="/pillars">
+            <Button variant="outline" size="lg">
+              {t("pillarsPreview.link")}
+            </Button>
+          </Link>
         </div>
       </Section>
 
