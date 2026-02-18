@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { Section } from "@/components/section";
 import { Button } from "@/components/ui/button";
@@ -22,7 +22,6 @@ export async function generateMetadata({
 
 export default function About() {
   const t = useTranslations("about");
-  const locale = useLocale();
   const philosophyKeys = [
     "observe",
     "roster",
@@ -53,44 +52,16 @@ export default function About() {
         </div>
       </Section>
 
-      {/* Story with embedded kitesurf video */}
+      {/* Story */}
       <Section className="bg-secondary">
         <div className="max-w-2xl">
           <h2 className="text-3xl font-semibold tracking-tight text-foreground">
             {t("story.title")}
           </h2>
           <div className="mt-8 space-y-6">
-            {/* Paragraph 1 — athletic background */}
             <p className="text-lg leading-relaxed text-muted-foreground">
               {t("story.p1")}
             </p>
-
-            {/* Kitesurf video: the "joy & integration" moment */}
-            <div className="relative my-10 overflow-hidden rounded-xl shadow-md">
-              <video
-                className="w-full aspect-video object-cover"
-                controls
-                preload="metadata"
-                playsInline
-                poster="/founder-kitesurf-poster.jpg"
-              >
-                <source src="/founder-kitesurf.mp4" type="video/mp4" />
-                <track
-                  kind="subtitles"
-                  src={locale === "de" ? "/subs-de.vtt" : "/subs-en.vtt"}
-                  srcLang={locale}
-                  label={locale === "de" ? "Deutsch" : "English"}
-                  default
-                />
-              </video>
-              <div className="pointer-events-none absolute inset-0 flex items-end justify-start bg-gradient-to-t from-black/50 to-transparent p-4 sm:p-6">
-                <p className="text-sm font-medium tracking-wide text-white/90 md:text-base">
-                  {t("story.kitesurfTagline")}
-                </p>
-              </div>
-            </div>
-
-            {/* Paragraphs 2–4 — career, research, mission */}
             <p className="text-lg leading-relaxed text-muted-foreground">
               {t("story.p2")}
             </p>
@@ -142,23 +113,6 @@ export default function About() {
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        {/* Kettlebell video: the "consistency & craft" moment
-            Intentionally smaller and quieter than the kitesurf video.
-            No overlay, no tagline. Just the work. */}
-        <div className="mx-auto mt-16 max-w-lg overflow-hidden rounded-xl shadow-md">
-          <video
-            className="w-full aspect-video object-cover"
-            controls
-            preload="metadata"
-            playsInline
-            muted
-            loop
-            poster="/founder-kettlebell-poster.jpg"
-          >
-            <source src="/founder-kettlebell.mp4" type="video/mp4" />
-          </video>
         </div>
       </Section>
 
