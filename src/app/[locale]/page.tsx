@@ -141,20 +141,35 @@ export default function Home({
             {t("pillarsPreview.subtitle")}
           </p>
         </div>
-        <div className="mt-12 grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-5">
-          {pillarPreviewItems.map((item) => (
-            <div
-              key={item.title}
-              className="rounded-lg border bg-card p-4 text-center"
-            >
-              <h3 className="text-sm font-semibold text-foreground">
-                {item.title}
-              </h3>
-              <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
-                {item.summary}
-              </p>
-            </div>
-          ))}
+        <div className="mt-12 flex flex-col items-center gap-8">
+          <div className="grid w-full grid-cols-1 gap-8 sm:grid-cols-3">
+            {pillarPreviewItems.slice(0, 3).map((item) => (
+              <Card key={item.title}>
+                <CardContent className="pt-6 text-center">
+                  <h3 className="text-lg font-semibold text-foreground">
+                    {item.title}
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                    {item.summary}
+                  </p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+          <div className="grid w-full grid-cols-1 gap-8 sm:grid-cols-2 sm:max-w-[66%]">
+            {pillarPreviewItems.slice(3).map((item) => (
+              <Card key={item.title}>
+                <CardContent className="pt-6 text-center">
+                  <h3 className="text-lg font-semibold text-foreground">
+                    {item.title}
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                    {item.summary}
+                  </p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
         <div className="mt-10 text-center">
           <Link href="/pillars">
