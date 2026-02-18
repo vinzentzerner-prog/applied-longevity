@@ -17,7 +17,7 @@ export function Section({ children, className, id, dark }: SectionProps) {
         className
       )}
     >
-      <div className="mx-auto max-w-5xl px-6">{children}</div>
+      <div className="mx-auto max-w-5xl px-4 sm:px-6">{children}</div>
     </section>
   );
 }
