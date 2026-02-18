@@ -251,44 +251,46 @@
   "about": {
     "eyebrow": "Über den Gründer",
     "hero": {
-      "title": "Aus Erfahrung gebaut, nicht aus Theorie.",
-      "subtitle": "Applied Longevity entstand aus 15+ Jahren Training, Selbstexperimentation und dem Coaching der Menschen in meinem engsten Umfeld — kombiniert mit der Realität, Unternehmen aufzubauen und eine anspruchsvolle Karriere zu navigieren. Meine Überzeugung: Das beste Protokoll ist eines, das dein Leben besser macht, nicht kleiner."
+      "title": "Aus Erfahrung entstanden, nicht aus Theorie.",
+      "subtitle": "Applied Longevity entstand aus über 15 Jahren Training, Selbstexperimentieren und dem Coaching meines engsten Umfelds — kombiniert mit der Realität, Unternehmen aufzubauen und eine fordernde Karriere zu navigieren. Ich bin überzeugt: Das beste Protokoll ist eines, das dein Leben bereichert, nicht einschränkt."
     },
     "story": {
       "title": "Hintergrund",
-      "p1": "Ich bin seit über 15 Jahren engagierter Sportler — Wettkampfsport, Krafttraining, Ausdauer und alles dazwischen. Irgendwann begann ich, Freunde und Kollegen zu coachen — zunächst teilte ich einfach, was ich gelernt hatte. Mit der Zeit wurde daraus etwas Strukturierteres.",
-      "p2": "Beruflich habe ich zwei Unternehmen gegründet und arbeite heute in Private Equity. Ich weiß, wie ein anspruchsvoller Zeitplan aussieht — die frühen Morgen, die Reisen, die mentale Last, die nie ganz abschaltet. Diese Erfahrung hat meine Überzeugung geprägt: Gesundheit muss in dein echtes Leben passen, nicht es ersetzen.",
-      "p3": "Ich habe mich auch damit beschäftigt, was Menschen nachhaltig leistungsfähig macht — darunter zwei Publikationen über Führung: eine über den <link>Einfluss von Führungsstilen auf Commitment</link> und eine frühere Arbeit über Führung als zukünftigen Erfolgsfaktor. Diese Perspektive — das Zusammenspiel von Mindset, Gewohnheiten und Physiologie zu verstehen — zieht sich durch alles, was ich als Coach mache.",
-      "p4": "Die Frage, die mich antreibt: Was braucht es wirklich, um stark, klar und gesund zu bleiben — nicht für Monate, sondern für Jahrzehnte? Die Antwort ist kein einzelnes Protokoll oder Biohack. Es ist ein System — eines, das Training, Ernährung, Schlaf, emotionale Gesundheit und medizinische Daten zu einem kohärenten Ganzen integriert. Das ist Applied Longevity."
+      "p1": "Ich bin seit über 15 Jahren leidenschaftlicher Sportler — Wettkampfsport, Krafttraining, Ausdauer und alles dazwischen. Irgendwann begann ich, Freunde und Kollegen zu coachen, anfangs einfach, weil ich mein Wissen teilen wollte. Mit der Zeit wurde daraus etwas Strukturiertes.",
+      "kitesurfTagline": "Fünf Minuten vor der Session. Mehr braucht es nicht.",
+      "p2": "Beruflich habe ich zwei Unternehmen gegründet und arbeite heute in Private Equity. Ich weiß, wie ein fordernder Alltag aussieht — frühe Morgen, Reisen, mentale Belastung, die nie ganz abschaltet. Diese Erfahrung hat meine Überzeugung geprägt: Gesundheit muss in dein echtes Leben passen, nicht es ersetzen.",
+      "p3": "Darüber hinaus beschäftige ich mich auch wissenschaftlich mit dem Thema nachhaltige Leistungsfähigkeit — unter anderem mit zwei Publikationen zu Leadership: einer zum <link>Einfluss von Führungsstilen auf Commitment</link> sowie einem früheren Beitrag zu Führung als Erfolgsfaktor der Zukunft. Dieser Blick — das Zusammenspiel von Mindset, Gewohnheiten und Physiologie zu verstehen — zieht sich durch meine gesamte Arbeit als Coach.",
+      "p4": "Die Frage, die mich antreibt: Was braucht es wirklich, um stark, klar und gesund zu bleiben — nicht für Monate, sondern für Jahrzehnte? Die Antwort ist kein einzelnes Protokoll oder Biohack. Es ist ein System — eines, das Training, Ernährung, Schlaf, emotionale Gesundheit und medizinische Daten zu einem stimmigen Ganzen verbindet. Das ist Applied Longevity."
     },
+    "callout": "Mein Ansatz: Gesundheit soll dein Leben bereichern, nicht einschränken. Wir finden einen Weg, der zu deinem Alltag passt — ohne auf das zu verzichten, was dir Freude macht.",
     "philosophy": {
       "title": "Philosophie",
       "items": {
         "observe": {
           "title": "Beobachten vor dem Handeln",
-          "description": "Jede Zusammenarbeit beginnt mit vier Wochen Baseline-Datenerhebung. Wir ändern nichts, bis wir verstehen, wo du wirklich stehst — nicht wo du glaubst zu stehen."
+          "description": "Jede Zusammenarbeit beginnt mit vier Wochen Baseline-Datenerhebung. Wir ändern nichts, bevor wir verstehen, wo du wirklich stehst — nicht wo du glaubst zu stehen."
         },
         "roster": {
-          "title": "Kleine Kapazität, tiefe Arbeit",
-          "description": "Ich arbeite mit 3–5 Klient:innen gleichzeitig, für mindestens sechs Monate. Das ist bewusst nicht skalierbar. Echtes Coaching erfordert echte Aufmerksamkeit."
+          "title": "Wenige Klient:innen, echte Tiefe",
+          "description": "Ich arbeite mit 3–5 Klient:innen gleichzeitig, für mindestens sechs Monate. Das ist bewusst nicht skalierbar. Echtes Coaching braucht echte Aufmerksamkeit."
         },
         "evidence": {
           "title": "Evidenz statt Ideologie",
-          "description": "Keine Trends, keine Ernährungskriege, keine Wunder-Supplements. Wir messen, was wirklich wirkt — mit Blutbild, Wearables und Fitness-Benchmarks — und passen entsprechend an."
+          "description": "Keine Trends, keine Ernährungskriege, keine Wundermittel. Wir messen, was funktioniert — mit Blutwerten, Wearables und Fitness-Benchmarks — und passen laufend an."
         },
         "life": {
           "title": "Mehr Leben, nicht weniger",
-          "description": "Gesundheit sollte dein Wohlbefinden steigern, ohne deine Lebensfreude zu verringern. Wir finden einen Weg, bessere Gewohnheiten in dein Leben zu integrieren — ohne das wegzunehmen, was es lebenswert macht."
+          "description": "Gesundheit soll dein Wohlbefinden steigern, ohne dir Lebensfreude zu nehmen. Wir finden einen Weg, bessere Gewohnheiten in dein Leben zu integrieren — ohne das wegzunehmen, was es lebenswert macht."
         },
         "sustainable": {
-          "title": "Nachhaltig von Grund auf",
-          "description": "Das Ziel ist ein Protokoll, das du über Jahre beibehalten kannst — keine 12-Wochen-Transformation. Wir bauen Gewohnheiten und Systeme, die kompoundieren, nicht kollabieren."
+          "title": "Nachhaltig von Anfang an",
+          "description": "Das Ziel ist ein Protokoll, das du über Jahre durchhalten kannst — keine 12-Wochen-Transformation. Wir bauen Gewohnheiten und Systeme auf, die sich aufbauen, nicht zusammenbrechen."
         }
       }
     },
     "cta": {
-      "title": "Zusammenarbeiten?",
-      "subtitle": "Wenn das resoniert, bewirb dich. Ich lese jede Bewerbung persönlich.",
+      "title": "Bereit anzufangen?",
+      "subtitle": "Wenn dich das anspricht, bewirb dich unten. Ich lese jede Bewerbung persönlich.",
       "button": "Jetzt bewerben"
     }
   },
