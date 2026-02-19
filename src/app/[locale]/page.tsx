@@ -53,7 +53,11 @@ export default function Home({
     <>
       {/* Hero — Bergos-style pinned scroll transition */}
       <HeroTwoState
-        title={t("hero.title")}
+        fullTitle={t("hero.title")}
+        titleLine1={t("hero.titleLine1")}
+        titleLine2={t("hero.titleLine2")}
+        titleLine3={t("hero.titleLine3")}
+        microline={t("hero.microline")}
         state2Headline={t("hero.state2.headline")}
         state2Support={t("hero.state2.support")}
         state2Cta={t("hero.state2.cta")}

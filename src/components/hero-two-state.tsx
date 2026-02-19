@@ -7,7 +7,11 @@ import { Button } from "@/components/ui/button";
 import { HeroArc } from "./hero-arc";
 
 interface HeroTwoStateProps {
-  title: string;
+  fullTitle: string;
+  titleLine1: string;
+  titleLine2: string;
+  titleLine3: string;
+  microline: string;
   state2Headline: string;
   state2Support: string;
   state2Cta: string;
@@ -28,7 +32,11 @@ function smoothstep(t: number) {
 }
 
 export function HeroTwoState({
-  title,
+  fullTitle,
+  titleLine1,
+  titleLine2,
+  titleLine3,
+  microline,
   state2Headline,
   state2Support,
   state2Cta,
@@ -215,33 +223,51 @@ export function HeroTwoState({
           <HeroArc />
         </div>
 
-        {/* z-3: Stage 1 — centered statement + arrow */}
+        {/* z-3: Stage 1 — editorial word placement */}
         <div
           ref={textS1Ref}
           className="hero-layer-text hero-text-s1"
           style={{ opacity: 1, visibility: "visible" }}
         >
-          <h1 className="hero-display hero-s1-statement">{title}</h1>
+          <h1 className="sr-only">{fullTitle}</h1>
 
-          {/* Down arrow — scroll invitation */}
-          <div className="hero-s1-arrow" aria-hidden="true">
+          <div className="hero-word hero-word-1" aria-hidden="true">
+            <span className="hero-display">{titleLine1}</span>
+          </div>
+
+          <div className="hero-word hero-word-2" aria-hidden="true">
+            <span className="hero-display">{titleLine2}</span>
+          </div>
+
+          <div className="hero-word hero-word-3" aria-hidden="true">
+            <span className="hero-display">{titleLine3}</span>
+          </div>
+
+          <div className="hero-word hero-word-circle">
+            <div className="hero-circle">
+              <p>{microline}</p>
+            </div>
+          </div>
+
+          {/* Down arrow — bottom right, scroll invitation */}
+          <div className="hero-word hero-word-arrow" aria-hidden="true">
             <svg
-              width="24"
+              width="20"
               height="48"
-              viewBox="0 0 24 48"
+              viewBox="0 0 20 48"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <line
-                x1="12"
+                x1="10"
                 y1="0"
-                x2="12"
+                x2="10"
                 y2="40"
                 stroke="currentColor"
                 strokeWidth="1"
               />
               <polyline
-                points="6,34 12,42 18,34"
+                points="4,34 10,42 16,34"
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="1"

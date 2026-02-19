@@ -45,7 +45,11 @@
   },
   "home": {
     "hero": {
-      "title": "Your health, held with the same care as everything else in your life.",
+      "title": "Private Longevity Advisor",
+      "titleLine1": "Private",
+      "titleLine2": "Longevity",
+      "titleLine3": "Advisor",
+      "microline": "Your health, held with the same care as everything else in your life.",
       "state2": {
         "headline": "Quiet certainty.",
         "support": "Discreet, long-term guidance so your health decisions feel simple — and your vitality stays visible.",
