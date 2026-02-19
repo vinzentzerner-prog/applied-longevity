@@ -45,12 +45,11 @@
   },
   "home": {
     "hero": {
-      "title1": "Longevity coaching,",
-      "title2": "done with you.",
-      "body1": "We work with 3–5 clients at a time. Every engagement starts with a 4-week observation period — no major changes, just data. From there we build a protocol that fits your life, not the other way around.",
-      "body2": "Minimum commitment: 6 months. This is not a quick fix.",
-      "cta": "Apply Now",
-      "secondary": "How It Works"
+      "title": "A private longevity advisory.",
+      "subtitle": "Quiet, thorough attention to your health — personal and ongoing.",
+      "microline": "Three to five clients at a time.",
+      "cta": "Begin a conversation",
+      "exclusivity": "Selectively accepting new clients"
     },
     "capacity": {
       "overline": "By design",

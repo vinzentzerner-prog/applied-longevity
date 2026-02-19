@@ -52,26 +52,20 @@ export default function Home({
       {/* Hero */}
       <Section className="pt-28 md:pt-36 pb-16 md:pb-20">
         <div className="max-w-2xl">
-          <h1>
-            {t("hero.title1")}
-            <br />
-            {t("hero.title2")}
-          </h1>
+          <h1>{t("hero.title")}</h1>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground md:text-xl">
-            {t("hero.body1")}
+            {t("hero.subtitle")}
           </p>
-          <p className="mt-4 text-lg leading-relaxed text-muted-foreground md:text-xl">
-            {t("hero.body2")}
+          <p className="mt-4 text-sm tracking-wide text-muted-foreground/70">
+            {t("hero.microline")}
           </p>
-          <div className="mt-10 flex flex-wrap gap-3 sm:gap-4">
+          <div className="mt-10">
             <Link href="/apply">
               <Button size="lg">{t("hero.cta")}</Button>
             </Link>
-            <Link href="/how-it-works">
-              <Button variant="outline" size="lg">
-                {t("hero.secondary")}
-              </Button>
-            </Link>
+            <p className="mt-3 text-xs tracking-wide text-muted-foreground/60">
+              {t("hero.exclusivity")}
+            </p>
           </div>
         </div>
       </Section>

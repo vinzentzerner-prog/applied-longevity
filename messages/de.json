@@ -45,12 +45,11 @@
   },
   "home": {
     "hero": {
-      "title1": "Longevity-Coaching,",
-      "title2": "gemeinsam mit dir.",
-      "body1": "Wir arbeiten mit 3–5 Klient:innen gleichzeitig. Jede Zusammenarbeit beginnt mit einer 4-wöchigen Beobachtungsphase — keine großen Änderungen, nur Daten. Darauf aufbauend entwickeln wir ein Protokoll, das zu deinem Leben passt, nicht umgekehrt.",
-      "body2": "Mindestdauer: 6 Monate. Das ist keine schnelle Lösung.",
-      "cta": "Jetzt bewerben",
-      "secondary": "So funktioniert's"
+      "title": "Eine private Longevity-Begleitung.",
+      "subtitle": "Stille, gründliche Betreuung deiner Gesundheit — persönlich und fortlaufend.",
+      "microline": "Drei bis fünf Klient:innen gleichzeitig.",
+      "cta": "Gespräch beginnen",
+      "exclusivity": "Aktuell offen für neue Klient:innen"
     },
     "capacity": {
       "overline": "Bewusst begrenzt",
