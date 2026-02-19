@@ -1,24 +1,24 @@
 {
   "meta": {
     "home": {
-      "title": "Applied Longevity — Premium 1-on-1 Longevity Coaching",
-      "description": "Evidence-based longevity coaching for 3–5 clients at a time. Training, nutrition, sleep, emotional health, and medical metrics — all tailored to you."
+      "title": "Applied Longevity — Private Longevity Advisory",
+      "description": "A private longevity advisory for a small number of clients. Movement, nutrition, sleep, emotional well-being, and medical insight — quietly integrated around your life."
     },
     "about": {
-      "title": "About the Founder",
-      "description": "15+ years of serious training, a CAIA designation, and a psychology background — meet the analyst-turned-coach behind Applied Longevity."
+      "title": "About — Applied Longevity",
+      "description": "A background in psychology, analytics, and over fifteen years of studying how health sustains itself across its many dimensions."
     },
     "pillars": {
-      "title": "Five Pillars of Longevity",
-      "description": "Training, nutrition, sleep, emotional health, and medical metrics — five pillars integrated into one evidence-based longevity protocol."
+      "title": "Five Dimensions — Applied Longevity",
+      "description": "Movement, nutrition, sleep, emotional well-being, and medical insight — five dimensions integrated into one coherent, personalised framework."
     },
     "howItWorks": {
-      "title": "How It Works",
-      "description": "A three-phase process: 4 weeks of baseline observation, methodical protocol building, and ongoing optimization. See how Applied Longevity coaching works."
+      "title": "How It Works — Applied Longevity",
+      "description": "A three-phase approach: four weeks of quiet observation, considered protocol development, and ongoing refinement over time."
     },
     "testimonials": {
-      "title": "Client Testimonials",
-      "description": "Hear from clients who have experienced the Applied Longevity process — real stories about sleep optimization, holistic coaching, and sustainable health progress."
+      "title": "Client Reflections — Applied Longevity",
+      "description": "Reflections from clients who have experienced the Applied Longevity process — on clarity, continuity, and the quiet value of sustained attention."
     },
     "apply": {
       "title": "Begin a Conversation — Applied Longevity",
@@ -29,18 +29,18 @@
     "home": "Home",
     "howItWorks": "How It Works",
     "pillars": "Pillars",
-    "testimonials": "Testimonials",
+    "testimonials": "Reflections",
     "about": "About",
     "apply": "Inquire"
   },
   "footer": {
-    "tagline": "Evidence-based longevity coaching.",
+    "tagline": "Private longevity advisory.",
     "home": "Home",
     "howItWorks": "How It Works",
     "pillars": "Pillars",
-    "testimonials": "Testimonials",
+    "testimonials": "Reflections",
     "about": "About",
-    "apply": "Apply",
+    "apply": "Inquire",
     "copyright": "© {year} Applied Longevity. All rights reserved."
   },
   "home": {
@@ -49,7 +49,7 @@
       "subtitle": "Quiet, thorough attention to your health — personal and ongoing.",
       "microline": "Three to five clients at a time.",
       "cta": "Request a private introduction",
-      "exclusivity": "By introduction or private application"
+      "exclusivity": "By introduction or private inquiry"
     },
     "capacity": {
       "overline": "By design",
@@ -70,7 +70,7 @@
         },
         {
           "title": "Continuous refinement",
-          "description": "Your protocol evolves with you. Through ongoing private conversation, we refine what needs refining — at a pace that respects your time and attention."
+          "description": "Your framework evolves with you. Through ongoing private conversation, we refine what needs refining — at a pace that respects your time and attention."
         }
       ]
     },
@@ -79,32 +79,32 @@
       "body": "My background spans psychology, analytics, and over fifteen years of studying how health holds together across its many dimensions. I've worked closely with individuals whose lives leave little room for trial and error — people who need clarity, not more information.\n\nI take on very few clients and stay involved over long periods. Each engagement begins with careful observation, not intervention. The goal is to understand your patterns before shaping anything — and to remain a steady, discreet presence as your health evolves."
     },
     "deliverables": {
-      "overline": "What's included",
-      "title": "What's included",
+      "overline": "What is included",
+      "title": "What is included",
       "items": [
         {
-          "title": "Tracking hardware included",
-          "description": "The right wearables and sensors, selected and configured for you. No research required on your end."
+          "title": "Wearable technology, provided",
+          "description": "The right sensors and devices, selected and configured for you. No research required on your part."
         },
         {
-          "title": "Your personal dashboard",
-          "description": "All your health data in one place — private, reviewed by me personally. Every number comes with context and meaning."
+          "title": "A private health overview",
+          "description": "All your health data in one place — confidential, reviewed by me personally. Every number comes with context and meaning."
         },
         {
           "title": "Weekly clarity",
-          "description": "A short, focused summary each week: what's working, what's shifting, what comes next. Nothing unnecessary."
+          "description": "A short, focused summary each week: what is working, what is shifting, what comes next. Nothing unnecessary."
         }
       ]
     },
     "pillarsPreview": {
-      "title": "The Five Pillars",
-      "subtitle": "Each pillar is part of a system — none stands alone.",
+      "title": "Five Dimensions",
+      "subtitle": "Each dimension is part of a system — none stands alone.",
       "items": [
         { "title": "Movement", "summary": "Strength, endurance, and mobility — built to sustain you." },
         { "title": "Nutrition", "summary": "Nourishment that supports your energy — without restriction." },
         { "title": "Sleep", "summary": "The foundation of clarity, recovery, and resilience." },
         { "title": "Emotional Well-being", "summary": "What holds everything together — especially during transitions." },
-        { "title": "Medical Data", "summary": "Bloodwork, biomarkers, and the clarity that comes from knowing." }
+        { "title": "Medical Insight", "summary": "Bloodwork, biomarkers, and the clarity that comes from knowing." }
       ],
       "link": "Explore the framework"
     },
@@ -117,219 +117,219 @@
   "pillars": {
     "hero": {
       "overline": "The framework",
-      "title": "Five pillars",
-      "body": "Longevity isn't one thing — it's five things working together. We address each pillar individually and as part of an integrated system."
+      "title": "Five dimensions",
+      "body": "Longevity is not one discipline — it is five dimensions held in balance. We attend to each individually and as part of an integrated whole."
     },
     "items": [
       {
         "number": "01",
-        "title": "Training",
-        "description": "Strength, cardiovascular fitness, mobility, and recovery — programmed as one integrated system. We design training around your schedule, injury history, and long-term structural goals. The aim is to build a body that performs well at 40, 60, and beyond.",
+        "title": "Movement",
+        "description": "Strength, cardiovascular health, mobility, and recovery — designed as one integrated framework. We shape your movement practice around your schedule, your history, and your long-term structural well-being. The intention is a body that carries you well — at 40, 60, and beyond.",
         "details": [
-          "Periodized strength programming",
-          "Zone 2 and VO2max cardiovascular work",
-          "Mobility and movement quality assessments",
-          "Recovery load management"
+          "Structured strength programming",
+          "Cardiovascular health and endurance",
+          "Mobility and movement quality",
+          "Recovery and load balance"
         ]
       },
       {
         "number": "02",
         "title": "Nutrition",
-        "description": "We take a data-informed approach to nutrition — no ideology, no fads. We track biomarkers, body composition, and subjective energy to find the dietary pattern that supports your training, cognitive performance, and metabolic health.",
+        "description": "A measured, evidence-informed approach — no ideology, no restriction. We observe biomarkers, energy, and how you feel to find a dietary pattern that genuinely supports your daily life and long-term health.",
         "details": [
-          "Macronutrient and micronutrient analysis",
-          "Meal timing and composition strategies",
-          "Continuous glucose monitoring integration",
-          "Periodic dietary experiments and reviews"
+          "Macronutrient and micronutrient awareness",
+          "Meal rhythm and composition",
+          "Metabolic health monitoring",
+          "Periodic review and gentle adjustment"
         ]
       },
       {
         "number": "03",
         "title": "Sleep",
-        "description": "Sleep is the single highest-leverage variable for health and performance. We use wearable data and subjective logs to optimize sleep architecture — not just duration, but the quality and consistency of each stage.",
+        "description": "Sleep is foundational — to clarity, to resilience, to how everything else holds together. We use wearable data and your own experience to understand your sleep patterns and gently improve their quality and consistency.",
         "details": [
-          "Sleep environment optimization",
+          "Sleep environment and routine",
           "Circadian rhythm alignment",
-          "Wearable data interpretation (deep, REM, latency)",
-          "Behavioral and supplemental interventions"
+          "Wearable data interpretation",
+          "Considered behavioural adjustments"
         ]
       },
       {
         "number": "04",
-        "title": "Emotional Health",
-        "description": "Stress, relationships, purpose, and psychological resilience are not separate from physical health — they are foundational to it. We address the mental and emotional dimensions of longevity with the same rigor we apply to training and nutrition.",
+        "title": "Emotional Well-being",
+        "description": "Stress, relationships, purpose, and inner resilience are not separate from physical health — they are often what holds it together. We attend to the emotional dimensions of longevity with the same care we bring to everything else.",
         "details": [
-          "Stress load assessment and management",
+          "Stress awareness and management",
           "Mindfulness and contemplative practices",
-          "Social connection and relationship quality",
-          "Values alignment and life design"
+          "Relational and social well-being",
+          "Values alignment and life coherence"
         ]
       },
       {
         "number": "05",
-        "title": "Medical & Metrics",
-        "description": "We work with your medical team to track the biomarkers that matter. Comprehensive bloodwork, advanced imaging when appropriate, and longitudinal tracking give us an objective view of how your body is responding to the protocol.",
+        "title": "Medical Insight",
+        "description": "Working alongside your medical team, we observe the markers that matter. Comprehensive bloodwork, appropriate imaging, and longitudinal tracking provide a quiet, objective view of how your body is responding over time.",
         "details": [
-          "Quarterly comprehensive blood panels",
-          "Cardiovascular and metabolic risk markers",
+          "Comprehensive blood panels",
+          "Cardiovascular and metabolic markers",
           "Hormonal and inflammatory profiles",
-          "DEXA, coronary calcium, and other imaging"
+          "Imaging and longitudinal tracking"
         ]
       }
     ],
     "cta": {
-      "title": "See how it all fits together",
-      "body": "Every pillar reinforces the others. The result is a protocol that compounds over time.",
+      "title": "See how it comes together",
+      "body": "Each dimension supports the others. The result is a framework that deepens over time.",
       "howItWorks": "How It Works",
-      "apply": "Apply Now"
+      "apply": "Begin a conversation"
     }
   },
   "howItWorks": {
     "hero": {
       "overline": "Process",
       "title": "How it works",
-      "body": "Every engagement follows the same three-phase structure. We observe before we act, build methodically, and consolidate for the long term."
+      "body": "Every engagement follows the same three-phase structure. We observe before we act, build with care, and refine for the long term."
     },
     "phases": [
       {
         "number": "01",
         "title": "Observe",
         "duration": "Weeks 1–4",
-        "description": "We don't change anything yet. For four weeks we collect baseline data — sleep architecture, training logs, nutrition patterns, bloodwork, and subjective well-being. This gives us a clear picture of where you are before we touch a single variable."
+        "description": "We don't change anything yet. For four weeks, we collect baseline data — sleep patterns, movement, nutrition, bloodwork, and how you feel. This gives us a clear, unhurried picture of where you are before we consider a single adjustment."
       },
       {
         "number": "02",
         "title": "Build",
         "duration": "Weeks 5–16",
-        "description": "With a solid baseline in hand, we introduce changes one layer at a time across the five pillars. Each intervention is tracked and measured so we know exactly what's working. We move deliberately — stacking changes only when the previous layer has stabilized."
+        "description": "With a solid understanding in place, we introduce changes one layer at a time across five dimensions. Each adjustment is observed and considered. We move deliberately — adding complexity only when the previous layer has settled."
       },
       {
         "number": "03",
-        "title": "Consolidate",
+        "title": "Refine",
         "duration": "Ongoing",
-        "description": "Once the core protocol is in place, we shift to maintenance and optimization. Regular check-ins, periodic re-testing, and seasonal adjustments keep you progressing without burning out. This is where the long game lives."
+        "description": "Once the foundation is in place, we shift to maintenance and gentle refinement. Regular conversations, periodic re-assessment, and seasonal adjustments keep things moving — at a pace that respects your life."
       }
     ],
     "application": {
       "overline": "Getting started",
-      "title": "How to apply",
+      "title": "How to begin",
       "steps": [
         {
           "step": "1",
-          "title": "Submit your application",
-          "description": "Fill out a brief form telling us about your goals, current health status, and what you're looking for in a coaching relationship."
+          "title": "Share what is on your mind",
+          "description": "A brief inquiry — about where you are, what matters to you, and what kind of support you are looking for. Nothing formal."
         },
         {
           "step": "2",
-          "title": "Introductory call",
-          "description": "If there's a good fit, we'll schedule a 30-minute call to discuss your situation in more detail and answer any questions."
+          "title": "A private conversation",
+          "description": "If there is a good fit, we arrange a calm, unhurried call to explore your situation in more depth and answer any questions."
         },
         {
           "step": "3",
-          "title": "Onboarding & baseline",
-          "description": "Once we begin, you'll receive access to our tracking tools and start the 4-week observation phase right away."
+          "title": "A quiet beginning",
+          "description": "Once we decide to work together, you receive access to our tools and we begin four weeks of observation. No pressure, no rush."
         }
       ],
-      "cta": "Start Your Application"
+      "cta": "Begin a conversation"
     }
   },
   "testimonials": {
     "hero": {
-      "overline": "Client experiences",
-      "title": "Testimonials",
-      "body": "Hear from clients who have been through the process. These are placeholder testimonials — replace them with real stories as they come in."
+      "overline": "Client reflections",
+      "title": "What clients say",
+      "body": "Reflections from those who have experienced the process. These are placeholder testimonials — to be replaced with real experiences as they come in."
     },
     "items": [
       {
-        "quote": "The 4-week baseline period seemed slow at first, but it completely changed how I understood my own body. The data we collected gave us a roadmap I never could have built on my own.",
+        "quote": "The four-week observation period felt slow at first, but it gave us a depth of understanding I hadn't experienced before. For the first time, I felt like someone truly understood my health — not just my numbers.",
         "name": "James R.",
         "detail": "Client, 14 months"
       },
       {
-        "quote": "I've worked with trainers and nutritionists before, but never someone who looked at all five dimensions together. The integration is what makes this different.",
+        "quote": "I've worked with trainers and nutritionists before, but never with someone who sees all five dimensions together. The integration — and the calm way it is held — is what makes this different.",
         "name": "Sarah M.",
         "detail": "Client, 9 months"
       },
       {
-        "quote": "What I appreciate most is the patience. No rushed changes, no dramatic overhauls. Just steady, evidence-based progress that I can actually sustain.",
+        "quote": "What I value most is the patience. No rushed changes, no dramatic overhauls. Just steady, considered progress that I can actually sustain — and that respects the rest of my life.",
         "name": "David K.",
         "detail": "Client, 18 months"
       },
       {
-        "quote": "The sleep optimization alone was worth it. My deep sleep went from 45 minutes to nearly two hours, and everything else improved downstream — mood, training recovery, focus.",
+        "quote": "The sleep work alone brought something I hadn't expected: a deeper sense of ease during the day. Clarity, mood, recovery — everything downstream shifted. But it was the calm that surprised me most.",
         "name": "Maria L.",
         "detail": "Client, 11 months"
       },
       {
-        "quote": "I was skeptical about the emotional health pillar, but it turned out to be the missing piece. Managing stress properly unlocked progress in every other area.",
+        "quote": "I was uncertain about the emotional well-being dimension, but it turned out to be what everything else was waiting for. Once that was held with care, the rest followed naturally.",
         "name": "Tom W.",
         "detail": "Client, 7 months"
       },
       {
-        "quote": "Having someone who actually reads my bloodwork, understands my training data, and connects it all together — that level of attention is rare. The small roster makes a real difference.",
+        "quote": "Having someone who reads my bloodwork, understands my patterns, and connects it all with genuine attention — that level of presence is rare. The small number of clients makes all the difference.",
         "name": "Elena P.",
         "detail": "Client, 12 months"
       }
     ],
     "cta": {
-      "title": "Join them",
-      "body": "When a spot opens, we'll review your application and reach out to schedule a call.",
-      "button": "Apply Now"
+      "title": "When you're ready.",
+      "body": "When a place becomes available, we review your inquiry and arrange a private conversation.",
+      "button": "Begin a conversation"
     }
   },
   "about": {
-    "eyebrow": "About the founder",
+    "eyebrow": "About",
     "hero": {
-      "title": "Built from experience, not theory.",
-      "subtitle": "Applied Longevity grew out of 15+ years of training, self-experimentation, and coaching the people closest to me — combined with the reality of building companies and navigating a demanding career. I believe the best protocol is one that makes your life better, not smaller."
+      "title": "Built from experience, held with care.",
+      "subtitle": "Applied Longevity grew from over fifteen years of personal practice and quiet observation — combined with the reality of building companies and navigating a demanding life. The best framework is one that makes your life richer, not smaller."
     },
     "story": {
       "title": "Background",
-      "p1": "I've been a committed athlete for over 15 years — competitive sports, strength training, endurance work, and everything in between. Along the way I started coaching friends and colleagues, initially just sharing what I'd learned. Over time, that turned into something more structured.",
-      "p2": "Professionally, I've founded two companies and now work in Private Equity. I know what a demanding schedule looks like — the early mornings, the travel, the mental load that never fully switches off. That experience shaped my conviction: health has to fit into your real life, not replace it.",
-      "p3": "Through my <link>research on leadership</link>, I saw firsthand how the right guidance can positively shape human behavior and development — how people grow when someone meets them where they are and holds them accountable with care. That insight is what drew me to coaching, and it's the foundation of how I work today.",
-      "p4": "The question that drives me: what does it actually take to stay strong, sharp, and healthy — not for months, but for decades? The answer isn't a single protocol or biohack. It's a system — one that integrates training, nutrition, sleep, emotional health, and medical data into a coherent whole. That's what Applied Longevity is."
+      "p1": "I have trained seriously for over fifteen years — across disciplines, seasons, and phases of life. Along the way, I began guiding those closest to me, sharing what I had learned. Over time, that care turned into something more structured.",
+      "p2": "Professionally, I have founded two companies and now work in Private Equity. I understand what a demanding life looks like — the early mornings, the travel, the mental weight that never fully lifts. That experience shaped my conviction: health must fit into your real life, not ask you to build a different one.",
+      "p3": "Through my <link>research on leadership</link>, I saw how the right guidance can shape human development — how people grow when someone meets them where they are and holds them accountable with warmth. That insight is what drew me to this work, and it remains the foundation of how I practise.",
+      "p4": "The question that guides me: what does it take to remain strong, clear, and well — not for months, but for decades? The answer is not a single protocol. It is a system — one that integrates movement, nutrition, sleep, emotional well-being, and medical insight into a coherent whole. That is Applied Longevity."
     },
     "callout": {
       "title": "My Approach",
-      "body": "Health should enrich your life, not restrict it. We find a way that fits your everyday — without giving up what brings you joy."
+      "body": "Health should enrich your life, not restrict it. Together we find a way that fits your everyday — without giving up what brings you joy."
     },
     "philosophy": {
       "title": "Philosophy",
       "items": {
         "observe": {
           "title": "Observe before you act",
-          "description": "Every engagement starts with four weeks of baseline data collection. We don't change anything until we understand where you actually are — not where you think you are."
+          "description": "Every engagement begins with four weeks of quiet observation. We don't change anything until we understand where you truly are — not where you think you are."
         },
         "roster": {
-          "title": "Small roster, deep work",
-          "description": "I work with 3–5 clients at a time, for a minimum of six months. This is not scalable by design. Real coaching requires real attention."
+          "title": "A small practice, by design",
+          "description": "I work with three to five clients at a time, for a minimum of six months. This is deliberately not scalable. Genuine attention requires genuine presence."
         },
         "evidence": {
           "title": "Evidence over ideology",
-          "description": "No fads, no tribal nutrition wars, no magic supplements. We track what works with objective data — bloodwork, wearables, fitness benchmarks — and adjust accordingly."
+          "description": "No trends, no dogma. We observe what works through careful data — bloodwork, wearables, how you feel — and adjust with patience."
         },
         "life": {
           "title": "More life, not less",
-          "description": "Health should increase your well-being without decreasing your joy of life. We find a way to integrate better habits into your life — not strip away what makes it worth living."
+          "description": "Health should deepen your well-being without diminishing your joy. We integrate better habits into the life you already have — without stripping away what makes it meaningful."
         },
         "sustainable": {
-          "title": "Sustainable by default",
-          "description": "The goal is a protocol you can maintain for years, not a 12-week transformation. We build habits and systems that compound, not crash."
+          "title": "Sustainable by nature",
+          "description": "The aim is a framework you can carry for years — not a short-term programme. We build patterns that accumulate quietly over time."
         }
       }
     },
     "cta": {
-      "title": "Want to work together?",
-      "subtitle": "If this resonates, apply below. I read every application personally.",
-      "button": "Apply Now"
+      "title": "When you're ready.",
+      "subtitle": "If this resonates, I would welcome hearing from you. Every inquiry is read personally.",
+      "button": "Begin a conversation"
     }
   },
   "apply": {
     "hero": {
       "overline": "Private inquiry",
       "title": "Begin a conversation.",
-      "body": "This is not a sales form. It's a short, reflective exchange to help us understand what you're looking for — and whether this advisory is the right context for it. Every response is read personally and held in confidence."
+      "body": "This is not a sales form. It is a short, reflective exchange to help us understand what you are looking for — and whether this advisory is the right context for it. Every response is read personally and held in confidence."
     },
     "form": {
       "placeholder": "Inquiry form",
@@ -342,12 +342,12 @@
         {
           "step": "1",
           "title": "I read your inquiry personally",
-          "description": "There is no automated screening. I read every response myself to understand your situation, your priorities, and what kind of support you're looking for."
+          "description": "There is no automated screening. I read every response myself to understand your situation, your priorities, and what kind of support you are looking for."
         },
         {
           "step": "2",
           "title": "A private conversation",
-          "description": "If it feels like the right fit for both sides, I'll suggest a brief, unhurried call. No pitch — just an honest exchange about where you are and what might help."
+          "description": "If it feels like the right fit for both sides, I will suggest a brief, unhurried call. No pitch — just an honest exchange about where you are and what might help."
         },
         {
           "step": "3",
@@ -355,7 +355,7 @@
           "description": "If we decide to work together, we begin with four weeks of quiet observation. No changes, no pressure — just a careful look at where your health stands today."
         }
       ],
-      "note": "I respond to every inquiry within a few days. If I'm at capacity, I'll let you know honestly and we can revisit when the timing is right."
+      "note": "I respond to every inquiry within a few days. If I am at capacity, I will let you know honestly and we can revisit when the timing is right."
     }
   }
 }

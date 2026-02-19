@@ -60,7 +60,7 @@ export default function Testimonials({
                   &ldquo;{testimonial.quote}&rdquo;
                 </blockquote>
                 <div className="mt-6 border-t border-border pt-4">
-                  <p className="text-sm font-semibold text-foreground">
+                  <p className="text-sm font-medium text-foreground">
                     {testimonial.name}
                   </p>
                   <p className="text-xs text-muted-foreground/60">

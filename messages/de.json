@@ -1,52 +1,52 @@
 {
   "meta": {
     "home": {
-      "title": "Applied Longevity — Premium 1-zu-1 Longevity-Coaching",
-      "description": "Evidenzbasiertes Longevity-Coaching für 3–5 Klient:innen gleichzeitig. Training, Ernährung, Schlaf, emotionale Gesundheit und medizinische Werte — individuell auf dich zugeschnitten."
+      "title": "Applied Longevity — Private Longevity-Begleitung",
+      "description": "Eine private Longevity-Begleitung für wenige Klient:innen. Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Einordnung — sorgfältig abgestimmt auf Ihr Leben."
     },
     "about": {
-      "title": "Über den Gründer",
-      "description": "15+ Jahre ernsthaftes Training, eine CAIA-Bezeichnung und ein Psychologie-Hintergrund — lerne den Analysten und Coach hinter Applied Longevity kennen."
+      "title": "Über mich — Applied Longevity",
+      "description": "Ein Hintergrund in Psychologie, Analytik und über fünfzehn Jahre Auseinandersetzung mit der Frage, wie sich Gesundheit über ihre vielen Dimensionen hinweg trägt."
     },
     "pillars": {
-      "title": "Fünf Säulen der Longevity",
-      "description": "Training, Ernährung, Schlaf, emotionale Gesundheit und medizinische Werte — fünf Säulen in einem evidenzbasierten Longevity-Protokoll."
+      "title": "Fünf Dimensionen — Applied Longevity",
+      "description": "Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Einordnung — fünf Dimensionen in einem zusammenhängenden, persönlichen Rahmenwerk."
     },
     "howItWorks": {
-      "title": "So funktioniert's",
-      "description": "Ein Drei-Phasen-Prozess: 4 Wochen Baseline-Beobachtung, methodischer Protokollaufbau und laufende Optimierung."
+      "title": "Der Ablauf — Applied Longevity",
+      "description": "Ein Ansatz in drei Phasen: vier Wochen stille Beobachtung, bedachter Aufbau und fortlaufende Verfeinerung über die Zeit."
     },
     "testimonials": {
-      "title": "Klient:innen-Erfahrungen",
-      "description": "Erfahrungsberichte von Klient:innen, die den Applied Longevity Prozess durchlaufen haben — echte Geschichten über Schlafoptimierung, ganzheitliches Coaching und nachhaltige Gesundheit."
+      "title": "Stimmen von Klient:innen — Applied Longevity",
+      "description": "Einblicke von Klient:innen, die den Applied Longevity Prozess erfahren haben — über Klarheit, Kontinuität und den stillen Wert aufmerksamer Begleitung."
     },
     "apply": {
-      "title": "Gespräch beginnen — Applied Longevity",
-      "description": "Eine kurze, reflektierte Anfrage, damit wir verstehen, was du suchst. Jede Antwort wird persönlich gelesen und vertraulich behandelt."
+      "title": "Ein Gespräch beginnen — Applied Longevity",
+      "description": "Eine kurze, reflektierte Anfrage, damit wir verstehen, was Sie suchen. Jede Antwort wird persönlich gelesen und vertraulich behandelt."
     }
   },
   "nav": {
     "home": "Startseite",
-    "howItWorks": "So funktioniert's",
-    "pillars": "Säulen",
-    "testimonials": "Erfahrungen",
+    "howItWorks": "Ablauf",
+    "pillars": "Dimensionen",
+    "testimonials": "Stimmen",
     "about": "Über mich",
     "apply": "Anfragen"
   },
   "footer": {
-    "tagline": "Evidenzbasiertes Longevity-Coaching.",
+    "tagline": "Private Longevity-Begleitung.",
     "home": "Startseite",
-    "howItWorks": "So funktioniert's",
-    "pillars": "Säulen",
-    "testimonials": "Erfahrungen",
+    "howItWorks": "Ablauf",
+    "pillars": "Dimensionen",
+    "testimonials": "Stimmen",
     "about": "Über mich",
-    "apply": "Bewerben",
+    "apply": "Anfragen",
     "copyright": "© {year} Applied Longevity. Alle Rechte vorbehalten."
   },
   "home": {
     "hero": {
       "title": "Eine private Longevity-Begleitung.",
-      "subtitle": "Stille, gründliche Betreuung deiner Gesundheit — persönlich und fortlaufend.",
+      "subtitle": "Stille, gründliche Aufmerksamkeit für Ihre Gesundheit — persönlich und fortlaufend.",
       "microline": "Drei bis fünf Klient:innen gleichzeitig.",
       "cta": "Persönliches Kennenlernen anfragen",
       "exclusivity": "Auf Empfehlung oder persönliche Anfrage"
@@ -61,34 +61,34 @@
       "title": "Wie es beginnt",
       "items": [
         {
-          "title": "Verstehen, wo du stehst",
-          "description": "Bevor sich etwas ändert, hören wir zu. Vier Wochen stille, vertrauliche Beobachtung — Schlaf, Bewegung, Ernährung, Blutwerte, Alltagsrhythmus — um deine Gesundheit aus sich selbst heraus zu verstehen."
+          "title": "Verstehen, wo Sie stehen",
+          "description": "Bevor sich etwas ändert, hören wir zu. Vier Wochen stille, vertrauliche Beobachtung — Schlaf, Bewegung, Ernährung, Blutwerte, Alltagsrhythmus — um Ihre Gesundheit aus sich selbst heraus zu verstehen."
         },
         {
-          "title": "Ein Rahmen, der zu dir passt",
-          "description": "Auf Basis deiner Ausgangslage gestalten wir einen strukturierten Ansatz über fünf Dimensionen — Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Daten — vertraulich und abgestimmt auf dein Leben, wie es ist."
+          "title": "Ein Rahmen, der zu Ihnen passt",
+          "description": "Auf Basis Ihrer Ausgangslage gestalten wir einen strukturierten Ansatz über fünf Dimensionen — Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Daten — vertraulich und abgestimmt auf Ihr Leben, wie es ist."
         },
         {
-          "title": "Fortlaufende Anpassung",
-          "description": "Dein Protokoll entwickelt sich mit dir. Im persönlichen Austausch passen wir an, was angepasst werden muss — in einem Tempo, das deine Zeit und Aufmerksamkeit respektiert."
+          "title": "Fortlaufende Verfeinerung",
+          "description": "Ihr Rahmenwerk entwickelt sich mit Ihnen. Im persönlichen Austausch passen wir an, was angepasst werden muss — in einem Tempo, das Ihre Zeit und Aufmerksamkeit respektiert."
         }
       ]
     },
     "about": {
       "title": "Über mich",
-      "body": "Mein Hintergrund verbindet Psychologie, Analytik und über fünfzehn Jahre intensive Auseinandersetzung mit der Frage, wie Gesundheit in all ihren Dimensionen zusammenhält. Ich arbeite mit Menschen, deren Alltag wenig Raum für Versuch und Irrtum lässt — Menschen, die Klarheit brauchen, nicht noch mehr Information.\n\nIch begleite bewusst nur wenige Klient:innen und bleibe über lange Zeiträume involviert. Jede Zusammenarbeit beginnt mit aufmerksamer Beobachtung, nicht mit Intervention. Das Ziel ist, deine Muster zu verstehen, bevor etwas gestaltet wird — und als ruhige, diskrete Begleitung präsent zu bleiben, während sich deine Gesundheit entwickelt."
+      "body": "Mein Hintergrund verbindet Psychologie, Analytik und über fünfzehn Jahre intensive Auseinandersetzung mit der Frage, wie Gesundheit in all ihren Dimensionen zusammenhält. Ich arbeite mit Menschen, deren Alltag wenig Raum für Versuch und Irrtum lässt — Menschen, die Klarheit brauchen, nicht noch mehr Information.\n\nIch begleite bewusst nur wenige Klient:innen und bleibe über lange Zeiträume involviert. Jede Zusammenarbeit beginnt mit aufmerksamer Beobachtung, nicht mit Intervention. Das Ziel ist, Ihre Muster zu verstehen, bevor etwas gestaltet wird — und als ruhige, diskrete Begleitung präsent zu bleiben, während sich Ihre Gesundheit entwickelt."
     },
     "deliverables": {
       "overline": "Was enthalten ist",
       "title": "Was enthalten ist",
       "items": [
         {
-          "title": "Tracking-Hardware inklusive",
-          "description": "Die richtigen Wearables und Sensoren, für dich ausgewählt und eingerichtet. Kein Rechercheaufwand auf deiner Seite."
+          "title": "Wearable-Technologie, bereitgestellt",
+          "description": "Die passenden Sensoren und Geräte, für Sie ausgewählt und eingerichtet. Kein Rechercheaufwand auf Ihrer Seite."
         },
         {
-          "title": "Dein persönliches Dashboard",
-          "description": "Alle deine Gesundheitsdaten an einem Ort — vertraulich und von mir persönlich überprüft. Jede Zahl bekommt Kontext und Bedeutung."
+          "title": "Ein privater Gesundheitsüberblick",
+          "description": "Alle Ihre Gesundheitsdaten an einem Ort — vertraulich und von mir persönlich eingeordnet. Jede Zahl bekommt Kontext und Bedeutung."
         },
         {
           "title": "Wöchentliche Klarheit",
@@ -97,243 +97,243 @@
       ]
     },
     "pillarsPreview": {
-      "title": "Die fünf Säulen",
-      "subtitle": "Jede Säule ist Teil eines Systems — keine steht für sich allein.",
+      "title": "Fünf Dimensionen",
+      "subtitle": "Jede Dimension ist Teil eines Systems — keine steht für sich allein.",
       "items": [
-        { "title": "Bewegung", "summary": "Kraft, Ausdauer und Mobilität — gebaut, um dich zu tragen." },
-        { "title": "Ernährung", "summary": "Nahrung, die deine Energie stützt — ohne Einschränkung." },
+        { "title": "Bewegung", "summary": "Kraft, Ausdauer und Mobilität — gebaut, um Sie zu tragen." },
+        { "title": "Ernährung", "summary": "Nahrung, die Ihre Energie stützt — ohne Einschränkung." },
         { "title": "Schlaf", "summary": "Die Grundlage für Klarheit, Erholung und Widerstandskraft." },
         { "title": "Emotionales Wohlbefinden", "summary": "Was alles zusammenhält — besonders in Übergangsphasen." },
-        { "title": "Medizinische Daten", "summary": "Blutwerte, Biomarker und die Klarheit, die aus Wissen entsteht." }
+        { "title": "Medizinische Einordnung", "summary": "Blutwerte, Biomarker und die Klarheit, die aus Wissen entsteht." }
       ],
-      "link": "Das Framework entdecken"
+      "link": "Das Rahmenwerk entdecken"
     },
     "cta": {
-      "title": "Wenn du bereit bist.",
-      "body": "Ein kurzes, vertrauliches Gespräch, um zu verstehen, was du suchst. Ohne Vorbereitung — nur Offenheit darüber, wo du gerade stehst.",
+      "title": "Wenn Sie bereit sind.",
+      "body": "Ein kurzes, vertrauliches Gespräch, um zu verstehen, was Sie suchen. Ohne Vorbereitung — nur Offenheit darüber, wo Sie gerade stehen.",
       "button": "Kennenlernen anfragen"
     }
   },
   "pillars": {
     "hero": {
-      "overline": "Das Framework",
-      "title": "Fünf Säulen",
-      "body": "Longevity ist nicht eine Sache — es sind fünf Dinge, die zusammenwirken. Wir behandeln jede Säule einzeln und als Teil eines integrierten Systems."
+      "overline": "Das Rahmenwerk",
+      "title": "Fünf Dimensionen",
+      "body": "Longevity ist nicht eine Disziplin — es sind fünf Dimensionen in Balance. Wir widmen uns jeder einzeln und als Teil eines integrierten Ganzen."
     },
     "items": [
       {
         "number": "01",
-        "title": "Training",
-        "description": "Kraft, kardiovaskuläre Fitness, Mobilität und Regeneration — als ein integriertes System programmiert. Wir gestalten das Training rund um deinen Zeitplan, deine Verletzungshistorie und deine langfristigen strukturellen Ziele. Das Ziel: einen Körper aufbauen, der mit 40, 60 und darüber hinaus leistungsfähig ist.",
+        "title": "Bewegung",
+        "description": "Kraft, kardiovaskuläre Gesundheit, Mobilität und Erholung — als ein zusammenhängendes Rahmenwerk gestaltet. Wir formen Ihre Bewegungspraxis rund um Ihren Alltag, Ihre Geschichte und Ihr langfristiges strukturelles Wohlbefinden. Die Absicht ist ein Körper, der Sie gut trägt — mit 40, 60 und darüber hinaus.",
         "details": [
-          "Periodisierte Kraftprogrammierung",
-          "Zone-2- und VO2max-Kardiotraining",
-          "Mobilitäts- und Bewegungsqualitätsbewertungen",
-          "Regenerations-Lastmanagement"
+          "Strukturierte Kraftprogrammierung",
+          "Kardiovaskuläre Gesundheit und Ausdauer",
+          "Mobilität und Bewegungsqualität",
+          "Erholung und Belastungsbalance"
         ]
       },
       {
         "number": "02",
         "title": "Ernährung",
-        "description": "Wir verfolgen einen datenbasierten Ansatz bei der Ernährung — keine Ideologie, keine Trends. Wir verfolgen Biomarker, Körperzusammensetzung und subjektive Energie, um das Ernährungsmuster zu finden, das dein Training, deine kognitive Leistung und deine metabolische Gesundheit unterstützt.",
+        "description": "Ein bedachter, evidenzbasierter Ansatz — ohne Ideologie, ohne Einschränkung. Wir beobachten Biomarker, Energie und wie Sie sich fühlen, um ein Ernährungsmuster zu finden, das Ihren Alltag und Ihre langfristige Gesundheit wirklich unterstützt.",
         "details": [
-          "Makro- und Mikronährstoffanalyse",
-          "Strategien für Mahlzeiten-Timing und -Zusammensetzung",
-          "Integration von kontinuierlichem Glukose-Monitoring",
-          "Periodische Ernährungsexperimente und -überprüfungen"
+          "Makro- und Mikronährstoff-Bewusstsein",
+          "Mahlzeitenrhythmus und Zusammensetzung",
+          "Metabolische Gesundheitsbegleitung",
+          "Regelmässige Überprüfung und behutsame Anpassung"
         ]
       },
       {
         "number": "03",
         "title": "Schlaf",
-        "description": "Schlaf ist die einzelne Variable mit dem größten Hebel für Gesundheit und Leistung. Wir nutzen Wearable-Daten und subjektive Protokolle, um die Schlafarchitektur zu optimieren — nicht nur die Dauer, sondern die Qualität und Konsistenz jeder Phase.",
+        "description": "Schlaf ist grundlegend — für Klarheit, für Widerstandskraft, dafür, wie alles andere zusammenhält. Wir nutzen Wearable-Daten und Ihre eigene Erfahrung, um Ihre Schlafmuster zu verstehen und deren Qualität und Beständigkeit behutsam zu verbessern.",
         "details": [
-          "Optimierung der Schlafumgebung",
+          "Schlafumgebung und Routine",
           "Abstimmung des zirkadianen Rhythmus",
-          "Wearable-Dateninterpretation (Tief-, REM-Schlaf, Einschlaflatenz)",
-          "Verhaltens- und ergänzende Interventionen"
+          "Wearable-Dateninterpretation",
+          "Bedachte Verhaltensanpassungen"
         ]
       },
       {
         "number": "04",
-        "title": "Emotionale Gesundheit",
-        "description": "Stress, Beziehungen, Sinn und psychische Resilienz sind nicht getrennt von der körperlichen Gesundheit — sie sind deren Fundament. Wir behandeln die mentalen und emotionalen Dimensionen der Longevity mit der gleichen Sorgfalt wie Training und Ernährung.",
+        "title": "Emotionales Wohlbefinden",
+        "description": "Stress, Beziehungen, Sinn und innere Resilienz sind nicht getrennt von der körperlichen Gesundheit — sie sind oft das, was sie zusammenhält. Wir widmen uns den emotionalen Dimensionen der Longevity mit derselben Sorgfalt, die wir in alles andere einbringen.",
         "details": [
-          "Stressbelastungs-Assessment und -Management",
+          "Stressbewusstsein und -begleitung",
           "Achtsamkeit und kontemplative Praktiken",
           "Soziale Verbundenheit und Beziehungsqualität",
-          "Werteabgleich und Lebensgestaltung"
+          "Werteabgleich und Lebenskohärenz"
         ]
       },
       {
         "number": "05",
-        "title": "Medizin & Metriken",
-        "description": "Wir arbeiten mit deinem medizinischen Team zusammen, um die Biomarker zu verfolgen, die zählen. Umfassendes Blutbild, fortschrittliche Bildgebung bei Bedarf und longitudinales Tracking geben uns eine objektive Sicht darauf, wie dein Körper auf das Protokoll reagiert.",
+        "title": "Medizinische Einordnung",
+        "description": "In Zusammenarbeit mit Ihrem medizinischen Team beobachten wir die Werte, die zählen. Umfassendes Blutbild, sinnvolle Bildgebung und longitudinales Tracking bieten eine stille, objektive Sicht darauf, wie Ihr Körper über die Zeit reagiert.",
         "details": [
-          "Vierteljährliche umfassende Blutpanels",
-          "Kardiovaskuläre und metabolische Risikomarker",
+          "Umfassende Blutpanels",
+          "Kardiovaskuläre und metabolische Marker",
           "Hormonelle und inflammatorische Profile",
-          "DEXA, Koronarkalzium und andere Bildgebung"
+          "Bildgebung und longitudinales Tracking"
         ]
       }
     ],
     "cta": {
-      "title": "Sieh, wie alles zusammenwirkt",
-      "body": "Jede Säule verstärkt die anderen. Das Ergebnis ist ein Protokoll, das sich über die Zeit multipliziert.",
-      "howItWorks": "So funktioniert's",
-      "apply": "Jetzt bewerben"
+      "title": "Sehen Sie, wie es zusammenwirkt",
+      "body": "Jede Dimension stärkt die anderen. Das Ergebnis ist ein Rahmenwerk, das sich über die Zeit vertieft.",
+      "howItWorks": "Der Ablauf",
+      "apply": "Ein Gespräch beginnen"
     }
   },
   "howItWorks": {
     "hero": {
-      "overline": "Prozess",
-      "title": "So funktioniert's",
-      "body": "Jede Zusammenarbeit folgt derselben Drei-Phasen-Struktur. Wir beobachten, bevor wir handeln, bauen methodisch auf und konsolidieren langfristig."
+      "overline": "Ablauf",
+      "title": "Wie es funktioniert",
+      "body": "Jede Zusammenarbeit folgt derselben Struktur in drei Phasen. Wir beobachten, bevor wir handeln, bauen mit Sorgfalt auf und verfeinern für die lange Sicht."
     },
     "phases": [
       {
         "number": "01",
         "title": "Beobachten",
         "duration": "Wochen 1–4",
-        "description": "Wir ändern noch nichts. Vier Wochen lang sammeln wir Baseline-Daten — Schlafarchitektur, Trainingsprotokolle, Ernährungsmuster, Blutbild und subjektives Wohlbefinden. Das gibt uns ein klares Bild, bevor wir eine einzige Variable verändern."
+        "description": "Wir ändern noch nichts. Vier Wochen lang sammeln wir Ausgangsdaten — Schlafmuster, Bewegung, Ernährung, Blutwerte und wie Sie sich fühlen. Das gibt uns ein klares, ungehetzes Bild davon, wo Sie stehen, bevor wir eine einzige Anpassung in Betracht ziehen."
       },
       {
         "number": "02",
         "title": "Aufbauen",
         "duration": "Wochen 5–16",
-        "description": "Mit einer soliden Baseline führen wir Änderungen eine Schicht nach der anderen über die fünf Säulen ein. Jede Intervention wird verfolgt und gemessen, damit wir genau wissen, was wirkt. Wir gehen bewusst vor — und stapeln Veränderungen nur, wenn die vorherige Schicht stabilisiert ist."
+        "description": "Mit einem soliden Verständnis als Grundlage führen wir Veränderungen Schicht für Schicht über fünf Dimensionen ein. Jede Anpassung wird beobachtet und abgewogen. Wir gehen bewusst vor — und fügen Komplexität nur hinzu, wenn die vorherige Schicht sich gesetzt hat."
       },
       {
         "number": "03",
-        "title": "Konsolidieren",
+        "title": "Verfeinern",
         "duration": "Fortlaufend",
-        "description": "Sobald das Kernprotokoll steht, wechseln wir zu Wartung und Optimierung. Regelmäßige Check-ins, periodische Retests und saisonale Anpassungen halten dich im Fortschritt, ohne auszubrennen. Hier lebt das Long Game."
+        "description": "Sobald das Fundament steht, gehen wir in Pflege und behutsame Verfeinerung über. Regelmässige Gespräche, periodische Neubeurteilung und saisonale Anpassungen halten die Entwicklung in Gang — in einem Tempo, das Ihr Leben respektiert."
       }
     ],
     "application": {
-      "overline": "Erste Schritte",
-      "title": "Wie du dich bewirbst",
+      "overline": "Der Anfang",
+      "title": "Wie es beginnt",
       "steps": [
         {
           "step": "1",
-          "title": "Bewerbung einreichen",
-          "description": "Fülle ein kurzes Formular aus — erzähle uns von deinen Zielen, deinem aktuellen Gesundheitsstatus und was du von einer Coaching-Beziehung erwartest."
+          "title": "Teilen Sie mit, was Sie beschäftigt",
+          "description": "Eine kurze Anfrage — darüber, wo Sie stehen, was Ihnen wichtig ist und welche Art von Begleitung Sie suchen. Nichts Formelles."
         },
         {
           "step": "2",
-          "title": "Kennenlerngespräch",
-          "description": "Wenn es passt, vereinbaren wir ein 30-minütiges Gespräch, um deine Situation detaillierter zu besprechen und Fragen zu klären."
+          "title": "Ein persönliches Gespräch",
+          "description": "Wenn es stimmig wirkt, vereinbaren wir ein ruhiges, ungehetzes Gespräch, um Ihre Situation genauer zu erkunden und offene Fragen zu klären."
         },
         {
           "step": "3",
-          "title": "Onboarding & Baseline",
-          "description": "Sobald wir starten, erhältst du Zugang zu unseren Tracking-Tools und beginnst sofort mit der 4-wöchigen Beobachtungsphase."
+          "title": "Ein stiller Anfang",
+          "description": "Wenn wir uns für eine Zusammenarbeit entscheiden, erhalten Sie Zugang zu unseren Werkzeugen und wir beginnen mit vier Wochen Beobachtung. Ohne Druck, ohne Eile."
         }
       ],
-      "cta": "Bewerbung starten"
+      "cta": "Ein Gespräch beginnen"
     }
   },
   "testimonials": {
     "hero": {
-      "overline": "Klient:innen-Erfahrungen",
-      "title": "Erfahrungsberichte",
-      "body": "Höre von Klient:innen, die den Prozess durchlaufen haben. Dies sind Platzhalter-Erfahrungsberichte — ersetze sie durch echte Geschichten, sobald sie vorliegen."
+      "overline": "Stimmen von Klient:innen",
+      "title": "Was Klient:innen sagen",
+      "body": "Einblicke von Menschen, die den Prozess erfahren haben. Dies sind Platzhalter — sie werden durch echte Erfahrungen ersetzt, sobald diese vorliegen."
     },
     "items": [
       {
-        "quote": "Die 4-wöchige Baseline-Phase wirkte anfangs langsam, aber sie hat komplett verändert, wie ich meinen eigenen Körper verstehe. Die gesammelten Daten gaben uns eine Roadmap, die ich allein nie hätte erstellen können.",
+        "quote": "Die vierwöchige Beobachtungsphase wirkte anfangs langsam, aber sie gab uns eine Tiefe des Verstehens, die ich so noch nicht erlebt hatte. Zum ersten Mal hatte ich das Gefühl, dass jemand meine Gesundheit wirklich versteht — nicht nur meine Werte.",
         "name": "James R.",
         "detail": "Klient, 14 Monate"
       },
       {
-        "quote": "Ich habe schon mit Trainern und Ernährungsberater:innen gearbeitet, aber nie mit jemandem, der alle fünf Dimensionen zusammen betrachtet. Die Integration macht den Unterschied.",
+        "quote": "Ich habe schon mit Trainern und Ernährungsberaterinnen gearbeitet, aber nie mit jemandem, der alle fünf Dimensionen zusammen sieht. Die Integration — und die ruhige Art, wie sie gehalten wird — macht den Unterschied.",
         "name": "Sarah M.",
         "detail": "Klientin, 9 Monate"
       },
       {
-        "quote": "Was ich am meisten schätze, ist die Geduld. Keine übereilten Änderungen, keine dramatischen Umbrüche. Nur stetiger, evidenzbasierter Fortschritt, den ich tatsächlich aufrechterhalten kann.",
+        "quote": "Was ich am meisten schätze, ist die Geduld. Keine übereilten Änderungen, keine dramatischen Umbrüche. Nur stetiger, bedachter Fortschritt, den ich tatsächlich aufrechterhalten kann — und der den Rest meines Lebens respektiert.",
         "name": "David K.",
         "detail": "Klient, 18 Monate"
       },
       {
-        "quote": "Allein die Schlafoptimierung hat sich gelohnt. Mein Tiefschlaf ging von 45 Minuten auf fast zwei Stunden, und alles andere verbesserte sich nachgelagert — Stimmung, Trainingsregeneration, Fokus.",
+        "quote": "Allein die Arbeit am Schlaf brachte etwas, das ich nicht erwartet hatte: eine tiefere Gelassenheit im Alltag. Klarheit, Stimmung, Erholung — alles veränderte sich nachgelagert. Aber es war die Ruhe, die mich am meisten überraschte.",
         "name": "Maria L.",
         "detail": "Klientin, 11 Monate"
       },
       {
-        "quote": "Ich war skeptisch gegenüber der Säule emotionale Gesundheit, aber sie stellte sich als das fehlende Puzzleteil heraus. Stress richtig zu managen, hat in jedem anderen Bereich Fortschritt freigesetzt.",
+        "quote": "Ich war unsicher wegen der Dimension emotionales Wohlbefinden, aber sie erwies sich als das, worauf alles andere gewartet hatte. Sobald das mit Sorgfalt gehalten wurde, folgte der Rest von selbst.",
         "name": "Tom W.",
         "detail": "Klient, 7 Monate"
       },
       {
-        "quote": "Jemanden zu haben, der mein Blutbild tatsächlich liest, meine Trainingsdaten versteht und alles miteinander verbindet — diese Aufmerksamkeit ist selten. Die kleine Kapazität macht einen echten Unterschied.",
+        "quote": "Jemanden zu haben, der mein Blutbild liest, meine Muster versteht und alles mit echter Aufmerksamkeit verbindet — diese Präsenz ist selten. Die kleine Anzahl an Klient:innen macht den ganzen Unterschied.",
         "name": "Elena P.",
         "detail": "Klientin, 12 Monate"
       }
     ],
     "cta": {
-      "title": "Werde Teil davon",
-      "body": "Wenn ein Platz frei wird, prüfen wir deine Bewerbung und melden uns für ein Gespräch.",
-      "button": "Jetzt bewerben"
+      "title": "Wenn Sie bereit sind.",
+      "body": "Sobald ein Platz frei wird, prüfen wir Ihre Anfrage und vereinbaren ein persönliches Gespräch.",
+      "button": "Ein Gespräch beginnen"
     }
   },
   "about": {
-    "eyebrow": "Über den Gründer",
+    "eyebrow": "Über mich",
     "hero": {
-      "title": "Aus Erfahrung entstanden, nicht aus Theorie.",
-      "subtitle": "Applied Longevity entstand aus über 15 Jahren Training, Selbstexperimentieren und dem Coaching meines engsten Umfelds — kombiniert mit der Realität, Unternehmen aufzubauen und eine fordernde Karriere zu navigieren. Ich bin überzeugt: Das beste Protokoll ist eines, das dein Leben bereichert, nicht einschränkt."
+      "title": "Aus Erfahrung entstanden, mit Sorgfalt gehalten.",
+      "subtitle": "Applied Longevity entstand aus über fünfzehn Jahren persönlicher Praxis und stiller Beobachtung — verbunden mit der Realität, Unternehmen aufzubauen und ein anspruchsvolles Leben zu führen. Das beste Rahmenwerk ist eines, das Ihr Leben reicher macht, nicht enger."
     },
     "story": {
       "title": "Hintergrund",
-      "p1": "Ich bin seit über 15 Jahren leidenschaftlicher Sportler — Wettkampfsport, Krafttraining, Ausdauer und alles dazwischen. Irgendwann begann ich, Freunde und Kollegen zu coachen, anfangs einfach, weil ich mein Wissen teilen wollte. Mit der Zeit wurde daraus etwas Strukturiertes.",
-      "p2": "Beruflich habe ich zwei Unternehmen gegründet und arbeite heute in Private Equity. Ich weiß, wie ein fordernder Alltag aussieht — frühe Morgen, Reisen, mentale Belastung, die nie ganz abschaltet. Diese Erfahrung hat meine Überzeugung geprägt: Gesundheit muss in dein echtes Leben passen, nicht es ersetzen.",
-      "p3": "Durch meine <link>Forschung zu Leadership</link> habe ich aus erster Hand gesehen, wie die richtige Begleitung menschliches Verhalten und Entwicklung positiv formen kann — wie Menschen wachsen, wenn jemand sie dort abholt, wo sie stehen, und sie mit Sorgfalt in die Verantwortung nimmt. Diese Erkenntnis hat mich zum Coaching gebracht und ist die Grundlage meiner heutigen Arbeit.",
-      "p4": "Die Frage, die mich antreibt: Was braucht es wirklich, um stark, klar und gesund zu bleiben — nicht für Monate, sondern für Jahrzehnte? Die Antwort ist kein einzelnes Protokoll oder Biohack. Es ist ein System — eines, das Training, Ernährung, Schlaf, emotionale Gesundheit und medizinische Daten zu einem stimmigen Ganzen verbindet. Das ist Applied Longevity."
+      "p1": "Ich trainiere seit über fünfzehn Jahren ernsthaft — über Disziplinen, Jahreszeiten und Lebensphasen hinweg. Irgendwann begann ich, Menschen in meinem näheren Umfeld zu begleiten und zu teilen, was ich gelernt hatte. Mit der Zeit wurde aus dieser Fürsorge etwas Strukturierteres.",
+      "p2": "Beruflich habe ich zwei Unternehmen gegründet und arbeite heute in Private Equity. Ich verstehe, wie ein anspruchsvolles Leben aussieht — die frühen Morgen, die Reisen, das gedankliche Gewicht, das nie ganz nachlässt. Diese Erfahrung hat meine Überzeugung geformt: Gesundheit muss in Ihr wirkliches Leben passen, nicht verlangen, dass Sie ein anderes aufbauen.",
+      "p3": "Durch meine <link>Forschung zu Leadership</link> habe ich gesehen, wie die richtige Begleitung menschliche Entwicklung formen kann — wie Menschen wachsen, wenn jemand sie dort abholt, wo sie stehen, und sie mit Wärme in die Verantwortung nimmt. Diese Erkenntnis hat mich zu dieser Arbeit geführt und bleibt die Grundlage meiner Praxis.",
+      "p4": "Die Frage, die mich leitet: Was braucht es, um stark, klar und gesund zu bleiben — nicht für Monate, sondern für Jahrzehnte? Die Antwort ist kein einzelnes Protokoll. Es ist ein System — eines, das Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Einordnung zu einem stimmigen Ganzen verbindet. Das ist Applied Longevity."
     },
     "callout": {
       "title": "Mein Ansatz",
-      "body": "Gesundheit soll dein Leben bereichern, nicht einschränken. Wir finden einen Weg, der zu deinem Alltag passt — ohne auf das zu verzichten, was dir Freude macht."
+      "body": "Gesundheit soll Ihr Leben bereichern, nicht einschränken. Gemeinsam finden wir einen Weg, der zu Ihrem Alltag passt — ohne auf das zu verzichten, was Ihnen Freude bereitet."
     },
     "philosophy": {
       "title": "Philosophie",
       "items": {
         "observe": {
           "title": "Beobachten vor dem Handeln",
-          "description": "Jede Zusammenarbeit beginnt mit vier Wochen Baseline-Datenerhebung. Wir ändern nichts, bevor wir verstehen, wo du wirklich stehst — nicht wo du glaubst zu stehen."
+          "description": "Jede Zusammenarbeit beginnt mit vier Wochen stiller Beobachtung. Wir ändern nichts, bevor wir verstehen, wo Sie wirklich stehen — nicht wo Sie glauben zu stehen."
         },
         "roster": {
-          "title": "Wenige Klient:innen, echte Tiefe",
-          "description": "Ich arbeite mit 3–5 Klient:innen gleichzeitig, für mindestens sechs Monate. Das ist bewusst nicht skalierbar. Echtes Coaching braucht echte Aufmerksamkeit."
+          "title": "Eine kleine Praxis, bewusst so gewählt",
+          "description": "Ich arbeite mit drei bis fünf Klient:innen gleichzeitig, für mindestens sechs Monate. Das ist bewusst nicht skalierbar. Echte Aufmerksamkeit erfordert echte Präsenz."
         },
         "evidence": {
           "title": "Evidenz statt Ideologie",
-          "description": "Keine Trends, keine Ernährungskriege, keine Wundermittel. Wir messen, was funktioniert — mit Blutwerten, Wearables und Fitness-Benchmarks — und passen laufend an."
+          "description": "Keine Trends, kein Dogma. Wir beobachten, was wirkt — durch sorgfältige Daten, Blutwerte, Wearables, wie Sie sich fühlen — und passen mit Geduld an."
         },
         "life": {
           "title": "Mehr Leben, nicht weniger",
-          "description": "Gesundheit soll dein Wohlbefinden steigern, ohne dir Lebensfreude zu nehmen. Wir finden einen Weg, bessere Gewohnheiten in dein Leben zu integrieren — ohne das wegzunehmen, was es lebenswert macht."
+          "description": "Gesundheit soll Ihr Wohlbefinden vertiefen, ohne Ihre Freude zu schmälern. Wir integrieren bessere Gewohnheiten in das Leben, das Sie bereits führen — ohne wegzunehmen, was es bedeutsam macht."
         },
         "sustainable": {
-          "title": "Nachhaltig von Anfang an",
-          "description": "Das Ziel ist ein Protokoll, das du über Jahre durchhalten kannst — keine 12-Wochen-Transformation. Wir bauen Gewohnheiten und Systeme auf, die sich aufbauen, nicht zusammenbrechen."
+          "title": "Nachhaltig aus sich selbst heraus",
+          "description": "Das Ziel ist ein Rahmenwerk, das Sie über Jahre tragen können — kein kurzfristiges Programm. Wir bauen Muster auf, die sich still über die Zeit anreichern."
         }
       }
     },
     "cta": {
-      "title": "Bereit anzufangen?",
-      "subtitle": "Wenn dich das anspricht, bewirb dich unten. Ich lese jede Bewerbung persönlich.",
-      "button": "Jetzt bewerben"
+      "title": "Wenn Sie bereit sind.",
+      "subtitle": "Wenn Sie sich angesprochen fühlen, freue ich mich, von Ihnen zu hören. Jede Anfrage wird persönlich gelesen.",
+      "button": "Ein Gespräch beginnen"
     }
   },
   "apply": {
     "hero": {
       "overline": "Vertrauliche Anfrage",
       "title": "Ein Gespräch beginnen.",
-      "body": "Das hier ist kein Verkaufsformular. Es ist ein kurzer, reflektierter Austausch, damit ich verstehe, was du suchst — und ob diese Begleitung der richtige Rahmen dafür ist. Jede Antwort wird persönlich gelesen und vertraulich behandelt."
+      "body": "Das hier ist kein Verkaufsformular. Es ist ein kurzer, reflektierter Austausch, damit ich verstehe, was Sie suchen — und ob diese Begleitung der richtige Rahmen dafür ist. Jede Antwort wird persönlich gelesen und vertraulich behandelt."
     },
     "form": {
       "placeholder": "Anfrageformular",
-      "instructions": "Ersetze dies durch deinen Typeform- oder Tally-Einbettungscode.",
+      "instructions": "Ersetzen Sie dies durch Ihren Typeform- oder Tally-Einbettungscode.",
       "example": "Beispiel: <iframe src=\"https://tally.so/embed/your-form-id\" ...></iframe>"
     },
     "next": {
@@ -341,21 +341,21 @@
       "steps": [
         {
           "step": "1",
-          "title": "Ich lese deine Anfrage persönlich",
-          "description": "Es gibt kein automatisiertes Screening. Ich lese jede Antwort selbst, um deine Situation, deine Prioritäten und die Art der Unterstützung zu verstehen, die du suchst."
+          "title": "Ich lese Ihre Anfrage persönlich",
+          "description": "Es gibt kein automatisiertes Screening. Ich lese jede Antwort selbst, um Ihre Situation, Ihre Prioritäten und die Art der Begleitung zu verstehen, die Sie suchen."
         },
         {
           "step": "2",
           "title": "Ein persönliches Gespräch",
-          "description": "Wenn es für beide Seiten stimmig wirkt, schlage ich ein kurzes, ungehetzes Gespräch vor. Kein Pitch — nur ein ehrlicher Austausch darüber, wo du stehst und was helfen könnte."
+          "description": "Wenn es für beide Seiten stimmig wirkt, schlage ich ein kurzes, ungehetzes Gespräch vor. Kein Pitch — nur ein ehrlicher Austausch darüber, wo Sie stehen und was helfen könnte."
         },
         {
           "step": "3",
           "title": "Ein bedachter Anfang",
-          "description": "Wenn wir uns für eine Zusammenarbeit entscheiden, beginnen wir mit vier Wochen stiller Beobachtung. Keine Änderungen, kein Druck — nur ein sorgfältiger Blick auf den Stand deiner Gesundheit."
+          "description": "Wenn wir uns für eine Zusammenarbeit entscheiden, beginnen wir mit vier Wochen stiller Beobachtung. Keine Änderungen, kein Druck — nur ein sorgfältiger Blick auf den Stand Ihrer Gesundheit."
         }
       ],
-      "note": "Ich antworte auf jede Anfrage innerhalb weniger Tage. Falls ich ausgelastet bin, sage ich dir das offen — und wir finden den richtigen Zeitpunkt."
+      "note": "Ich antworte auf jede Anfrage innerhalb weniger Tage. Falls ich ausgelastet bin, sage ich Ihnen das offen — und wir finden den richtigen Zeitpunkt."
     }
   }
 }

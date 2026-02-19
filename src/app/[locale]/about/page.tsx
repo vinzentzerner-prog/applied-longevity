@@ -37,10 +37,10 @@ export default function About() {
       <Section className="pt-28 md:pt-36 pb-12">
         <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 md:gap-16 items-start">
           <div className="max-w-2xl">
-            <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground/60">
+            <p className="text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
               {t("eyebrow")}
             </p>
-            <h1 className="mt-4 text-4xl font-semibold tracking-tight text-foreground md:text-5xl">
+            <h1 className="mt-4">
               {t("hero.title")}
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
@@ -57,7 +57,7 @@ export default function About() {
       <Section className="py-4 md:py-6">
         <div className="relative overflow-hidden rounded-2xl bg-stone-100 px-8 py-10 md:px-12 md:py-14">
           <div className="grid grid-cols-1 items-start gap-6 md:grid-cols-[auto_1fr] md:pr-24">
-            <h3 className="text-2xl font-bold tracking-tight text-foreground md:text-3xl">
+            <h3 className="text-foreground">
               {t("callout.title")}
             </h3>
             <p className="text-base leading-relaxed text-muted-foreground md:text-lg">
@@ -77,7 +77,7 @@ export default function About() {
       {/* Story */}
       <Section className="bg-secondary">
         <div className="max-w-2xl">
-          <h2 className="text-3xl font-semibold tracking-tight text-foreground">
+          <h2 className="text-foreground">
             {t("story.title")}
           </h2>
           <div className="mt-8 space-y-6">
@@ -110,14 +110,14 @@ export default function About() {
 
       {/* Philosophy cards */}
       <Section>
-        <h2 className="text-3xl font-semibold tracking-tight text-foreground">
+        <h2 className="text-foreground">
           {t("philosophy.title")}
         </h2>
         <div className="mt-12 grid gap-8 md:grid-cols-2">
           {philosophyKeys.map((key) => (
             <Card key={key}>
               <CardContent className="pt-6">
-                <h3 className="text-lg font-semibold text-foreground">
+                <h3 className="text-lg font-medium text-foreground">
                   {t(`philosophy.items.${key}.title`)}
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
@@ -132,7 +132,7 @@ export default function About() {
       {/* CTA */}
       <Section dark>
         <div className="text-center">
-          <h2 className="text-3xl font-semibold tracking-tight">
+          <h2 className="text-foreground">
             {t("cta.title")}
           </h2>
           <p className="mx-auto mt-4 max-w-md text-lg text-dark-muted">

@@ -67,7 +67,7 @@ export default function HowItWorks({
                   {phase.number}
                 </span>
                 <div>
-                  <h2 className="text-2xl font-semibold">{phase.title}</h2>
+                  <h2 className="text-2xl">{phase.title}</h2>
                   <p className="mt-1 text-sm font-medium text-muted-foreground/60">
                     {phase.duration}
                   </p>
@@ -95,7 +95,7 @@ export default function HowItWorks({
                   {item.step}
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-foreground">
+                  <h3 className="text-lg font-medium text-foreground">
                     {item.title}
                   </h3>
                   <p className="mt-2 text-base leading-relaxed text-muted-foreground">

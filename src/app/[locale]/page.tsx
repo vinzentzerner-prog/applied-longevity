@@ -93,7 +93,7 @@ export default function Home({
           {engagementItems.map((item) => (
             <Card key={item.title}>
               <CardContent className="pt-6">
-                <h3 className="text-lg font-semibold text-foreground">
+                <h3 className="text-lg font-medium text-foreground">
                   {item.title}
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
@@ -115,7 +115,7 @@ export default function Home({
           {deliverableItems.map((item) => (
             <Card key={item.title}>
               <CardContent className="pt-6">
-                <h3 className="text-lg font-semibold text-foreground">
+                <h3 className="text-lg font-medium text-foreground">
                   {item.title}
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
@@ -140,7 +140,7 @@ export default function Home({
             {pillarPreviewItems.slice(0, 3).map((item) => (
               <Card key={item.title}>
                 <CardContent className="pt-6 text-center">
-                  <h3 className="text-lg font-semibold text-foreground">
+                  <h3 className="text-lg font-medium text-foreground">
                     {item.title}
                   </h3>
                   <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
@@ -154,7 +154,7 @@ export default function Home({
             {pillarPreviewItems.slice(3).map((item) => (
               <Card key={item.title}>
                 <CardContent className="pt-6 text-center">
-                  <h3 className="text-lg font-semibold text-foreground">
+                  <h3 className="text-lg font-medium text-foreground">
                     {item.title}
                   </h3>
                   <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
