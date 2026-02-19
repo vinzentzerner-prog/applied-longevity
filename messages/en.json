@@ -54,45 +54,45 @@
     "capacity": {
       "overline": "By design",
       "title": "3–5 clients. That's it.",
-      "body": "Real coaching requires real attention. We deliberately keep our roster small so every client gets the depth of analysis and responsiveness they deserve. No templates. No group programs. Just focused, 1-on-1 work."
+      "body": "This work requires presence — not templates, not delegation. A deliberately small number of clients means each person receives the depth and continuity their health deserves."
     },
     "engagement": {
-      "overline": "The engagement",
-      "title": "What working with us looks like",
+      "overline": "The process",
+      "title": "How it begins",
       "items": [
         {
-          "title": "4-Week Baseline",
-          "description": "Before we change anything, we observe. We collect data on your sleep, training, nutrition, bloodwork, and daily rhythms to understand where you actually are."
+          "title": "Understanding where you are",
+          "description": "Before anything changes, we listen. Four weeks of careful observation — sleep, movement, nutrition, bloodwork, daily rhythms — to see your health clearly, without assumptions."
         },
         {
-          "title": "Personalized Protocol",
-          "description": "Based on your baseline, we build a protocol across all five pillars — training, nutrition, sleep, emotional health, and medical metrics — tailored to your goals and constraints."
+          "title": "A framework built around you",
+          "description": "From your baseline, we shape a structured approach across five dimensions — training, nutrition, sleep, emotional well-being, and medical data — designed for your life as it is."
         },
         {
-          "title": "Ongoing Iteration",
-          "description": "Protocols evolve. We meet regularly, review data, adjust variables, and consolidate gains. The goal is sustainable progress, not dramatic overhauls."
+          "title": "Continuous refinement",
+          "description": "Your protocol is not static. Through regular review and conversation, we adjust what needs adjusting — steadily, without disruption."
         }
       ]
     },
     "about": {
       "title": "About",
-      "body": "I've been a passionate athlete for over 15 years, and along the way I naturally started coaching people around me. What began as helping friends improve performance turned into a deep interest in building strength, endurance, and health that lasts.\n\nToday I work with only 3–5 clients at a time for a minimum of six months. We begin with four weeks of baseline monitoring to understand your current habits, constraints, and stressors—so the plan is sustainable from day one. From there, we build an individualized strategy across training, nutrition, sleep, and recovery, and track progress with objective metrics (e.g., VO₂ max, fitness benchmarks, and wearable data) plus regular check-ins."
+      "body": "For over 15 years, I've been deeply engaged with what keeps the body and mind functioning well — as an athlete, as someone who studied psychology, and as an advisor.\n\nToday I work with a small number of clients over extended periods. We begin with four weeks of observation — understanding your current rhythms, health markers, and daily reality — before building anything. From there, we develop a structured, personal approach across training, nutrition, sleep, and recovery, with ongoing monitoring and regular conversation."
     },
     "deliverables": {
-      "overline": "What you get",
-      "title": "What you get",
+      "overline": "What's included",
+      "title": "What's included",
       "items": [
         {
           "title": "Tracking hardware included",
-          "description": "You receive the hardware you need for precise tracking — wearables and sensors that we select and set up together."
+          "description": "The right wearables and sensors, selected and configured for you. No research required on your end."
         },
         {
           "title": "Your personal dashboard",
-          "description": "All your data flows into a dashboard that I review continuously. No numbers without context — every metric is interpreted."
+          "description": "All your health data in one place — reviewed by me continuously. Every number comes with context and meaning."
         },
         {
-          "title": "Weekly reports",
-          "description": "Every week you receive a short, targeted report: what's working, what we adjust, what comes next. No noise, just signal."
+          "title": "Weekly clarity",
+          "description": "A short, focused summary each week: what's working, what's shifting, what comes next. Nothing unnecessary."
         }
       ]
     },
@@ -100,18 +100,18 @@
       "title": "The Five Pillars",
       "subtitle": "Each pillar is part of a system — none stands alone.",
       "items": [
-        { "title": "Training", "summary": "Strength, endurance, and mobility built for the long term." },
-        { "title": "Nutrition", "summary": "Fueling performance without restrictive diets." },
-        { "title": "Sleep", "summary": "The most underrated performance lever." },
-        { "title": "Emotional Health", "summary": "Stress, mindset, and what holds everything together." },
-        { "title": "Medical & Metrics", "summary": "Bloodwork, biomarkers, and objective tracking." }
+        { "title": "Movement", "summary": "Strength, endurance, and mobility — built to sustain you." },
+        { "title": "Nutrition", "summary": "Nourishment that supports your energy — without restriction." },
+        { "title": "Sleep", "summary": "The foundation of clarity, recovery, and resilience." },
+        { "title": "Emotional Well-being", "summary": "What holds everything together — especially during transitions." },
+        { "title": "Medical Data", "summary": "Bloodwork, biomarkers, and the clarity that comes from knowing." }
       ],
       "link": "Learn more about the pillars"
     },
     "cta": {
-      "title": "Ready to start?",
-      "body": "Applications are reviewed on a rolling basis. If we have capacity, we'll schedule an introductory call within a week.",
-      "button": "Apply Now"
+      "title": "When you're ready.",
+      "body": "A brief introductory conversation — no preparation needed. We'll see if this is the right fit.",
+      "button": "Begin a conversation"
     }
   },
   "pillars": {

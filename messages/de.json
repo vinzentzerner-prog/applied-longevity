@@ -54,45 +54,45 @@
     "capacity": {
       "overline": "Bewusst begrenzt",
       "title": "3–5 Klient:innen. Nicht mehr.",
-      "body": "Echtes Coaching erfordert echte Aufmerksamkeit. Wir halten unsere Kapazität bewusst klein, damit jede:r Klient:in die nötige Tiefe und Reaktionsgeschwindigkeit bekommt. Keine Templates. Keine Gruppenprogramme. Nur fokussierte 1-zu-1-Arbeit."
+      "body": "Diese Arbeit erfordert Präsenz — keine Vorlagen, keine Delegation. Eine bewusst kleine Anzahl an Klient:innen bedeutet, dass jede Person die Tiefe und Kontinuität bekommt, die ihre Gesundheit verdient."
     },
     "engagement": {
-      "overline": "Die Zusammenarbeit",
-      "title": "Wie die Arbeit mit uns aussieht",
+      "overline": "Der Ablauf",
+      "title": "Wie es beginnt",
       "items": [
         {
-          "title": "4-Wochen-Baseline",
-          "description": "Bevor wir etwas ändern, beobachten wir. Wir sammeln Daten über deinen Schlaf, dein Training, deine Ernährung, dein Blutbild und deinen Alltag, um zu verstehen, wo du gerade stehst."
+          "title": "Verstehen, wo du stehst",
+          "description": "Bevor sich etwas ändert, hören wir zu. Vier Wochen aufmerksame Beobachtung — Schlaf, Bewegung, Ernährung, Blutwerte, Alltagsrhythmus — um deine Gesundheit klar zu sehen, ohne Annahmen."
         },
         {
-          "title": "Individuelles Protokoll",
-          "description": "Basierend auf deiner Baseline erstellen wir ein Protokoll über alle fünf Säulen — Training, Ernährung, Schlaf, emotionale Gesundheit und medizinische Werte — zugeschnitten auf deine Ziele und Rahmenbedingungen."
+          "title": "Ein Rahmen, der zu dir passt",
+          "description": "Auf Basis deiner Ausgangslage gestalten wir einen strukturierten Ansatz über fünf Dimensionen — Training, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Daten — abgestimmt auf dein Leben, wie es ist."
         },
         {
-          "title": "Laufende Optimierung",
-          "description": "Protokolle entwickeln sich weiter. Wir treffen uns regelmäßig, überprüfen die Daten, passen Variablen an und konsolidieren Fortschritte. Das Ziel ist nachhaltiger Progress, keine radikalen Umbrüche."
+          "title": "Fortlaufende Anpassung",
+          "description": "Dein Protokoll ist nicht statisch. Durch regelmässigen Austausch passen wir an, was angepasst werden muss — stetig und ohne Umbrüche."
         }
       ]
     },
     "about": {
       "title": "Über mich",
-      "body": "Ich bin seit über 15 Jahren leidenschaftlicher Sportler und habe über die Jahre ganz natürlich begonnen, Menschen in meinem Umfeld zu coachen. Was als Unterstützung für Freunde startete, wurde zu einer echten Leidenschaft: Leistungsfähigkeit, Kraft, Ausdauer und langfristige Gesundheit nachhaltig aufzubauen.\n\nHeute arbeite ich bewusst nur mit 3–5 Klient:innen gleichzeitig – für mindestens sechs Monate. Wir starten mit vier Wochen Baseline-Monitoring, um deine aktuellen Gewohnheiten, Rahmenbedingungen und Stressoren zu verstehen – damit der Plan von Anfang an alltagstauglich ist. Anschließend entwickeln wir eine individuelle Strategie für Training, Ernährung, Schlaf und Regeneration und messen Fortschritt über objektive Kennzahlen (z. B. VO₂max, Fitness-Benchmarks und Wearable-Daten) sowie regelmäßige Check-ins."
+      "body": "Seit über 15 Jahren beschäftige ich mich eingehend mit dem, was Körper und Geist langfristig gesund hält — als Sportler, als jemand mit einem Hintergrund in Psychologie und als Berater.\n\nHeute arbeite ich mit einer kleinen Anzahl an Klient:innen über längere Zeiträume. Wir beginnen mit vier Wochen Beobachtung — um deine aktuellen Rhythmen, Gesundheitswerte und deinen Alltag zu verstehen — bevor wir etwas aufbauen. Daraus entwickeln wir einen strukturierten, persönlichen Ansatz über Training, Ernährung, Schlaf und Regeneration, mit fortlaufendem Monitoring und regelmässigem Austausch."
     },
     "deliverables": {
-      "overline": "Was du bekommst",
-      "title": "Was du bekommst",
+      "overline": "Was enthalten ist",
+      "title": "Was enthalten ist",
       "items": [
         {
           "title": "Tracking-Hardware inklusive",
-          "description": "Du erhältst die nötige Hardware für präzises Tracking — Wearables und Sensoren, die wir gemeinsam auswählen und einrichten."
+          "description": "Die richtigen Wearables und Sensoren, für dich ausgewählt und eingerichtet. Kein Rechercheaufwand auf deiner Seite."
         },
         {
           "title": "Dein persönliches Dashboard",
-          "description": "Alle deine Daten fließen in ein Dashboard, das ich laufend überprüfe. Keine Zahlen ohne Kontext — jeder Wert wird eingeordnet."
+          "description": "Alle deine Gesundheitsdaten an einem Ort — von mir laufend überprüft. Jede Zahl bekommt Kontext und Bedeutung."
         },
         {
-          "title": "Wöchentliche Reports",
-          "description": "Jede Woche erhältst du einen kurzen, gezielten Report: Was läuft, was wir anpassen, was als Nächstes kommt. Kein Rauschen, nur Signal."
+          "title": "Wöchentliche Klarheit",
+          "description": "Eine kurze, gezielte Zusammenfassung jede Woche: Was funktioniert, was sich verändert, was als Nächstes kommt. Nichts Überflüssiges."
         }
       ]
     },
@@ -100,18 +100,18 @@
       "title": "Die fünf Säulen",
       "subtitle": "Jede Säule ist Teil eines Systems — keine steht für sich allein.",
       "items": [
-        { "title": "Training", "summary": "Kraft, Ausdauer und Mobilität — für die Langstrecke gebaut." },
-        { "title": "Ernährung", "summary": "Leistung fördern, ohne restriktive Diäten." },
-        { "title": "Schlaf", "summary": "Der am meisten unterschätzte Performance-Hebel." },
-        { "title": "Emotionale Gesundheit", "summary": "Stress, Mindset und was alles zusammenhält." },
-        { "title": "Medizin & Metriken", "summary": "Blutwerte, Biomarker und objektives Tracking." }
+        { "title": "Bewegung", "summary": "Kraft, Ausdauer und Mobilität — gebaut, um dich zu tragen." },
+        { "title": "Ernährung", "summary": "Nahrung, die deine Energie stützt — ohne Einschränkung." },
+        { "title": "Schlaf", "summary": "Die Grundlage für Klarheit, Erholung und Widerstandskraft." },
+        { "title": "Emotionales Wohlbefinden", "summary": "Was alles zusammenhält — besonders in Übergangsphasen." },
+        { "title": "Medizinische Daten", "summary": "Blutwerte, Biomarker und die Klarheit, die aus Wissen entsteht." }
       ],
       "link": "Mehr zu den Säulen"
     },
     "cta": {
-      "title": "Bereit anzufangen?",
-      "body": "Bewerbungen werden laufend geprüft. Wenn wir Kapazität haben, vereinbaren wir innerhalb einer Woche ein Kennenlerngespräch.",
-      "button": "Jetzt bewerben"
+      "title": "Wenn du bereit bist.",
+      "body": "Ein kurzes Kennenlerngespräch — ohne Vorbereitung. Wir schauen gemeinsam, ob es passt.",
+      "button": "Gespräch beginnen"
     }
   },
   "pillars": {
