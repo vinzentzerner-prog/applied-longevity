@@ -14,7 +14,7 @@
     },
     "howItWorks": {
       "title": "How It Works — Applied Longevity",
-      "description": "A three-phase approach: four weeks of quiet observation, considered protocol development, and ongoing refinement over time."
+      "description": "A three-phase approach: four weeks of quiet observation, a personalised framework built with care, and ongoing refinement over time."
     },
     "testimonials": {
       "title": "Client Reflections — Applied Longevity",
@@ -28,7 +28,7 @@
   "nav": {
     "home": "Home",
     "howItWorks": "How It Works",
-    "pillars": "Pillars",
+    "pillars": "Dimensions",
     "testimonials": "Reflections",
     "about": "About",
     "apply": "Inquire"
@@ -37,7 +37,7 @@
     "tagline": "Private longevity advisory.",
     "home": "Home",
     "howItWorks": "How It Works",
-    "pillars": "Pillars",
+    "pillars": "Dimensions",
     "testimonials": "Reflections",
     "about": "About",
     "apply": "Inquire",
@@ -117,7 +117,7 @@
     "cta": {
       "title": "When you're ready.",
       "body": "A brief, private conversation to understand what you're looking for. No preparation needed — just honesty about where you are.",
-      "button": "Request an introduction"
+      "button": "Request a private introduction"
     }
   },
   "pillars": {

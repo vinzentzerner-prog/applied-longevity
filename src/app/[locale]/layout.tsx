@@ -86,28 +86,28 @@ function JsonLd({ locale }: { locale: string }) {
     name: SITE_NAME,
     description:
       locale === "de"
-        ? "Evidenzbasiertes Longevity-Coaching für 3–5 Klient:innen gleichzeitig. Training, Ernährung, Schlaf, emotionale Gesundheit und medizinische Werte."
-        : "Evidence-based longevity coaching for 3–5 clients at a time. Training, nutrition, sleep, emotional health, and medical metrics — all tailored to you.",
+        ? "Eine private Longevity-Begleitung für 3–5 Klient:innen gleichzeitig. Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Einordnung — sorgfältig abgestimmt auf Ihr Leben."
+        : "A private longevity advisory for 3–5 clients at a time. Movement, nutrition, sleep, emotional well-being, and medical insight — quietly integrated around your life.",
     url: SITE_URL,
     image: `${SITE_URL}/og-image.jpg`,
     logo: `${SITE_URL}/logo-mark.png`,
     inLanguage: locale,
     areaServed: "Worldwide",
-    serviceType: "Longevity Coaching",
+    serviceType: "Private Longevity Advisory",
     knowsAbout: [
       "Longevity",
-      "Personal Training",
-      "Nutrition Coaching",
-      "Sleep Optimization",
-      "Emotional Health",
-      "Biomarker Tracking",
+      "Preventive Health",
+      "Nutritional Guidance",
+      "Sleep Science",
+      "Emotional Well-being",
+      "Medical Insight",
     ],
     offers: {
       "@type": "Offer",
       description:
         locale === "de"
-          ? "Premium 1-zu-1 Longevity-Coaching, Mindestlaufzeit 6 Monate"
-          : "Premium 1-on-1 longevity coaching, minimum 6-month engagement",
+          ? "Private Longevity-Begleitung, Mindestlaufzeit sechs Monate"
+          : "Private longevity advisory, minimum six-month engagement",
       availability: "https://schema.org/LimitedAvailability",
     },
   };
