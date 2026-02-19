@@ -31,7 +31,7 @@
     "pillars": "Pillars",
     "testimonials": "Testimonials",
     "about": "About",
-    "apply": "Apply"
+    "apply": "Inquire"
   },
   "footer": {
     "tagline": "Evidence-based longevity coaching.",
@@ -48,8 +48,8 @@
       "title": "A private longevity advisory.",
       "subtitle": "Quiet, thorough attention to your health — personal and ongoing.",
       "microline": "Three to five clients at a time.",
-      "cta": "Begin a conversation",
-      "exclusivity": "Currently welcoming introductory conversations"
+      "cta": "Request a private introduction",
+      "exclusivity": "By introduction or private application"
     },
     "capacity": {
       "overline": "By design",
@@ -106,12 +106,12 @@
         { "title": "Emotional Well-being", "summary": "What holds everything together — especially during transitions." },
         { "title": "Medical Data", "summary": "Bloodwork, biomarkers, and the clarity that comes from knowing." }
       ],
-      "link": "Learn more about the pillars"
+      "link": "Explore the framework"
     },
     "cta": {
       "title": "When you're ready.",
       "body": "A brief, private conversation to understand what you're looking for. No preparation needed — just honesty about where you are.",
-      "button": "Begin a conversation"
+      "button": "Request an introduction"
     }
   },
   "pillars": {

@@ -31,7 +31,7 @@
     "pillars": "Säulen",
     "testimonials": "Erfahrungen",
     "about": "Über mich",
-    "apply": "Bewerben"
+    "apply": "Anfragen"
   },
   "footer": {
     "tagline": "Evidenzbasiertes Longevity-Coaching.",
@@ -48,8 +48,8 @@
       "title": "Eine private Longevity-Begleitung.",
       "subtitle": "Stille, gründliche Betreuung deiner Gesundheit — persönlich und fortlaufend.",
       "microline": "Drei bis fünf Klient:innen gleichzeitig.",
-      "cta": "Gespräch beginnen",
-      "exclusivity": "Aktuell offen für Kennenlerngespräche"
+      "cta": "Persönliches Kennenlernen anfragen",
+      "exclusivity": "Auf Empfehlung oder persönliche Anfrage"
     },
     "capacity": {
       "overline": "Bewusst begrenzt",
@@ -106,12 +106,12 @@
         { "title": "Emotionales Wohlbefinden", "summary": "Was alles zusammenhält — besonders in Übergangsphasen." },
         { "title": "Medizinische Daten", "summary": "Blutwerte, Biomarker und die Klarheit, die aus Wissen entsteht." }
       ],
-      "link": "Mehr zu den Säulen"
+      "link": "Das Framework entdecken"
     },
     "cta": {
       "title": "Wenn du bereit bist.",
       "body": "Ein kurzes, vertrauliches Gespräch, um zu verstehen, was du suchst. Ohne Vorbereitung — nur Offenheit darüber, wo du gerade stehst.",
-      "button": "Gespräch beginnen"
+      "button": "Kennenlernen anfragen"
     }
   },
   "pillars": {
