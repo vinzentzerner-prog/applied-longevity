@@ -45,7 +45,11 @@
   },
   "home": {
     "hero": {
-      "title": "Ihre Gesundheit — mit der gleichen Diskretion wie alles andere in Ihrem Leben.",
+      "title": "Private Longevity Berater",
+      "titleLine1": "Private",
+      "titleLine2": "Longevity",
+      "titleLine3": "Berater",
+      "microline": "Ihre Gesundheit — mit der gleichen Diskretion wie alles andere in Ihrem Leben.",
       "state2": {
         "headline": "Ruhige Sicherheit.",
         "support": "Diskrete, langfristige Begleitung, damit gesundheitliche Entscheidungen einfach werden — und Vitalität sichtbar bleibt.",
