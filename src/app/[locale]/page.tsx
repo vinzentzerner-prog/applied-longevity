@@ -6,7 +6,7 @@ import { Section } from "@/components/section";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { FounderImage } from "@/components/founder-image";
-import { Hero } from "@/components/hero";
+import { HeroTwoState } from "@/components/hero-two-state";
 import { ScrollRevealInit } from "@/components/scroll-reveal-init";
 
 export async function generateMetadata({
@@ -51,8 +51,11 @@ export default function Home({
 
   return (
     <>
-      {/* Hero */}
-      <Hero>
+      {/* Hero — two-state scroll transition */}
+      <HeroTwoState
+        state2Headline={t("hero.state2.headline")}
+        state2Support={t("hero.state2.support")}
+      >
         {/* Accessible full title for screen readers */}
         <h1 className="sr-only">{t("hero.title")}</h1>
 
@@ -102,7 +105,7 @@ export default function Home({
             {t("hero.exclusivity")}
           </p>
         </div>
-      </Hero>
+      </HeroTwoState>
 
       <ScrollRevealInit />
 

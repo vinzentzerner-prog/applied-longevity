@@ -164,16 +164,26 @@ h4 {
   font-weight: 500;
 }
 
-/* ——— Hero layer stack ——— */
+/* ——— Hero two-state layer stack ——— */
 
-.hero-root {
+.hero-state {
   position: relative;
   min-height: 100svh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
+}
+
+/* State 1 — light theme */
+.hero-state-1 {
   background: var(--background);
+}
+
+/* State 2 — dark theme */
+.hero-state-2 {
+  background: #1C1C1C;
+  color: #F7F5F2;
 }
 
 /* z-0: Background image */
@@ -182,6 +192,11 @@ h4 {
   inset: 0;
   z-index: 0;
   background: linear-gradient(135deg, #EDEBE8 0%, #D6CFC7 100%);
+  transition: opacity 600ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.hero-bg-dark {
+  background: linear-gradient(135deg, #1C1C1C 0%, #2A2826 100%);
 }
 
 /* z-1: Soft overlay for text readability */
@@ -193,7 +208,11 @@ h4 {
   pointer-events: none;
 }
 
-/* z-2: SVG arc — mobile first */
+.hero-overlay-dark {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+/* z-2: SVG arc — State 1, mobile first */
 .hero-arc {
   position: absolute;
   z-index: 2;
@@ -212,6 +231,21 @@ h4 {
   }
 }
 
+/* State 2 arc — mirrored to right side */
+.hero-state-2 .hero-arc {
+  left: auto;
+  right: -55%;
+  top: -5%;
+}
+
+@media (min-width: 768px) {
+  .hero-state-2 .hero-arc {
+    right: -35%;
+    top: 5%;
+    width: 140%;
+  }
+}
+
 /* z-3: Content */
 .hero-content {
   position: relative;
@@ -220,6 +254,7 @@ h4 {
   max-width: 64rem;
   margin: 0 auto;
   padding: 6rem 1rem;
+  transition: opacity 600ms cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 @media (min-width: 640px) {
@@ -229,7 +264,7 @@ h4 {
   }
 }
 
-/* Scroll indicator — anchored to hero bottom */
+/* Scroll indicator — anchored to State 1 bottom */
 .hero-scroll {
   position: absolute;
   bottom: 1.5rem;
@@ -247,15 +282,36 @@ h4 {
   }
 }
 
+/* Cross-fade: subtle dim on State 1 when State 2 activates */
+.hero-dimmed .hero-bg {
+  opacity: 0.95;
+}
+
+.hero-dimmed .hero-content {
+  opacity: 0.95;
+}
+
 /* ——— Hero typography ——— */
 
 /* Oversized display type — editorial scattered words */
 .hero-display {
   font-family: var(--font-display);
   font-size: clamp(3.25rem, 9vw, 7.5rem);
-  line-height: 1;
-  letter-spacing: -0.03em;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
   font-weight: 400;
+}
+
+/* State 2 support line */
+.hero-subhead {
+  font-family: var(--font-sans);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.hero-state-2 .hero-subhead {
+  opacity: 0.75;
 }
 
 /* Thin decorative circle with microline text */
@@ -323,7 +379,7 @@ h4 {
     transform 1100ms cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.hero-loaded .hero-settle {
+.isActive .hero-settle {
   opacity: 1;
   filter: blur(0);
   transform: translateY(0);

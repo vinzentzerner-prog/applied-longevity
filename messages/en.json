@@ -52,7 +52,11 @@
       "subtitle": "Quiet, thorough attention to your health — personal and ongoing.",
       "microline": "Three to five clients at a time.",
       "cta": "Request a private introduction",
-      "exclusivity": "By introduction or private inquiry"
+      "exclusivity": "By introduction or private inquiry",
+      "state2": {
+        "headline": "Quiet certainty.",
+        "support": "Discreet, long-term guidance so your health decisions feel simple — and your vitality stays visible."
+      }
     },
     "capacity": {
       "overline": "By design",
