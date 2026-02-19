@@ -50,16 +50,16 @@ export default function Home({
   return (
     <>
       {/* Hero */}
-      <Section className="pt-28 md:pt-36 pb-16 md:pb-20">
+      <Section className="hero-animate pt-28 md:pt-36 pb-16 md:pb-20">
         <div className="max-w-2xl">
-          <h1>{t("hero.title")}</h1>
-          <p className="mt-6 text-lg leading-relaxed text-muted-foreground md:text-xl">
+          <h1 className="hero-fade hero-fade-delay-1">{t("hero.title")}</h1>
+          <p className="hero-fade hero-fade-delay-2 mt-6 text-lg leading-relaxed text-muted-foreground md:text-xl">
             {t("hero.subtitle")}
           </p>
-          <p className="mt-4 text-sm tracking-wide text-muted-foreground/70">
+          <p className="hero-fade hero-fade-delay-3 mt-4 text-sm tracking-wide text-muted-foreground/70">
             {t("hero.microline")}
           </p>
-          <div className="mt-10">
+          <div className="hero-fade hero-fade-delay-4 mt-10">
             <Link href="/apply">
               <Button size="lg">{t("hero.cta")}</Button>
             </Link>
