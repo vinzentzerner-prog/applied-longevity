@@ -49,12 +49,12 @@
       "subtitle": "Stille, gründliche Betreuung deiner Gesundheit — persönlich und fortlaufend.",
       "microline": "Drei bis fünf Klient:innen gleichzeitig.",
       "cta": "Gespräch beginnen",
-      "exclusivity": "Aktuell offen für neue Klient:innen"
+      "exclusivity": "Aktuell offen für Kennenlerngespräche"
     },
     "capacity": {
       "overline": "Bewusst begrenzt",
-      "title": "3–5 Klient:innen. Nicht mehr.",
-      "body": "Diese Arbeit erfordert Präsenz — keine Vorlagen, keine Delegation. Eine bewusst kleine Anzahl an Klient:innen bedeutet, dass jede Person die Tiefe und Kontinuität bekommt, die ihre Gesundheit verdient."
+      "title": "3–5 Klient:innen gleichzeitig.",
+      "body": "Diese Arbeit erfordert Präsenz — keine Vorlagen, keine Delegation. Eine bewusst kleine Anzahl an Klient:innen bedeutet, dass jede Person die Tiefe, Kontinuität und Vertraulichkeit bekommt, die eine solche Zusammenarbeit erfordert."
     },
     "engagement": {
       "overline": "Der Ablauf",
@@ -62,15 +62,15 @@
       "items": [
         {
           "title": "Verstehen, wo du stehst",
-          "description": "Bevor sich etwas ändert, hören wir zu. Vier Wochen aufmerksame Beobachtung — Schlaf, Bewegung, Ernährung, Blutwerte, Alltagsrhythmus — um deine Gesundheit klar zu sehen, ohne Annahmen."
+          "description": "Bevor sich etwas ändert, hören wir zu. Vier Wochen stille, vertrauliche Beobachtung — Schlaf, Bewegung, Ernährung, Blutwerte, Alltagsrhythmus — um deine Gesundheit aus sich selbst heraus zu verstehen."
         },
         {
           "title": "Ein Rahmen, der zu dir passt",
-          "description": "Auf Basis deiner Ausgangslage gestalten wir einen strukturierten Ansatz über fünf Dimensionen — Training, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Daten — abgestimmt auf dein Leben, wie es ist."
+          "description": "Auf Basis deiner Ausgangslage gestalten wir einen strukturierten Ansatz über fünf Dimensionen — Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Daten — vertraulich und abgestimmt auf dein Leben, wie es ist."
         },
         {
           "title": "Fortlaufende Anpassung",
-          "description": "Dein Protokoll ist nicht statisch. Durch regelmässigen Austausch passen wir an, was angepasst werden muss — stetig und ohne Umbrüche."
+          "description": "Dein Protokoll entwickelt sich mit dir. Im persönlichen Austausch passen wir an, was angepasst werden muss — in einem Tempo, das deine Zeit und Aufmerksamkeit respektiert."
         }
       ]
     },
@@ -88,7 +88,7 @@
         },
         {
           "title": "Dein persönliches Dashboard",
-          "description": "Alle deine Gesundheitsdaten an einem Ort — von mir laufend überprüft. Jede Zahl bekommt Kontext und Bedeutung."
+          "description": "Alle deine Gesundheitsdaten an einem Ort — vertraulich und von mir persönlich überprüft. Jede Zahl bekommt Kontext und Bedeutung."
         },
         {
           "title": "Wöchentliche Klarheit",
@@ -110,7 +110,7 @@
     },
     "cta": {
       "title": "Wenn du bereit bist.",
-      "body": "Ein kurzes Kennenlerngespräch — ohne Vorbereitung. Wir schauen gemeinsam, ob es passt.",
+      "body": "Ein kurzes, vertrauliches Gespräch, um zu verstehen, was du suchst. Ohne Vorbereitung — nur Offenheit darüber, wo du gerade stehst.",
       "button": "Gespräch beginnen"
     }
   },
