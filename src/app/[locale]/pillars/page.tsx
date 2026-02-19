@@ -40,7 +40,7 @@ export default function Pillars({
       {/* Header */}
       <Section className="pt-28 md:pt-36 pb-12">
         <div className="max-w-2xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.08em] text-primary">
+          <p className="text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
             {t("hero.overline")}
           </p>
           <h1 className="mt-4">{t("hero.title")}</h1>
@@ -99,7 +99,7 @@ export default function Pillars({
             <Link href="/apply">
               <Button
                 size="lg"
-                className="bg-white text-dark-bg hover:bg-white/90"
+                className="bg-dark-fg text-dark-bg hover:bg-dark-fg/90"
               >
                 {t("cta.apply")}
               </Button>

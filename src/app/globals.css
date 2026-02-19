@@ -1,41 +1,42 @@
 @import "tailwindcss";
 
 /* ——— Self-hosted fonts ——— */
-/* Clash Display — headings */
+
+/* Playfair Display — editorial serif for headings */
 @font-face {
-  font-family: "Clash Display";
-  src: url("./fonts/ClashDisplay-Regular.woff2") format("woff2");
+  font-family: "Playfair Display";
+  src: url("./fonts/PlayfairDisplay-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Clash Display";
-  src: url("./fonts/ClashDisplay-Semibold.woff2") format("woff2");
+  font-family: "Playfair Display";
+  src: url("./fonts/PlayfairDisplay-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./fonts/PlayfairDisplay-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
-@font-face {
-  font-family: "Clash Display";
-  src: url("./fonts/ClashDisplay-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
 
-/* Satoshi — body / UI */
+/* Inter — quiet sans-serif for body and UI */
 @font-face {
-  font-family: "Satoshi";
-  src: url("./fonts/Satoshi-Regular.woff2") format("woff2");
+  font-family: "Inter";
+  src: url("./fonts/Inter-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Satoshi";
-  src: url("./fonts/Satoshi-Bold.woff2") format("woff2");
-  font-weight: 700;
+  font-family: "Inter";
+  src: url("./fonts/Inter-Medium.woff2") format("woff2");
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
@@ -43,42 +44,42 @@
 /* ——— Design tokens ——— */
 
 :root {
-  /* Paper canvas */
-  --background: #FDFBF4;
-  --foreground: #1B1B17;
+  /* Warm linen background */
+  --background: #F7F5F2;
+  --foreground: #1C1C1C;
 
   /* Surfaces */
   --card: #FFFFFF;
-  --card-foreground: #1B1B17;
+  --card-foreground: #1C1C1C;
 
-  /* Primary — coral CTA */
-  --primary: #EB5140;
-  --primary-foreground: #FFFFFF;
-  --primary-hover: #D84738;
+  /* Primary — warm charcoal (understated, not coral) */
+  --primary: #1C1C1C;
+  --primary-foreground: #F7F5F2;
+  --primary-hover: #333330;
 
   /* Secondary */
-  --secondary: #FDFBF4;
-  --secondary-foreground: #1B1B17;
+  --secondary: #F7F5F2;
+  --secondary-foreground: #1C1C1C;
 
-  /* Muted */
-  --muted: #F5F0E8;
-  --muted-foreground: #655040;
+  /* Muted — warm stone tones */
+  --muted: #EFECE7;
+  --muted-foreground: #6B6763;
 
-  /* Accent — sage (sparingly) */
-  --accent: #2F6F5E;
+  /* Accent — olive-grey (sparingly) */
+  --accent: #8F948B;
   --accent-foreground: #FFFFFF;
 
-  /* Border */
-  --border: #BEB3A5;
-  --ring: #EB5140;
+  /* Border — soft warm stone */
+  --border: #D6CFC7;
+  --ring: #6B6763;
 
   /* Dark sections */
-  --dark-bg: #0F0F0D;
-  --dark-fg: #FDFBF4;
-  --dark-muted: #BEB3A5;
+  --dark-bg: #1C1C1C;
+  --dark-fg: #F7F5F2;
+  --dark-muted: #9B9590;
 
   /* Radius */
-  --radius: 1rem;
+  --radius: 0.75rem;
 }
 
 /* ——— Tailwind v4 theme ——— */
@@ -108,8 +109,8 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 
-  --font-display: "Clash Display", Georgia, "Times New Roman", serif;
-  --font-sans: "Satoshi", system-ui, -apple-system, sans-serif;
+  --font-display: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
 }
 
 /* ——— Base ——— */
@@ -126,8 +127,8 @@ html {
 }
 
 ::selection {
-  background-color: #EB514033;
-  color: #1B1B17;
+  background-color: #D6CFC766;
+  color: #1C1C1C;
 }
 
 /* ——— Typography ——— */
@@ -137,30 +138,30 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: clamp(3rem, 6vw, 5rem);
-  line-height: 1.05;
-  letter-spacing: -0.02em;
-  font-weight: 700;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  font-weight: 400;
 }
 
 h2 {
-  font-size: clamp(2rem, 4vw, 3.25rem);
-  line-height: 1.1;
-  letter-spacing: -0.015em;
-  font-weight: 600;
+  font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  font-weight: 400;
 }
 
 h3 {
-  font-size: clamp(1.5rem, 2.5vw, 2rem);
-  line-height: 1.2;
-  letter-spacing: -0.01em;
-  font-weight: 600;
+  font-size: clamp(1.25rem, 2vw, 1.625rem);
+  line-height: 1.25;
+  letter-spacing: -0.005em;
+  font-weight: 500;
 }
 
 h4 {
-  font-size: 1.25rem;
-  line-height: 1.3;
-  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.35;
+  font-weight: 500;
 }
 
 /* ——— Reduced motion ——— */

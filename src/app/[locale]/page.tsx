@@ -73,7 +73,7 @@ export default function Home({
       {/* Why limited capacity */}
       <Section className="bg-muted">
         <div className="max-w-2xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.08em] text-primary">
+          <p className="text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
             {t("capacity.overline")}
           </p>
           <h2 className="mt-4">{t("capacity.title")}</h2>
@@ -85,7 +85,7 @@ export default function Home({
 
       {/* How it works */}
       <Section>
-        <p className="text-xs font-semibold uppercase tracking-[0.08em] text-primary">
+        <p className="text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
           {t("engagement.overline")}
         </p>
         <h2 className="mt-4">{t("engagement.title")}</h2>
@@ -107,7 +107,7 @@ export default function Home({
 
       {/* What you get */}
       <Section className="bg-muted">
-        <p className="text-xs font-semibold uppercase tracking-[0.08em] text-primary">
+        <p className="text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
           {t("deliverables.overline")}
         </p>
         <h2 className="mt-4">{t("deliverables.title")}</h2>
@@ -205,7 +205,7 @@ export default function Home({
           <Link href="/apply" className="mt-8 inline-block">
             <Button
               size="lg"
-              className="bg-white text-dark-bg hover:bg-white/90"
+              className="bg-dark-fg text-dark-bg hover:bg-dark-fg/90"
             >
               {t("cta.button")}
             </Button>

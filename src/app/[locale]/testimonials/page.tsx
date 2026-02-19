@@ -40,7 +40,7 @@ export default function Testimonials({
       {/* Header */}
       <Section className="pt-28 md:pt-36 pb-12">
         <div className="max-w-2xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.08em] text-primary">
+          <p className="text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
             {t("hero.overline")}
           </p>
           <h1 className="mt-4">{t("hero.title")}</h1>
