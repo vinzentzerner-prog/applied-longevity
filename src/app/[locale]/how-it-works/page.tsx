@@ -58,7 +58,7 @@ export default function HowItWorks({
       </Section>
 
       {/* Phases */}
-      <Section className="bg-muted pt-16 pb-16">
+      <Section className="bg-muted">
         <div className="space-y-16">
           {phases.map((phase) => (
             <div key={phase.number} className="max-w-2xl">
