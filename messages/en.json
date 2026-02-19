@@ -49,12 +49,12 @@
       "subtitle": "Quiet, thorough attention to your health — personal and ongoing.",
       "microline": "Three to five clients at a time.",
       "cta": "Begin a conversation",
-      "exclusivity": "Selectively accepting new clients"
+      "exclusivity": "Currently welcoming introductory conversations"
     },
     "capacity": {
       "overline": "By design",
-      "title": "3–5 clients. That's it.",
-      "body": "This work requires presence — not templates, not delegation. A deliberately small number of clients means each person receives the depth and continuity their health deserves."
+      "title": "3–5 clients at a time.",
+      "body": "This work requires presence — not templates, not delegation. A deliberately small number of clients means each person receives the depth, continuity, and privacy that this kind of collaboration requires."
     },
     "engagement": {
       "overline": "The process",
@@ -62,15 +62,15 @@
       "items": [
         {
           "title": "Understanding where you are",
-          "description": "Before anything changes, we listen. Four weeks of careful observation — sleep, movement, nutrition, bloodwork, daily rhythms — to see your health clearly, without assumptions."
+          "description": "Before anything changes, we listen. Four weeks of quiet, private observation — sleep, movement, nutrition, bloodwork, daily rhythms — to understand your health on its own terms."
         },
         {
           "title": "A framework built around you",
-          "description": "From your baseline, we shape a structured approach across five dimensions — training, nutrition, sleep, emotional well-being, and medical data — designed for your life as it is."
+          "description": "From your baseline, we shape a structured approach across five dimensions — movement, nutrition, sleep, emotional well-being, and medical data — held between us and built for your life as it is."
         },
         {
           "title": "Continuous refinement",
-          "description": "Your protocol is not static. Through regular review and conversation, we adjust what needs adjusting — steadily, without disruption."
+          "description": "Your protocol evolves with you. Through ongoing private conversation, we refine what needs refining — at a pace that respects your time and attention."
         }
       ]
     },
@@ -88,7 +88,7 @@
         },
         {
           "title": "Your personal dashboard",
-          "description": "All your health data in one place — reviewed by me continuously. Every number comes with context and meaning."
+          "description": "All your health data in one place — private, reviewed by me personally. Every number comes with context and meaning."
         },
         {
           "title": "Weekly clarity",
@@ -110,7 +110,7 @@
     },
     "cta": {
       "title": "When you're ready.",
-      "body": "A brief introductory conversation — no preparation needed. We'll see if this is the right fit.",
+      "body": "A brief, private conversation to understand what you're looking for. No preparation needed — just honesty about where you are.",
       "button": "Begin a conversation"
     }
   },
