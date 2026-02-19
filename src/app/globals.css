@@ -175,25 +175,41 @@ h4 {
   font-weight: 400;
 }
 
-/* Thin decorative circle with subtitle text */
+/* Thin decorative circle with microline text */
 .hero-circle {
-  width: clamp(150px, 18vw, 220px);
-  height: clamp(150px, 18vw, 220px);
+  width: 180px;
+  height: 180px;
   border: 1px solid var(--border);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem;
+  padding: 2rem;
   flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+  .hero-circle {
+    width: 220px;
+    height: 220px;
+    padding: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-circle {
+    width: 260px;
+    height: 260px;
+    padding: 2.75rem;
+  }
 }
 
 .hero-circle p {
   font-family: var(--font-sans);
-  font-size: 0.625rem;
+  font-size: 0.6875rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  line-height: 1.7;
+  letter-spacing: 0.08em;
+  line-height: 1.8;
   text-align: center;
   color: var(--muted-foreground);
 }

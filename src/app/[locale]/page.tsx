@@ -50,8 +50,8 @@ export default function Home({
   return (
     <>
       {/* Hero */}
-      <section className="hero-animate relative flex min-h-[100svh] flex-col justify-center overflow-hidden">
-        <div className="mx-auto w-full max-w-5xl px-4 sm:px-6">
+      <section className="hero-animate relative flex min-h-[100svh] flex-col justify-center overflow-hidden px-4 py-24 sm:px-6">
+        <div className="mx-auto w-full max-w-5xl">
           {/* Accessible full title for screen readers */}
           <h1 className="sr-only">{t("hero.title")}</h1>
 
@@ -63,15 +63,15 @@ export default function Home({
           </div>
 
           {/* Middle row — circle + line 2 */}
-          <div className="mt-6 flex flex-col items-start gap-6 md:mt-8 md:flex-row md:items-center">
-            <div className="hero-fade hero-fade-delay-2 hero-circle order-2 mx-auto md:order-1 md:mx-0">
-              <p>{t("hero.subtitle")}</p>
+          <div className="mt-4 flex flex-col items-center gap-8 sm:mt-6 md:mt-8 md:flex-row md:items-center md:gap-12">
+            <div className="hero-fade hero-fade-delay-2 hero-circle order-2 md:order-1">
+              <p>{t("hero.microline")}</p>
             </div>
             <div
               className="hero-fade hero-fade-delay-2 order-1 w-full md:order-2 md:ml-auto md:w-auto"
               aria-hidden="true"
             >
-              <span className="hero-display block md:text-right">
+              <span className="hero-display block text-center md:text-right">
                 {t("hero.titleLine2")}
               </span>
             </div>
@@ -79,7 +79,7 @@ export default function Home({
 
           {/* Line 3 — left-aligned */}
           <div
-            className="hero-fade hero-fade-delay-3 mt-6 md:mt-8"
+            className="hero-fade hero-fade-delay-3 mt-4 sm:mt-6 md:mt-8"
             aria-hidden="true"
           >
             <span className="hero-display block">
@@ -87,8 +87,13 @@ export default function Home({
             </span>
           </div>
 
+          {/* Subtitle */}
+          <p className="hero-fade hero-fade-delay-3 mx-auto mt-10 max-w-md text-center text-base leading-relaxed tracking-wide text-muted-foreground sm:mt-12 md:mt-14">
+            {t("hero.subtitle")}
+          </p>
+
           {/* CTA */}
-          <div className="hero-fade hero-fade-delay-4 mt-12 text-center md:mt-16">
+          <div className="hero-fade hero-fade-delay-4 mt-8 text-center sm:mt-10">
             <Link href="/apply">
               <Button size="lg">{t("hero.cta")}</Button>
             </Link>
@@ -99,7 +104,7 @@ export default function Home({
         </div>
 
         {/* Scroll indicator */}
-        <div className="hero-fade hero-fade-delay-4 absolute bottom-8 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2">
+        <div className="hero-fade hero-fade-delay-4 absolute bottom-6 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2 sm:bottom-8">
           <div className="hero-scroll-line" />
         </div>
       </section>
