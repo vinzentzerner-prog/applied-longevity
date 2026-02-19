@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import { Section } from "@/components/section";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -34,7 +34,7 @@ export default function About() {
   return (
     <>
       {/* Hero */}
-      <Section className="pt-28 md:pt-36 !pb-10 md:!pb-12">
+      <Section className="pt-28 md:pt-36 pb-12">
         <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 md:gap-16 items-start">
           <div className="max-w-2xl">
             <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground/60">
@@ -54,23 +54,23 @@ export default function About() {
       </Section>
 
       {/* Philosophy callout — emotional anchor */}
-      <Section className="!pt-0 !pb-10 md:!pb-12">
-        <div className="rounded-2xl bg-stone-100 px-8 py-10 md:px-12 md:py-14">
-          <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-[auto_1fr_auto]">
+      <Section className="py-4 md:py-6">
+        <div className="relative overflow-hidden rounded-2xl bg-stone-100 px-8 py-10 md:px-12 md:py-14">
+          <div className="grid grid-cols-1 items-start gap-6 md:grid-cols-[auto_1fr] md:pr-24">
             <h3 className="text-2xl font-bold tracking-tight text-foreground md:text-3xl">
               {t("callout.title")}
             </h3>
             <p className="text-base leading-relaxed text-muted-foreground md:text-lg">
               {t("callout.body")}
             </p>
-            <Image
-              src="/logo-mark.png"
-              alt="Applied Longevity"
-              width={64}
-              height={64}
-              className="hidden h-16 w-16 opacity-20 md:block"
-            />
           </div>
+          <Image
+            src="/logo-mark-arrow.png"
+            alt=""
+            width={80}
+            height={80}
+            className="absolute bottom-4 right-4 h-16 w-16 opacity-15 md:bottom-6 md:right-6 md:h-20 md:w-20"
+          />
         </div>
       </Section>
 
@@ -130,18 +130,18 @@ export default function About() {
       </Section>
 
       {/* CTA */}
-      <Section className="bg-stone-900 text-stone-50">
+      <Section dark>
         <div className="text-center">
           <h2 className="text-3xl font-semibold tracking-tight">
             {t("cta.title")}
           </h2>
-          <p className="mx-auto mt-4 max-w-md text-lg text-stone-400">
+          <p className="mx-auto mt-4 max-w-md text-lg text-dark-muted">
             {t("cta.subtitle")}
           </p>
           <Link href="/apply" className="mt-8 inline-block">
             <Button
               size="lg"
-              className="bg-white text-stone-900 hover:bg-stone-100"
+              className="bg-white text-dark-bg hover:bg-white/90"
             >
               {t("cta.button")}
             </Button>

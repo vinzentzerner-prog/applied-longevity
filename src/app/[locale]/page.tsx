@@ -50,7 +50,7 @@ export default function Home({
   return (
     <>
       {/* Hero */}
-      <Section className="pt-28 md:pt-40 pb-16 md:pb-24">
+      <Section className="pt-28 md:pt-36 pb-16 md:pb-20">
         <div className="max-w-2xl">
           <h1>
             {t("hero.title1")}
@@ -202,7 +202,7 @@ export default function Home({
       </Section>
 
       {/* CTA */}
-      <Section dark className="!py-16 md:!py-24">
+      <Section dark>
         <div className="text-center">
           <h2>{t("cta.title")}</h2>
           <p className="mx-auto mt-4 max-w-md text-lg text-dark-muted">
