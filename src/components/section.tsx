@@ -12,7 +12,7 @@ export function Section({ children, className, id, dark }: SectionProps) {
     <section
       id={id}
       className={cn(
-        "py-20 md:py-28 lg:py-32",
+        "py-24 md:py-32 lg:py-40",
         dark && "bg-dark-bg text-dark-fg",
         className
       )}

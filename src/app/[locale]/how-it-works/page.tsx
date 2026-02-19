@@ -47,7 +47,7 @@ export default function HowItWorks({
       {/* Header */}
       <Section className="pt-28 md:pt-36 pb-12">
         <div className="max-w-2xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.08em] text-primary">
+          <p className="text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
             {t("hero.overline")}
           </p>
           <h1 className="mt-4">{t("hero.title")}</h1>
@@ -84,14 +84,14 @@ export default function HowItWorks({
       {/* Application steps */}
       <Section>
         <div className="max-w-2xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.08em] text-primary">
+          <p className="text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
             {t("application.overline")}
           </p>
           <h2 className="mt-4">{t("application.title")}</h2>
           <div className="mt-12 space-y-10">
             {applicationSteps.map((item) => (
               <div key={item.step} className="flex gap-4 sm:gap-6">
-                <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-medium text-primary-foreground">
+                <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-muted text-sm font-medium text-muted-foreground">
                   {item.step}
                 </div>
                 <div>

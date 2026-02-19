@@ -141,7 +141,7 @@ export default function About() {
           <Link href="/apply" className="mt-8 inline-block">
             <Button
               size="lg"
-              className="bg-white text-dark-bg hover:bg-white/90"
+              className="bg-dark-fg text-dark-bg hover:bg-dark-fg/90"
             >
               {t("cta.button")}
             </Button>
