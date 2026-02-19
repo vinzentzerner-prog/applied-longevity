@@ -50,16 +50,45 @@ export default function Home({
   return (
     <>
       {/* Hero */}
-      <Section className="hero-animate pt-28 md:pt-36 pb-16 md:pb-20">
-        <div className="max-w-2xl">
-          <h1 className="hero-fade hero-fade-delay-1">{t("hero.title")}</h1>
-          <p className="hero-fade hero-fade-delay-2 mt-6 text-lg leading-relaxed text-muted-foreground md:text-xl">
-            {t("hero.subtitle")}
-          </p>
-          <p className="hero-fade hero-fade-delay-3 mt-4 text-sm tracking-wide text-muted-foreground/70">
-            {t("hero.microline")}
-          </p>
-          <div className="hero-fade hero-fade-delay-4 mt-10">
+      <section className="hero-animate relative flex min-h-[100svh] flex-col justify-center overflow-hidden">
+        <div className="mx-auto w-full max-w-5xl px-4 sm:px-6">
+          {/* Accessible full title for screen readers */}
+          <h1 className="sr-only">{t("hero.title")}</h1>
+
+          {/* Line 1 — left-aligned */}
+          <div className="hero-fade hero-fade-delay-1" aria-hidden="true">
+            <span className="hero-display block">
+              {t("hero.titleLine1")}
+            </span>
+          </div>
+
+          {/* Middle row — circle + line 2 */}
+          <div className="mt-6 flex flex-col items-start gap-6 md:mt-8 md:flex-row md:items-center">
+            <div className="hero-fade hero-fade-delay-2 hero-circle order-2 mx-auto md:order-1 md:mx-0">
+              <p>{t("hero.subtitle")}</p>
+            </div>
+            <div
+              className="hero-fade hero-fade-delay-2 order-1 w-full md:order-2 md:ml-auto md:w-auto"
+              aria-hidden="true"
+            >
+              <span className="hero-display block md:text-right">
+                {t("hero.titleLine2")}
+              </span>
+            </div>
+          </div>
+
+          {/* Line 3 — left-aligned */}
+          <div
+            className="hero-fade hero-fade-delay-3 mt-6 md:mt-8"
+            aria-hidden="true"
+          >
+            <span className="hero-display block">
+              {t("hero.titleLine3")}
+            </span>
+          </div>
+
+          {/* CTA */}
+          <div className="hero-fade hero-fade-delay-4 mt-12 text-center md:mt-16">
             <Link href="/apply">
               <Button size="lg">{t("hero.cta")}</Button>
             </Link>
@@ -68,7 +97,12 @@ export default function Home({
             </p>
           </div>
         </div>
-      </Section>
+
+        {/* Scroll indicator */}
+        <div className="hero-fade hero-fade-delay-4 absolute bottom-8 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2">
+          <div className="hero-scroll-line" />
+        </div>
+      </section>
 
       {/* Why limited capacity */}
       <Section className="bg-muted">
