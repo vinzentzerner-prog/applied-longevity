@@ -82,7 +82,7 @@
     },
     "about": {
       "title": "Über mich",
-      "body": "Mein Hintergrund verbindet Psychologie, Analytik und über fünfzehn Jahre intensive Auseinandersetzung mit der Frage, wie Gesundheit in all ihren Dimensionen zusammenhält. Ich arbeite mit Menschen, deren Alltag wenig Raum für Versuch und Irrtum lässt — Menschen, die Klarheit brauchen, nicht noch mehr Information.\n\nIch begleite bewusst nur wenige Klient:innen und bleibe über lange Zeiträume involviert. Jede Zusammenarbeit beginnt mit aufmerksamer Beobachtung, nicht mit Intervention. Das Ziel ist, Ihre Muster zu verstehen, bevor etwas gestaltet wird — und als ruhige, diskrete Begleitung präsent zu bleiben, während sich Ihre Gesundheit entwickelt."
+      "body": "Ich arbeite mit sehr wenigen Menschen — und das über lange Zeiträume hinweg.\n\nDie meisten kamen zu mir nicht weil etwas akut falsch war, sondern weil niemand das Gesamtbild im Blick hatte. Fragmentierte Termine, widersprüchliche Empfehlungen, keine kontinuierliche Begleitung. Meine Rolle ist es, diese Person zu sein: jemand, der bleibt, beobachtet und einordnet.\n\nIch biete keine Programme oder Pakete an. Ich biete anhaltende Aufmerksamkeit — für Ihre Muster, Ihre Übergänge und das, was Ihre Gesundheit unterhalb der Oberfläche wirklich zeigt.\n\nWenn Sie überlegen, sich zu melden — ein kurzes, privates Gespräch genügt, um herauszufinden, ob dies für uns beide das Richtige ist."
     },
     "deliverables": {
       "overline": "Was enthalten ist",
@@ -286,49 +286,30 @@
   "about": {
     "eyebrow": "Über mich",
     "hero": {
-      "title": "Aus Erfahrung entstanden, mit Sorgfalt gehalten.",
-      "subtitle": "Applied Longevity entstand aus über fünfzehn Jahren persönlicher Praxis und stiller Beobachtung — verbunden mit der Realität, Unternehmen aufzubauen und ein anspruchsvolles Leben zu führen. Das beste Rahmenwerk ist eines, das Ihr Leben reicher macht, nicht enger."
-    },
-    "story": {
-      "title": "Hintergrund",
-      "p1": "Ich trainiere seit über fünfzehn Jahren ernsthaft — über Disziplinen, Jahreszeiten und Lebensphasen hinweg. Irgendwann begann ich, Menschen in meinem näheren Umfeld zu begleiten und zu teilen, was ich gelernt hatte. Mit der Zeit wurde aus dieser Fürsorge etwas Strukturierteres.",
-      "p2": "Beruflich habe ich zwei Unternehmen gegründet und arbeite heute in Private Equity. Ich verstehe, wie ein anspruchsvolles Leben aussieht — die frühen Morgen, die Reisen, das gedankliche Gewicht, das nie ganz nachlässt. Diese Erfahrung hat meine Überzeugung geformt: Gesundheit muss in Ihr wirkliches Leben passen, nicht verlangen, dass Sie ein anderes aufbauen.",
-      "p3": "Durch meine <link>Forschung zu Leadership</link> habe ich gesehen, wie die richtige Begleitung menschliche Entwicklung formen kann — wie Menschen wachsen, wenn jemand sie dort abholt, wo sie stehen, und sie mit Wärme in die Verantwortung nimmt. Diese Erkenntnis hat mich zu dieser Arbeit geführt und bleibt die Grundlage meiner Praxis.",
-      "p4": "Die Frage, die mich leitet: Was braucht es, um stark, klar und gesund zu bleiben — nicht für Monate, sondern für Jahrzehnte? Die Antwort ist kein einzelnes Protokoll. Es ist ein System — eines, das Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Einordnung zu einem stimmigen Ganzen verbindet. Das ist Applied Longevity."
-    },
-    "callout": {
-      "title": "Mein Ansatz",
-      "body": "Gesundheit soll Ihr Leben bereichern, nicht einschränken. Gemeinsam finden wir einen Weg, der zu Ihrem Alltag passt — ohne auf das zu verzichten, was Ihnen Freude bereitet."
+      "title": "Wenige Klient:innen. Volle Aufmerksamkeit.",
+      "subtitle": "Ich arbeite mit sehr wenigen Menschen — und das über lange Zeiträume hinweg.\n\nDie meisten kamen zu mir nicht weil etwas akut falsch war, sondern weil niemand das Gesamtbild im Blick hatte. Fragmentierte Termine, widersprüchliche Empfehlungen, keine kontinuierliche Begleitung. Meine Rolle ist es, diese Person zu sein: jemand, der bleibt, beobachtet und einordnet.\n\nIch biete keine Programme oder Pakete an. Ich biete anhaltende Aufmerksamkeit — für Ihre Muster, Ihre Übergänge und das, was Ihre Gesundheit unterhalb der Oberfläche wirklich zeigt."
     },
     "philosophy": {
       "title": "Philosophie",
       "items": {
         "observe": {
           "title": "Beobachten vor dem Handeln",
-          "description": "Jede Zusammenarbeit beginnt mit vier Wochen stiller Beobachtung. Wir ändern nichts, bevor wir verstehen, wo Sie wirklich stehen — nicht wo Sie glauben zu stehen."
+          "description": "Jede Zusammenarbeit beginnt mit stiller, sorgfältiger Beobachtung — bevor irgendetwas verändert wird. Erst verstehen, dann gestalten."
         },
-        "roster": {
-          "title": "Eine kleine Praxis, bewusst so gewählt",
-          "description": "Ich arbeite mit drei bis fünf Klient:innen gleichzeitig, für mindestens sechs Monate. Das ist bewusst nicht skalierbar. Echte Aufmerksamkeit erfordert echte Präsenz."
+        "discretion": {
+          "title": "Diskretion als Grundprinzip",
+          "description": "Alles, was wir besprechen und messen, bleibt zwischen uns. Keine Delegation, keine Tools, die Sie selbst managen müssen — nur ein ruhiger, privater Überblick."
         },
-        "evidence": {
-          "title": "Evidenz statt Ideologie",
-          "description": "Keine Trends, kein Dogma. Wir beobachten, was wirkt — durch sorgfältige Daten, Blutwerte, Wearables, wie Sie sich fühlen — und passen mit Geduld an."
-        },
-        "life": {
-          "title": "Mehr Leben, nicht weniger",
-          "description": "Gesundheit soll Ihr Wohlbefinden vertiefen, ohne Ihre Freude zu schmälern. Wir integrieren bessere Gewohnheiten in das Leben, das Sie bereits führen — ohne wegzunehmen, was es bedeutsam macht."
-        },
-        "sustainable": {
-          "title": "Nachhaltig aus sich selbst heraus",
-          "description": "Das Ziel ist ein Rahmenwerk, das Sie über Jahre tragen können — kein kurzfristiges Programm. Wir bauen Muster auf, die sich still über die Zeit anreichern."
+        "continuity": {
+          "title": "Kontinuität statt Episoden",
+          "description": "Gesundheit verändert sich über Jahre, nicht über Wochen. Ich bleibe über lange Zeiträume involviert — und passe an, was sich verändert."
         }
       }
     },
     "cta": {
       "title": "Wenn Sie bereit sind.",
-      "subtitle": "Wenn Sie sich angesprochen fühlen, freue ich mich, von Ihnen zu hören. Jede Anfrage wird persönlich gelesen.",
-      "button": "Ein Gespräch beginnen"
+      "subtitle": "Wenn Sie den Eindruck haben, dass dies das Richtige sein könnte — ein kurzes, privates Gespräch genügt, um das herauszufinden.",
+      "button": "Eine private Vorstellung anfragen"
     }
   },
   "apply": {
