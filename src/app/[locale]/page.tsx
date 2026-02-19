@@ -51,61 +51,19 @@ export default function Home({
 
   return (
     <>
-      {/* Hero — two-state scroll transition */}
+      {/* Hero — Bergos-style pinned scroll transition */}
       <HeroTwoState
+        fullTitle={t("hero.title")}
+        titleLine1={t("hero.titleLine1")}
+        titleLine2={t("hero.titleLine2")}
+        titleLine3={t("hero.titleLine3")}
+        microline={t("hero.microline")}
+        subtitle={t("hero.subtitle")}
+        ctaText={t("hero.cta")}
+        ctaExclusivity={t("hero.exclusivity")}
         state2Headline={t("hero.state2.headline")}
         state2Support={t("hero.state2.support")}
-      >
-        {/* Accessible full title for screen readers */}
-        <h1 className="sr-only">{t("hero.title")}</h1>
-
-        {/* Line 1 — left-aligned */}
-        <div className="hero-settle hero-settle-delay-1" aria-hidden="true">
-          <span className="hero-display block">
-            {t("hero.titleLine1")}
-          </span>
-        </div>
-
-        {/* Middle row — circle + line 2 */}
-        <div className="mt-4 flex flex-col items-center gap-8 sm:mt-6 md:mt-8 md:flex-row md:items-center md:gap-12">
-          <div className="hero-settle hero-settle-delay-2 hero-circle order-2 md:order-1">
-            <p>{t("hero.microline")}</p>
-          </div>
-          <div
-            className="hero-settle hero-settle-delay-2 order-1 w-full md:order-2 md:ml-auto md:w-auto"
-            aria-hidden="true"
-          >
-            <span className="hero-display block text-center md:text-right">
-              {t("hero.titleLine2")}
-            </span>
-          </div>
-        </div>
-
-        {/* Line 3 — left-aligned */}
-        <div
-          className="hero-settle hero-settle-delay-3 mt-4 sm:mt-6 md:mt-8"
-          aria-hidden="true"
-        >
-          <span className="hero-display block">
-            {t("hero.titleLine3")}
-          </span>
-        </div>
-
-        {/* Subtitle */}
-        <p className="hero-settle hero-settle-delay-3 mx-auto mt-10 max-w-md text-center text-base leading-relaxed tracking-wide text-muted-foreground sm:mt-12 md:mt-14">
-          {t("hero.subtitle")}
-        </p>
-
-        {/* CTA */}
-        <div className="hero-settle hero-settle-delay-4 mt-8 text-center sm:mt-10">
-          <Link href="/apply">
-            <Button size="lg">{t("hero.cta")}</Button>
-          </Link>
-          <p className="mt-3 text-xs tracking-wide text-muted-foreground/60">
-            {t("hero.exclusivity")}
-          </p>
-        </div>
-      </HeroTwoState>
+      />
 
       <ScrollRevealInit />
 
