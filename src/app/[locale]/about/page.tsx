@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
@@ -33,7 +34,7 @@ export default function About() {
   return (
     <>
       {/* Hero */}
-      <Section className="pt-28 md:pt-36 pb-12">
+      <Section className="pt-28 md:pt-36 !pb-10 md:!pb-12">
         <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 md:gap-16 items-start">
           <div className="max-w-2xl">
             <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground/60">
@@ -53,11 +54,23 @@ export default function About() {
       </Section>
 
       {/* Philosophy callout — emotional anchor */}
-      <Section>
-        <div className="mx-auto max-w-3xl rounded-lg border-l-4 border-stone-900 bg-stone-50 px-8 py-8 md:px-12 md:py-10">
-          <blockquote className="text-xl font-semibold leading-relaxed tracking-tight text-foreground md:text-2xl">
-            {t("callout")}
-          </blockquote>
+      <Section className="!pt-0 !pb-10 md:!pb-12">
+        <div className="rounded-2xl bg-stone-100 px-8 py-10 md:px-12 md:py-14">
+          <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-[auto_1fr_auto]">
+            <h3 className="text-2xl font-bold tracking-tight text-foreground md:text-3xl">
+              {t("callout.title")}
+            </h3>
+            <p className="text-base leading-relaxed text-muted-foreground md:text-lg">
+              {t("callout.body")}
+            </p>
+            <Image
+              src="/logo-mark.png"
+              alt="Applied Longevity"
+              width={64}
+              height={64}
+              className="hidden h-16 w-16 opacity-20 md:block"
+            />
+          </div>
         </div>
       </Section>
 

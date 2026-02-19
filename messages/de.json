@@ -291,7 +291,10 @@
       "p3": "Durch meine <link>Forschung zu Leadership</link> habe ich aus erster Hand gesehen, wie die richtige Begleitung menschliches Verhalten und Entwicklung positiv formen kann — wie Menschen wachsen, wenn jemand sie dort abholt, wo sie stehen, und sie mit Sorgfalt in die Verantwortung nimmt. Diese Erkenntnis hat mich zum Coaching gebracht und ist die Grundlage meiner heutigen Arbeit.",
       "p4": "Die Frage, die mich antreibt: Was braucht es wirklich, um stark, klar und gesund zu bleiben — nicht für Monate, sondern für Jahrzehnte? Die Antwort ist kein einzelnes Protokoll oder Biohack. Es ist ein System — eines, das Training, Ernährung, Schlaf, emotionale Gesundheit und medizinische Daten zu einem stimmigen Ganzen verbindet. Das ist Applied Longevity."
     },
-    "callout": "Mein Ansatz: Gesundheit soll dein Leben bereichern, nicht einschränken. Wir finden einen Weg, der zu deinem Alltag passt — ohne auf das zu verzichten, was dir Freude macht.",
+    "callout": {
+      "title": "Mein Ansatz",
+      "body": "Gesundheit soll dein Leben bereichern, nicht einschränken. Wir finden einen Weg, der zu deinem Alltag passt — ohne auf das zu verzichten, was dir Freude macht."
+    },
     "philosophy": {
       "title": "Philosophie",
       "items": {
