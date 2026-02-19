@@ -164,7 +164,90 @@ h4 {
   font-weight: 500;
 }
 
-/* ——— Hero layout ——— */
+/* ——— Hero layer stack ——— */
+
+.hero-root {
+  position: relative;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background: var(--background);
+}
+
+/* z-0: Background image */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(135deg, #EDEBE8 0%, #D6CFC7 100%);
+}
+
+/* z-1: Soft overlay for text readability */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(28, 28, 28, 0.15);
+  pointer-events: none;
+}
+
+/* z-2: SVG arc — mobile first */
+.hero-arc {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  left: -55%;
+  top: 10%;
+  width: 170%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .hero-arc {
+    left: -35%;
+    top: -10%;
+    width: 140%;
+  }
+}
+
+/* z-3: Content */
+.hero-content {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 6rem 1rem;
+}
+
+@media (min-width: 640px) {
+  .hero-content {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* Scroll indicator — anchored to hero bottom */
+.hero-scroll {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  .hero-scroll {
+    bottom: 2rem;
+  }
+}
+
+/* ——— Hero typography ——— */
 
 /* Oversized display type — editorial scattered words */
 .hero-display {
@@ -214,7 +297,7 @@ h4 {
   color: var(--muted-foreground);
 }
 
-/* Scroll indicator */
+/* Scroll indicator line */
 @keyframes scrollDrift {
   0%, 100% { transform: translateY(0); opacity: 0.4; }
   50% { transform: translateY(8px); opacity: 0.15; }
@@ -227,59 +310,45 @@ h4 {
   animation: scrollDrift 2.5s ease-in-out infinite;
 }
 
-/* ——— Hero entrance animations ——— */
+/* ——— Settling reveal animation ——— */
+/* "Already there, becomes clear" — not appear from nothing */
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.hero-settle {
+  opacity: 0.85;
+  filter: blur(6px);
+  transform: translateY(8px);
+  transition:
+    opacity 1100ms cubic-bezier(0.25, 0.1, 0.25, 1),
+    filter 1100ms cubic-bezier(0.25, 0.1, 0.25, 1),
+    transform 1100ms cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-@keyframes ambientGlow {
-  0%, 100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
+.hero-loaded .hero-settle {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
 }
 
-.hero-animate {
-  position: relative;
-}
+.hero-settle-delay-1 { transition-delay: 0ms; }
+.hero-settle-delay-2 { transition-delay: 150ms; }
+.hero-settle-delay-3 { transition-delay: 300ms; }
+.hero-settle-delay-4 { transition-delay: 450ms; }
+.hero-settle-delay-5 { transition-delay: 600ms; }
 
-.hero-animate::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    135deg,
-    var(--background) 0%,
-    var(--muted) 50%,
-    var(--background) 100%
-  );
-  background-size: 200% 200%;
-  animation: ambientGlow 12s ease-in-out infinite;
-  opacity: 0.5;
-  z-index: 0;
-  pointer-events: none;
-}
+/* ——— Section scroll-reveal ——— */
 
-.hero-animate > * {
-  position: relative;
-  z-index: 1;
-}
-
-.hero-fade {
+.scroll-reveal {
   opacity: 0;
-  animation: fadeInUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  transform: translateY(16px);
+  transition:
+    opacity 800ms cubic-bezier(0.25, 0.1, 0.25, 1),
+    transform 800ms cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.hero-fade-delay-1 { animation-delay: 0.15s; }
-.hero-fade-delay-2 { animation-delay: 0.35s; }
-.hero-fade-delay-3 { animation-delay: 0.55s; }
-.hero-fade-delay-4 { animation-delay: 0.75s; }
+.scroll-reveal.scroll-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 /* ——— Reduced motion ——— */
 

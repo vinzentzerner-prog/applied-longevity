@@ -6,6 +6,8 @@ import { Section } from "@/components/section";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { FounderImage } from "@/components/founder-image";
+import { Hero } from "@/components/hero";
+import { ScrollRevealInit } from "@/components/scroll-reveal-init";
 
 export async function generateMetadata({
   params,
@@ -50,67 +52,62 @@ export default function Home({
   return (
     <>
       {/* Hero */}
-      <section className="hero-animate relative flex min-h-[100svh] flex-col justify-center overflow-hidden px-4 py-24 sm:px-6">
-        <div className="mx-auto w-full max-w-5xl">
-          {/* Accessible full title for screen readers */}
-          <h1 className="sr-only">{t("hero.title")}</h1>
+      <Hero>
+        {/* Accessible full title for screen readers */}
+        <h1 className="sr-only">{t("hero.title")}</h1>
 
-          {/* Line 1 — left-aligned */}
-          <div className="hero-fade hero-fade-delay-1" aria-hidden="true">
-            <span className="hero-display block">
-              {t("hero.titleLine1")}
-            </span>
+        {/* Line 1 — left-aligned */}
+        <div className="hero-settle hero-settle-delay-1" aria-hidden="true">
+          <span className="hero-display block">
+            {t("hero.titleLine1")}
+          </span>
+        </div>
+
+        {/* Middle row — circle + line 2 */}
+        <div className="mt-4 flex flex-col items-center gap-8 sm:mt-6 md:mt-8 md:flex-row md:items-center md:gap-12">
+          <div className="hero-settle hero-settle-delay-2 hero-circle order-2 md:order-1">
+            <p>{t("hero.microline")}</p>
           </div>
-
-          {/* Middle row — circle + line 2 */}
-          <div className="mt-4 flex flex-col items-center gap-8 sm:mt-6 md:mt-8 md:flex-row md:items-center md:gap-12">
-            <div className="hero-fade hero-fade-delay-2 hero-circle order-2 md:order-1">
-              <p>{t("hero.microline")}</p>
-            </div>
-            <div
-              className="hero-fade hero-fade-delay-2 order-1 w-full md:order-2 md:ml-auto md:w-auto"
-              aria-hidden="true"
-            >
-              <span className="hero-display block text-center md:text-right">
-                {t("hero.titleLine2")}
-              </span>
-            </div>
-          </div>
-
-          {/* Line 3 — left-aligned */}
           <div
-            className="hero-fade hero-fade-delay-3 mt-4 sm:mt-6 md:mt-8"
+            className="hero-settle hero-settle-delay-2 order-1 w-full md:order-2 md:ml-auto md:w-auto"
             aria-hidden="true"
           >
-            <span className="hero-display block">
-              {t("hero.titleLine3")}
+            <span className="hero-display block text-center md:text-right">
+              {t("hero.titleLine2")}
             </span>
           </div>
+        </div>
 
-          {/* Subtitle */}
-          <p className="hero-fade hero-fade-delay-3 mx-auto mt-10 max-w-md text-center text-base leading-relaxed tracking-wide text-muted-foreground sm:mt-12 md:mt-14">
-            {t("hero.subtitle")}
+        {/* Line 3 — left-aligned */}
+        <div
+          className="hero-settle hero-settle-delay-3 mt-4 sm:mt-6 md:mt-8"
+          aria-hidden="true"
+        >
+          <span className="hero-display block">
+            {t("hero.titleLine3")}
+          </span>
+        </div>
+
+        {/* Subtitle */}
+        <p className="hero-settle hero-settle-delay-3 mx-auto mt-10 max-w-md text-center text-base leading-relaxed tracking-wide text-muted-foreground sm:mt-12 md:mt-14">
+          {t("hero.subtitle")}
+        </p>
+
+        {/* CTA */}
+        <div className="hero-settle hero-settle-delay-4 mt-8 text-center sm:mt-10">
+          <Link href="/apply">
+            <Button size="lg">{t("hero.cta")}</Button>
+          </Link>
+          <p className="mt-3 text-xs tracking-wide text-muted-foreground/60">
+            {t("hero.exclusivity")}
           </p>
-
-          {/* CTA */}
-          <div className="hero-fade hero-fade-delay-4 mt-8 text-center sm:mt-10">
-            <Link href="/apply">
-              <Button size="lg">{t("hero.cta")}</Button>
-            </Link>
-            <p className="mt-3 text-xs tracking-wide text-muted-foreground/60">
-              {t("hero.exclusivity")}
-            </p>
-          </div>
         </div>
+      </Hero>
 
-        {/* Scroll indicator */}
-        <div className="hero-fade hero-fade-delay-4 absolute bottom-6 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2 sm:bottom-8">
-          <div className="hero-scroll-line" />
-        </div>
-      </section>
+      <ScrollRevealInit />
 
       {/* Why limited capacity */}
-      <Section className="bg-muted">
+      <Section className="scroll-reveal bg-muted">
         <div className="max-w-2xl">
           <p className="text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
             {t("capacity.overline")}
@@ -123,7 +120,7 @@ export default function Home({
       </Section>
 
       {/* How it works */}
-      <Section>
+      <Section className="scroll-reveal">
         <p className="text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
           {t("engagement.overline")}
         </p>
@@ -145,7 +142,7 @@ export default function Home({
       </Section>
 
       {/* What you get */}
-      <Section className="bg-muted">
+      <Section className="scroll-reveal bg-muted">
         <p className="text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
           {t("deliverables.overline")}
         </p>
@@ -167,7 +164,7 @@ export default function Home({
       </Section>
 
       {/* Pillars preview */}
-      <Section>
+      <Section className="scroll-reveal">
         <div className="text-center">
           <h2>{t("pillarsPreview.title")}</h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
@@ -214,7 +211,7 @@ export default function Home({
       </Section>
 
       {/* About */}
-      <Section className="bg-muted">
+      <Section className="scroll-reveal bg-muted">
         <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 md:gap-16 items-start">
           <div className="max-w-xl">
             <h2>{t("about.title")}</h2>
@@ -235,7 +232,7 @@ export default function Home({
       </Section>
 
       {/* CTA */}
-      <Section dark>
+      <Section dark className="scroll-reveal">
         <div className="text-center">
           <h2>{t("cta.title")}</h2>
           <p className="mx-auto mt-4 max-w-md text-lg text-dark-muted">
