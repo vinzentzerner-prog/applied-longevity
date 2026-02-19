@@ -21,8 +21,8 @@
       "description": "Hear from clients who have experienced the Applied Longevity process — real stories about sleep optimization, holistic coaching, and sustainable health progress."
     },
     "apply": {
-      "title": "Apply for Coaching",
-      "description": "Apply for a spot in our exclusive 3–5 client roster. We review every application personally and respond within one week."
+      "title": "Begin a Conversation — Applied Longevity",
+      "description": "A short, reflective inquiry to help us understand what you're looking for. Every response is read personally and treated with discretion."
     }
   },
   "nav": {
@@ -327,35 +327,35 @@
   },
   "apply": {
     "hero": {
-      "overline": "Get started",
-      "title": "Apply",
-      "body": "Fill out the form below to express your interest. We review every application personally and respond within one week."
+      "overline": "Private inquiry",
+      "title": "Begin a conversation.",
+      "body": "This is not a sales form. It's a short, reflective exchange to help us understand what you're looking for — and whether this advisory is the right context for it. Every response is read personally and held in confidence."
     },
     "form": {
-      "placeholder": "Application form embed",
+      "placeholder": "Inquiry form",
       "instructions": "Replace this with your Typeform or Tally embed code.",
       "example": "Example: <iframe src=\"https://tally.so/embed/your-form-id\" ...></iframe>"
     },
     "next": {
-      "title": "What happens next",
+      "title": "What follows",
       "steps": [
         {
           "step": "1",
-          "title": "We review your application",
-          "description": "Every application is read carefully. We're looking for alignment — not just goals, but readiness and commitment to the process."
+          "title": "I read your inquiry personally",
+          "description": "There is no automated screening. I read every response myself to understand your situation, your priorities, and what kind of support you're looking for."
         },
         {
           "step": "2",
-          "title": "Introductory call",
-          "description": "If there's a mutual fit, we'll schedule a 30-minute call to discuss your situation, answer questions, and determine next steps."
+          "title": "A private conversation",
+          "description": "If it feels like the right fit for both sides, I'll suggest a brief, unhurried call. No pitch — just an honest exchange about where you are and what might help."
         },
         {
           "step": "3",
-          "title": "Onboarding begins",
-          "description": "You'll receive onboarding materials, access to tracking tools, and instructions for your 4-week baseline observation period."
+          "title": "A considered beginning",
+          "description": "If we decide to work together, we begin with four weeks of quiet observation. No changes, no pressure — just a careful look at where your health stands today."
         }
       ],
-      "note": "We typically respond within 5–7 business days. If we're at capacity, we'll let you know and add you to our waitlist."
+      "note": "I respond to every inquiry within a few days. If I'm at capacity, I'll let you know honestly and we can revisit when the timing is right."
     }
   }
 }

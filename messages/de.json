@@ -21,8 +21,8 @@
       "description": "Erfahrungsberichte von Klient:innen, die den Applied Longevity Prozess durchlaufen haben — echte Geschichten über Schlafoptimierung, ganzheitliches Coaching und nachhaltige Gesundheit."
     },
     "apply": {
-      "title": "Für Coaching bewerben",
-      "description": "Bewirb dich für einen Platz in unserem exklusiven 3–5-Klient:innen-Roster. Wir prüfen jede Bewerbung persönlich und antworten innerhalb einer Woche."
+      "title": "Gespräch beginnen — Applied Longevity",
+      "description": "Eine kurze, reflektierte Anfrage, damit wir verstehen, was du suchst. Jede Antwort wird persönlich gelesen und vertraulich behandelt."
     }
   },
   "nav": {
@@ -327,35 +327,35 @@
   },
   "apply": {
     "hero": {
-      "overline": "Erste Schritte",
-      "title": "Bewerben",
-      "body": "Fülle das Formular unten aus, um dein Interesse zu bekunden. Wir prüfen jede Bewerbung persönlich und antworten innerhalb einer Woche."
+      "overline": "Vertrauliche Anfrage",
+      "title": "Ein Gespräch beginnen.",
+      "body": "Das hier ist kein Verkaufsformular. Es ist ein kurzer, reflektierter Austausch, damit ich verstehe, was du suchst — und ob diese Begleitung der richtige Rahmen dafür ist. Jede Antwort wird persönlich gelesen und vertraulich behandelt."
     },
     "form": {
-      "placeholder": "Bewerbungsformular-Einbettung",
+      "placeholder": "Anfrageformular",
       "instructions": "Ersetze dies durch deinen Typeform- oder Tally-Einbettungscode.",
       "example": "Beispiel: <iframe src=\"https://tally.so/embed/your-form-id\" ...></iframe>"
     },
     "next": {
-      "title": "Was als Nächstes passiert",
+      "title": "Wie es weitergeht",
       "steps": [
         {
           "step": "1",
-          "title": "Wir prüfen deine Bewerbung",
-          "description": "Jede Bewerbung wird sorgfältig gelesen. Wir suchen nach Übereinstimmung — nicht nur Ziele, sondern Bereitschaft und Engagement für den Prozess."
+          "title": "Ich lese deine Anfrage persönlich",
+          "description": "Es gibt kein automatisiertes Screening. Ich lese jede Antwort selbst, um deine Situation, deine Prioritäten und die Art der Unterstützung zu verstehen, die du suchst."
         },
         {
           "step": "2",
-          "title": "Kennenlerngespräch",
-          "description": "Wenn es eine gegenseitige Passung gibt, vereinbaren wir ein 30-minütiges Gespräch, um deine Situation zu besprechen, Fragen zu klären und nächste Schritte festzulegen."
+          "title": "Ein persönliches Gespräch",
+          "description": "Wenn es für beide Seiten stimmig wirkt, schlage ich ein kurzes, ungehetzes Gespräch vor. Kein Pitch — nur ein ehrlicher Austausch darüber, wo du stehst und was helfen könnte."
         },
         {
           "step": "3",
-          "title": "Onboarding beginnt",
-          "description": "Du erhältst Onboarding-Materialien, Zugang zu Tracking-Tools und Anweisungen für deine 4-wöchige Baseline-Beobachtungsphase."
+          "title": "Ein bedachter Anfang",
+          "description": "Wenn wir uns für eine Zusammenarbeit entscheiden, beginnen wir mit vier Wochen stiller Beobachtung. Keine Änderungen, kein Druck — nur ein sorgfältiger Blick auf den Stand deiner Gesundheit."
         }
       ],
-      "note": "Wir antworten in der Regel innerhalb von 5–7 Werktagen. Falls wir ausgelastet sind, informieren wir dich und setzen dich auf unsere Warteliste."
+      "note": "Ich antworte auf jede Anfrage innerhalb weniger Tage. Falls ich ausgelastet bin, sage ich dir das offen — und wir finden den richtigen Zeitpunkt."
     }
   }
 }
