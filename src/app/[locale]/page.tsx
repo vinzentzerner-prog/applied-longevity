@@ -53,15 +53,11 @@ export default function Home({
     <>
       {/* Hero — Bergos-style pinned scroll transition */}
       <HeroTwoState
-        fullTitle={t("hero.title")}
-        titleLine1={t("hero.titleLine1")}
-        titleLine2={t("hero.titleLine2")}
-        titleLine3={t("hero.titleLine3")}
-        microline={t("hero.microline")}
-        ctaText={t("hero.cta")}
-        ctaExclusivity={t("hero.exclusivity")}
+        title={t("hero.title")}
         state2Headline={t("hero.state2.headline")}
         state2Support={t("hero.state2.support")}
+        state2Cta={t("hero.state2.cta")}
+        state2Exclusivity={t("hero.state2.exclusivity")}
       />
 
       <ScrollRevealInit />

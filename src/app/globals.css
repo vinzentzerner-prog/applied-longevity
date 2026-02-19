@@ -244,103 +244,41 @@ h4 {
   pointer-events: auto;
 }
 
-/* ——— Stage 1: editorial word placement ——— */
+/* ——— Stage 1: centred statement + arrow ——— */
 
-/*
- * Mobile: vertical stack with staggered margins.
- * Words, circle, and CTA flow in a column — no overlaps.
- */
 .hero-text-s1 {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   gap: 0;
-  padding: clamp(4rem, 12vh, 6rem) 1.5rem clamp(3rem, 8vh, 5rem);
+  padding: 0 1.5rem;
   height: 100%;
   pointer-events: none;
-}
-
-.hero-word-1 {
-  margin-left: 2vw;
-}
-
-.hero-word-2 {
-  margin-top: 0.75rem;
-  margin-left: 12vw;
-}
-
-.hero-word-3 {
-  margin-top: 0.75rem;
-  margin-left: 2vw;
-}
-
-.hero-word-circle {
-  margin-top: 1.5rem;
-  display: flex;
-  justify-content: center;
-}
-
-.hero-word-cta {
-  margin-top: 1.5rem;
   text-align: center;
 }
 
-/*
- * Desktop: absolute editorial placement.
- * Each block has explicit coordinates chosen so no two overlap.
- *
- * Lane A (Stage 1):
- *   "Private"    → top-left
- *   "Longevity"  → mid-right
- *   "Advisory"   → lower-left
- *   Circle       → between "Private" and "Advisory", left side
- *   CTA          → bottom-center
- *
- * Lane B (Stage 2) occupies a different vertical band — see .hero-text-s2.
- */
+/* Statement — display type, centred with balanced wrapping */
+.hero-s1-statement {
+  max-width: clamp(20rem, 60vw, 48rem);
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.18;
+  text-wrap: balance;
+}
+
+/* Down arrow — scroll invitation */
+.hero-s1-arrow {
+  margin-top: clamp(2rem, 4vh, 3.5rem);
+  color: var(--muted-foreground);
+  opacity: 0.5;
+  animation: scrollDrift 2.5s ease-in-out infinite;
+}
+
 @media (min-width: 768px) {
   .hero-text-s1 {
-    display: block;
-    padding: 0;
-  }
-
-  .hero-word {
-    position: absolute;
-    margin: 0;
-  }
-
-  /* "Private" — top-left */
-  .hero-word-1 {
-    left: clamp(2rem, 8vw, 10rem);
-    top: clamp(3rem, 14vh, 10rem);
-  }
-
-  /* "Longevity" — mid-right, well clear of "Private" vertically */
-  .hero-word-2 {
-    left: clamp(20rem, 48vw, 52vw);
-    top: clamp(10rem, 38vh, 24rem);
-  }
-
-  /* "Advisory" — lower-left, well below circle area */
-  .hero-word-3 {
-    left: clamp(2rem, 10vw, 12rem);
-    top: clamp(20rem, 68vh, 44rem);
-  }
-
-  /* Circle descriptor — sits between "Private" and "Advisory" */
-  .hero-word-circle {
-    left: clamp(3rem, 22vw, 20rem);
-    top: clamp(12rem, 42vh, 28rem);
-    display: block;
-  }
-
-  /* CTA — bottom center, below "Advisory" */
-  .hero-word-cta {
-    left: 50%;
-    bottom: clamp(2rem, 5vh, 4rem);
-    top: auto;
-    transform: translateX(-50%);
-    white-space: nowrap;
+    padding: 0 8vw;
+    /* Shift slightly above centre to mirror stage 2 offset */
+    padding-bottom: 8vh;
   }
 }
 
@@ -352,6 +290,11 @@ h4 {
   letter-spacing: 0.06em;
   color: var(--muted-foreground);
   opacity: 0.6;
+}
+
+.hero-exclusivity-dark {
+  color: #F7F5F2;
+  opacity: 0.4;
 }
 
 /* ——— Stage 2 text ——— */
@@ -396,6 +339,16 @@ h4 {
   .hero-text-s2 .hero-subhead {
     margin-top: 2.5rem;
   }
+}
+
+/* CTA in Stage 2 */
+.hero-s2-cta {
+  margin-top: clamp(2rem, 4vh, 3rem);
+}
+
+.hero-s2-cta a,
+.hero-s2-cta button {
+  pointer-events: auto;
 }
 
 /* ——— Hero typography ——— */

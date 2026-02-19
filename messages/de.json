@@ -45,16 +45,12 @@
   },
   "home": {
     "hero": {
-      "title": "Private Longevity Begleitung",
-      "titleLine1": "Private",
-      "titleLine2": "Longevity",
-      "titleLine3": "Begleitung",
-      "microline": "Stille, gründliche Aufmerksamkeit für Ihre Gesundheit",
-      "cta": "Persönliches Kennenlernen anfragen",
-      "exclusivity": "Nur 3–5 Klient:innen",
+      "title": "Ihre Gesundheit — mit der gleichen Diskretion wie alles andere in Ihrem Leben.",
       "state2": {
         "headline": "Ruhige Sicherheit.",
-        "support": "Diskrete, langfristige Begleitung, damit gesundheitliche Entscheidungen einfach werden — und Vitalität sichtbar bleibt."
+        "support": "Diskrete, langfristige Begleitung, damit gesundheitliche Entscheidungen einfach werden — und Vitalität sichtbar bleibt.",
+        "cta": "Persönliches Kennenlernen anfragen",
+        "exclusivity": "Nur 3–5 Klient:innen"
       }
     },
     "capacity": {
