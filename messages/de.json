@@ -52,7 +52,11 @@
       "subtitle": "Stille, gründliche Aufmerksamkeit für Ihre Gesundheit — persönlich und fortlaufend.",
       "microline": "Drei bis fünf Klient:innen gleichzeitig.",
       "cta": "Persönliches Kennenlernen anfragen",
-      "exclusivity": "Auf Empfehlung oder persönliche Anfrage"
+      "exclusivity": "Auf Empfehlung oder persönliche Anfrage",
+      "state2": {
+        "headline": "Ruhige Sicherheit.",
+        "support": "Diskrete, langfristige Begleitung, damit gesundheitliche Entscheidungen einfach werden — und Vitalität sichtbar bleibt."
+      }
     },
     "capacity": {
       "overline": "Bewusst begrenzt",
