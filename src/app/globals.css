@@ -164,6 +164,64 @@ h4 {
   font-weight: 500;
 }
 
+/* ——— Hero entrance animations ——— */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ambientGlow {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.hero-animate {
+  position: relative;
+}
+
+.hero-animate::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    var(--background) 0%,
+    var(--muted) 50%,
+    var(--background) 100%
+  );
+  background-size: 200% 200%;
+  animation: ambientGlow 12s ease-in-out infinite;
+  opacity: 0.5;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-animate > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-fade {
+  opacity: 0;
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.hero-fade-delay-1 { animation-delay: 0.1s; }
+.hero-fade-delay-2 { animation-delay: 0.3s; }
+.hero-fade-delay-3 { animation-delay: 0.5s; }
+.hero-fade-delay-4 { animation-delay: 0.7s; }
+
 /* ——— Reduced motion ——— */
 
 @media (prefers-reduced-motion: reduce) {
