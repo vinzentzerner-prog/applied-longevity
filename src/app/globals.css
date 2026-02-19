@@ -164,59 +164,59 @@ h4 {
   font-weight: 500;
 }
 
-/* ——— Hero two-state layer stack ——— */
+/* ——— Pinned hero (Bergos-style scroll transition) ——— */
 
-.hero-state {
+/* Outer wrapper — creates scroll travel */
+.hero-wrapper {
+  height: 200vh;
   position: relative;
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+}
+
+/* Sticky viewport — stays pinned during scroll */
+.hero-viewport {
+  position: sticky;
+  top: 0;
+  height: 100vh;
   overflow: hidden;
 }
 
-/* State 1 — light theme */
-.hero-state-1 {
-  background: var(--background);
-}
+/* ——— Layers ——— */
 
-/* State 2 — dark theme */
-.hero-state-2 {
-  background: #1C1C1C;
-  color: #F7F5F2;
-}
-
-/* z-0: Background image */
-.hero-bg {
+/* z-0: Backgrounds */
+.hero-layer-bg {
   position: absolute;
   inset: 0;
   z-index: 0;
+}
+
+.hero-bg-light {
   background: linear-gradient(135deg, #EDEBE8 0%, #D6CFC7 100%);
-  transition: opacity 600ms cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .hero-bg-dark {
   background: linear-gradient(135deg, #1C1C1C 0%, #2A2826 100%);
 }
 
-/* z-1: Soft overlay for text readability */
-.hero-overlay {
+/* z-1: Overlay gradients — solid black, opacity driven by JS */
+.hero-layer-overlay {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: rgba(28, 28, 28, 0.15);
+  background: #000;
   pointer-events: none;
 }
 
-.hero-overlay-dark {
-  background: rgba(0, 0, 0, 0.08);
-}
-
-/* z-2: SVG arc — State 1, mobile first */
-.hero-arc {
+/* z-2: Arc wrapper — transform + opacity driven by JS */
+.hero-layer-arc {
   position: absolute;
+  inset: 0;
   z-index: 2;
   pointer-events: none;
+  will-change: transform, opacity;
+}
+
+.hero-layer-arc .hero-arc {
+  position: absolute;
   left: -55%;
   top: 10%;
   width: 170%;
@@ -224,71 +224,153 @@ h4 {
 }
 
 @media (min-width: 768px) {
-  .hero-arc {
+  .hero-layer-arc .hero-arc {
     left: -35%;
     top: -10%;
     width: 140%;
   }
 }
 
-/* State 2 arc — mirrored to right side */
-.hero-state-2 .hero-arc {
-  left: auto;
-  right: -55%;
-  top: -5%;
+/* z-3: Text layers */
+.hero-layer-text {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  will-change: transform, opacity, filter;
+}
+
+.hero-layer-text a,
+.hero-layer-text button {
+  pointer-events: auto;
+}
+
+/* ——— State 1: editorial word placement ——— */
+
+/* Mobile: vertical stack with staggered left margins */
+.hero-text-s1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 1.5rem;
+  height: 100%;
+  pointer-events: none;
+}
+
+.hero-word-1 {
+  margin-left: 2vw;
+}
+
+.hero-word-2 {
+  margin-top: 1.25rem;
+  margin-left: 14vw;
+}
+
+.hero-word-3 {
+  margin-top: 1.25rem;
+  margin-left: 2vw;
+}
+
+.hero-word-circle {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-word-subtitle {
+  margin-top: 2rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.hero-word-cta {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+/* Desktop: absolute editorial placement */
+@media (min-width: 768px) {
+  .hero-text-s1 {
+    display: block;
+    padding: 0;
+  }
+
+  .hero-word {
+    position: absolute;
+    margin: 0;
+  }
+
+  .hero-word-1 {
+    left: 8vw;
+    top: 16vh;
+  }
+
+  .hero-word-2 {
+    left: 52vw;
+    top: 42vh;
+  }
+
+  .hero-word-3 {
+    left: 12vw;
+    top: 70vh;
+  }
+
+  .hero-word-circle {
+    left: 18vw;
+    top: 40vh;
+    transform: translate(-50%, -50%);
+    display: block;
+  }
+
+  .hero-word-subtitle {
+    left: 50%;
+    top: 83vh;
+    transform: translateX(-50%);
+    max-width: 28rem;
+    padding: 0;
+  }
+
+  .hero-word-cta {
+    left: 50%;
+    top: 91vh;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+}
+
+/* ——— State 2 text ——— */
+
+.hero-text-s2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1.5rem;
+  height: 100%;
+  color: #F7F5F2;
+  pointer-events: none;
 }
 
 @media (min-width: 768px) {
-  .hero-state-2 .hero-arc {
-    right: -35%;
-    top: 5%;
-    width: 140%;
+  .hero-text-s2 {
+    padding: 0 8vw;
   }
 }
 
-/* z-3: Content */
-.hero-content {
-  position: relative;
-  z-index: 3;
-  width: 100%;
-  max-width: 64rem;
-  margin: 0 auto;
-  padding: 6rem 1rem;
-  transition: opacity 600ms cubic-bezier(0.25, 0.1, 0.25, 1);
+/* Clean white text — no highlight, no blend */
+.hero-s2-headline {
+  mix-blend-mode: normal;
+  background: none;
+}
+
+.hero-text-s2 .hero-subhead {
+  margin-top: 2.5rem;
+  max-width: 32rem;
+  opacity: 0.75;
 }
 
 @media (min-width: 640px) {
-  .hero-content {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+  .hero-text-s2 .hero-subhead {
+    margin-top: 3rem;
   }
-}
-
-/* Scroll indicator — anchored to State 1 bottom */
-.hero-scroll {
-  position: absolute;
-  bottom: 1.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 3;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-@media (min-width: 640px) {
-  .hero-scroll {
-    bottom: 2rem;
-  }
-}
-
-/* Cross-fade: subtle dim on State 1 when State 2 activates */
-.hero-dimmed .hero-bg {
-  opacity: 0.95;
-}
-
-.hero-dimmed .hero-content {
-  opacity: 0.95;
 }
 
 /* ——— Hero typography ——— */
@@ -310,36 +392,44 @@ h4 {
   letter-spacing: 0;
 }
 
-.hero-state-2 .hero-subhead {
-  opacity: 0.75;
+/* State 1 subtitle */
+.hero-subtitle-text {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  color: var(--muted-foreground);
+  max-width: 28rem;
+  margin: 0 auto;
 }
 
-/* Thin decorative circle with microline text */
+/* ——— Circle ——— */
+
 .hero-circle {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   border: 1px solid var(--border);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 1.75rem;
   flex-shrink: 0;
 }
 
 @media (min-width: 768px) {
   .hero-circle {
-    width: 220px;
-    height: 220px;
-    padding: 2.25rem;
+    width: 200px;
+    height: 200px;
+    padding: 2rem;
   }
 }
 
 @media (min-width: 1024px) {
   .hero-circle {
-    width: 260px;
-    height: 260px;
-    padding: 2.75rem;
+    width: 240px;
+    height: 240px;
+    padding: 2.5rem;
   }
 }
 
@@ -353,7 +443,26 @@ h4 {
   color: var(--muted-foreground);
 }
 
-/* Scroll indicator line */
+/* ——— Scroll indicator ——— */
+
+.hero-scroll-indicator {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  will-change: opacity;
+}
+
+@media (min-width: 640px) {
+  .hero-scroll-indicator {
+    bottom: 2rem;
+  }
+}
+
 @keyframes scrollDrift {
   0%, 100% { transform: translateY(0); opacity: 0.4; }
   50% { transform: translateY(8px); opacity: 0.15; }
@@ -365,31 +474,6 @@ h4 {
   background: var(--border);
   animation: scrollDrift 2.5s ease-in-out infinite;
 }
-
-/* ——— Settling reveal animation ——— */
-/* "Already there, becomes clear" — not appear from nothing */
-
-.hero-settle {
-  opacity: 0.85;
-  filter: blur(6px);
-  transform: translateY(8px);
-  transition:
-    opacity 1100ms cubic-bezier(0.25, 0.1, 0.25, 1),
-    filter 1100ms cubic-bezier(0.25, 0.1, 0.25, 1),
-    transform 1100ms cubic-bezier(0.25, 0.1, 0.25, 1);
-}
-
-.isActive .hero-settle {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateY(0);
-}
-
-.hero-settle-delay-1 { transition-delay: 0ms; }
-.hero-settle-delay-2 { transition-delay: 150ms; }
-.hero-settle-delay-3 { transition-delay: 300ms; }
-.hero-settle-delay-4 { transition-delay: 450ms; }
-.hero-settle-delay-5 { transition-delay: 600ms; }
 
 /* ——— Section scroll-reveal ——— */
 
