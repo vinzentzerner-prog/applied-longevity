@@ -58,7 +58,6 @@ export default function Home({
         titleLine2={t("hero.titleLine2")}
         titleLine3={t("hero.titleLine3")}
         microline={t("hero.microline")}
-        subtitle={t("hero.subtitle")}
         ctaText={t("hero.cta")}
         ctaExclusivity={t("hero.exclusivity")}
         state2Headline={t("hero.state2.headline")}

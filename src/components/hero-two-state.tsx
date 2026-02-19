@@ -12,7 +12,6 @@ interface HeroTwoStateProps {
   titleLine2: string;
   titleLine3: string;
   microline: string;
-  subtitle: string;
   ctaText: string;
   ctaExclusivity: string;
   state2Headline: string;
@@ -27,13 +26,17 @@ function clamp(v: number, min: number, max: number) {
   return Math.min(Math.max(v, min), max);
 }
 
+/** Hermite smoothstep: 0→1 with ease-in-out */
+function smoothstep(t: number) {
+  return t * t * (3 - 2 * t);
+}
+
 export function HeroTwoState({
   fullTitle,
   titleLine1,
   titleLine2,
   titleLine3,
   microline,
-  subtitle,
   ctaText,
   ctaExclusivity,
   state2Headline,
@@ -60,6 +63,11 @@ export function HeroTwoState({
     let rafId: number;
     let lastP = -1;
 
+    /* Crossfade band boundaries */
+    const P_LOW = 0.12;
+    const P_HIGH = 0.88;
+    const BAND = P_HIGH - P_LOW; // 0.76
+
     const tick = () => {
       const rect = wrapper.getBoundingClientRect();
       const scrolled = -rect.top;
@@ -69,46 +77,95 @@ export function HeroTwoState({
       if (Math.abs(p - lastP) > 0.0005) {
         lastP = p;
 
-        // Background crossfade — directly driven by p
-        if (bgARef.current) bgARef.current.style.opacity = String(1 - p);
-        if (bgBRef.current) bgBRef.current.style.opacity = String(p);
+        /* ── Smoothstep interpolant ── */
+        const t = clamp((p - P_LOW) / BAND, 0, 1);
+        const s = smoothstep(t);
 
-        // Overlay readability gradients
+        /* ── Backgrounds ── */
+        if (bgARef.current) bgARef.current.style.opacity = String(1 - s);
+        if (bgBRef.current) bgBRef.current.style.opacity = String(s);
+
+        /* ── Overlays ── */
         if (overlayARef.current)
-          overlayARef.current.style.opacity = String(lerp(0.08, 0, p));
+          overlayARef.current.style.opacity = String(lerp(0.08, 0, s));
         if (overlayBRef.current)
-          overlayBRef.current.style.opacity = String(lerp(0, 0.24, p));
+          overlayBRef.current.style.opacity = String(lerp(0, 0.24, s));
 
-        // Arc — subtle position shift + opacity adaptation
+        /* ── Arc — subtle drift ── */
         if (arcRef.current) {
-          const tx = lerp(0, -12, p);
-          const ty = lerp(0, 8, p);
+          const tx = lerp(0, -12, s);
+          const ty = lerp(0, 8, s);
           arcRef.current.style.transform = `translate(${tx}%, ${ty}%)`;
-          arcRef.current.style.opacity = String(0.55 + 0.1 * p);
+          arcRef.current.style.opacity = String(lerp(0.55, 0.65, s));
         }
 
-        // State 1 text — softens as p increases
+        /* ── Stage 1 — hard gate + crossfade ── */
         if (textS1Ref.current) {
-          const o = lerp(1, 0.92, p);
-          textS1Ref.current.style.opacity = String(o);
-          if (!reducedMotion) {
-            textS1Ref.current.style.filter = `blur(${lerp(0, 2, p)}px)`;
-            textS1Ref.current.style.transform = `translateY(${lerp(0, 6, p)}px)`;
+          const el = textS1Ref.current;
+          if (p >= P_HIGH) {
+            // Fully hidden
+            el.style.opacity = "0";
+            el.style.visibility = "hidden";
+            el.style.pointerEvents = "none";
+            if (!reducedMotion) {
+              el.style.filter = "blur(2px)";
+              el.style.transform = "translateY(6px)";
+            }
+          } else if (p <= P_LOW) {
+            // Fully visible
+            el.style.opacity = "1";
+            el.style.visibility = "visible";
+            el.style.pointerEvents = "";
+            if (!reducedMotion) {
+              el.style.filter = "blur(0px)";
+              el.style.transform = "translateY(0px)";
+            }
+          } else {
+            // Crossfade band
+            el.style.opacity = String(1 - s);
+            el.style.visibility = "visible";
+            el.style.pointerEvents = s > 0.5 ? "none" : "";
+            if (!reducedMotion) {
+              el.style.filter = `blur(${lerp(0, 2, s)}px)`;
+              el.style.transform = `translateY(${lerp(0, 6, s)}px)`;
+            }
           }
-          textS1Ref.current.style.pointerEvents = p > 0.7 ? "none" : "";
         }
 
-        // State 2 text — resolves in as p increases
+        /* ── Stage 2 — hard gate + crossfade ── */
         if (textS2Ref.current) {
-          const o = lerp(0.85, 1, p);
-          textS2Ref.current.style.opacity = String(o);
-          if (!reducedMotion) {
-            textS2Ref.current.style.filter = `blur(${lerp(6, 0, p)}px)`;
-            textS2Ref.current.style.transform = `translateY(${lerp(8, 0, p)}px)`;
+          const el = textS2Ref.current;
+          if (p <= P_LOW) {
+            // Fully hidden
+            el.style.opacity = "0";
+            el.style.visibility = "hidden";
+            el.style.pointerEvents = "none";
+            if (!reducedMotion) {
+              el.style.filter = "blur(6px)";
+              el.style.transform = "translateY(8px)";
+            }
+          } else if (p >= P_HIGH) {
+            // Fully visible
+            el.style.opacity = "1";
+            el.style.visibility = "visible";
+            el.style.pointerEvents = "none"; // Stage 2 is non-interactive
+            if (!reducedMotion) {
+              el.style.filter = "blur(0px)";
+              el.style.transform = "translateY(0px)";
+            }
+          } else {
+            // Crossfade band
+            el.style.opacity = String(s);
+            el.style.visibility = "visible";
+            el.style.pointerEvents = "none";
+            if (!reducedMotion) {
+              el.style.filter = `blur(${lerp(6, 0, s)}px)`;
+              el.style.transform = `translateY(${lerp(8, 0, s)}px)`;
+            }
           }
         }
 
-        // Scroll indicator — fades out in first third
+        /* ── Scroll indicator — fades out in first third ── */
         if (scrollRef.current) {
           scrollRef.current.style.opacity = String(clamp(1 - p * 3, 0, 1));
         }
@@ -166,18 +223,16 @@ export function HeroTwoState({
           <HeroArc />
         </div>
 
-        {/* z-3: State 1 — editorial word placement */}
-        <div ref={textS1Ref} className="hero-layer-text hero-text-s1">
+        {/* z-3: Stage 1 — editorial word placement */}
+        <div
+          ref={textS1Ref}
+          className="hero-layer-text hero-text-s1"
+          style={{ opacity: 1, visibility: "visible" }}
+        >
           <h1 className="sr-only">{fullTitle}</h1>
 
           <div className="hero-word hero-word-1" aria-hidden="true">
             <span className="hero-display">{titleLine1}</span>
-          </div>
-
-          <div className="hero-word hero-word-circle">
-            <div className="hero-circle">
-              <p>{microline}</p>
-            </div>
           </div>
 
           <div className="hero-word hero-word-2" aria-hidden="true">
@@ -188,25 +243,25 @@ export function HeroTwoState({
             <span className="hero-display">{titleLine3}</span>
           </div>
 
-          <div className="hero-word hero-word-subtitle">
-            <p className="hero-subtitle-text">{subtitle}</p>
+          <div className="hero-word hero-word-circle">
+            <div className="hero-circle">
+              <p>{microline}</p>
+            </div>
           </div>
 
           <div className="hero-word hero-word-cta">
             <Link href="/apply">
               <Button size="lg">{ctaText}</Button>
             </Link>
-            <p className="mt-3 text-xs tracking-wide text-muted-foreground/60">
-              {ctaExclusivity}
-            </p>
+            <p className="hero-exclusivity">{ctaExclusivity}</p>
           </div>
         </div>
 
-        {/* z-3: State 2 — headline + support */}
+        {/* z-3: Stage 2 — headline + support */}
         <div
           ref={textS2Ref}
           className="hero-layer-text hero-text-s2"
-          style={{ opacity: 0.85 }}
+          style={{ opacity: 0, visibility: "hidden" }}
         >
           <span className="hero-display hero-s2-headline">
             {state2Headline}
