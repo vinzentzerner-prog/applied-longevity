@@ -82,7 +82,7 @@
     },
     "about": {
       "title": "About",
-      "body": "My background spans psychology, analytics, and over fifteen years of studying how health holds together across its many dimensions. I've worked closely with individuals whose lives leave little room for trial and error — people who need clarity, not more information.\n\nI take on very few clients and stay involved over long periods. Each engagement begins with careful observation, not intervention. The goal is to understand your patterns before shaping anything — and to remain a steady, discreet presence as your health evolves."
+      "body": "I work with a very small number of people over long periods of time.\n\nMost of them came to me not because something was wrong, but because nothing was being held together — fragmented appointments, conflicting advice, no one with the full picture. My role is to be that person: the one who stays, watches, and interprets.\n\nI don't offer programmes or packages. I offer sustained attention — to your patterns, your transitions, and what your health is actually telling you beneath the surface.\n\nIf you're considering reaching out, a brief private conversation is enough to know whether this is right for both of us."
     },
     "deliverables": {
       "overline": "What is included",
@@ -286,49 +286,30 @@
   "about": {
     "eyebrow": "About",
     "hero": {
-      "title": "Built from experience, held with care.",
-      "subtitle": "Applied Longevity grew from over fifteen years of personal practice and quiet observation — combined with the reality of building companies and navigating a demanding life. The best framework is one that makes your life richer, not smaller."
-    },
-    "story": {
-      "title": "Background",
-      "p1": "I have trained seriously for over fifteen years — across disciplines, seasons, and phases of life. Along the way, I began guiding those closest to me, sharing what I had learned. Over time, that care turned into something more structured.",
-      "p2": "Professionally, I have founded two companies and now work in Private Equity. I understand what a demanding life looks like — the early mornings, the travel, the mental weight that never fully lifts. That experience shaped my conviction: health must fit into your real life, not ask you to build a different one.",
-      "p3": "Through my <link>research on leadership</link>, I saw how the right guidance can shape human development — how people grow when someone meets them where they are and holds them accountable with warmth. That insight is what drew me to this work, and it remains the foundation of how I practise.",
-      "p4": "The question that guides me: what does it take to remain strong, clear, and well — not for months, but for decades? The answer is not a single protocol. It is a system — one that integrates movement, nutrition, sleep, emotional well-being, and medical insight into a coherent whole. That is Applied Longevity."
-    },
-    "callout": {
-      "title": "My Approach",
-      "body": "Health should enrich your life, not restrict it. Together we find a way that fits your everyday — without giving up what brings you joy."
+      "title": "Few clients. Full attention.",
+      "subtitle": "I work with a very small number of people over long periods of time.\n\nMost of them came to me not because something was wrong, but because nothing was being held together — fragmented appointments, conflicting advice, no one with the full picture. My role is to be that person: the one who stays, watches, and interprets.\n\nI don't offer programmes or packages. I offer sustained attention — to your patterns, your transitions, and what your health is actually telling you beneath the surface."
     },
     "philosophy": {
       "title": "Philosophy",
       "items": {
         "observe": {
           "title": "Observe before you act",
-          "description": "Every engagement begins with four weeks of quiet observation. We don't change anything until we understand where you truly are — not where you think you are."
+          "description": "Every engagement begins with quiet, careful observation — before anything is changed. First understand, then shape."
         },
-        "roster": {
-          "title": "A small practice, by design",
-          "description": "I work with three to five clients at a time, for a minimum of six months. This is deliberately not scalable. Genuine attention requires genuine presence."
+        "discretion": {
+          "title": "Discretion as a principle",
+          "description": "Everything we discuss and measure stays between us. No delegation, no tools you need to manage yourself — just a quiet, private overview."
         },
-        "evidence": {
-          "title": "Evidence over ideology",
-          "description": "No trends, no dogma. We observe what works through careful data — bloodwork, wearables, how you feel — and adjust with patience."
-        },
-        "life": {
-          "title": "More life, not less",
-          "description": "Health should deepen your well-being without diminishing your joy. We integrate better habits into the life you already have — without stripping away what makes it meaningful."
-        },
-        "sustainable": {
-          "title": "Sustainable by nature",
-          "description": "The aim is a framework you can carry for years — not a short-term programme. We build patterns that accumulate quietly over time."
+        "continuity": {
+          "title": "Continuity over episodes",
+          "description": "Health changes over years, not weeks. I stay involved over long periods — and adapt to what changes."
         }
       }
     },
     "cta": {
       "title": "When you're ready.",
-      "subtitle": "If this resonates, I would welcome hearing from you. Every inquiry is read personally.",
-      "button": "Begin a conversation"
+      "subtitle": "If you have the sense that this might be right — a brief, private conversation is enough to find out.",
+      "button": "Request a private introduction"
     }
   },
   "apply": {
