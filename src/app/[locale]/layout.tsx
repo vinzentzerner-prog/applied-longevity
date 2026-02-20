@@ -86,7 +86,7 @@ function JsonLd({ locale }: { locale: string }) {
     name: SITE_NAME,
     description:
       locale === "de"
-        ? "Eine private Longevity-Beratung für 3–5 Klient:innen gleichzeitig. Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Einordnung — sorgfältig abgestimmt auf Ihr Leben."
+        ? "Eine private Longevity-Begleitung für 3–5 Klient:innen gleichzeitig. Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Einordnung — sorgfältig abgestimmt auf Ihr Leben."
         : "A private longevity advisory for 3–5 clients at a time. Movement, nutrition, sleep, emotional well-being, and medical insight — quietly integrated around your life.",
     url: SITE_URL,
     image: `${SITE_URL}/og-image.jpg`,
@@ -106,7 +106,7 @@ function JsonLd({ locale }: { locale: string }) {
       "@type": "Offer",
       description:
         locale === "de"
-          ? "Private Longevity-Beratung, Mindestlaufzeit sechs Monate"
+          ? "Private Longevity-Begleitung, Mindestlaufzeit sechs Monate"
           : "Private longevity advisory, minimum six-month engagement",
       availability: "https://schema.org/LimitedAvailability",
     },
