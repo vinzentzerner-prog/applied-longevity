@@ -330,10 +330,10 @@ h4 {
     top: 66vh;
   }
 
-  /* Microline text — left-aligned with Private/Advisor */
+  /* Microline text — left-aligned with Private/Advisor, centred in gap */
   .hero-word-circle {
     left: 10vw;
-    top: 50vh;
+    top: 42vh;
     display: block;
   }
 
@@ -472,20 +472,20 @@ h4 {
   color: var(--muted-foreground);
 }
 
-/* Desktop — left-aligned, uppercase, matches state 2 support size */
+/* Desktop — narrow block (4 lines), left-aligned, uppercase */
 @media (min-width: 768px) {
   .hero-circle {
-    max-width: clamp(20rem, 30vw, 28rem);
+    max-width: 15rem;
     justify-content: flex-start;
     padding: 0;
   }
 
   .hero-circle p {
-    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-size: clamp(0.8125rem, 1.1vw, 1rem);
     text-align: left;
     text-transform: uppercase;
-    line-height: 1.5;
-    letter-spacing: 0.05em;
+    line-height: 1.65;
+    letter-spacing: 0.06em;
   }
 }
 
