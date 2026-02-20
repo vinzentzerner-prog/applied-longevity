@@ -23,6 +23,18 @@
     "apply": {
       "title": "Begin a Conversation — Applied Longevity",
       "description": "A short, reflective inquiry to help us understand what you're looking for. Every response is read personally and treated with discretion."
+    },
+    "impressum": {
+      "title": "Legal Notice — Applied Longevity",
+      "description": "Legal notice and company information for Applied Longevity."
+    },
+    "datenschutz": {
+      "title": "Privacy Policy — Applied Longevity",
+      "description": "How Applied Longevity handles your personal data."
+    },
+    "agb": {
+      "title": "Terms & Conditions — Applied Longevity",
+      "description": "Terms and conditions for Applied Longevity services."
     }
   },
   "nav": {
@@ -41,7 +53,10 @@
     "testimonials": "Reflections",
     "about": "About",
     "apply": "Inquire",
-    "copyright": "© {year} Applied Longevity. All rights reserved."
+    "copyright": "© {year} Applied Longevity. All rights reserved.",
+    "impressum": "Legal Notice",
+    "datenschutz": "Privacy",
+    "agb": "Terms"
   },
   "home": {
     "hero": {
@@ -68,7 +83,7 @@
       "items": [
         {
           "title": "Understanding where you are",
-          "description": "Before anything changes, we listen. Four weeks of quiet, private observation — sleep, movement, nutrition, bloodwork, daily rhythms — to understand your health on its own terms."
+          "description": "Before anything changes, we listen. Four weeks of quiet, private observation — sleep, movement, nutrition, bloodwork, daily rhythms — to understand your health on its own terms. In coordination with your existing physicians and preferred clinics."
         },
         {
           "title": "A framework built around you",
@@ -201,7 +216,7 @@
         "number": "01",
         "title": "Observe",
         "duration": "Weeks 1–4",
-        "description": "We don't change anything yet. For four weeks, we collect baseline data — sleep patterns, movement, nutrition, bloodwork, and how you feel. This gives us a clear, unhurried picture of where you are before we consider a single adjustment."
+        "description": "We don't change anything yet. For four weeks, we collect baseline data — sleep patterns, movement, nutrition, bloodwork, and how you feel — in coordination with your existing physicians and preferred clinics. This gives us a clear, unhurried picture of where you are before we consider a single adjustment."
       },
       {
         "number": "02",
@@ -344,5 +359,98 @@
       ],
       "note": "I respond to every inquiry within a few days. If I am at capacity, I will let you know honestly and we can revisit when the timing is right."
     }
+  },
+  "impressum": {
+    "title": "Legal Notice",
+    "sections": [
+      {
+        "title": "Company",
+        "body": "Applied Longevity\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich\nSwitzerland"
+      },
+      {
+        "title": "Responsible Person",
+        "body": "Vinzent Zerner"
+      },
+      {
+        "title": "Disclaimer — No Binding Medical Advice",
+        "body": "The services offered by Applied Longevity do not constitute binding medical advice, diagnosis, or treatment. All guidance is provided as general health and wellness information. For medical diagnoses, treatments, or prescriptions, please consult a licensed physician. Applied Longevity works in coordination with your existing physicians and preferred clinics — it does not replace them."
+      },
+      {
+        "title": "Liability",
+        "body": "Despite careful control, Applied Longevity assumes no liability for the content of external links. The operators of linked pages are solely responsible for their content."
+      }
+    ]
+  },
+  "datenschutz": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: February 2026",
+    "sections": [
+      {
+        "title": "Responsible Party",
+        "body": "Applied Longevity\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich, Switzerland"
+      },
+      {
+        "title": "Data Collection",
+        "body": "We collect personal data only when you voluntarily provide it — for example, when submitting an inquiry through our contact form. This may include your name, email address, and the content of your message."
+      },
+      {
+        "title": "Purpose of Processing",
+        "body": "Your data is used exclusively to respond to your inquiry and, if applicable, to manage the advisory relationship. We do not sell, share, or transfer your data to third parties."
+      },
+      {
+        "title": "Health Data",
+        "body": "Applied Longevity does not store or process medical records. Any health-related data discussed during an engagement remains confidential and is not retained in any digital system beyond what is necessary for the advisory. We do not provide binding medical advice."
+      },
+      {
+        "title": "Cookies",
+        "body": "This website uses only technically necessary cookies. No tracking or analytics cookies are employed."
+      },
+      {
+        "title": "Your Rights",
+        "body": "Under the Swiss Federal Act on Data Protection (FADP), you have the right to access, correct, or delete your personal data at any time. To exercise these rights, please contact us at the address listed above."
+      },
+      {
+        "title": "Changes",
+        "body": "We may update this privacy policy from time to time. The current version is always available on this page."
+      }
+    ]
+  },
+  "agb": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "Last updated: February 2026",
+    "sections": [
+      {
+        "title": "Scope",
+        "body": "These terms apply to all services provided by Applied Longevity, operated by Vinzent Zerner, Werdstrasse 127, 8003 Zürich, Switzerland."
+      },
+      {
+        "title": "Services",
+        "body": "Applied Longevity provides private health and wellness advisory services. The advisory includes guidance on movement, nutrition, sleep, emotional well-being, and the interpretation of health data — always in coordination with the client's existing physicians and preferred clinics."
+      },
+      {
+        "title": "No Binding Medical Advice",
+        "body": "The services offered by Applied Longevity do not constitute medical advice, diagnosis, or treatment. All guidance is informational in nature and does not replace professional medical consultation. Clients are responsible for consulting licensed medical professionals for all medical decisions."
+      },
+      {
+        "title": "Confidentiality",
+        "body": "All information shared during an engagement is treated as strictly confidential. Applied Longevity does not disclose client information to third parties without explicit consent."
+      },
+      {
+        "title": "Fees & Payment",
+        "body": "Fees are agreed upon individually before the start of each engagement. Payment terms are communicated in writing prior to commencement."
+      },
+      {
+        "title": "Termination",
+        "body": "Either party may terminate the engagement with 30 days' written notice. Already rendered services remain payable."
+      },
+      {
+        "title": "Liability",
+        "body": "Applied Longevity's liability is limited to cases of intent or gross negligence. Liability for indirect or consequential damages is excluded to the extent permitted by law."
+      },
+      {
+        "title": "Governing Law",
+        "body": "These terms are governed by Swiss law. The exclusive place of jurisdiction is Zürich, Switzerland."
+      }
+    ]
   }
 }
