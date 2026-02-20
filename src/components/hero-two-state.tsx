@@ -236,7 +236,7 @@ export function HeroTwoState({
           </div>
 
           <div className="hero-word hero-word-2" aria-hidden="true">
-            <span className="hero-display">{titleLine2}</span>
+            <span className="hero-display hero-display-italic">{titleLine2}</span>
           </div>
 
           <div className="hero-word hero-word-3" aria-hidden="true">
