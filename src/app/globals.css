@@ -291,13 +291,12 @@ h4 {
 }
 
 /*
- * Desktop: absolute editorial placement.
- * Each block has explicit coordinates — Bergos-style.
+ * Desktop: absolute editorial placement — Bergos-style.
  *
  *   "Private"    → top-left
- *   "Longevity"  → mid-right
+ *   "Longevity"  → mid-right, italic, bleeds off edge
  *   "Advisor"    → lower-left
- *   Circle       → between "Private" and "Advisor", left-centre
+ *   Circle       → large, centre-left, overlapping word areas
  *   Arrow        → bottom-right
  */
 @media (min-width: 768px) {
@@ -313,33 +312,33 @@ h4 {
 
   /* "Private" — top-left */
   .hero-word-1 {
-    left: clamp(2rem, 8vw, 10rem);
-    top: clamp(3rem, 14vh, 10rem);
+    left: 7vw;
+    top: 14vh;
   }
 
-  /* "Longevity" — mid-right, well clear of "Private" vertically */
+  /* "Longevity" — mid-right, bleeds past viewport edge */
   .hero-word-2 {
-    left: clamp(20rem, 48vw, 52vw);
-    top: clamp(10rem, 38vh, 24rem);
+    left: 50vw;
+    top: 40vh;
   }
 
-  /* "Advisor" — lower-left, well below circle area */
+  /* "Advisor" — lower-left */
   .hero-word-3 {
-    left: clamp(2rem, 10vw, 12rem);
-    top: clamp(20rem, 68vh, 44rem);
+    left: 12vw;
+    top: 72vh;
   }
 
-  /* Circle — sits between "Private" and "Advisor" */
+  /* Circle — large, centre-left */
   .hero-word-circle {
-    left: clamp(3rem, 22vw, 20rem);
-    top: clamp(12rem, 42vh, 28rem);
+    left: 10vw;
+    top: 12vh;
     display: block;
   }
 
   /* Arrow — bottom-right */
   .hero-word-arrow {
-    right: clamp(3rem, 8vw, 8rem);
-    bottom: clamp(2rem, 6vh, 5rem);
+    right: 5vw;
+    bottom: 5vh;
     top: auto;
     left: auto;
     display: block;
@@ -426,6 +425,10 @@ h4 {
   font-weight: 400;
 }
 
+.hero-display-italic {
+  font-style: italic;
+}
+
 /* State 2 headline — slightly smaller cap */
 .hero-s2-headline {
   font-size: clamp(2.5rem, 7vw, 5.5rem);
@@ -442,26 +445,44 @@ h4 {
 
 /* ——— Circle ——— */
 
+/* Mobile circle — compact, centred text */
 .hero-circle {
-  width: clamp(200px, 26vw, 340px);
-  height: clamp(200px, 26vw, 340px);
+  width: clamp(200px, 50vw, 280px);
+  height: clamp(200px, 50vw, 280px);
   border: 1px solid var(--border);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: clamp(1.75rem, 3.5vw, 3.5rem);
+  padding: clamp(1.75rem, 6vw, 2.5rem);
   flex-shrink: 0;
 }
 
 .hero-circle p {
   font-family: var(--font-sans);
-  font-size: clamp(0.625rem, 0.9vw, 0.8125rem);
+  font-size: clamp(0.5625rem, 2.5vw, 0.6875rem);
   text-transform: uppercase;
   letter-spacing: 0.06em;
   line-height: 1.7;
   text-align: center;
   color: var(--muted-foreground);
+}
+
+/* Desktop circle — large, left-aligned text */
+@media (min-width: 768px) {
+  .hero-circle {
+    width: clamp(380px, 42vw, 640px);
+    height: clamp(380px, 42vw, 640px);
+    justify-content: flex-start;
+    padding: 0 10% 0 18%;
+  }
+
+  .hero-circle p {
+    font-size: clamp(0.8125rem, 1.1vw, 1rem);
+    text-align: left;
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+  }
 }
 
 /* ——— Scroll indicator ——— */
