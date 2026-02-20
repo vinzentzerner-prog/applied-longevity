@@ -17,4 +17,7 @@ export const PAGES = [
   "/how-it-works",
   "/testimonials",
   "/apply",
+  "/impressum",
+  "/datenschutz",
+  "/agb",
 ] as const;

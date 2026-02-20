@@ -23,6 +23,18 @@
     "apply": {
       "title": "Ein Gespräch beginnen — Applied Longevity",
       "description": "Eine kurze, reflektierte Anfrage, damit wir verstehen, was Sie suchen. Jede Antwort wird persönlich gelesen und vertraulich behandelt."
+    },
+    "impressum": {
+      "title": "Impressum — Applied Longevity",
+      "description": "Impressum und Angaben zum Unternehmen Applied Longevity."
+    },
+    "datenschutz": {
+      "title": "Datenschutz — Applied Longevity",
+      "description": "Wie Applied Longevity mit Ihren personenbezogenen Daten umgeht."
+    },
+    "agb": {
+      "title": "AGB — Applied Longevity",
+      "description": "Allgemeine Geschäftsbedingungen der Applied Longevity."
     }
   },
   "nav": {
@@ -41,7 +53,10 @@
     "testimonials": "Stimmen",
     "about": "Über mich",
     "apply": "Anfragen",
-    "copyright": "© {year} Applied Longevity. Alle Rechte vorbehalten."
+    "copyright": "© {year} Applied Longevity. Alle Rechte vorbehalten.",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "agb": "AGB"
   },
   "home": {
     "hero": {
@@ -68,7 +83,7 @@
       "items": [
         {
           "title": "Verstehen, wo Sie stehen",
-          "description": "Bevor sich etwas ändert, hören wir zu. Vier Wochen stille, vertrauliche Beobachtung — Schlaf, Bewegung, Ernährung, Blutwerte, Alltagsrhythmus — um Ihre Gesundheit aus sich selbst heraus zu verstehen."
+          "description": "Bevor sich etwas ändert, hören wir zu. Vier Wochen stille, vertrauliche Beobachtung — Schlaf, Bewegung, Ernährung, Blutwerte, Alltagsrhythmus — in Abstimmung mit Ihren bestehenden Ärzt:innen und bevorzugten Kliniken, um Ihre Gesundheit aus sich selbst heraus zu verstehen."
         },
         {
           "title": "Ein Rahmen, der zu Ihnen passt",
@@ -201,7 +216,7 @@
         "number": "01",
         "title": "Beobachten",
         "duration": "Wochen 1–4",
-        "description": "Wir ändern noch nichts. Vier Wochen lang sammeln wir Ausgangsdaten — Schlafmuster, Bewegung, Ernährung, Blutwerte und wie Sie sich fühlen. Das gibt uns ein klares, ungehetzes Bild davon, wo Sie stehen, bevor wir eine einzige Anpassung in Betracht ziehen."
+        "description": "Wir ändern noch nichts. Vier Wochen lang sammeln wir Ausgangsdaten — Schlafmuster, Bewegung, Ernährung, Blutwerte und wie Sie sich fühlen — in Abstimmung mit Ihren bestehenden Ärzt:innen und bevorzugten Kliniken. Das gibt uns ein klares, ungehetzes Bild davon, wo Sie stehen, bevor wir eine einzige Anpassung in Betracht ziehen."
       },
       {
         "number": "02",
@@ -344,5 +359,98 @@
       ],
       "note": "Ich antworte auf jede Anfrage innerhalb weniger Tage. Falls ich ausgelastet bin, sage ich Ihnen das offen — und wir finden den richtigen Zeitpunkt."
     }
+  },
+  "impressum": {
+    "title": "Impressum",
+    "sections": [
+      {
+        "title": "Unternehmen",
+        "body": "Applied Longevity\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich\nSchweiz"
+      },
+      {
+        "title": "Verantwortliche Person",
+        "body": "Vinzent Zerner"
+      },
+      {
+        "title": "Haftungsausschluss — Keine verbindliche medizinische Beratung",
+        "body": "Die Leistungen von Applied Longevity stellen keine verbindliche medizinische Beratung, Diagnose oder Behandlung dar. Alle Empfehlungen dienen ausschliesslich der allgemeinen Gesundheitsinformation. Für medizinische Diagnosen, Behandlungen oder Verschreibungen wenden Sie sich bitte an eine zugelassene Ärztin oder einen zugelassenen Arzt. Applied Longevity arbeitet in Abstimmung mit Ihren bestehenden Ärzt:innen und bevorzugten Kliniken — und ersetzt diese nicht."
+      },
+      {
+        "title": "Haftung",
+        "body": "Trotz sorgfältiger Kontrolle übernimmt Applied Longevity keine Haftung für die Inhalte externer Links. Für den Inhalt verlinkter Seiten sind ausschliesslich deren Betreiber verantwortlich."
+      }
+    ]
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Letzte Aktualisierung: Februar 2026",
+    "sections": [
+      {
+        "title": "Verantwortliche Stelle",
+        "body": "Applied Longevity\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich, Schweiz"
+      },
+      {
+        "title": "Datenerhebung",
+        "body": "Wir erheben personenbezogene Daten nur dann, wenn Sie diese freiwillig angeben — beispielsweise bei einer Anfrage über unser Kontaktformular. Dies kann Ihren Namen, Ihre E-Mail-Adresse und den Inhalt Ihrer Nachricht umfassen."
+      },
+      {
+        "title": "Zweck der Verarbeitung",
+        "body": "Ihre Daten werden ausschliesslich zur Beantwortung Ihrer Anfrage und gegebenenfalls zur Verwaltung der Begleitung verwendet. Wir verkaufen, teilen oder übertragen Ihre Daten nicht an Dritte."
+      },
+      {
+        "title": "Gesundheitsdaten",
+        "body": "Applied Longevity speichert oder verarbeitet keine medizinischen Akten. Gesundheitsbezogene Daten, die im Rahmen einer Begleitung besprochen werden, bleiben vertraulich und werden in keinem digitalen System über das für die Begleitung Notwendige hinaus aufbewahrt. Wir erteilen keine verbindliche medizinische Beratung."
+      },
+      {
+        "title": "Cookies",
+        "body": "Diese Website verwendet ausschliesslich technisch notwendige Cookies. Es werden keine Tracking- oder Analyse-Cookies eingesetzt."
+      },
+      {
+        "title": "Ihre Rechte",
+        "body": "Gemäss dem Schweizer Bundesgesetz über den Datenschutz (DSG) haben Sie jederzeit das Recht, Auskunft über Ihre gespeicherten Daten zu erhalten, diese berichtigen oder löschen zu lassen. Wenden Sie sich dazu bitte an die oben genannte Adresse."
+      },
+      {
+        "title": "Änderungen",
+        "body": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Die jeweils aktuelle Fassung ist stets auf dieser Seite verfügbar."
+      }
+    ]
+  },
+  "agb": {
+    "title": "Allgemeine Geschäftsbedingungen",
+    "lastUpdated": "Letzte Aktualisierung: Februar 2026",
+    "sections": [
+      {
+        "title": "Geltungsbereich",
+        "body": "Diese Bedingungen gelten für alle Leistungen von Applied Longevity, betrieben von Vinzent Zerner, Werdstrasse 127, 8003 Zürich, Schweiz."
+      },
+      {
+        "title": "Leistungen",
+        "body": "Applied Longevity bietet private Gesundheits- und Wellness-Begleitung. Die Begleitung umfasst Empfehlungen zu Bewegung, Ernährung, Schlaf, emotionalem Wohlbefinden und der Einordnung von Gesundheitsdaten — stets in Abstimmung mit den bestehenden Ärzt:innen und bevorzugten Kliniken der Klient:innen."
+      },
+      {
+        "title": "Keine verbindliche medizinische Beratung",
+        "body": "Die Leistungen von Applied Longevity stellen keine medizinische Beratung, Diagnose oder Behandlung dar. Alle Empfehlungen sind informativer Natur und ersetzen nicht die professionelle ärztliche Konsultation. Klient:innen sind selbst verantwortlich, für alle medizinischen Entscheidungen zugelassene Ärzt:innen zu konsultieren."
+      },
+      {
+        "title": "Vertraulichkeit",
+        "body": "Alle im Rahmen einer Begleitung geteilten Informationen werden streng vertraulich behandelt. Applied Longevity gibt keine Klient:inneninformationen ohne ausdrückliche Zustimmung an Dritte weiter."
+      },
+      {
+        "title": "Honorar & Zahlung",
+        "body": "Das Honorar wird individuell vor Beginn jeder Begleitung vereinbart. Die Zahlungsbedingungen werden schriftlich vor Beginn mitgeteilt."
+      },
+      {
+        "title": "Kündigung",
+        "body": "Beide Seiten können die Begleitung mit einer Frist von 30 Tagen schriftlich kündigen. Bereits erbrachte Leistungen bleiben zahlungspflichtig."
+      },
+      {
+        "title": "Haftung",
+        "body": "Die Haftung von Applied Longevity beschränkt sich auf Fälle von Vorsatz oder grober Fahrlässigkeit. Die Haftung für indirekte Schäden oder Folgeschäden ist im gesetzlich zulässigen Umfang ausgeschlossen."
+      },
+      {
+        "title": "Anwendbares Recht",
+        "body": "Es gilt Schweizer Recht. Ausschliesslicher Gerichtsstand ist Zürich, Schweiz."
+      }
+    ]
   }
 }

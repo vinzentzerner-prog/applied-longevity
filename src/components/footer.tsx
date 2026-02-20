@@ -44,8 +44,21 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-[#2a2a25] text-xs text-dark-muted">
-          {t("copyright", { year: new Date().getFullYear() })}
+        <div className="mt-10 pt-6 border-t border-[#2a2a25] flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+          <div className="text-xs text-dark-muted">
+            {t("copyright", { year: new Date().getFullYear() })}
+          </div>
+          <div className="flex gap-x-4 text-xs">
+            <Link href="/impressum" className="text-dark-muted hover:text-dark-fg transition-colors">
+              {t("impressum")}
+            </Link>
+            <Link href="/datenschutz" className="text-dark-muted hover:text-dark-fg transition-colors">
+              {t("datenschutz")}
+            </Link>
+            <Link href="/agb" className="text-dark-muted hover:text-dark-fg transition-colors">
+              {t("agb")}
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
