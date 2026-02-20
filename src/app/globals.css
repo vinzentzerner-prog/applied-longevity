@@ -318,9 +318,9 @@ h4 {
     top: 20vh;
   }
 
-  /* "Longevity" — mid-right, italic, pulled in from edge */
+  /* "Longevity" — mid-right, italic, pulled closer */
   .hero-word-2 {
-    left: 44vw;
+    left: 36vw;
     top: 42vh;
   }
 
@@ -330,20 +330,27 @@ h4 {
     top: 66vh;
   }
 
-  /* Microline text — centre-left, between words */
+  /* Microline text — left-aligned with Private/Advisor */
   .hero-word-circle {
-    left: 15vw;
+    left: 10vw;
     top: 50vh;
     display: block;
   }
 
-  /* Arrow — bottom-right */
+  /* Arrow — bottom-right, larger + pulse on desktop */
   .hero-word-arrow {
     right: 5vw;
     bottom: 5vh;
     top: auto;
     left: auto;
     display: block;
+    opacity: 0.6;
+    animation: arrowPulse 2.5s ease-in-out infinite;
+  }
+
+  .hero-word-arrow svg {
+    width: 28px;
+    height: 64px;
   }
 }
 
@@ -465,7 +472,7 @@ h4 {
   color: var(--muted-foreground);
 }
 
-/* Desktop — left-aligned, matches state 2 support size */
+/* Desktop — left-aligned, uppercase, matches state 2 support size */
 @media (min-width: 768px) {
   .hero-circle {
     max-width: clamp(20rem, 30vw, 28rem);
@@ -476,9 +483,9 @@ h4 {
   .hero-circle p {
     font-size: clamp(1rem, 2vw, 1.25rem);
     text-align: left;
-    text-transform: none;
+    text-transform: uppercase;
     line-height: 1.5;
-    letter-spacing: 0;
+    letter-spacing: 0.05em;
   }
 }
 
@@ -505,6 +512,20 @@ h4 {
 @keyframes scrollDrift {
   0%, 100% { transform: translateY(0); opacity: 0.4; }
   50% { transform: translateY(8px); opacity: 0.15; }
+}
+
+/* Desktop arrow — gentle drift + soft glow pulse */
+@keyframes arrowPulse {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.6;
+    filter: drop-shadow(0 0 0px transparent);
+  }
+  50% {
+    transform: translateY(10px);
+    opacity: 0.35;
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.15));
+  }
 }
 
 .hero-scroll-line {
