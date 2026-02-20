@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "Applied Longevity — Private Longevity-Berater",
-      "description": "Ein privater Longevity-Berater für wenige Klient:innen. Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Einordnung — sorgfältig abgestimmt auf Ihr Leben."
+      "title": "Applied Longevity — Private Longevity-Beratung",
+      "description": "Eine private Longevity-Beratung für wenige Klient:innen. Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Einordnung — sorgfältig abgestimmt auf Ihr Leben."
     },
     "about": {
       "title": "Über mich — Applied Longevity",
@@ -34,7 +34,7 @@
     "apply": "Anfragen"
   },
   "footer": {
-    "tagline": "Private Longevity-Begleitung.",
+    "tagline": "Private Longevity-Beratung.",
     "home": "Startseite",
     "howItWorks": "Ablauf",
     "pillars": "Dimensionen",
@@ -45,10 +45,10 @@
   },
   "home": {
     "hero": {
-      "title": "Private Longevity Berater",
+      "title": "Private Longevity Beratung",
       "titleLine1": "Private",
       "titleLine2": "Longevity",
-      "titleLine3": "Berater",
+      "titleLine3": "Beratung",
       "microline": "Ihre Gesundheit — mit der gleichen Diskretion wie alles andere in Ihrem Leben.",
       "state2": {
         "headline": "Ruhige Sicherheit.",

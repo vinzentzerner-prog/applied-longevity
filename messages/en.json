@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "Applied Longevity — Private Longevity Advisor",
-      "description": "A private longevity advisor for a small number of clients. Movement, nutrition, sleep, emotional well-being, and medical insight — quietly integrated around your life."
+      "title": "Applied Longevity — Private Longevity Advisory",
+      "description": "A private longevity advisory for a small number of clients. Movement, nutrition, sleep, emotional well-being, and medical insight — quietly integrated around your life."
     },
     "about": {
       "title": "About — Applied Longevity",
@@ -45,10 +45,10 @@
   },
   "home": {
     "hero": {
-      "title": "Private Longevity Advisor",
+      "title": "Private Longevity Advisory",
       "titleLine1": "Private",
       "titleLine2": "Longevity",
-      "titleLine3": "Advisor",
+      "titleLine3": "Advisory",
       "microline": "Your health, held with the same care as everything else in your life.",
       "state2": {
         "headline": "Quiet certainty.",
