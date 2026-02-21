@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Section } from "@/components/section";
+import { TallyEmbed } from "@/components/tally-embed";
 
 export async function generateMetadata({
   params,
@@ -29,6 +30,7 @@ export default function Apply({
 }) {
   const resolvedParams = params as unknown as { locale: string };
   setRequestLocale(resolvedParams.locale);
+  const locale = useLocale();
   const t = useTranslations("apply");
   const nextSteps: NextStep[] = t.raw("next.steps");
 
@@ -51,19 +53,26 @@ export default function Apply({
       <Section className="bg-muted">
         <div className="mx-auto max-w-2xl">
           <div className="rounded-2xl border border-border bg-card p-4 sm:p-8 md:p-12">
-            <div className="flex min-h-[400px] items-center justify-center rounded-lg border-2 border-dashed border-border bg-muted p-4 sm:p-8 text-center">
-              <div>
-                <p className="text-lg font-medium text-muted-foreground/60">
-                  {t("form.placeholder")}
-                </p>
-                <p className="mt-2 text-sm text-muted-foreground/60">
-                  {t("form.instructions")}
-                </p>
-                <p className="mt-4 text-xs text-muted-foreground/40">
-                  {t("form.example")}
-                </p>
+            {locale === "en" ? (
+              <TallyEmbed
+                formId="xXpl5k"
+                options="alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+              />
+            ) : (
+              <div className="flex min-h-[400px] items-center justify-center rounded-lg border-2 border-dashed border-border bg-muted p-4 sm:p-8 text-center">
+                <div>
+                  <p className="text-lg font-medium text-muted-foreground/60">
+                    {t("form.placeholder")}
+                  </p>
+                  <p className="mt-2 text-sm text-muted-foreground/60">
+                    {t("form.instructions")}
+                  </p>
+                  <p className="mt-4 text-xs text-muted-foreground/40">
+                    {t("form.example")}
+                  </p>
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
       </Section>
