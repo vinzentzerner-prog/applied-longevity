@@ -40,7 +40,7 @@ export default function Apply({
       <ScrollRevealInit />
 
       {/* Header */}
-      <Section className="pt-28 md:pt-36 pb-12">
+      <Section className="scroll-reveal pt-28 md:pt-36 pb-12">
         <div className="max-w-2xl">
           <p className="text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
             {t("hero.overline")}
