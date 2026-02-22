@@ -34,7 +34,7 @@ export default function About() {
       <ScrollRevealInit />
 
       {/* Hero */}
-      <Section className="pt-28 md:pt-36 pb-12">
+      <Section className="scroll-reveal pt-28 md:pt-36 pb-12">
         <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 md:gap-16 items-start">
           <div className="max-w-2xl">
             <p className="text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
