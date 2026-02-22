@@ -56,26 +56,10 @@ export default function Apply({
       <Section className="scroll-reveal bg-muted">
         <div className="mx-auto max-w-2xl">
           <div className="rounded-2xl border border-border bg-card p-4 sm:p-8 md:p-12">
-            {locale === "en" ? (
-              <TallyEmbed
-                formId="xXpl5k"
-                options="alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-              />
-            ) : (
-              <div className="flex min-h-[400px] items-center justify-center rounded-lg border-2 border-dashed border-border bg-muted p-4 sm:p-8 text-center">
-                <div>
-                  <p className="text-lg font-medium text-muted-foreground/60">
-                    {t("form.placeholder")}
-                  </p>
-                  <p className="mt-2 text-sm text-muted-foreground/60">
-                    {t("form.instructions")}
-                  </p>
-                  <p className="mt-4 text-xs text-muted-foreground/40">
-                    {t("form.example")}
-                  </p>
-                </div>
-              </div>
-            )}
+            <TallyEmbed
+              formId={locale === "de" ? "vGAvpd" : "xXpl5k"}
+              options="alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+            />
           </div>
         </div>
       </Section>
