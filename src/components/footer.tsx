@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
@@ -10,12 +9,10 @@ export function Footer() {
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 md:py-16">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           <div>
-            <Image
-              src="/logo-horizontal-invert.png"
-              alt="Applied Longevity"
-              width={180}
-              height={40}
-              className="h-8 w-auto"
+            <img
+              src="/aurelis-wordmark-ivory.svg"
+              alt="Aurelis"
+              className="h-6 w-auto"
             />
             <p className="mt-3 text-sm text-dark-muted">
               {t("tagline")}

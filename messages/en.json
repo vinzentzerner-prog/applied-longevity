@@ -1,40 +1,40 @@
 {
   "meta": {
     "home": {
-      "title": "Applied Longevity — Private Longevity Advisory",
+      "title": "Aurelis — Private Longevity Advisory",
       "description": "A private longevity advisory for a small number of clients. Movement, nutrition, sleep, emotional well-being, and medical insight — quietly integrated around your life."
     },
     "about": {
-      "title": "About — Applied Longevity",
+      "title": "About — Aurelis",
       "description": "A background in psychology, analytics, and over fifteen years of studying how health sustains itself across its many dimensions."
     },
     "pillars": {
-      "title": "Five Dimensions — Applied Longevity",
+      "title": "Five Dimensions — Aurelis",
       "description": "Movement, nutrition, sleep, emotional well-being, and medical insight — five dimensions integrated into one coherent, personalised framework."
     },
     "howItWorks": {
-      "title": "How It Works — Applied Longevity",
+      "title": "How It Works — Aurelis",
       "description": "A three-phase approach: four weeks of quiet observation, a personalised framework built with care, and ongoing refinement over time."
     },
     "testimonials": {
-      "title": "Client Reflections — Applied Longevity",
-      "description": "Reflections from clients who have experienced the Applied Longevity process — on clarity, continuity, and the quiet value of sustained attention."
+      "title": "Client Reflections — Aurelis",
+      "description": "Reflections from clients who have experienced the Aurelis process — on clarity, continuity, and the quiet value of sustained attention."
     },
     "apply": {
-      "title": "Begin a Conversation — Applied Longevity",
+      "title": "Begin a Conversation — Aurelis",
       "description": "A short, reflective inquiry to help us understand what you're looking for. Every response is read personally and treated with discretion."
     },
     "impressum": {
-      "title": "Legal Notice — Applied Longevity",
-      "description": "Legal notice and company information for Applied Longevity."
+      "title": "Legal Notice — Aurelis",
+      "description": "Legal notice and company information for Aurelis."
     },
     "datenschutz": {
-      "title": "Privacy Policy — Applied Longevity",
-      "description": "How Applied Longevity handles your personal data."
+      "title": "Privacy Policy — Aurelis",
+      "description": "How Aurelis handles your personal data."
     },
     "agb": {
-      "title": "Terms & Conditions — Applied Longevity",
-      "description": "Terms and conditions for Applied Longevity services."
+      "title": "Terms & Conditions — Aurelis",
+      "description": "Terms and conditions for Aurelis services."
     }
   },
   "nav": {
@@ -53,7 +53,7 @@
     "testimonials": "Reflections",
     "about": "About",
     "apply": "Inquire",
-    "copyright": "© {year} Applied Longevity. All rights reserved.",
+    "copyright": "© {year} Aurelis. All rights reserved.",
     "impressum": "Legal Notice",
     "datenschutz": "Privacy",
     "agb": "Terms"
@@ -365,7 +365,7 @@
     "sections": [
       {
         "title": "Company",
-        "body": "Applied Longevity\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich\nSwitzerland"
+        "body": "Aurelis\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich\nSwitzerland"
       },
       {
         "title": "Responsible Person",
@@ -373,11 +373,11 @@
       },
       {
         "title": "Disclaimer — No Binding Medical Advice",
-        "body": "The services offered by Applied Longevity do not constitute binding medical advice, diagnosis, or treatment. All guidance is provided as general health and wellness information. For medical diagnoses, treatments, or prescriptions, please consult a licensed physician. Applied Longevity works in coordination with your existing physicians and preferred clinics — it does not replace them."
+        "body": "The services offered by Aurelis do not constitute binding medical advice, diagnosis, or treatment. All guidance is provided as general health and wellness information. For medical diagnoses, treatments, or prescriptions, please consult a licensed physician. Aurelis works in coordination with your existing physicians and preferred clinics — it does not replace them."
       },
       {
         "title": "Liability",
-        "body": "Despite careful control, Applied Longevity assumes no liability for the content of external links. The operators of linked pages are solely responsible for their content."
+        "body": "Despite careful control, Aurelis assumes no liability for the content of external links. The operators of linked pages are solely responsible for their content."
       }
     ]
   },
@@ -387,7 +387,7 @@
     "sections": [
       {
         "title": "Responsible Party",
-        "body": "Applied Longevity\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich, Switzerland"
+        "body": "Aurelis\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich, Switzerland"
       },
       {
         "title": "Data Collection",
@@ -399,7 +399,7 @@
       },
       {
         "title": "Health Data",
-        "body": "Applied Longevity does not store or process medical records. Any health-related data discussed during an engagement remains confidential and is not retained in any digital system beyond what is necessary for the advisory. We do not provide binding medical advice."
+        "body": "Aurelis does not store or process medical records. Any health-related data discussed during an engagement remains confidential and is not retained in any digital system beyond what is necessary for the advisory. We do not provide binding medical advice."
       },
       {
         "title": "Cookies",
@@ -421,19 +421,19 @@
     "sections": [
       {
         "title": "Scope",
-        "body": "These terms apply to all services provided by Applied Longevity, operated by Vinzent Zerner, Werdstrasse 127, 8003 Zürich, Switzerland."
+        "body": "These terms apply to all services provided by Aurelis, operated by Vinzent Zerner, Werdstrasse 127, 8003 Zürich, Switzerland."
       },
       {
         "title": "Services",
-        "body": "Applied Longevity provides private health and wellness advisory services. The advisory includes guidance on movement, nutrition, sleep, emotional well-being, and the interpretation of health data — always in coordination with the client's existing physicians and preferred clinics."
+        "body": "Aurelis provides private health and wellness advisory services. The advisory includes guidance on movement, nutrition, sleep, emotional well-being, and the interpretation of health data — always in coordination with the client's existing physicians and preferred clinics."
       },
       {
         "title": "No Binding Medical Advice",
-        "body": "The services offered by Applied Longevity do not constitute medical advice, diagnosis, or treatment. All guidance is informational in nature and does not replace professional medical consultation. Clients are responsible for consulting licensed medical professionals for all medical decisions."
+        "body": "The services offered by Aurelis do not constitute medical advice, diagnosis, or treatment. All guidance is informational in nature and does not replace professional medical consultation. Clients are responsible for consulting licensed medical professionals for all medical decisions."
       },
       {
         "title": "Confidentiality",
-        "body": "All information shared during an engagement is treated as strictly confidential. Applied Longevity does not disclose client information to third parties without explicit consent."
+        "body": "All information shared during an engagement is treated as strictly confidential. Aurelis does not disclose client information to third parties without explicit consent."
       },
       {
         "title": "Fees & Payment",
@@ -445,7 +445,7 @@
       },
       {
         "title": "Liability",
-        "body": "Applied Longevity's liability is limited to cases of intent or gross negligence. Liability for indirect or consequential damages is excluded to the extent permitted by law."
+        "body": "Aurelis's liability is limited to cases of intent or gross negligence. Liability for indirect or consequential damages is excluded to the extent permitted by law."
       },
       {
         "title": "Governing Law",

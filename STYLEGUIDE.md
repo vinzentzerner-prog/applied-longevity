@@ -1,4 +1,4 @@
-# Applied Longevity — Style Guide
+# Aurelis — Style Guide
 
 ## Design Direction
 

@@ -1,40 +1,40 @@
 {
   "meta": {
     "home": {
-      "title": "Applied Longevity — Private Longevity-Begleitung",
+      "title": "Aurelis — Private Longevity-Begleitung",
       "description": "Eine private Longevity-Begleitung für wenige Klient:innen. Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Einordnung — sorgfältig abgestimmt auf Ihr Leben."
     },
     "about": {
-      "title": "Über mich — Applied Longevity",
+      "title": "Über mich — Aurelis",
       "description": "Ein Hintergrund in Psychologie, Analytik und über fünfzehn Jahre Auseinandersetzung mit der Frage, wie sich Gesundheit über ihre vielen Dimensionen hinweg trägt."
     },
     "pillars": {
-      "title": "Fünf Dimensionen — Applied Longevity",
+      "title": "Fünf Dimensionen — Aurelis",
       "description": "Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Einordnung — fünf Dimensionen in einem zusammenhängenden, persönlichen Rahmenwerk."
     },
     "howItWorks": {
-      "title": "Der Ablauf — Applied Longevity",
+      "title": "Der Ablauf — Aurelis",
       "description": "Ein Ansatz in drei Phasen: vier Wochen stille Beobachtung, ein sorgfältig abgestimmtes Rahmenwerk und fortlaufende Verfeinerung über die Zeit."
     },
     "testimonials": {
-      "title": "Stimmen von Klient:innen — Applied Longevity",
-      "description": "Einblicke von Klient:innen, die den Applied Longevity Prozess erfahren haben — über Klarheit, Kontinuität und den stillen Wert aufmerksamer Begleitung."
+      "title": "Stimmen von Klient:innen — Aurelis",
+      "description": "Einblicke von Klient:innen, die den Aurelis Prozess erfahren haben — über Klarheit, Kontinuität und den stillen Wert aufmerksamer Begleitung."
     },
     "apply": {
-      "title": "Ein Gespräch beginnen — Applied Longevity",
+      "title": "Ein Gespräch beginnen — Aurelis",
       "description": "Eine kurze, reflektierte Anfrage, damit wir verstehen, was Sie suchen. Jede Antwort wird persönlich gelesen und vertraulich behandelt."
     },
     "impressum": {
-      "title": "Impressum — Applied Longevity",
-      "description": "Impressum und Angaben zum Unternehmen Applied Longevity."
+      "title": "Impressum — Aurelis",
+      "description": "Impressum und Angaben zum Unternehmen Aurelis."
     },
     "datenschutz": {
-      "title": "Datenschutz — Applied Longevity",
-      "description": "Wie Applied Longevity mit Ihren personenbezogenen Daten umgeht."
+      "title": "Datenschutz — Aurelis",
+      "description": "Wie Aurelis mit Ihren personenbezogenen Daten umgeht."
     },
     "agb": {
-      "title": "AGB — Applied Longevity",
-      "description": "Allgemeine Geschäftsbedingungen der Applied Longevity."
+      "title": "AGB — Aurelis",
+      "description": "Allgemeine Geschäftsbedingungen der Aurelis."
     }
   },
   "nav": {
@@ -53,7 +53,7 @@
     "testimonials": "Stimmen",
     "about": "Über mich",
     "apply": "Anfragen",
-    "copyright": "© {year} Applied Longevity. Alle Rechte vorbehalten.",
+    "copyright": "© {year} Aurelis. Alle Rechte vorbehalten.",
     "impressum": "Impressum",
     "datenschutz": "Datenschutz",
     "agb": "AGB"
@@ -365,7 +365,7 @@
     "sections": [
       {
         "title": "Unternehmen",
-        "body": "Applied Longevity\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich\nSchweiz"
+        "body": "Aurelis\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich\nSchweiz"
       },
       {
         "title": "Verantwortliche Person",
@@ -373,11 +373,11 @@
       },
       {
         "title": "Haftungsausschluss — Keine verbindliche medizinische Beratung",
-        "body": "Die Leistungen von Applied Longevity stellen keine verbindliche medizinische Beratung, Diagnose oder Behandlung dar. Alle Empfehlungen dienen ausschliesslich der allgemeinen Gesundheitsinformation. Für medizinische Diagnosen, Behandlungen oder Verschreibungen wenden Sie sich bitte an eine zugelassene Ärztin oder einen zugelassenen Arzt. Applied Longevity arbeitet in Abstimmung mit Ihren bestehenden Ärzt:innen und bevorzugten Kliniken — und ersetzt diese nicht."
+        "body": "Die Leistungen von Aurelis stellen keine verbindliche medizinische Beratung, Diagnose oder Behandlung dar. Alle Empfehlungen dienen ausschliesslich der allgemeinen Gesundheitsinformation. Für medizinische Diagnosen, Behandlungen oder Verschreibungen wenden Sie sich bitte an eine zugelassene Ärztin oder einen zugelassenen Arzt. Aurelis arbeitet in Abstimmung mit Ihren bestehenden Ärzt:innen und bevorzugten Kliniken — und ersetzt diese nicht."
       },
       {
         "title": "Haftung",
-        "body": "Trotz sorgfältiger Kontrolle übernimmt Applied Longevity keine Haftung für die Inhalte externer Links. Für den Inhalt verlinkter Seiten sind ausschliesslich deren Betreiber verantwortlich."
+        "body": "Trotz sorgfältiger Kontrolle übernimmt Aurelis keine Haftung für die Inhalte externer Links. Für den Inhalt verlinkter Seiten sind ausschliesslich deren Betreiber verantwortlich."
       }
     ]
   },
@@ -387,7 +387,7 @@
     "sections": [
       {
         "title": "Verantwortliche Stelle",
-        "body": "Applied Longevity\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich, Schweiz"
+        "body": "Aurelis\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich, Schweiz"
       },
       {
         "title": "Datenerhebung",
@@ -399,7 +399,7 @@
       },
       {
         "title": "Gesundheitsdaten",
-        "body": "Applied Longevity speichert oder verarbeitet keine medizinischen Akten. Gesundheitsbezogene Daten, die im Rahmen einer Begleitung besprochen werden, bleiben vertraulich und werden in keinem digitalen System über das für die Begleitung Notwendige hinaus aufbewahrt. Wir erteilen keine verbindliche medizinische Beratung."
+        "body": "Aurelis speichert oder verarbeitet keine medizinischen Akten. Gesundheitsbezogene Daten, die im Rahmen einer Begleitung besprochen werden, bleiben vertraulich und werden in keinem digitalen System über das für die Begleitung Notwendige hinaus aufbewahrt. Wir erteilen keine verbindliche medizinische Beratung."
       },
       {
         "title": "Cookies",
@@ -421,19 +421,19 @@
     "sections": [
       {
         "title": "Geltungsbereich",
-        "body": "Diese Bedingungen gelten für alle Leistungen von Applied Longevity, betrieben von Vinzent Zerner, Werdstrasse 127, 8003 Zürich, Schweiz."
+        "body": "Diese Bedingungen gelten für alle Leistungen von Aurelis, betrieben von Vinzent Zerner, Werdstrasse 127, 8003 Zürich, Schweiz."
       },
       {
         "title": "Leistungen",
-        "body": "Applied Longevity bietet private Gesundheits- und Wellness-Begleitung. Die Begleitung umfasst Empfehlungen zu Bewegung, Ernährung, Schlaf, emotionalem Wohlbefinden und der Einordnung von Gesundheitsdaten — stets in Abstimmung mit den bestehenden Ärzt:innen und bevorzugten Kliniken der Klient:innen."
+        "body": "Aurelis bietet private Gesundheits- und Wellness-Begleitung. Die Begleitung umfasst Empfehlungen zu Bewegung, Ernährung, Schlaf, emotionalem Wohlbefinden und der Einordnung von Gesundheitsdaten — stets in Abstimmung mit den bestehenden Ärzt:innen und bevorzugten Kliniken der Klient:innen."
       },
       {
         "title": "Keine verbindliche medizinische Beratung",
-        "body": "Die Leistungen von Applied Longevity stellen keine medizinische Beratung, Diagnose oder Behandlung dar. Alle Empfehlungen sind informativer Natur und ersetzen nicht die professionelle ärztliche Konsultation. Klient:innen sind selbst verantwortlich, für alle medizinischen Entscheidungen zugelassene Ärzt:innen zu konsultieren."
+        "body": "Die Leistungen von Aurelis stellen keine medizinische Beratung, Diagnose oder Behandlung dar. Alle Empfehlungen sind informativer Natur und ersetzen nicht die professionelle ärztliche Konsultation. Klient:innen sind selbst verantwortlich, für alle medizinischen Entscheidungen zugelassene Ärzt:innen zu konsultieren."
       },
       {
         "title": "Vertraulichkeit",
-        "body": "Alle im Rahmen einer Begleitung geteilten Informationen werden streng vertraulich behandelt. Applied Longevity gibt keine Klient:inneninformationen ohne ausdrückliche Zustimmung an Dritte weiter."
+        "body": "Alle im Rahmen einer Begleitung geteilten Informationen werden streng vertraulich behandelt. Aurelis gibt keine Klient:inneninformationen ohne ausdrückliche Zustimmung an Dritte weiter."
       },
       {
         "title": "Honorar & Zahlung",
@@ -445,7 +445,7 @@
       },
       {
         "title": "Haftung",
-        "body": "Die Haftung von Applied Longevity beschränkt sich auf Fälle von Vorsatz oder grober Fahrlässigkeit. Die Haftung für indirekte Schäden oder Folgeschäden ist im gesetzlich zulässigen Umfang ausgeschlossen."
+        "body": "Die Haftung von Aurelis beschränkt sich auf Fälle von Vorsatz oder grober Fahrlässigkeit. Die Haftung für indirekte Schäden oder Folgeschäden ist im gesetzlich zulässigen Umfang ausgeschlossen."
       },
       {
         "title": "Anwendbares Recht",
