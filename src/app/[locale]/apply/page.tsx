@@ -3,6 +3,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Section } from "@/components/section";
 import { TallyEmbed } from "@/components/tally-embed";
+import { ScrollRevealInit } from "@/components/scroll-reveal-init";
 
 export async function generateMetadata({
   params,
@@ -36,6 +37,8 @@ export default function Apply({
 
   return (
     <>
+      <ScrollRevealInit />
+
       {/* Header */}
       <Section className="pt-28 md:pt-36 pb-12">
         <div className="max-w-2xl">
@@ -50,7 +53,7 @@ export default function Apply({
       </Section>
 
       {/* Embedded form */}
-      <Section className="bg-muted">
+      <Section className="scroll-reveal bg-muted">
         <div className="mx-auto max-w-2xl">
           <div className="rounded-2xl border border-border bg-card p-4 sm:p-8 md:p-12">
             {locale === "en" ? (
@@ -78,7 +81,7 @@ export default function Apply({
       </Section>
 
       {/* What happens next */}
-      <Section>
+      <Section className="scroll-reveal">
         <div className="max-w-2xl">
           <h2>{t("next.title")}</h2>
           <div className="mt-8 space-y-6">
