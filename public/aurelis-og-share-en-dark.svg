@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Aurelis social share image dark English">
+  <defs>
+    <linearGradient id="bgGradDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D0F12" />
+      <stop offset="55%" stop-color="#111419" />
+      <stop offset="100%" stop-color="#161A20" />
+    </linearGradient>
+
+    <linearGradient id="arcGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D8CEBF" stop-opacity="0.55" />
+      <stop offset="50%" stop-color="#E4DAC9" stop-opacity="0.78" />
+      <stop offset="100%" stop-color="#D8CEBF" stop-opacity="0.50" />
+    </linearGradient>
+
+    <style>
+      .logo {
+        fill: #F3EEE4;
+        font-family: "Display Fair", "IvyPresto Display", "Canela", Georgia, "Times New Roman", serif;
+        font-size: 54px;
+        font-weight: 400;
+        letter-spacing: 0;
+      }
+
+      .descriptor {
+        fill: #C8C1B6;
+        font-family: Inter, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.9px;
+      }
+
+      .headline {
+        fill: #F5F0E6;
+        font-family: "Display Fair", "IvyPresto Display", "Canela", Georgia, "Times New Roman", serif;
+        font-size: 74px;
+        font-weight: 400;
+        letter-spacing: 0;
+      }
+
+      .body {
+        fill: #BEB7AB;
+        font-family: Inter, Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 0;
+      }
+
+      .meta {
+        fill: #D0C8BC;
+        font-family: Inter, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradDark)" />
+
+  <!-- Arc motif (more visible, visible in upper-left and upper-right) -->
+  <ellipse
+    cx="450"
+    cy="420"
+    rx="800"
+    ry="455"
+    fill="none"
+    stroke="url(#arcGlow)"
+    stroke-width="2.4"
+  />
+
+  <!-- Top-left brand area (aligned like screenshot style) -->
+  <g transform="translate(92 84)">
+    <!-- Logo wordmark -->
+    <text x="0" y="0" class="logo" dominant-baseline="hanging">Aurelis</text>
+
+    <!-- Descriptor line under logo -->
+    <text x="0" y="74" class="descriptor">PRIVATE LONGEVITY ADVISORY</text>
+
+    <!-- Underline -->
+    <line x1="0" y1="86" x2="216" y2="86" stroke="#CFC6B8" stroke-opacity="0.45" stroke-width="1.2" />
+  </g>
+
+  <!-- Main content -->
+  <g transform="translate(92 0)">
+    <text x="0" y="292" class="headline">Quiet certainty.</text>
+
+    <text x="0" y="372" class="body">Discreet, long-term guidance for health decisions —</text>
+    <text x="0" y="406" class="body">personal, thorough, and ongoing.</text>
+
+    <!-- No frame (as requested earlier) -->
+    <text x="0" y="468" class="meta">3–5 clients at a time</text>
+  </g>
+</svg>
