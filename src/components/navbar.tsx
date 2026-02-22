@@ -26,7 +26,7 @@ export function Navbar() {
           <img
             src="/aurelis-wordmark-ink.svg"
             alt="Aurelis"
-            className="h-6 w-auto"
+            className="h-8 w-auto"
           />
         </Link>
 
