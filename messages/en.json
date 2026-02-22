@@ -1,39 +1,39 @@
 {
   "meta": {
     "home": {
-      "title": "Aurelis — Private Longevity Advisory",
-      "description": "A private longevity advisory for a small number of clients. Movement, nutrition, sleep, emotional well-being, and medical insight — quietly integrated around your life."
+      "title": "Aurelis - Private Longevity Advisory",
+      "description": "A private longevity advisory for a small number of clients. Movement, nutrition, sleep, emotional well-being, and medical insight - quietly integrated around your life."
     },
     "about": {
-      "title": "About — Aurelis",
+      "title": "About - Aurelis",
       "description": "A background in psychology, analytics, and over fifteen years of studying how health sustains itself across its many dimensions."
     },
     "pillars": {
-      "title": "Five Dimensions — Aurelis",
-      "description": "Movement, nutrition, sleep, emotional well-being, and medical insight — five dimensions integrated into one coherent, personalised framework."
+      "title": "Five Dimensions - Aurelis",
+      "description": "Movement, nutrition, sleep, emotional well-being, and medical insight - five dimensions integrated into one coherent, personalised framework."
     },
     "howItWorks": {
-      "title": "How It Works — Aurelis",
+      "title": "How It Works - Aurelis",
       "description": "A three-phase approach: four weeks of quiet observation, a personalised framework built with care, and ongoing refinement over time."
     },
     "testimonials": {
-      "title": "Client Reflections — Aurelis",
-      "description": "Reflections from clients who have experienced the Aurelis process — on clarity, continuity, and the quiet value of sustained attention."
+      "title": "Client Reflections - Aurelis",
+      "description": "Reflections from clients who have experienced the Aurelis process - on clarity, continuity, and the quiet value of sustained attention."
     },
     "apply": {
-      "title": "Begin a Conversation — Aurelis",
+      "title": "Begin a Conversation - Aurelis",
       "description": "A short, reflective inquiry to help us understand what you're looking for. Every response is read personally and treated with discretion."
     },
     "impressum": {
-      "title": "Legal Notice — Aurelis",
+      "title": "Legal Notice - Aurelis",
       "description": "Legal notice and company information for Aurelis."
     },
     "datenschutz": {
-      "title": "Privacy Policy — Aurelis",
+      "title": "Privacy Policy - Aurelis",
       "description": "How Aurelis handles your personal data."
     },
     "agb": {
-      "title": "Terms & Conditions — Aurelis",
+      "title": "Terms & Conditions - Aurelis",
       "description": "Terms and conditions for Aurelis services."
     }
   },
@@ -67,7 +67,7 @@
       "microline": "Your health, held with the same care as everything else in your life.",
       "state2": {
         "headline": "Quiet certainty.",
-        "support": "Discreet, long-term guidance so your health decisions feel simple — and your vitality stays visible.",
+        "support": "Discreet, long-term guidance so your health decisions feel simple - and your vitality stays visible.",
         "cta": "Request a private introduction",
         "exclusivity": "3–5 clients only"
       }
@@ -75,7 +75,7 @@
     "capacity": {
       "overline": "By design",
       "title": "3–5 clients at a time.",
-      "body": "This work requires presence — not templates, not delegation. A deliberately small number of clients means each person receives the depth, continuity, and privacy that this kind of collaboration requires."
+      "body": "This work requires presence - not templates, not delegation. A deliberately small number of clients means each person receives the depth, continuity, and privacy that this kind of collaboration requires."
     },
     "engagement": {
       "overline": "The process",
@@ -83,21 +83,21 @@
       "items": [
         {
           "title": "Understanding where you are",
-          "description": "Before anything changes, we listen. Four weeks of quiet, private observation — sleep, movement, nutrition, bloodwork, daily rhythms — to understand your health on its own terms. In coordination with your existing physicians and preferred clinics."
+          "description": "Before anything changes, we listen. Four weeks of quiet, private observation - sleep, movement, nutrition, bloodwork, daily rhythms - to understand your health on its own terms. In coordination with your existing physicians and preferred clinics."
         },
         {
           "title": "A framework built around you",
-          "description": "From your baseline, we shape a structured approach across five dimensions — movement, nutrition, sleep, emotional well-being, and medical data — held between us and built for your life as it is."
+          "description": "From your baseline, we shape a structured approach across five dimensions - movement, nutrition, sleep, emotional well-being, and medical data - held between us and built for your life as it is."
         },
         {
           "title": "Continuous refinement",
-          "description": "Your framework evolves with you. Through ongoing private conversation, we refine what needs refining — at a pace that respects your time and attention."
+          "description": "Your framework evolves with you. Through ongoing private conversation, we refine what needs refining - at a pace that respects your time and attention."
         }
       ]
     },
     "about": {
       "title": "About",
-      "body": "I work with a very small number of people over long periods of time.\n\nMost of them came to me not because something was wrong, but because nothing was being held together — fragmented appointments, conflicting advice, no one with the full picture. My role is to be that person: the one who stays, watches, and interprets.\n\nI don't offer programmes or packages. I offer sustained attention — to your patterns, your transitions, and what your health is actually telling you beneath the surface.\n\nIf you're considering reaching out, a brief private conversation is enough to know whether this is right for both of us."
+      "body": "I work with a very small number of people over long periods of time.\n\nMost of them came to me not because something was wrong, but because nothing was being held together - fragmented appointments, conflicting advice, no one with the full picture. My role is to be that person: the one who stays, watches, and interprets.\n\nI don't offer programmes or packages. I offer sustained attention - to your patterns, your transitions, and what your health is actually telling you beneath the surface.\n\nIf you're considering reaching out, a brief private conversation is enough to know whether this is right for both of us."
     },
     "deliverables": {
       "overline": "What is included",
@@ -109,7 +109,7 @@
         },
         {
           "title": "A private health overview",
-          "description": "All your health data in one place — confidential, reviewed by me personally. Every number comes with context and meaning."
+          "description": "All your health data in one place - confidential, reviewed by me personally. Every number comes with context and meaning."
         },
         {
           "title": "Weekly clarity",
@@ -119,19 +119,19 @@
     },
     "pillarsPreview": {
       "title": "Five Dimensions",
-      "subtitle": "Each dimension is part of a system — none stands alone.",
+      "subtitle": "Each dimension is part of a system - none stands alone.",
       "items": [
-        { "title": "Movement", "summary": "Strength, endurance, and mobility — built to sustain you." },
-        { "title": "Nutrition", "summary": "Nourishment that supports your energy — without restriction." },
+        { "title": "Movement", "summary": "Strength, endurance, and mobility - built to sustain you." },
+        { "title": "Nutrition", "summary": "Nourishment that supports your energy - without restriction." },
         { "title": "Sleep", "summary": "The foundation of clarity, recovery, and resilience." },
-        { "title": "Emotional Well-being", "summary": "What holds everything together — especially during transitions." },
+        { "title": "Emotional Well-being", "summary": "What holds everything together - especially during transitions." },
         { "title": "Medical Insight", "summary": "Bloodwork, biomarkers, and the clarity that comes from knowing." }
       ],
       "link": "Explore the framework"
     },
     "cta": {
       "title": "When you're ready.",
-      "body": "A brief, private conversation to understand what you're looking for. No preparation needed — just honesty about where you are.",
+      "body": "A brief, private conversation to understand what you're looking for. No preparation needed - just honesty about where you are.",
       "button": "Request a private introduction"
     }
   },
@@ -139,13 +139,13 @@
     "hero": {
       "overline": "The framework",
       "title": "Five dimensions",
-      "body": "Longevity is not one discipline — it is five dimensions held in balance. We attend to each individually and as part of an integrated whole."
+      "body": "Longevity is not one discipline - it is five dimensions held in balance. We attend to each individually and as part of an integrated whole."
     },
     "items": [
       {
         "number": "01",
         "title": "Movement",
-        "description": "Strength, cardiovascular health, mobility, and recovery — designed as one integrated framework. We shape your movement practice around your schedule, your history, and your long-term structural well-being. The intention is a body that carries you well — at 40, 60, and beyond.",
+        "description": "Strength, cardiovascular health, mobility, and recovery - designed as one integrated framework. We shape your movement practice around your schedule, your history, and your long-term structural well-being. The intention is a body that carries you well - at 40, 60, and beyond.",
         "details": [
           "Structured strength programming",
           "Cardiovascular health and endurance",
@@ -156,7 +156,7 @@
       {
         "number": "02",
         "title": "Nutrition",
-        "description": "A measured, evidence-informed approach — no ideology, no restriction. We observe biomarkers, energy, and how you feel to find a dietary pattern that genuinely supports your daily life and long-term health.",
+        "description": "A measured, evidence-informed approach - no ideology, no restriction. We observe biomarkers, energy, and how you feel to find a dietary pattern that genuinely supports your daily life and long-term health.",
         "details": [
           "Macronutrient and micronutrient awareness",
           "Meal rhythm and composition",
@@ -167,7 +167,7 @@
       {
         "number": "03",
         "title": "Sleep",
-        "description": "Sleep is foundational — to clarity, to resilience, to how everything else holds together. We use wearable data and your own experience to understand your sleep patterns and gently improve their quality and consistency.",
+        "description": "Sleep is foundational - to clarity, to resilience, to how everything else holds together. We use wearable data and your own experience to understand your sleep patterns and gently improve their quality and consistency.",
         "details": [
           "Sleep environment and routine",
           "Circadian rhythm alignment",
@@ -178,7 +178,7 @@
       {
         "number": "04",
         "title": "Emotional Well-being",
-        "description": "Stress, relationships, purpose, and inner resilience are not separate from physical health — they are often what holds it together. We attend to the emotional dimensions of longevity with the same care we bring to everything else.",
+        "description": "Stress, relationships, purpose, and inner resilience are not separate from physical health - they are often what holds it together. We attend to the emotional dimensions of longevity with the same care we bring to everything else.",
         "details": [
           "Stress awareness and management",
           "Mindfulness and contemplative practices",
@@ -216,19 +216,19 @@
         "number": "01",
         "title": "Observe",
         "duration": "Weeks 1–4",
-        "description": "We don't change anything yet. For four weeks, we collect baseline data — sleep patterns, movement, nutrition, bloodwork, and how you feel — in coordination with your existing physicians and preferred clinics. This gives us a clear, unhurried picture of where you are before we consider a single adjustment."
+        "description": "We don't change anything yet. For four weeks, we collect baseline data - sleep patterns, movement, nutrition, bloodwork, and how you feel - in coordination with your existing physicians and preferred clinics. This gives us a clear, unhurried picture of where you are before we consider a single adjustment."
       },
       {
         "number": "02",
         "title": "Build",
         "duration": "Weeks 5–16",
-        "description": "With a solid understanding in place, we introduce changes one layer at a time across five dimensions. Each adjustment is observed and considered. We move deliberately — adding complexity only when the previous layer has settled."
+        "description": "With a solid understanding in place, we introduce changes one layer at a time across five dimensions. Each adjustment is observed and considered. We move deliberately - adding complexity only when the previous layer has settled."
       },
       {
         "number": "03",
         "title": "Refine",
         "duration": "Ongoing",
-        "description": "Once the foundation is in place, we shift to maintenance and gentle refinement. Regular conversations, periodic re-assessment, and seasonal adjustments keep things moving — at a pace that respects your life."
+        "description": "Once the foundation is in place, we shift to maintenance and gentle refinement. Regular conversations, periodic re-assessment, and seasonal adjustments keep things moving - at a pace that respects your life."
       }
     ],
     "application": {
@@ -238,7 +238,7 @@
         {
           "step": "1",
           "title": "Share what is on your mind",
-          "description": "A brief inquiry — about where you are, what matters to you, and what kind of support you are looking for. Nothing formal."
+          "description": "A brief inquiry - about where you are, what matters to you, and what kind of support you are looking for. Nothing formal."
         },
         {
           "step": "2",
@@ -258,26 +258,26 @@
     "hero": {
       "overline": "Client reflections",
       "title": "What clients say",
-      "body": "Reflections from those who have experienced the process. These are placeholder testimonials — to be replaced with real experiences as they come in."
+      "body": "Reflections from those who have experienced the process."
     },
     "items": [
       {
-        "quote": "The four-week observation period felt slow at first, but it gave us a depth of understanding I hadn't experienced before. For the first time, I felt like someone truly understood my health — not just my numbers.",
+        "quote": "The four-week observation period felt slow at first, but it gave us a depth of understanding I hadn't experienced before. For the first time, I felt like someone truly understood my health - not just my numbers.",
         "name": "James R.",
         "detail": "Client, 14 months"
       },
       {
-        "quote": "I've worked with trainers and nutritionists before, but never with someone who sees all five dimensions together. The integration — and the calm way it is held — is what makes this different.",
+        "quote": "I've worked with trainers and nutritionists before, but never with someone who sees all five dimensions together. The integration - and the calm way it is held - is what makes this different.",
         "name": "Sarah M.",
         "detail": "Client, 9 months"
       },
       {
-        "quote": "What I value most is the patience. No rushed changes, no dramatic overhauls. Just steady, considered progress that I can actually sustain — and that respects the rest of my life.",
+        "quote": "What I value most is the patience. No rushed changes, no dramatic overhauls. Just steady, considered progress that I can actually sustain - and that respects the rest of my life.",
         "name": "David K.",
         "detail": "Client, 18 months"
       },
       {
-        "quote": "The sleep work alone brought something I hadn't expected: a deeper sense of ease during the day. Clarity, mood, recovery — everything downstream shifted. But it was the calm that surprised me most.",
+        "quote": "The sleep work alone brought something I hadn't expected: a deeper sense of ease during the day. Clarity, mood, recovery - everything downstream shifted. But it was the calm that surprised me most.",
         "name": "Maria L.",
         "detail": "Client, 11 months"
       },
@@ -287,7 +287,7 @@
         "detail": "Client, 7 months"
       },
       {
-        "quote": "Having someone who reads my bloodwork, understands my patterns, and connects it all with genuine attention — that level of presence is rare. The small number of clients makes all the difference.",
+        "quote": "Having someone who reads my bloodwork, understands my patterns, and connects it all with genuine attention - that level of presence is rare. The small number of clients makes all the difference.",
         "name": "Elena P.",
         "detail": "Client, 12 months"
       }
@@ -302,28 +302,28 @@
     "eyebrow": "About",
     "hero": {
       "title": "Few clients. Full attention.",
-      "subtitle": "I work with a very small number of people over long periods of time.\n\nMost of them came to me not because something was wrong, but because nothing was being held together — fragmented appointments, conflicting advice, no one with the full picture. My role is to be that person: the one who stays, watches, and interprets.\n\nI don't offer programmes or packages. I offer sustained attention — to your patterns, your transitions, and what your health is actually telling you beneath the surface."
+      "subtitle": "I work with a very small number of people over long periods of time.\n\nMost of them came to me not because something was wrong, but because nothing was being held together - fragmented appointments, conflicting advice, no one with the full picture. My role is to be that person: the one who stays, watches, and interprets.\n\nI don't offer programmes or packages. I offer sustained attention - to your patterns, your transitions, and what your health is actually telling you beneath the surface."
     },
     "philosophy": {
       "title": "Philosophy",
       "items": {
         "observe": {
           "title": "Observe before you act",
-          "description": "Every engagement begins with quiet, careful observation — before anything is changed. First understand, then shape."
+          "description": "Every engagement begins with quiet, careful observation - before anything is changed. First understand, then shape."
         },
         "discretion": {
           "title": "Discretion as a principle",
-          "description": "Everything we discuss and measure stays between us. No delegation, no tools you need to manage yourself — just a quiet, private overview."
+          "description": "Everything we discuss and measure stays between us. No delegation, no tools you need to manage yourself - just a quiet, private overview."
         },
         "continuity": {
           "title": "Continuity over episodes",
-          "description": "Health changes over years, not weeks. I stay involved over long periods — and adapt to what changes."
+          "description": "Health changes over years, not weeks. I stay involved over long periods - and adapt to what changes."
         }
       }
     },
     "cta": {
       "title": "When you're ready.",
-      "subtitle": "If you have the sense that this might be right — a brief, private conversation is enough to find out.",
+      "subtitle": "If you have the sense that this might be right - a brief, private conversation is enough to find out.",
       "button": "Request a private introduction"
     }
   },
@@ -331,12 +331,7 @@
     "hero": {
       "overline": "Private inquiry",
       "title": "Begin a conversation.",
-      "body": "This is not a sales form. It is a short, reflective exchange to help us understand what you are looking for — and whether this advisory is the right context for it. Every response is read personally and held in confidence."
-    },
-    "form": {
-      "placeholder": "Inquiry form",
-      "instructions": "Replace this with your Typeform or Tally embed code.",
-      "example": "Example: <iframe src=\"https://tally.so/embed/your-form-id\" ...></iframe>"
+      "body": "This is not a sales form. It is a short, reflective exchange to help us understand what you are looking for - and whether this advisory is the right context for it. Every response is read personally and held in confidence."
     },
     "next": {
       "title": "What follows",
@@ -349,12 +344,12 @@
         {
           "step": "2",
           "title": "A private conversation",
-          "description": "If it feels like the right fit for both sides, I will suggest a brief, unhurried call. No pitch — just an honest exchange about where you are and what might help."
+          "description": "If it feels like the right fit for both sides, I will suggest a brief, unhurried call. No pitch - just an honest exchange about where you are and what might help."
         },
         {
           "step": "3",
           "title": "A considered beginning",
-          "description": "If we decide to work together, we begin with four weeks of quiet observation. No changes, no pressure — just a careful look at where your health stands today."
+          "description": "If we decide to work together, we begin with four weeks of quiet observation. No changes, no pressure - just a careful look at where your health stands today."
         }
       ],
       "note": "I respond to every inquiry within a few days. If I am at capacity, I will let you know honestly and we can revisit when the timing is right."
@@ -372,8 +367,8 @@
         "body": "Vinzent Zerner"
       },
       {
-        "title": "Disclaimer — No Binding Medical Advice",
-        "body": "The services offered by Aurelis do not constitute binding medical advice, diagnosis, or treatment. All guidance is provided as general health and wellness information. For medical diagnoses, treatments, or prescriptions, please consult a licensed physician. Aurelis works in coordination with your existing physicians and preferred clinics — it does not replace them."
+        "title": "Disclaimer - No Binding Medical Advice",
+        "body": "The services offered by Aurelis do not constitute binding medical advice, diagnosis, or treatment. All guidance is provided as general health and wellness information. For medical diagnoses, treatments, or prescriptions, please consult a licensed physician. Aurelis works in coordination with your existing physicians and preferred clinics - it does not replace them."
       },
       {
         "title": "Liability",
@@ -391,7 +386,7 @@
       },
       {
         "title": "Data Collection",
-        "body": "We collect personal data only when you voluntarily provide it — for example, when submitting an inquiry through our contact form. This may include your name, email address, and the content of your message."
+        "body": "We collect personal data only when you voluntarily provide it - for example, when submitting an inquiry through our contact form. This may include your name, email address, and the content of your message."
       },
       {
         "title": "Purpose of Processing",
@@ -425,7 +420,7 @@
       },
       {
         "title": "Services",
-        "body": "Aurelis provides private health and wellness advisory services. The advisory includes guidance on movement, nutrition, sleep, emotional well-being, and the interpretation of health data — always in coordination with the client's existing physicians and preferred clinics."
+        "body": "Aurelis provides private health and wellness advisory services. The advisory includes guidance on movement, nutrition, sleep, emotional well-being, and the interpretation of health data - always in coordination with the client's existing physicians and preferred clinics."
       },
       {
         "title": "No Binding Medical Advice",

@@ -51,7 +51,7 @@ export default function Home({
 
   return (
     <>
-      {/* Hero — Bergos-style pinned scroll transition */}
+      {/* Hero - Bergos-style pinned scroll transition */}
       <HeroTwoState
         fullTitle={t("hero.title")}
         titleLine1={t("hero.titleLine1")}

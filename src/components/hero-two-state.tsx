@@ -91,7 +91,7 @@ export function HeroTwoState({
         if (overlayBRef.current)
           overlayBRef.current.style.opacity = String(lerp(0, 0.24, s));
 
-        /* ── Arc — subtle drift ── */
+        /* ── Arc - subtle drift ── */
         if (arcRef.current) {
           const tx = lerp(0, -12, s);
           const ty = lerp(0, 8, s);
@@ -99,7 +99,7 @@ export function HeroTwoState({
           arcRef.current.style.opacity = String(lerp(0.55, 0.65, s));
         }
 
-        /* ── Stage 1 — hard gate + crossfade ── */
+        /* ── Stage 1 - hard gate + crossfade ── */
         if (textS1Ref.current) {
           const el = textS1Ref.current;
           if (p >= P_HIGH) {
@@ -132,7 +132,7 @@ export function HeroTwoState({
           }
         }
 
-        /* ── Stage 2 — hard gate + crossfade ── */
+        /* ── Stage 2 - hard gate + crossfade ── */
         if (textS2Ref.current) {
           const el = textS2Ref.current;
           if (p <= P_LOW) {
@@ -165,7 +165,7 @@ export function HeroTwoState({
           }
         }
 
-        /* ── Scroll indicator — fades out in first third ── */
+        /* ── Scroll indicator - fades out in first third ── */
         if (scrollRef.current) {
           scrollRef.current.style.opacity = String(clamp(1 - p * 3, 0, 1));
         }
@@ -181,7 +181,7 @@ export function HeroTwoState({
   return (
     <div ref={wrapperRef} className="hero-wrapper">
       <div className="hero-viewport">
-        {/* z-0: Background A — light */}
+        {/* z-0: Background A - light */}
         <div ref={bgARef} className="hero-layer-bg hero-bg-light">
           <Image
             src="/hero-bg.jpg"
@@ -193,28 +193,28 @@ export function HeroTwoState({
           />
         </div>
 
-        {/* z-0: Background B — dark */}
+        {/* z-0: Background B - dark */}
         <div
           ref={bgBRef}
           className="hero-layer-bg hero-bg-dark"
           style={{ opacity: 0 }}
         />
 
-        {/* z-1: Overlay A — light readability */}
+        {/* z-1: Overlay A - light readability */}
         <div
           ref={overlayARef}
           className="hero-layer-overlay"
           style={{ opacity: 0.08 }}
         />
 
-        {/* z-1: Overlay B — dark readability */}
+        {/* z-1: Overlay B - dark readability */}
         <div
           ref={overlayBRef}
           className="hero-layer-overlay"
           style={{ opacity: 0 }}
         />
 
-        {/* z-2: Arc — identity geometry */}
+        {/* z-2: Arc - identity geometry */}
         <div
           ref={arcRef}
           className="hero-layer-arc"
@@ -223,7 +223,7 @@ export function HeroTwoState({
           <HeroArc />
         </div>
 
-        {/* z-3: Stage 1 — editorial word placement */}
+        {/* z-3: Stage 1 - editorial word placement */}
         <div
           ref={textS1Ref}
           className="hero-layer-text hero-text-s1"
@@ -249,7 +249,7 @@ export function HeroTwoState({
             </div>
           </div>
 
-          {/* Down arrow — bottom right, scroll invitation */}
+          {/* Down arrow - bottom right, scroll invitation */}
           <div className="hero-word hero-word-arrow" aria-hidden="true">
             <svg
               width="20"
@@ -276,7 +276,7 @@ export function HeroTwoState({
           </div>
         </div>
 
-        {/* z-3: Stage 2 — headline + support + CTA */}
+        {/* z-3: Stage 2 - headline + support + CTA */}
         <div
           ref={textS2Ref}
           className="hero-layer-text hero-text-s2"

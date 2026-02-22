@@ -7,7 +7,7 @@ export function Footer() {
   return (
     <footer className="bg-dark-bg text-dark-fg">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 md:py-16">
-        {/* Brand lockup — centered */}
+        {/* Brand lockup - centered */}
         <div className="flex flex-col items-center text-center">
           <img
             src="/aurelis-wordmark-ivory.svg"
