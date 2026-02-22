@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Section } from "@/components/section";
 import { Button } from "@/components/ui/button";
+import { ScrollRevealInit } from "@/components/scroll-reveal-init";
 
 export async function generateMetadata({
   params,
@@ -37,6 +38,8 @@ export default function Pillars({
 
   return (
     <>
+      <ScrollRevealInit />
+
       {/* Header */}
       <Section className="pt-28 md:pt-36 pb-12">
         <div className="max-w-2xl">
@@ -54,7 +57,7 @@ export default function Pillars({
       {pillars.map((pillar, index) => (
         <Section
           key={pillar.number}
-          className={index % 2 === 0 ? "bg-muted" : ""}
+          className={`scroll-reveal ${index % 2 === 0 ? "bg-muted" : ""}`}
         >
           <div className="max-w-2xl">
             <span className="text-sm font-medium text-muted-foreground/40">
@@ -80,7 +83,7 @@ export default function Pillars({
       ))}
 
       {/* CTA */}
-      <Section dark>
+      <Section dark className="scroll-reveal">
         <div className="text-center">
           <h2>{t("cta.title")}</h2>
           <p className="mx-auto mt-4 max-w-md text-lg text-dark-muted">

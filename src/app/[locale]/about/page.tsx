@@ -6,6 +6,7 @@ import { Section } from "@/components/section";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { FounderImage } from "@/components/founder-image";
+import { ScrollRevealInit } from "@/components/scroll-reveal-init";
 
 export async function generateMetadata({
   params,
@@ -30,6 +31,8 @@ export default function About() {
 
   return (
     <>
+      <ScrollRevealInit />
+
       {/* Hero */}
       <Section className="pt-28 md:pt-36 pb-12">
         <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 md:gap-16 items-start">
@@ -57,7 +60,7 @@ export default function About() {
       </Section>
 
       {/* Philosophy cards */}
-      <Section>
+      <Section className="scroll-reveal">
         <h2 className="text-foreground">
           {t("philosophy.title")}
         </h2>
@@ -78,7 +81,7 @@ export default function About() {
       </Section>
 
       {/* CTA */}
-      <Section dark>
+      <Section dark className="scroll-reveal">
         <div className="text-center">
           <h2 className="text-dark-fg">
             {t("cta.title")}

@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Section } from "@/components/section";
 import { Button } from "@/components/ui/button";
+import { ScrollRevealInit } from "@/components/scroll-reveal-init";
 
 export async function generateMetadata({
   params,
@@ -44,6 +45,8 @@ export default function HowItWorks({
 
   return (
     <>
+      <ScrollRevealInit />
+
       {/* Header */}
       <Section className="pt-28 md:pt-36 pb-12">
         <div className="max-w-2xl">
@@ -58,7 +61,7 @@ export default function HowItWorks({
       </Section>
 
       {/* Phases */}
-      <Section className="bg-muted">
+      <Section className="scroll-reveal bg-muted">
         <div className="space-y-16">
           {phases.map((phase) => (
             <div key={phase.number} className="max-w-2xl">
@@ -82,7 +85,7 @@ export default function HowItWorks({
       </Section>
 
       {/* Application steps */}
-      <Section>
+      <Section className="scroll-reveal">
         <div className="max-w-2xl">
           <p className="text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
             {t("application.overline")}

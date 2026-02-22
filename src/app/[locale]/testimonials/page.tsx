@@ -5,6 +5,7 @@ import { Link } from "@/i18n/navigation";
 import { Section } from "@/components/section";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { ScrollRevealInit } from "@/components/scroll-reveal-init";
 
 export async function generateMetadata({
   params,
@@ -37,6 +38,8 @@ export default function Testimonials({
 
   return (
     <>
+      <ScrollRevealInit />
+
       {/* Header */}
       <Section className="pt-28 md:pt-36 pb-12">
         <div className="max-w-2xl">
@@ -51,7 +54,7 @@ export default function Testimonials({
       </Section>
 
       {/* Testimonial grid */}
-      <Section className="bg-muted">
+      <Section className="scroll-reveal bg-muted">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((testimonial) => (
             <Card key={testimonial.name}>
@@ -74,7 +77,7 @@ export default function Testimonials({
       </Section>
 
       {/* CTA */}
-      <Section>
+      <Section className="scroll-reveal">
         <div className="text-center">
           <h2>{t("cta.title")}</h2>
           <p className="mx-auto mt-4 max-w-md text-lg text-muted-foreground">
