@@ -1,0 +1,19 @@
+{
+  "name": "Aurelis",
+  "short_name": "Aurelis",
+  "icons": [
+    {
+      "src": "/main/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/main/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#111111",
+  "background_color": "#F5F1E8",
+  "display": "standalone"
+}

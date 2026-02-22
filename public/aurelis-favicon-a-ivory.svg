@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Aurelis favicon A</title>
+  <desc id="desc">Single-letter A monogram favicon for Aurelis.</desc>
+  <defs>
+    <style>
+      .wm {
+        fill: var(--aurelis-ink, #1C1C1C);
+        font-family: "AURELIS_LOGO_SERIF", "Canela", "IvyPresto Display", "Cormorant Garamond", "EB Garamond", Georgia, serif;
+        font-weight: 500;
+        font-kerning: normal;
+        font-feature-settings: "kern" 1, "liga" 1;
+        text-rendering: geometricPrecision;
+      }
+      .sub {
+        fill: var(--aurelis-ink, #1C1C1C);
+        font-family: "AURELIS_UI_SANS", "Söhne", "Neue Haas Grotesk Text", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.18em;
+        font-kerning: normal;
+        text-transform: uppercase;
+        text-rendering: geometricPrecision;
+      }
+    </style>
+  </defs>
+  <g id="aurelis-favicon-a" style="--aurelis-ink:#F4F1EA">
+    <!-- Safe zone: ~12% padding -->
+    <text x="128" y="182" text-anchor="middle" class="wm" font-size="176">A</text>
+  </g>
+</svg>

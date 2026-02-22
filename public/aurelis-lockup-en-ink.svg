@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Aurelis lockup (EN)</title>
+  <desc id="desc">Aurelis wordmark with descriptor 'PRIVATE LONGEVITY ADVISORY'.</desc>
+  <defs>
+    <style>
+      .wm {
+        fill: var(--aurelis-ink, #1C1C1C);
+        font-family: "AURELIS_LOGO_SERIF", "Canela", "IvyPresto Display", "Cormorant Garamond", "EB Garamond", Georgia, serif;
+        font-weight: 500;
+        font-kerning: normal;
+        font-feature-settings: "kern" 1, "liga" 1;
+        text-rendering: geometricPrecision;
+      }
+      .sub {
+        fill: var(--aurelis-ink, #1C1C1C);
+        font-family: "AURELIS_UI_SANS", "Söhne", "Neue Haas Grotesk Text", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.18em;
+        font-kerning: normal;
+        text-transform: uppercase;
+        text-rendering: geometricPrecision;
+      }
+    </style>
+  </defs>
+  <g id="aurelis-lockup-en" style="--aurelis-ink:#1C1C1C">
+    <!-- Wordmark -->
+    <text x="600" y="205" text-anchor="middle" class="wm" font-size="190">Aurelis</text>
+
+    <!-- Descriptor (use exact approved sans in CSS for final production) -->
+    <text x="600" y="300" text-anchor="middle" class="sub" font-size="48" textLength="900" lengthAdjust="spacingAndGlyphs">PRIVATE LONGEVITY ADVISORY</text>
+  </g>
+</svg>
