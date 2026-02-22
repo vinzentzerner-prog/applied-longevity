@@ -1,7 +1,7 @@
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || "https://appliedlongevity.com";
 
-export const SITE_NAME = "Applied Longevity";
+export const SITE_NAME = "Aurelis";
 
 export const SITE_LOCALE_MAP: Record<string, string> = {
   en: "en_US",

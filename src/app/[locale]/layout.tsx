@@ -29,8 +29,11 @@ export async function generateMetadata({
     },
     description,
     icons: {
-      icon: "/logo-mark.png",
-      apple: "/logo-mark.png",
+      icon: [
+        { url: "/favicon.ico", sizes: "48x48" },
+        { url: "/favicon.svg", type: "image/svg+xml" },
+      ],
+      apple: "/apple-touch-icon.png",
     },
     alternates: {
       canonical: canonicalUrl,
@@ -46,20 +49,11 @@ export async function generateMetadata({
       description,
       locale: ogLocale,
       url: canonicalUrl,
-      images: [
-        {
-          url: "/og-image.jpg",
-          width: 1200,
-          height: 630,
-          alt: SITE_NAME,
-        },
-      ],
     },
     twitter: {
-      card: "summary_large_image",
+      card: "summary",
       title,
       description,
-      images: ["/og-image.jpg"],
     },
     robots: {
       index: true,
@@ -89,8 +83,8 @@ function JsonLd({ locale }: { locale: string }) {
         ? "Eine private Longevity-Begleitung für 3–5 Klient:innen gleichzeitig. Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Einordnung — sorgfältig abgestimmt auf Ihr Leben."
         : "A private longevity advisory for 3–5 clients at a time. Movement, nutrition, sleep, emotional well-being, and medical insight — quietly integrated around your life.",
     url: SITE_URL,
-    image: `${SITE_URL}/og-image.jpg`,
-    logo: `${SITE_URL}/logo-mark.png`,
+    image: `${SITE_URL}/aurelis-favicon-a-512.png`,
+    logo: `${SITE_URL}/aurelis-favicon-a-512.png`,
     inLanguage: locale,
     areaServed: "Worldwide",
     serviceType: "Private Longevity Advisory",
@@ -139,6 +133,8 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <head>
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#111111" />
         <JsonLd locale={locale} />
       </head>
       <body className="font-sans antialiased">

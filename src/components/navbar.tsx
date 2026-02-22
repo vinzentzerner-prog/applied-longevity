@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
@@ -24,13 +23,10 @@ export function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-4 sm:px-6">
         <Link href="/" className="shrink-0">
-          <Image
-            src="/logo-horizontal.png"
-            alt="Applied Longevity"
-            width={180}
-            height={40}
-            className="h-8 w-auto"
-            priority
+          <img
+            src="/aurelis-wordmark-ink.svg"
+            alt="Aurelis"
+            className="h-6 w-auto"
           />
         </Link>
 
