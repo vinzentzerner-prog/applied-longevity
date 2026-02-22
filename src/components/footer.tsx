@@ -12,9 +12,9 @@ export function Footer() {
             <img
               src="/aurelis-wordmark-ivory.svg"
               alt="Aurelis"
-              className="h-6 w-auto"
+              className="h-8 w-auto"
             />
-            <p className="mt-3 text-sm text-dark-muted">
+            <p className="mt-3 text-xs uppercase tracking-[0.18em] text-dark-muted">
               {t("tagline")}
             </p>
           </div>
