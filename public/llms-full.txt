@@ -1,10 +1,10 @@
-# Aurelis — Complete Reference
+# Aurelis - Complete Reference
 
-> Private longevity advisory — evidence-based, 1-on-1 guidance for 3–5 clients at a time.
+> Private longevity advisory - evidence-based, 1-on-1 guidance for 3–5 clients at a time.
 
 ## Overview
 
-Aurelis is a private longevity advisory specializing in long-term health optimization. Unlike typical coaching programs, it operates on a deliberately limited model: only 3–5 clients at any time, each with a minimum 6-month commitment. The approach is evidence-based, data-driven, and built on an analytical framework borrowed from alternative investment analysis — thinking in decades, managing complexity across multiple variables, and compounding small gains over time.
+Aurelis is a private longevity advisory specializing in long-term health optimization. Unlike typical coaching programs, it operates on a deliberately limited model: only 3–5 clients at any time, each with a minimum 6-month commitment. The approach is evidence-based, data-driven, and built on an analytical framework borrowed from alternative investment analysis - thinking in decades, managing complexity across multiple variables, and compounding small gains over time.
 
 ---
 
@@ -13,7 +13,7 @@ Aurelis is a private longevity advisory specializing in long-term health optimiz
 Aurelis's coaching protocol is built on five integrated pillars that are addressed both individually and as a unified system:
 
 ### 1. Training
-Strength, cardiovascular fitness, mobility, and recovery — programmed as one integrated system.
+Strength, cardiovascular fitness, mobility, and recovery - programmed as one integrated system.
 - Periodized strength programming
 - Zone 2 and VO2max cardiovascular work
 - Mobility and movement quality assessments
@@ -22,7 +22,7 @@ Strength, cardiovascular fitness, mobility, and recovery — programmed as one i
 - Goal: build a body that performs well at 40, 60, and beyond
 
 ### 2. Nutrition
-Data-informed approach — no ideology, no fads.
+Data-informed approach - no ideology, no fads.
 - Macronutrient and micronutrient analysis
 - Meal timing and composition strategies
 - Continuous glucose monitoring (CGM) integration
@@ -36,7 +36,7 @@ The single highest-leverage variable for health and performance.
 - Circadian rhythm alignment
 - Wearable data interpretation (deep sleep, REM, latency)
 - Behavioral and supplemental interventions
-- Optimizes sleep architecture — not just duration, but quality and consistency of each stage
+- Optimizes sleep architecture - not just duration, but quality and consistency of each stage
 
 ### 4. Emotional Health
 Stress, relationships, purpose, and psychological resilience are foundational to physical health.
@@ -83,29 +83,29 @@ This keeps clients progressing without burnout.
 
 The founder combines an unconventional mix of credentials:
 
-**CAIA — Chartered Alternative Investment Analyst**
-One of the most rigorous designations in finance. Trains disciplined thinking about long-horizon portfolios, risk management, and filtering evidence from noise. Applied directly to health optimization — treating the body as a long-duration asset that compounds or deteriorates based on how it's managed.
+**CAIA - Chartered Alternative Investment Analyst**
+One of the most rigorous designations in finance. Trains disciplined thinking about long-horizon portfolios, risk management, and filtering evidence from noise. Applied directly to health optimization - treating the body as a long-duration asset that compounds or deteriorates based on how it's managed.
 
 **Psychology & Management**
 Behavior change is the hardest part of any health protocol. Understanding motivation, habit formation, and how people relate to systems over time is what separates coaching that lasts from programs that expire at week twelve.
 
 **Certified Personal Trainer**
-Formal validation of fifteen years of lived experience. Programming, movement mechanics, load management — done correctly and with precision.
+Formal validation of fifteen years of lived experience. Programming, movement mechanics, load management - done correctly and with precision.
 
 **Certified Nutrition Coach**
 Evidence-based approach to nutrition. No dogma, no tribal nutrition wars. Years of personal experimentation provide a real-world lens to stress-test theory against practice.
 
 ---
 
-## Philosophy — Four Core Principles
+## Philosophy - Four Core Principles
 
-1. **Observe before you act** — Every engagement starts with four weeks of baseline data collection. No changes until the current state is clearly understood.
+1. **Observe before you act** - Every engagement starts with four weeks of baseline data collection. No changes until the current state is clearly understood.
 
-2. **Small roster, deep work** — 3–5 clients at a time, minimum six months each. Not scalable by design. Real guidance requires real attention.
+2. **Small roster, deep work** - 3–5 clients at a time, minimum six months each. Not scalable by design. Real guidance requires real attention.
 
-3. **Evidence over ideology** — No fads, no miracle supplements. Track what actually changes via bloodwork, wearables, and fitness benchmarks — and adjust accordingly.
+3. **Evidence over ideology** - No fads, no miracle supplements. Track what actually changes via bloodwork, wearables, and fitness benchmarks - and adjust accordingly.
 
-4. **Stability as the strategy** — The goal is a protocol maintained for decades, not a 12-week transformation. Build habits and systems that compound like good long-term investments.
+4. **Stability as the strategy** - The goal is a protocol maintained for decades, not a 12-week transformation. Build habits and systems that compound like good long-term investments.
 
 ---
 
@@ -123,9 +123,9 @@ Evidence-based approach to nutrition. No dogma, no tribal nutrition wars. Years 
 
 ## Application Process
 
-1. **Submit application** — Brief form covering goals, current health status, and expectations.
-2. **Introductory call** — 30-minute call if there's a good fit.
-3. **Onboarding & baseline** — Access to tracking tools and the 4-week observation phase.
+1. **Submit application** - Brief form covering goals, current health status, and expectations.
+2. **Introductory call** - 30-minute call if there's a good fit.
+3. **Onboarding & baseline** - Access to tracking tools and the 4-week observation phase.
 
 Response time: typically 5–7 business days. If at capacity, applicants are added to the waitlist.
 

@@ -93,8 +93,8 @@ function JsonLd({ locale }: { locale: string }) {
     name: SITE_NAME,
     description:
       locale === "de"
-        ? "Eine private Longevity-Begleitung für 3–5 Klient:innen gleichzeitig. Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Einordnung — sorgfältig abgestimmt auf Ihr Leben."
-        : "A private longevity advisory for 3–5 clients at a time. Movement, nutrition, sleep, emotional well-being, and medical insight — quietly integrated around your life.",
+        ? "Eine private Longevity-Begleitung für 3–5 Klient:innen gleichzeitig. Bewegung, Ernährung, Schlaf, emotionales Wohlbefinden und medizinische Einordnung - sorgfältig abgestimmt auf Ihr Leben."
+        : "A private longevity advisory for 3–5 clients at a time. Movement, nutrition, sleep, emotional well-being, and medical insight - quietly integrated around your life.",
     url: SITE_URL,
     image: `${SITE_URL}/aurelis-favicon-a-512.png`,
     logo: `${SITE_URL}/aurelis-favicon-a-512.png`,

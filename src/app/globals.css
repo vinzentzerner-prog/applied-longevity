@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
-/* ——— Self-hosted fonts ——— */
+/* --- Self-hosted fonts --- */
 
-/* Playfair Display — editorial serif for headings */
+/* Playfair Display - editorial serif for headings */
 @font-face {
   font-family: "Playfair Display";
   src: url("./fonts/PlayfairDisplay-Regular.woff2") format("woff2");
@@ -25,7 +25,7 @@
   font-display: swap;
 }
 
-/* Inter — quiet sans-serif for body and UI */
+/* Inter - quiet sans-serif for body and UI */
 @font-face {
   font-family: "Inter";
   src: url("./fonts/Inter-Regular.woff2") format("woff2");
@@ -41,7 +41,7 @@
   font-display: swap;
 }
 
-/* ——— Design tokens ——— */
+/* --- Design tokens --- */
 
 :root {
   /* Warm linen background */
@@ -52,7 +52,7 @@
   --card: #FFFFFF;
   --card-foreground: #1C1C1C;
 
-  /* Primary — warm charcoal (understated, not coral) */
+  /* Primary - warm charcoal (understated, not coral) */
   --primary: #1C1C1C;
   --primary-foreground: #F7F5F2;
   --primary-hover: #333330;
@@ -61,15 +61,15 @@
   --secondary: #F7F5F2;
   --secondary-foreground: #1C1C1C;
 
-  /* Muted — warm stone tones */
+  /* Muted - warm stone tones */
   --muted: #EFECE7;
   --muted-foreground: #6B6763;
 
-  /* Accent — olive-grey (sparingly) */
+  /* Accent - olive-grey (sparingly) */
   --accent: #8F948B;
   --accent-foreground: #FFFFFF;
 
-  /* Border — soft warm stone */
+  /* Border - soft warm stone */
   --border: #D6CFC7;
   --ring: #6B6763;
 
@@ -82,7 +82,7 @@
   --radius: 0.75rem;
 }
 
-/* ——— Tailwind v4 theme ——— */
+/* --- Tailwind v4 theme --- */
 
 @theme inline {
   --color-background: var(--background);
@@ -113,7 +113,7 @@
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
 }
 
-/* ——— Base ——— */
+/* --- Base --- */
 
 body {
   background: var(--background);
@@ -131,7 +131,7 @@ html {
   color: #1C1C1C;
 }
 
-/* ——— Typography ——— */
+/* --- Typography --- */
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
@@ -164,15 +164,15 @@ h4 {
   font-weight: 500;
 }
 
-/* ——— Pinned hero (Bergos-style scroll transition) ——— */
+/* --- Pinned hero (Bergos-style scroll transition) --- */
 
-/* Outer wrapper — creates scroll travel */
+/* Outer wrapper - creates scroll travel */
 .hero-wrapper {
   height: 200vh;
   position: relative;
 }
 
-/* Sticky viewport — stays pinned during scroll */
+/* Sticky viewport - stays pinned during scroll */
 .hero-viewport {
   position: sticky;
   top: 0;
@@ -180,7 +180,7 @@ h4 {
   overflow: hidden;
 }
 
-/* ——— Layers ——— */
+/* --- Layers --- */
 
 /* z-0: Backgrounds */
 .hero-layer-bg {
@@ -197,7 +197,7 @@ h4 {
   background: linear-gradient(135deg, #1C1C1C 0%, #2A2826 100%);
 }
 
-/* z-1: Overlay gradients — solid black, opacity driven by JS */
+/* z-1: Overlay gradients - solid black, opacity driven by JS */
 .hero-layer-overlay {
   position: absolute;
   inset: 0;
@@ -206,7 +206,7 @@ h4 {
   pointer-events: none;
 }
 
-/* z-2: Arc wrapper — transform + opacity driven by JS */
+/* z-2: Arc wrapper - transform + opacity driven by JS */
 .hero-layer-arc {
   position: absolute;
   inset: 0;
@@ -244,11 +244,11 @@ h4 {
   pointer-events: auto;
 }
 
-/* ——— Stage 1: editorial word placement ——— */
+/* --- Stage 1: editorial word placement --- */
 
 /*
  * Mobile: vertical stack with staggered margins.
- * Words, circle, and arrow flow in a column — no overlaps.
+ * Words, circle, and arrow flow in a column - no overlaps.
  */
 .hero-text-s1 {
   display: flex;
@@ -280,7 +280,7 @@ h4 {
   justify-content: center;
 }
 
-/* Arrow — mobile: centred below circle */
+/* Arrow - mobile: centred below circle */
 .hero-word-arrow {
   margin-top: 2rem;
   display: flex;
@@ -291,7 +291,7 @@ h4 {
 }
 
 /*
- * Desktop: absolute editorial placement — Bergos-style.
+ * Desktop: absolute editorial placement - Bergos-style.
  * Tighter composition: Private & Advisor share the same left edge,
  * Longevity pulled slightly left, everything closer together.
  *
@@ -312,32 +312,32 @@ h4 {
     margin: 0;
   }
 
-  /* "Private" — top-left, horizontally aligned with Advisor */
+  /* "Private" - top-left, horizontally aligned with Advisor */
   .hero-word-1 {
     left: 10vw;
     top: 20vh;
   }
 
-  /* "Longevity" — mid-right, italic, pulled closer */
+  /* "Longevity" - mid-right, italic, pulled closer */
   .hero-word-2 {
     left: 36vw;
     top: 42vh;
   }
 
-  /* "Advisor" — lower-left, moved up, aligned with Private */
+  /* "Advisor" - lower-left, moved up, aligned with Private */
   .hero-word-3 {
     left: 10vw;
     top: 66vh;
   }
 
-  /* Microline text — left-aligned with Private/Advisor, centred in gap */
+  /* Microline text - left-aligned with Private/Advisor, centred in gap */
   .hero-word-circle {
     left: 10vw;
     top: 42vh;
     display: block;
   }
 
-  /* Arrow — bottom-right, larger + pulse on desktop */
+  /* Arrow - bottom-right, larger + pulse on desktop */
   .hero-word-arrow {
     right: 5vw;
     bottom: 5vh;
@@ -369,7 +369,7 @@ h4 {
   opacity: 0.4;
 }
 
-/* ——— Stage 2 text ——— */
+/* --- Stage 2 text --- */
 
 /*
  * Stage 2 occupies a left-biased, vertically centred area.
@@ -395,7 +395,7 @@ h4 {
   }
 }
 
-/* Clean white text — no highlight, no blend */
+/* Clean white text - no highlight, no blend */
 .hero-s2-headline {
   mix-blend-mode: normal;
   background: none;
@@ -423,9 +423,9 @@ h4 {
   pointer-events: auto;
 }
 
-/* ——— Hero typography ——— */
+/* --- Hero typography --- */
 
-/* Oversized display type — editorial scattered words */
+/* Oversized display type - editorial scattered words */
 .hero-display {
   font-family: var(--font-display);
   font-size: clamp(3rem, 9vw, 7.5rem);
@@ -438,7 +438,7 @@ h4 {
   font-style: italic;
 }
 
-/* State 2 headline — slightly smaller cap */
+/* State 2 headline - slightly smaller cap */
 .hero-s2-headline {
   font-size: clamp(2.5rem, 7vw, 5.5rem);
 }
@@ -452,9 +452,9 @@ h4 {
   text-wrap: balance;
 }
 
-/* ——— Microline text (circle removed) ——— */
+/* --- Microline text (circle removed) --- */
 
-/* Mobile — centred text block */
+/* Mobile - centred text block */
 .hero-circle {
   display: flex;
   align-items: center;
@@ -472,7 +472,7 @@ h4 {
   color: var(--muted-foreground);
 }
 
-/* Desktop — narrow block (4 lines), left-aligned, uppercase */
+/* Desktop - narrow block (4 lines), left-aligned, uppercase */
 @media (min-width: 768px) {
   .hero-circle {
     max-width: 15rem;
@@ -489,7 +489,7 @@ h4 {
   }
 }
 
-/* ——— Scroll indicator ——— */
+/* --- Scroll indicator --- */
 
 .hero-scroll-indicator {
   position: absolute;
@@ -514,7 +514,7 @@ h4 {
   50% { transform: translateY(8px); opacity: 0.15; }
 }
 
-/* Desktop arrow — gentle drift + soft glow pulse */
+/* Desktop arrow - gentle drift + soft glow pulse */
 @keyframes arrowPulse {
   0%, 100% {
     transform: translateY(0);
@@ -535,7 +535,7 @@ h4 {
   animation: scrollDrift 2.5s ease-in-out infinite;
 }
 
-/* ——— Section scroll-reveal ——— */
+/* --- Section scroll-reveal --- */
 
 .scroll-reveal {
   opacity: 0;
@@ -550,7 +550,7 @@ h4 {
   transform: translateY(0);
 }
 
-/* ——— Reduced motion ——— */
+/* --- Reduced motion --- */
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
