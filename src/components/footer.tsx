@@ -12,9 +12,9 @@ export function Footer() {
             <img
               src="/aurelis-wordmark-ivory.svg"
               alt="Aurelis"
-              className="h-8 w-auto"
+              className="h-10 w-auto"
             />
-            <p className="mt-3 text-xs uppercase tracking-[0.18em] text-dark-muted">
+            <p className="mt-1.5 text-xs uppercase tracking-[0.18em] text-dark-muted">
               {t("tagline")}
             </p>
           </div>
@@ -41,10 +41,10 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-[#2a2a25] flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-          <div className="text-xs text-dark-muted">
+        <div className="mt-10 pt-6 border-t border-[#2a2a25] flex flex-col-reverse md:flex-row md:items-baseline md:justify-between gap-3">
+          <p className="text-xs text-dark-muted">
             {t("copyright", { year: new Date().getFullYear() })}
-          </div>
+          </p>
           <div className="flex gap-x-4 text-xs">
             <Link href="/impressum" className="text-dark-muted hover:text-dark-fg transition-colors">
               {t("impressum")}
