@@ -80,7 +80,7 @@ export default function About() {
       {/* CTA */}
       <Section dark>
         <div className="text-center">
-          <h2 className="text-foreground">
+          <h2 className="text-dark-fg">
             {t("cta.title")}
           </h2>
           <p className="mx-auto mt-4 max-w-md text-lg text-dark-muted">
