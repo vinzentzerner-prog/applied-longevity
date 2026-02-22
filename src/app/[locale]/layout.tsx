@@ -20,6 +20,10 @@ export async function generateMetadata({
   const description = t("home.description");
   const ogLocale = SITE_LOCALE_MAP[locale] || "en_US";
   const canonicalUrl = locale === "en" ? SITE_URL : `${SITE_URL}/${locale}`;
+  const ogImage =
+    locale === "de"
+      ? `${SITE_URL}/aurelis-og-share-de-dark.svg`
+      : `${SITE_URL}/aurelis-og-share-en-dark.svg`;
 
   return {
     metadataBase: new URL(SITE_URL),
@@ -49,11 +53,20 @@ export async function generateMetadata({
       description,
       locale: ogLocale,
       url: canonicalUrl,
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: SITE_NAME,
+        },
+      ],
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title,
       description,
+      images: [ogImage],
     },
     robots: {
       index: true,
