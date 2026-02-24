@@ -41,8 +41,13 @@ export function Footer() {
           </Link>
         </div>
 
+        {/* Disclaimer */}
+        <p className="mt-10 mx-auto max-w-2xl text-center text-[11px] leading-relaxed text-dark-muted/50">
+          {t("disclaimer")}
+        </p>
+
         {/* Bottom bar */}
-        <div className="mt-10 pt-6 border-t border-[#2a2a25] flex flex-col-reverse md:flex-row md:items-baseline md:justify-between gap-3">
+        <div className="mt-6 pt-6 border-t border-[#2a2a25] flex flex-col-reverse md:flex-row md:items-baseline md:justify-between gap-3">
           <p className="text-xs text-dark-muted">
             {t("copyright", { year: new Date().getFullYear() })}
           </p>

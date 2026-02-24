@@ -86,6 +86,9 @@ export default function Apply({
           <p className="mt-10 text-sm text-muted-foreground/60">
             {t("next.note")}
           </p>
+          <p className="mt-6 text-xs leading-relaxed text-muted-foreground/40">
+            {t("disclaimer")}
+          </p>
         </div>
       </Section>
     </>

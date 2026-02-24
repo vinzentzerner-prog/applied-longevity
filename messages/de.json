@@ -56,7 +56,8 @@
     "copyright": "© {year} Aurelis. Alle Rechte vorbehalten.",
     "impressum": "Impressum",
     "datenschutz": "Datenschutz",
-    "agb": "AGB"
+    "agb": "AGB",
+    "disclaimer": "Hinweis: Aurelis bietet Beratung und Begleitung und ersetzt keine ärztliche Behandlung. In Notfällen wenden Sie sich bitte an den Notruf. Auf Wunsch arbeiten wir in Abstimmung mit Ihren Ärzt:innen."
   },
   "home": {
     "hero": {
@@ -64,11 +65,11 @@
       "titleLine1": "Private",
       "titleLine2": "Longevity-",
       "titleLine3": "Begleitung",
-      "microline": "Ihre Gesundheit - mit der gleichen Diskretion wie alles andere in Ihrem Leben.",
+      "microline": "3–5 Klient:innen gleichzeitig.",
       "state2": {
         "headline": "Ruhige Sicherheit.",
-        "support": "Diskrete, langfristige Begleitung, damit gesundheitliche Entscheidungen einfach werden - und Vitalität sichtbar bleibt.",
-        "cta": "Persönliches Kennenlernen anfragen",
+        "support": "Stille, gründliche Aufmerksamkeit für Ihre Gesundheit — langfristig, diskret und persönlich.",
+        "cta": "Private Einführung anfragen",
         "exclusivity": "Nur 3–5 Klient:innen"
       }
     },
@@ -96,24 +97,24 @@
       ]
     },
     "about": {
-      "title": "Über mich",
-      "body": "Ich arbeite mit sehr wenigen Menschen - und das über lange Zeiträume hinweg.\n\nDie meisten kamen zu mir nicht weil etwas akut falsch war, sondern weil niemand das Gesamtbild im Blick hatte. Fragmentierte Termine, widersprüchliche Empfehlungen, keine kontinuierliche Begleitung. Meine Rolle ist es, diese Person zu sein: jemand, der bleibt, beobachtet und einordnet.\n\nIch biete keine Programme oder Pakete an. Ich biete anhaltende Aufmerksamkeit - für Ihre Muster, Ihre Übergänge und das, was Ihre Gesundheit unterhalb der Oberfläche wirklich zeigt.\n\nWenn Sie überlegen, sich zu melden - ein kurzes, privates Gespräch genügt, um herauszufinden, ob dies für uns beide das Richtige ist."
+      "title": "Ihr diskreter Ansprechpartner.",
+      "body": "Aurelis begleitet eine kleine Zahl von Klient:innen langfristig — mit ruhiger, gründlicher Aufmerksamkeit. Wir strukturieren Entscheidungen, koordinieren Diagnostik und nächste Schritte und arbeiten auf Wunsch in Abstimmung mit Ihren Ärzt:innen und bevorzugten Kliniken.\n\nDer Fokus liegt auf Klarheit, Kontinuität und einer Begleitung, die sich Ihrem Leben anpasst."
     },
     "deliverables": {
-      "overline": "Was enthalten ist",
-      "title": "Für alles ist gesorgt",
+      "overline": "Wie wir arbeiten",
+      "title": "Diskret, strukturiert, persönlich",
       "items": [
         {
-          "title": "Wearable-Technologie, bereitgestellt",
-          "description": "Die passenden Sensoren und Geräte, für Sie ausgewählt und eingerichtet. Kein Rechercheaufwand auf Ihrer Seite."
+          "title": "Koordinierte Diagnostik",
+          "description": "Auf Wunsch koordinieren wir geeignete Tools und Diagnostik — nur wenn sinnvoll. Wearables und Tools wählen wir gemeinsam aus — dezent, pragmatisch, ohne zusätzlichen Aufwand."
         },
         {
-          "title": "Ein privater Gesundheitsüberblick",
-          "description": "Alle Ihre Gesundheitsdaten an einem Ort - vertraulich und von mir persönlich eingeordnet. Jede Zahl bekommt Kontext und Bedeutung."
+          "title": "Ärztliche Abstimmung",
+          "description": "Auf Wunsch in Abstimmung mit Ihren Ärzt:innen und bevorzugten Kliniken. Wir koordinieren nächste Schritte und sorgen für Klarheit zwischen Ihren Ansprechpartnern."
         },
         {
-          "title": "Wöchentliche Klarheit",
-          "description": "Eine kurze, gezielte Zusammenfassung jede Woche: Was funktioniert, was sich verändert, was als Nächstes kommt. Nichts Überflüssiges."
+          "title": "Fortlaufende Klarheit",
+          "description": "Wir strukturieren Entscheidungen, koordinieren nächste Schritte und begleiten Sie mit der Kontinuität, die dieser Prozess erfordert."
         }
       ]
     },
@@ -132,7 +133,7 @@
     "cta": {
       "title": "Wenn Sie bereit sind.",
       "body": "Ein kurzes, vertrauliches Gespräch, um zu verstehen, was Sie suchen. Ohne Vorbereitung - nur Offenheit darüber, wo Sie gerade stehen.",
-      "button": "Persönliches Kennenlernen anfragen"
+      "button": "Private Einführung anfragen"
     }
   },
   "pillars": {
@@ -167,11 +168,11 @@
       {
         "number": "03",
         "title": "Schlaf",
-        "description": "Schlaf ist grundlegend - für Klarheit, für Widerstandskraft, dafür, wie alles andere zusammenhält. Wir nutzen Wearable-Daten und Ihre eigene Erfahrung, um Ihre Schlafmuster zu verstehen und deren Qualität und Beständigkeit behutsam zu verbessern.",
+        "description": "Schlaf ist grundlegend - für Klarheit, für Widerstandskraft, dafür, wie alles andere zusammenhält. Wir nutzen verfügbare Daten und Ihre eigene Erfahrung, um Ihre Schlafmuster zu verstehen und deren Qualität und Beständigkeit behutsam zu verbessern.",
         "details": [
           "Schlafumgebung und Routine",
           "Abstimmung des zirkadianen Rhythmus",
-          "Wearable-Dateninterpretation",
+          "Dateninterpretation und Einordnung",
           "Bedachte Verhaltensanpassungen"
         ]
       },
@@ -202,7 +203,7 @@
       "title": "Sehen Sie, wie es zusammenwirkt",
       "body": "Jede Dimension stärkt die anderen. Das Ergebnis ist ein Rahmenwerk, das sich über die Zeit vertieft.",
       "howItWorks": "Der Ablauf",
-      "apply": "Ein Gespräch beginnen"
+      "apply": "Private Einführung anfragen"
     }
   },
   "howItWorks": {
@@ -248,10 +249,10 @@
         {
           "step": "3",
           "title": "Ein stiller Anfang",
-          "description": "Wenn wir uns für eine Zusammenarbeit entscheiden, erhalten Sie Zugang zu unseren Werkzeugen und wir beginnen mit vier Wochen Beobachtung. Ohne Druck, ohne Eile."
+          "description": "Wenn wir uns für eine Zusammenarbeit entscheiden, beginnen wir mit vier Wochen stiller Beobachtung. Ohne Druck, ohne Eile."
         }
       ],
-      "cta": "Ein Gespräch beginnen"
+      "cta": "Private Einführung anfragen"
     }
   },
   "testimonials": {
@@ -295,14 +296,14 @@
     "cta": {
       "title": "Wenn Sie bereit sind.",
       "body": "Sobald ein Platz frei wird, prüfen wir Ihre Anfrage und vereinbaren ein persönliches Gespräch.",
-      "button": "Ein Gespräch beginnen"
+      "button": "Private Einführung anfragen"
     }
   },
   "about": {
-    "eyebrow": "Über mich",
+    "eyebrow": "Über Aurelis",
     "hero": {
-      "title": "Wenige Klient:innen. Volle Aufmerksamkeit.",
-      "subtitle": "Ich arbeite mit sehr wenigen Menschen - und das über lange Zeiträume hinweg.\n\nDie meisten kamen zu mir nicht weil etwas akut falsch war, sondern weil niemand das Gesamtbild im Blick hatte. Fragmentierte Termine, widersprüchliche Empfehlungen, keine kontinuierliche Begleitung. Meine Rolle ist es, diese Person zu sein: jemand, der bleibt, beobachtet und einordnet.\n\nIch biete keine Programme oder Pakete an. Ich biete anhaltende Aufmerksamkeit - für Ihre Muster, Ihre Übergänge und das, was Ihre Gesundheit unterhalb der Oberfläche wirklich zeigt."
+      "title": "Ihr diskreter Ansprechpartner.",
+      "subtitle": "Aurelis begleitet eine kleine Zahl von Klient:innen langfristig — mit ruhiger, gründlicher Aufmerksamkeit. Wir strukturieren Entscheidungen, koordinieren Diagnostik und nächste Schritte und arbeiten auf Wunsch in Abstimmung mit Ihren Ärzt:innen und bevorzugten Kliniken.\n\nDer Fokus liegt auf Klarheit, Kontinuität und einer Begleitung, die sich Ihrem Leben anpasst."
     },
     "philosophy": {
       "title": "Philosophie",
@@ -324,7 +325,7 @@
     "cta": {
       "title": "Wenn Sie bereit sind.",
       "subtitle": "Wenn Sie den Eindruck haben, dass dies das Richtige sein könnte - ein kurzes, privates Gespräch genügt, um das herauszufinden.",
-      "button": "Eine private Vorstellung anfragen"
+      "button": "Private Einführung anfragen"
     }
   },
   "apply": {
@@ -353,7 +354,8 @@
         }
       ],
       "note": "Ich antworte auf jede Anfrage innerhalb weniger Tage. Falls ich ausgelastet bin, sage ich Ihnen das offen - und wir finden den richtigen Zeitpunkt."
-    }
+    },
+    "disclaimer": "Hinweis: Aurelis bietet Beratung und Begleitung und ersetzt keine ärztliche Behandlung. In Notfällen wenden Sie sich bitte an den Notruf. Auf Wunsch arbeiten wir in Abstimmung mit Ihren Ärzt:innen."
   },
   "impressum": {
     "title": "Impressum",
