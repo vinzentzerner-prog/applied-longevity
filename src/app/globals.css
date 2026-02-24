@@ -315,7 +315,7 @@ h4 {
   /* "Private" - top-left, horizontally aligned with Advisor */
   .hero-word-1 {
     left: 10vw;
-    top: 20vh;
+    top: 24vh;
   }
 
   /* "Longevity" - mid-right, italic, pulled closer */
@@ -327,13 +327,13 @@ h4 {
   /* "Advisor" - lower-left, moved up, aligned with Private */
   .hero-word-3 {
     left: 10vw;
-    top: 66vh;
+    top: 60vh;
   }
 
-  /* Microline text - left-aligned with Private/Advisor, centred in gap */
+  /* Microline text - left-aligned with Private/Advisor, centred on Longevity */
   .hero-word-circle {
     left: 10vw;
-    top: 42vh;
+    top: 44vh;
     display: block;
   }
 
@@ -472,20 +472,20 @@ h4 {
   color: var(--muted-foreground);
 }
 
-/* Desktop - narrow block (4 lines), left-aligned, uppercase */
+/* Desktop - wider block, sentence-case, sized like state-2 subhead */
 @media (min-width: 768px) {
   .hero-circle {
-    max-width: 15rem;
+    max-width: 22vw;
     justify-content: flex-start;
     padding: 0;
   }
 
   .hero-circle p {
-    font-size: clamp(0.8125rem, 1.1vw, 1rem);
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
     text-align: left;
-    text-transform: uppercase;
-    line-height: 1.65;
-    letter-spacing: 0.06em;
+    text-transform: none;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
   }
 }
 
