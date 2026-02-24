@@ -340,7 +340,7 @@ h4 {
   /* Arrow - bottom-right, larger + pulse on desktop */
   .hero-word-arrow {
     right: 5vw;
-    bottom: 5vh;
+    bottom: max(8vh, 4rem);
     top: auto;
     left: auto;
     display: block;
