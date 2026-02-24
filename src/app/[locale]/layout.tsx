@@ -20,10 +20,20 @@ export async function generateMetadata({
   const description = t("home.description");
   const ogLocale = SITE_LOCALE_MAP[locale] || "en_US";
   const canonicalUrl = locale === "en" ? SITE_URL : `${SITE_URL}/${locale}`;
+
+  /* Locale-specific OG metadata (PNG for WhatsApp/LinkedIn compat) */
   const ogImage =
     locale === "de"
-      ? `${SITE_URL}/aurelis-og-share-de-dark.svg`
-      : `${SITE_URL}/aurelis-og-share-en-dark.svg`;
+      ? `${SITE_URL}/og/aurelis-og-de.png`
+      : `${SITE_URL}/og/aurelis-og-en.png`;
+  const ogTitle =
+    locale === "de"
+      ? "Aurelis — Private Longevity-Begleitung"
+      : "Aurelis — Private Longevity Advisory";
+  const ogDescription =
+    locale === "de"
+      ? "Diskrete, langfristige Begleitung für Gesundheitsentscheidungen — ruhig, gründlich und persönlich."
+      : "Discreet, long-term guidance for health decisions — calm, thorough, and personal.";
 
   return {
     metadataBase: new URL(SITE_URL),
@@ -49,8 +59,8 @@ export async function generateMetadata({
     openGraph: {
       type: "website",
       siteName: SITE_NAME,
-      title,
-      description,
+      title: ogTitle,
+      description: ogDescription,
       locale: ogLocale,
       url: canonicalUrl,
       images: [
@@ -64,8 +74,8 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title,
-      description,
+      title: ogTitle,
+      description: ogDescription,
       images: [ogImage],
     },
     robots: {

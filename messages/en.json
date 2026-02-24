@@ -56,7 +56,8 @@
     "copyright": "© {year} Aurelis. All rights reserved.",
     "impressum": "Legal Notice",
     "datenschutz": "Privacy",
-    "agb": "Terms"
+    "agb": "Terms",
+    "disclaimer": "Notice: Aurelis provides advisory support and does not replace medical care. In emergencies, contact local emergency services. If desired, we work alongside your physicians."
   },
   "home": {
     "hero": {
@@ -64,10 +65,10 @@
       "titleLine1": "Private",
       "titleLine2": "Longevity",
       "titleLine3": "Advisory",
-      "microline": "Your health, held with the same care as everything else in your life.",
+      "microline": "3–5 clients at a time.",
       "state2": {
         "headline": "Quiet certainty.",
-        "support": "Discreet, long-term guidance so your health decisions feel simple - and your vitality stays visible.",
+        "support": "Quiet, thorough attention to your health — long-term, discreet, and personal.",
         "cta": "Request a private introduction",
         "exclusivity": "3–5 clients only"
       }
@@ -96,24 +97,24 @@
       ]
     },
     "about": {
-      "title": "About",
-      "body": "I work with a very small number of people over long periods of time.\n\nMost of them came to me not because something was wrong, but because nothing was being held together - fragmented appointments, conflicting advice, no one with the full picture. My role is to be that person: the one who stays, watches, and interprets.\n\nI don't offer programmes or packages. I offer sustained attention - to your patterns, your transitions, and what your health is actually telling you beneath the surface.\n\nIf you're considering reaching out, a brief private conversation is enough to know whether this is right for both of us."
+      "title": "Your discreet counterpart.",
+      "body": "Aurelis supports a small number of clients long-term — with calm, thorough attention. We structure decisions, coordinate testing and next steps, and work alongside your physicians and preferred clinics when appropriate.\n\nThe focus is clarity, continuity, and guidance that fits into a demanding life."
     },
     "deliverables": {
-      "overline": "What is included",
-      "title": "Everything is taken care of",
+      "overline": "How we work",
+      "title": "Discreet, structured, personal",
       "items": [
         {
-          "title": "Wearable technology, provided",
-          "description": "The right sensors and devices, selected and configured for you. No research required on your part."
+          "title": "Coordinated testing",
+          "description": "If helpful, we coordinate the tools and testing you prefer — only when it adds clarity. Devices and wearables are selected together — discreet, pragmatic, no effort on your part."
         },
         {
-          "title": "A private health overview",
-          "description": "All your health data in one place - confidential, reviewed by me personally. Every number comes with context and meaning."
+          "title": "Physician coordination",
+          "description": "When appropriate, we work alongside your physicians and preferred clinics. We coordinate next steps and ensure clarity between your points of contact."
         },
         {
-          "title": "Weekly clarity",
-          "description": "A short, focused summary each week: what is working, what is shifting, what comes next. Nothing unnecessary."
+          "title": "Ongoing clarity",
+          "description": "We structure decisions, coordinate next steps, and support you with the continuity this process requires."
         }
       ]
     },
@@ -167,11 +168,11 @@
       {
         "number": "03",
         "title": "Sleep",
-        "description": "Sleep is foundational - to clarity, to resilience, to how everything else holds together. We use wearable data and your own experience to understand your sleep patterns and gently improve their quality and consistency.",
+        "description": "Sleep is foundational - to clarity, to resilience, to how everything else holds together. We use available data and your own experience to understand your sleep patterns and gently improve their quality and consistency.",
         "details": [
           "Sleep environment and routine",
           "Circadian rhythm alignment",
-          "Wearable data interpretation",
+          "Data interpretation and context",
           "Considered behavioural adjustments"
         ]
       },
@@ -202,7 +203,7 @@
       "title": "See how it comes together",
       "body": "Each dimension supports the others. The result is a framework that deepens over time.",
       "howItWorks": "How It Works",
-      "apply": "Begin a conversation"
+      "apply": "Request a private introduction"
     }
   },
   "howItWorks": {
@@ -248,10 +249,10 @@
         {
           "step": "3",
           "title": "A quiet beginning",
-          "description": "Once we decide to work together, you receive access to our tools and we begin four weeks of observation. No pressure, no rush."
+          "description": "Once we decide to work together, we begin with four weeks of quiet observation. No pressure, no rush."
         }
       ],
-      "cta": "Begin a conversation"
+      "cta": "Request a private introduction"
     }
   },
   "testimonials": {
@@ -295,14 +296,14 @@
     "cta": {
       "title": "When you're ready.",
       "body": "When a place becomes available, we review your inquiry and arrange a private conversation.",
-      "button": "Begin a conversation"
+      "button": "Request a private introduction"
     }
   },
   "about": {
     "eyebrow": "About",
     "hero": {
-      "title": "Few clients. Full attention.",
-      "subtitle": "I work with a very small number of people over long periods of time.\n\nMost of them came to me not because something was wrong, but because nothing was being held together - fragmented appointments, conflicting advice, no one with the full picture. My role is to be that person: the one who stays, watches, and interprets.\n\nI don't offer programmes or packages. I offer sustained attention - to your patterns, your transitions, and what your health is actually telling you beneath the surface."
+      "title": "Your discreet counterpart.",
+      "subtitle": "Aurelis supports a small number of clients long-term — with calm, thorough attention. We structure decisions, coordinate testing and next steps, and work alongside your physicians and preferred clinics when appropriate.\n\nThe focus is clarity, continuity, and guidance that fits into a demanding life."
     },
     "philosophy": {
       "title": "Philosophy",
@@ -353,7 +354,8 @@
         }
       ],
       "note": "I respond to every inquiry within a few days. If I am at capacity, I will let you know honestly and we can revisit when the timing is right."
-    }
+    },
+    "disclaimer": "Notice: Aurelis provides advisory support and does not replace medical care. In emergencies, contact local emergency services. If desired, we work alongside your physicians."
   },
   "impressum": {
     "title": "Legal Notice",
