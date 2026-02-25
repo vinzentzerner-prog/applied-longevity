@@ -184,6 +184,11 @@ export default function Home({
                   </p>
                 ))}
             </div>
+            <Link href="/apply" className="mt-8 inline-block">
+              <Button variant="outline" size="lg">
+                {t("about.cta")}
+              </Button>
+            </Link>
           </div>
           <div className="w-full md:w-64 lg:w-72">
             <FounderImage />
