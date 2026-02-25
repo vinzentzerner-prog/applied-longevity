@@ -168,7 +168,7 @@ h4 {
 
 /* Outer wrapper - creates scroll travel */
 .hero-wrapper {
-  height: 200vh;
+  height: 160vh;
   position: relative;
 }
 
@@ -330,10 +330,10 @@ h4 {
     top: 60vh;
   }
 
-  /* Microline text - left-aligned with Private/Advisor, centred on Longevity */
+  /* Microline text - centred between Private/Advisor, aligned to Longevity */
   .hero-word-circle {
-    left: 10vw;
-    top: 44vh;
+    left: 36vw;
+    top: 49vh;
     display: block;
   }
 
@@ -475,14 +475,14 @@ h4 {
 /* Desktop - wider block, sentence-case, sized like state-2 subhead */
 @media (min-width: 768px) {
   .hero-circle {
-    max-width: 22vw;
-    justify-content: flex-start;
+    max-width: 40vw;
+    justify-content: center;
     padding: 0;
   }
 
   .hero-circle p {
     font-size: clamp(1rem, 1.5vw, 1.25rem);
-    text-align: left;
+    text-align: center;
     text-transform: none;
     line-height: 1.5;
     letter-spacing: 0.01em;

@@ -64,9 +64,9 @@ export function HeroTwoState({
     let lastP = -1;
 
     /* Crossfade band boundaries */
-    const P_LOW = 0.12;
-    const P_HIGH = 0.88;
-    const BAND = P_HIGH - P_LOW; // 0.76
+    const P_LOW = 0.10;
+    const P_HIGH = 0.78;
+    const BAND = P_HIGH - P_LOW; // 0.68
 
     const tick = () => {
       const rect = wrapper.getBoundingClientRect();
