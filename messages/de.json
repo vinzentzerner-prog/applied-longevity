@@ -264,34 +264,19 @@
     },
     "items": [
       {
-        "quote": "Die vierwöchige Beobachtungsphase wirkte anfangs langsam, aber sie gab uns eine Tiefe des Verstehens, die ich so noch nicht erlebt hatte. Zum ersten Mal hatte ich das Gefühl, dass jemand meine Gesundheit wirklich versteht - nicht nur meine Werte.",
-        "name": "James R.",
-        "detail": "Klient, 14 Monate"
+        "quote": "Ich habe kein Programm gesucht. Ich habe jemanden gesucht, der aus allem, was ich bereits tat, einen Sinn machen konnte — und mir ehrlich sagen konnte, was davon wirklich zählt. Genau das habe ich gefunden.",
+        "name": "Anja S.",
+        "detail": "Zürich/remote"
       },
       {
-        "quote": "Ich habe schon mit Trainern und Ernährungsberaterinnen gearbeitet, aber nie mit jemandem, der alle fünf Dimensionen zusammen sieht. Die Integration - und die ruhige Art, wie sie gehalten wird - macht den Unterschied.",
-        "name": "Sarah M.",
-        "detail": "Klientin, 9 Monate"
+        "quote": "Was mich am meisten beeindruckt hat, war die Geduld. Kein Drang, sofort etwas zu ändern, kein sofortiges Protokoll. Einfach sorgfältige Aufmerksamkeit über Zeit. Nach sechs Monaten verstand ich meine Gesundheit besser als in den zwanzig Jahren davor.",
+        "name": "Lars L.",
+        "detail": "Zürich"
       },
       {
-        "quote": "Was ich am meisten schätze, ist die Geduld. Keine übereilten Änderungen, keine dramatischen Umbrüche. Nur stetiger, bedachter Fortschritt, den ich tatsächlich aufrechterhalten kann - und der den Rest meines Lebens respektiert.",
-        "name": "David K.",
-        "detail": "Klient, 18 Monate"
-      },
-      {
-        "quote": "Allein die Arbeit am Schlaf brachte etwas, das ich nicht erwartet hatte: eine tiefere Gelassenheit im Alltag. Klarheit, Stimmung, Erholung - alles veränderte sich nachgelagert. Aber es war die Ruhe, die mich am meisten überraschte.",
-        "name": "Maria L.",
-        "detail": "Klientin, 11 Monate"
-      },
-      {
-        "quote": "Ich war unsicher wegen der Dimension emotionales Wohlbefinden, aber sie erwies sich als das, worauf alles andere gewartet hatte. Sobald das mit Sorgfalt gehalten wurde, folgte der Rest von selbst.",
-        "name": "Tom W.",
-        "detail": "Klient, 7 Monate"
-      },
-      {
-        "quote": "Jemanden zu haben, der mein Blutbild liest, meine Muster versteht und alles mit echter Aufmerksamkeit verbindet - diese Präsenz ist selten. Die kleine Anzahl an Klient:innen macht den ganzen Unterschied.",
-        "name": "Elena P.",
-        "detail": "Klientin, 12 Monate"
+        "quote": "Diskret, präzise und wirklich nützlich. Vinzent koordiniert alles — meine Ärzte, meine Daten, meine Fragen — damit ich es nicht muss. Das ist selten.",
+        "name": "Antonio T.",
+        "detail": "Zürich/remote"
       }
     ],
     "cta": {

@@ -55,7 +55,7 @@ export default function Testimonials({
 
       {/* Testimonial grid */}
       <Section className="scroll-reveal bg-muted">
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-3">
           {testimonials.map((testimonial) => (
             <Card key={testimonial.name}>
               <CardContent className="pt-6">
