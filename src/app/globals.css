@@ -330,11 +330,16 @@ h4 {
     top: 60vh;
   }
 
-  /* Microline text - left-aligned, vertically centred between Private & Advisory */
+  /* Microline text - left-aligned, dynamically centred between Private & Advisory.
+     top = bottom of "Private" (24vh + one display line).
+     bottom = distance from viewport bottom to "Advisory" top (100vh − 60vh = 40vh).
+     Flex centres the content no matter how many lines it wraps to. */
   .hero-word-circle {
     left: 10vw;
-    top: 48vh;
-    display: block;
+    top: calc(24vh + clamp(3rem, 9vw, 7.5rem) * 1.08);
+    bottom: 40vh;
+    display: flex;
+    align-items: center;
   }
 
   /* Arrow - bottom-right, larger + pulse on desktop */
