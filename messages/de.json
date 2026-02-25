@@ -97,8 +97,9 @@
       ]
     },
     "about": {
-      "title": "Ihr diskreter Ansprechpartner.",
-      "body": "Aurelis begleitet eine kleine Zahl von Klient:innen langfristig — mit ruhiger, gründlicher Aufmerksamkeit. Wir strukturieren Entscheidungen, koordinieren Diagnostik und nächste Schritte und arbeiten auf Wunsch in Abstimmung mit Ihren Ärzt:innen und bevorzugten Kliniken.\n\nDer Fokus liegt auf Klarheit, Kontinuität und einer Begleitung, die sich Ihrem Leben anpasst."
+      "title": "Die Person hinter Aurelis.",
+      "body": "Ich bin Vinzent. Ich arbeite persönlich mit einer kleinen Zahl von Klient:innen — ohne Delegation, ohne Team im Hintergrund.\n\nDie meisten, die sich melden, befinden sich nicht in einer Krise. Sie kommen gut zurecht, aber sie tun es allein — zwischen fragmentierten Empfehlungen, verschiedenen Ärzt:innen und Gesundheitsentscheidungen, ohne jemanden, der das vollständige Bild hält.\n\nDiese Rolle übernehme ich. Ein kurzes, persönliches Gespräch genügt, um zu wissen, ob das hier das Richtige ist.",
+      "cta": "Private Einführung anfragen"
     },
     "deliverables": {
       "overline": "Wie wir arbeiten",
@@ -302,8 +303,8 @@
   "about": {
     "eyebrow": "Über Aurelis",
     "hero": {
-      "title": "Ihr diskreter Ansprechpartner.",
-      "subtitle": "Aurelis begleitet eine kleine Zahl von Klient:innen langfristig — mit ruhiger, gründlicher Aufmerksamkeit. Wir strukturieren Entscheidungen, koordinieren Diagnostik und nächste Schritte und arbeiten auf Wunsch in Abstimmung mit Ihren Ärzt:innen und bevorzugten Kliniken.\n\nDer Fokus liegt auf Klarheit, Kontinuität und einer Begleitung, die sich Ihrem Leben anpasst."
+      "title": "Die Person hinter Aurelis.",
+      "subtitle": "Ich bin Vinzent. Ich arbeite mit einer sehr kleinen Zahl von Menschen — persönlich, über lange Zeiträume, ohne Delegation und ohne Team im Hintergrund.\n\nDie meisten meiner Klient:innen befanden sich nicht in einer Krise, als sie sich meldeten. Sie kamen nach den meisten Massstäben gut zurecht. Aber sie taten es allein — zwischen Terminen, fragmentierten Empfehlungen und Gesundheitsentscheidungen, ohne jemanden, der das vollständige Bild hielt oder über die Zeit involviert blieb.\n\nDiese Lücke ist es, in der ich arbeite. Mein Hintergrund umfasst Psychologie, Analytik und über fünfzehn Jahre Auseinandersetzung mit der Frage, wie sich Gesundheit über ihre vielen Dimensionen hinweg trägt. Ich habe eng mit Menschen gearbeitet, deren Leben wenig Raum für Versuch und Irrtum lässt — Menschen, die Klarheit und Kontinuität brauchen, nicht mehr Information.\n\nIch nehme nur wenige Klient:innen an und bleibe über lange Zeiträume involviert. Jede Zusammenarbeit beginnt mit sorgfältiger, ungehetzer Beobachtung — nicht mit Intervention. Das Ziel ist, Ihre Muster zu verstehen, bevor etwas geformt wird, und eine stille, diskrete Präsenz zu bleiben, während sich Ihre Gesundheit entwickelt.\n\nWenn Sie darüber nachdenken, sich zu melden — ein kurzes, persönliches Gespräch genügt, um zu wissen, ob das hier für uns beide das Richtige ist."
     },
     "philosophy": {
       "title": "Philosophie",
@@ -324,7 +325,7 @@
     },
     "cta": {
       "title": "Wenn Sie bereit sind.",
-      "subtitle": "Wenn Sie den Eindruck haben, dass dies das Richtige sein könnte - ein kurzes, privates Gespräch genügt, um das herauszufinden.",
+      "subtitle": "Wenn Sie darüber nachdenken, sich zu melden — ein kurzes, persönliches Gespräch genügt, um zu wissen, ob das hier für uns beide das Richtige ist.",
       "button": "Private Einführung anfragen"
     }
   },

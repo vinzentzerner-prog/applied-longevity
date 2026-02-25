@@ -97,8 +97,9 @@
       ]
     },
     "about": {
-      "title": "Your discreet counterpart.",
-      "body": "Aurelis supports a small number of clients long-term — with calm, thorough attention. We structure decisions, coordinate testing and next steps, and work alongside your physicians and preferred clinics when appropriate.\n\nThe focus is clarity, continuity, and guidance that fits into a demanding life."
+      "title": "The person behind Aurelis.",
+      "body": "I'm Vinzent. I work with a small number of clients personally — no delegation, no team behind the scenes.\n\nMost people who reach out aren't dealing with a crisis. They're managing well, but they're doing it alone — navigating fragmented advice, coordinating between different physicians, making health decisions without anyone who holds the full picture.\n\nThat's the role I take on. A brief private conversation is enough to know whether this is right.",
+      "cta": "Request a private introduction"
     },
     "deliverables": {
       "overline": "How we work",
@@ -302,8 +303,8 @@
   "about": {
     "eyebrow": "About",
     "hero": {
-      "title": "Your discreet counterpart.",
-      "subtitle": "Aurelis supports a small number of clients long-term — with calm, thorough attention. We structure decisions, coordinate testing and next steps, and work alongside your physicians and preferred clinics when appropriate.\n\nThe focus is clarity, continuity, and guidance that fits into a demanding life."
+      "title": "The person behind Aurelis.",
+      "subtitle": "I'm Vinzent. I work with a very small number of people — personally, over long periods, with no delegation and no team behind the scenes.\n\nMost of my clients weren't dealing with a crisis when they reached out. They were managing well by most measures. But they were doing it alone — moving between appointments, receiving fragmented advice, making health decisions without anyone who held the complete picture or stayed involved over time.\n\nThat gap is what I work in. My background spans psychology, analytics, and over fifteen years of studying how health holds together across its many dimensions. I've worked closely with people whose lives leave little room for trial and error — individuals who need clarity and continuity, not more information.\n\nI take on very few clients and stay involved over long periods. Each engagement begins with careful, unhurried observation — not intervention. The goal is to understand your patterns before shaping anything, and to remain a steady, discreet presence as your health evolves.\n\nIf you're considering reaching out, a brief private conversation is enough to know whether this is right for both of us."
     },
     "philosophy": {
       "title": "Philosophy",
@@ -324,7 +325,7 @@
     },
     "cta": {
       "title": "When you're ready.",
-      "subtitle": "If you have the sense that this might be right - a brief, private conversation is enough to find out.",
+      "subtitle": "If you're considering reaching out, a brief private conversation is enough to know whether this is right for both of us.",
       "button": "Request a private introduction"
     }
   },

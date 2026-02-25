@@ -330,10 +330,10 @@ h4 {
     top: 60vh;
   }
 
-  /* Microline text - centred between Private/Advisor, aligned to Longevity */
+  /* Microline text - left-aligned, vertically centred between Private & Advisory */
   .hero-word-circle {
-    left: 36vw;
-    top: 49vh;
+    left: 10vw;
+    top: 48vh;
     display: block;
   }
 
@@ -475,14 +475,14 @@ h4 {
 /* Desktop - wider block, sentence-case, sized like state-2 subhead */
 @media (min-width: 768px) {
   .hero-circle {
-    max-width: 40vw;
-    justify-content: center;
+    max-width: 22vw;
+    justify-content: flex-start;
     padding: 0;
   }
 
   .hero-circle p {
     font-size: clamp(1rem, 1.5vw, 1.25rem);
-    text-align: center;
+    text-align: left;
     text-transform: none;
     line-height: 1.5;
     letter-spacing: 0.01em;
