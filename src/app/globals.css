@@ -330,11 +330,14 @@ h4 {
     top: 60vh;
   }
 
-  /* Microline text - horizontally aligned with Longevity, sits just below it */
+  /* Microline text - left-aligned with Private/Advisory, vertically centred on Longevity */
   .hero-word-circle {
-    left: 36vw;
-    top: calc(42vh + clamp(3rem, 9vw, 7.5rem) * 1.08);
-    display: block;
+    left: 10vw;
+    top: 42vh;
+    display: flex;
+    align-items: center;
+    height: calc(clamp(3rem, 9vw, 7.5rem) * 1.08);
+    max-width: 24vw;
   }
 
   /* Arrow - bottom-right, larger + pulse on desktop */
