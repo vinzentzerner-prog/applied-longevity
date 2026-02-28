@@ -259,8 +259,7 @@
   "testimonials": {
     "hero": {
       "overline": "Client reflections",
-      "title": "What clients say",
-      "body": "Reflections from those who have experienced the process."
+      "title": "What clients say"
     },
     "items": [
       {
@@ -378,7 +377,15 @@
       },
       {
         "title": "Purpose of Processing",
-        "body": "Your data is used exclusively to respond to your inquiry and, if applicable, to manage the advisory relationship. We do not sell, share, or transfer your data to third parties."
+        "body": "The data you submit is used exclusively to process your inquiry and to contact you in connection with your engagement. Your data is not shared with third parties unless expressly required to carry out your request."
+      },
+      {
+        "title": "Contact Form (Tally)",
+        "body": "We use Tally (tally.so) for our contact and inquiry form. When you fill out the form, your data is transmitted to and processed by Tally. You can find Tally's privacy policy at tally.so/help/privacy-policy."
+      },
+      {
+        "title": "Hosting",
+        "body": "This website is hosted by Vercel Inc., San Francisco, USA. When you visit the website, technical connection data (including IP address and timestamp) is processed by Vercel. For more information: vercel.com/legal/privacy-policy."
       },
       {
         "title": "Health Data",
