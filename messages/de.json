@@ -259,8 +259,7 @@
   "testimonials": {
     "hero": {
       "overline": "Stimmen von Klient:innen",
-      "title": "Was Klient:innen sagen",
-      "body": "Einblicke von Menschen, die den Prozess erfahren haben."
+      "title": "Was Klient:innen sagen"
     },
     "items": [
       {
@@ -378,7 +377,15 @@
       },
       {
         "title": "Zweck der Verarbeitung",
-        "body": "Ihre Daten werden ausschliesslich zur Beantwortung Ihrer Anfrage und gegebenenfalls zur Verwaltung der Begleitung verwendet. Wir verkaufen, teilen oder übertragen Ihre Daten nicht an Dritte."
+        "body": "Die übermittelten Daten werden ausschliesslich zur Bearbeitung Ihrer Anfrage sowie zur Kontaktaufnahme im Zusammenhang mit Ihrer Begleitung verwendet. Eine Weitergabe an Dritte erfolgt nicht, es sei denn, dies ist zur Durchführung Ihres Auftrags ausdrücklich erforderlich."
+      },
+      {
+        "title": "Kontaktformular (Tally)",
+        "body": "Für das Kontakt- und Anfrageformular nutzen wir den Dienst Tally (tally.so). Wenn Sie das Formular ausfüllen, werden Ihre Daten an Tally übermittelt und dort verarbeitet. Die Datenschutzbestimmungen von Tally finden Sie unter tally.so/help/privacy-policy."
+      },
+      {
+        "title": "Hosting",
+        "body": "Diese Website wird bei Vercel Inc., San Francisco, USA, gehostet. Beim Aufruf der Website werden technische Verbindungsdaten (u.a. IP-Adresse, Zeitstempel) von Vercel verarbeitet. Weitere Informationen: vercel.com/legal/privacy-policy."
       },
       {
         "title": "Gesundheitsdaten",

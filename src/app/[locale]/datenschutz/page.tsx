@@ -18,7 +18,7 @@ export async function generateMetadata({
 
 export default function Datenschutz() {
   const t = useTranslations("datenschutz");
-  const sections = ["0", "1", "2", "3", "4", "5", "6"] as const;
+  const sections = ["0", "1", "2", "3", "4", "5", "6", "7", "8"] as const;
 
   return (
     <Section className="pt-28 md:pt-36 pb-12">

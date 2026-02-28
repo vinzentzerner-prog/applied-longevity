@@ -47,9 +47,6 @@ export default function Testimonials({
             {t("hero.overline")}
           </p>
           <h1 className="mt-4">{t("hero.title")}</h1>
-          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            {t("hero.body")}
-          </p>
         </div>
       </Section>
 
