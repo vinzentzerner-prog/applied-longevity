@@ -28,12 +28,12 @@ export async function generateMetadata({
       : `${SITE_URL}/og/aurelis-og-en.png`;
   const ogTitle =
     locale === "de"
-      ? "Aurelis — Private Longevity-Begleitung"
-      : "Aurelis — Private Longevity Advisory";
+      ? "Aurelis - Private Longevity-Begleitung"
+      : "Aurelis - Private Longevity Advisory";
   const ogDescription =
     locale === "de"
-      ? "Diskrete, langfristige Begleitung für Gesundheitsentscheidungen — ruhig, gründlich und persönlich."
-      : "Discreet, long-term guidance for health decisions — calm, thorough, and personal.";
+      ? "Diskrete, langfristige Begleitung für Gesundheitsentscheidungen - ruhig, gründlich und persönlich."
+      : "Discreet, long-term guidance for health decisions - calm, thorough, and personal.";
 
   return {
     metadataBase: new URL(SITE_URL),
