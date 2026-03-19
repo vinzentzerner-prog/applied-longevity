@@ -283,7 +283,12 @@ export function HeroTwoState({
           style={{ opacity: 0, visibility: "hidden" }}
         >
           <span className="hero-display hero-s2-headline">
-            {state2Headline}
+            {state2Headline.split("\n").map((line, i, arr) => (
+              <span key={i}>
+                {line}
+                {i < arr.length - 1 && <br />}
+              </span>
+            ))}
           </span>
           <p className="hero-subhead">{state2Support}</p>
           <div className="hero-s2-cta">
