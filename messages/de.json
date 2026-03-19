@@ -18,7 +18,7 @@
     },
     "testimonials": {
       "title": "Stimmen von Klient:innen - Aurelis",
-      "description": "Einblicke von Klient:innen, die den Aurelis Prozess erfahren haben - über Klarheit, Kontinuität und den stillen Wert aufmerksamer Begleitung."
+      "description": "Einblicke von Klient:innen, die den Aurelis Prozess erfahren haben - über Klarheit, Kontinuität und den Wert aufmerksamer Begleitung."
     },
     "apply": {
       "title": "Ein Gespräch beginnen - Aurelis",
@@ -67,8 +67,8 @@
       "titleLine3": "Begleitung",
       "microline": "Ihre Gesundheit - mit der gleichen Diskretion wie alles andere in Ihrem Leben.",
       "state2": {
-        "headline": "Ruhige Sicherheit.",
-        "support": "Stille, gründliche Aufmerksamkeit für Ihre Gesundheit - langfristig, diskret und persönlich.",
+        "headline": "Gesundheit in guten Händen.",
+        "support": "Langfristige, diskrete Begleitung Ihrer Gesundheit - persönlich und mit voller Aufmerksamkeit.",
         "cta": "Private Einführung anfragen",
         "exclusivity": "Nur 3–5 Klient:innen"
       }
@@ -80,11 +80,11 @@
     },
     "engagement": {
       "overline": "Der Ablauf",
-      "title": "Wie es beginnt",
+      "title": "So beginnt die Zusammenarbeit",
       "items": [
         {
           "title": "Verstehen, wo Sie stehen",
-          "description": "Bevor sich etwas ändert, hören wir zu. Vier Wochen stille, vertrauliche Beobachtung - Schlaf, Bewegung, Ernährung, Blutwerte, Alltagsrhythmus - in Abstimmung mit Ihren bestehenden Ärzt:innen und bevorzugten Kliniken, um Ihre Gesundheit aus sich selbst heraus zu verstehen."
+          "description": "Bevor sich etwas ändert, hören wir zu. Vier Wochen vertrauliche Beobachtung - Schlaf, Bewegung, Ernährung, Blutwerte, Alltagsrhythmus - in Abstimmung mit Ihren bestehenden Ärzt:innen und bevorzugten Kliniken, um ein klares Bild Ihrer Ausgangslage zu gewinnen."
         },
         {
           "title": "Ein Rahmen, der zu Ihnen passt",
@@ -92,13 +92,13 @@
         },
         {
           "title": "Fortlaufende Verfeinerung",
-          "description": "Ihr Rahmenwerk entwickelt sich mit Ihnen. Im persönlichen Austausch passen wir an, was angepasst werden muss - in einem Tempo, das Ihre Zeit und Aufmerksamkeit respektiert."
+          "description": "Ihr Programm entwickelt sich mit Ihnen. Im persönlichen Austausch passen wir an, was angepasst werden muss - in einem Tempo, das Ihre Zeit und Aufmerksamkeit respektiert."
         }
       ]
     },
     "about": {
       "title": "Die Person hinter Aurelis.",
-      "body": "Ich bin Vinzent. Ich arbeite persönlich mit einer kleinen Zahl von Klient:innen - ohne Delegation. Ich widme mich jedem einzeln, und bei Bedarf stimme ich mich mit Ihren bestehenden Gesundheitsexperten ab.\n\nDie meisten, die sich melden, befinden sich nicht in einer Krise. Sie kommen gut zurecht, aber sie tun es allein - zwischen fragmentierten Empfehlungen, verschiedenen Ärzt:innen und Gesundheitsentscheidungen, ohne jemanden, der das vollständige Bild hält.\n\nDiese Rolle übernehme ich. Ein kurzes, persönliches Gespräch genügt, um zu wissen, ob das hier das Richtige ist.",
+      "body": "Mein Name ist Vinzent. Ich arbeite persönlich mit einer kleinen Zahl von Klient:innen - ohne Delegation. Ich widme mich jedem einzeln, und bei Bedarf stimme ich mich mit Ihren bestehenden Gesundheitsexperten ab.\n\nWer sich bei mir meldet, steckt selten in einer Krise. Die meisten kommen gut zurecht - aber sie tun es allein, zwischen verschiedenen Fachärzt:innen, einzelnen Empfehlungen und Entscheidungen, die niemand für sie zusammenführt.\n\nDiese Rolle übernehme ich. Ein kurzes, persönliches Gespräch genügt, um zu wissen, ob das hier das Richtige ist.",
       "cta": "Private Einführung anfragen"
     },
     "deliverables": {
@@ -147,7 +147,7 @@
       {
         "number": "01",
         "title": "Bewegung",
-        "description": "Kraft, kardiovaskuläre Gesundheit, Mobilität und Erholung - als ein zusammenhängendes Rahmenwerk gestaltet. Wir formen Ihre Bewegungspraxis rund um Ihren Alltag, Ihre Geschichte und Ihr langfristiges strukturelles Wohlbefinden. Die Absicht ist ein Körper, der Sie gut trägt - mit 40, 60 und darüber hinaus.",
+        "description": "Kraft, kardiovaskuläre Gesundheit, Mobilität und Erholung - als ein zusammenhängendes Programm gestaltet. Wir gestalten Ihr Bewegungsprogramm rund um Ihren Alltag, Ihre Vorgeschichte und Ihre langfristigen körperlichen Ziele. Das Ziel: ein Körper, der Sie zuverlässig trägt - mit 40, 60 und darüber hinaus.",
         "details": [
           "Strukturierte Kraftprogrammierung",
           "Kardiovaskuläre Gesundheit und Ausdauer",
@@ -185,13 +185,13 @@
           "Stressbewusstsein und -begleitung",
           "Achtsamkeit und kontemplative Praktiken",
           "Soziale Verbundenheit und Beziehungsqualität",
-          "Werteabgleich und Lebenskohärenz"
+          "Werteklarheit und bewusste Lebensgestaltung"
         ]
       },
       {
         "number": "05",
         "title": "Medizinische Einordnung",
-        "description": "In Zusammenarbeit mit Ihrem medizinischen Team beobachten wir die Werte, die zählen. Umfassendes Blutbild, sinnvolle Bildgebung und longitudinales Tracking bieten eine stille, objektive Sicht darauf, wie Ihr Körper über die Zeit reagiert.",
+        "description": "In Zusammenarbeit mit Ihrem medizinischen Team beobachten wir die Werte, die zählen. Umfassendes Blutbild, sinnvolle Bildgebung und longitudinales Tracking bieten einen klaren, objektiven Blick darauf, wie Ihr Körper über die Zeit reagiert.",
         "details": [
           "Umfassende Blutpanels",
           "Kardiovaskuläre und metabolische Marker",
@@ -201,8 +201,8 @@
       }
     ],
     "cta": {
-      "title": "Sehen Sie, wie es zusammenwirkt",
-      "body": "Jede Dimension stärkt die anderen. Das Ergebnis ist ein Rahmenwerk, das sich über die Zeit vertieft.",
+      "title": "So greifen die Dimensionen ineinander",
+      "body": "Jede Dimension stärkt die anderen. Das Ergebnis ist ein Ansatz, der sich über die Zeit vertieft.",
       "howItWorks": "Der Ablauf",
       "apply": "Private Einführung anfragen"
     }
@@ -210,15 +210,15 @@
   "howItWorks": {
     "hero": {
       "overline": "Ablauf",
-      "title": "Wie es funktioniert",
-      "body": "Jede Zusammenarbeit folgt derselben Struktur in drei Phasen. Wir beobachten, bevor wir handeln, bauen mit Sorgfalt auf und verfeinern für die lange Sicht."
+      "title": "So arbeiten wir",
+      "body": "Jede Zusammenarbeit folgt derselben Struktur in drei Phasen: beobachten, bevor wir handeln. Aufbauen mit Sorgfalt. Und laufend verfeinern."
     },
     "phases": [
       {
         "number": "01",
         "title": "Beobachten",
         "duration": "Wochen 1–4",
-        "description": "Wir ändern noch nichts. Vier Wochen lang sammeln wir Ausgangsdaten - Schlafmuster, Bewegung, Ernährung, Blutwerte und wie Sie sich fühlen - in Abstimmung mit Ihren bestehenden Ärzt:innen und bevorzugten Kliniken. Das gibt uns ein klares, ungehetzes Bild davon, wo Sie stehen, bevor wir eine einzige Anpassung in Betracht ziehen."
+        "description": "Wir ändern noch nichts. Vier Wochen lang sammeln wir Ausgangsdaten - Schlafmuster, Bewegung, Ernährung, Blutwerte und wie Sie sich fühlen - in Abstimmung mit Ihren bestehenden Ärzt:innen und bevorzugten Kliniken. Das ergibt ein klares, unvoreingenommenes Bild davon, wo Sie stehen, bevor wir eine einzige Anpassung in Betracht ziehen."
       },
       {
         "number": "02",
@@ -230,12 +230,12 @@
         "number": "03",
         "title": "Verfeinern",
         "duration": "Fortlaufend",
-        "description": "Sobald das Fundament steht, gehen wir in Pflege und behutsame Verfeinerung über. Regelmässige Gespräche, periodische Neubeurteilung und saisonale Anpassungen halten die Entwicklung in Gang - in einem Tempo, das Ihr Leben respektiert."
+        "description": "Sobald das Fundament steht, gehen wir in Pflege und behutsame Verfeinerung über. Regelmässige Gespräche, regelmässige Standortbestimmung und saisonale Anpassungen halten die Entwicklung in Gang - in einem Tempo, das Ihr Leben respektiert."
       }
     ],
     "application": {
       "overline": "Der Anfang",
-      "title": "Wie es beginnt",
+      "title": "So beginnt es",
       "steps": [
         {
           "step": "1",
@@ -245,7 +245,7 @@
         {
           "step": "2",
           "title": "Ein persönliches Gespräch",
-          "description": "Wenn es stimmig wirkt, vereinbaren wir ein ruhiges, ungehetzes Gespräch, um Ihre Situation genauer zu erkunden und offene Fragen zu klären."
+          "description": "Wenn es für beide Seiten passt, vereinbaren wir ein ruhiges Gespräch in aller Ruhe, um Ihre Situation genauer zu erkunden und offene Fragen zu klären."
         },
         {
           "step": "3",
@@ -288,18 +288,18 @@
     "eyebrow": "Über Aurelis",
     "hero": {
       "title": "Die Person hinter Aurelis.",
-      "subtitle": "Ich bin Vinzent. Ich arbeite mit einer sehr kleinen Zahl von Menschen - persönlich, über lange Zeiträume, ohne Delegation. Ich widme mich jedem einzeln, und bei Bedarf stimme ich mich mit Ihren bestehenden Gesundheitsexperten ab.\n\nDie meisten meiner Klient:innen befanden sich nicht in einer Krise, als sie sich meldeten. Sie kamen nach den meisten Massstäben gut zurecht. Aber sie taten es allein - zwischen Terminen, fragmentierten Empfehlungen und Gesundheitsentscheidungen, ohne jemanden, der das vollständige Bild hielt oder über die Zeit involviert blieb.\n\nDiese Lücke ist es, in der ich arbeite. Mein Hintergrund umfasst Psychologie, Analytik und über fünfzehn Jahre Auseinandersetzung mit der Frage, wie sich Gesundheit über ihre vielen Dimensionen hinweg trägt. Ich habe eng mit Menschen gearbeitet, deren Leben wenig Raum für Versuch und Irrtum lässt - Menschen, die Klarheit und Kontinuität brauchen, nicht mehr Information.\n\nIch nehme nur wenige Klient:innen an und bleibe über lange Zeiträume involviert. Jede Zusammenarbeit beginnt mit sorgfältiger, ungehetzer Beobachtung - nicht mit Intervention. Das Ziel ist, Ihre Muster zu verstehen, bevor etwas geformt wird, und eine stille, diskrete Präsenz zu bleiben, während sich Ihre Gesundheit entwickelt.\n\nWenn Sie darüber nachdenken, sich zu melden - ein kurzes, persönliches Gespräch genügt, um zu wissen, ob das hier für uns beide das Richtige ist."
+      "subtitle": "Mein Name ist Vinzent. Ich arbeite mit wenigen Menschen - persönlich, über lange Zeiträume, ohne Delegation. Ich widme mich jedem einzeln, und bei Bedarf stimme ich mich mit Ihren bestehenden Gesundheitsexperten ab.\n\nWer sich bei mir meldet, steckt selten in einer Krise. Die meisten kommen gut zurecht - nach aussen betrachtet. Aber sie tun es allein - zwischen Terminen, einzelnen Empfehlungen und Gesundheitsentscheidungen, ohne jemanden, der den Überblick behält und über die Zeit dabei bleibt.\n\nGenau hier setze ich an. Mein Hintergrund umfasst Psychologie, Analytik und über fünfzehn Jahre Erfahrung mit der Frage, wie Gesundheit in ihren verschiedenen Dimensionen zusammenhängt. Ich arbeite mit Menschen, deren Alltag wenig Raum für Versuch und Irrtum lässt - Menschen, die Klarheit und Kontinuität brauchen, nicht mehr Information.\n\nIch nehme nur wenige Klient:innen an und bleibe über lange Zeiträume involviert. Jede Zusammenarbeit beginnt mit sorgfältiger Beobachtung - nicht mit Intervention. Das Ziel ist, Ihre Muster zu verstehen, bevor etwas geformt wird, und eine verlässliche, diskrete Begleitung zu sein, während sich Ihre Gesundheit weiterentwickelt.\n\nFalls Sie überlegen, sich zu melden - ein kurzes, persönliches Gespräch genügt, um zu wissen, ob das hier für uns beide das Richtige ist."
     },
     "philosophy": {
       "title": "Philosophie",
       "items": {
         "observe": {
           "title": "Beobachten vor dem Handeln",
-          "description": "Jede Zusammenarbeit beginnt mit stiller, sorgfältiger Beobachtung - bevor irgendetwas verändert wird. Erst verstehen, dann gestalten."
+          "description": "Jede Zusammenarbeit beginnt mit sorgfältiger Beobachtung - bevor irgendetwas verändert wird. Erst verstehen, dann gestalten."
         },
         "discretion": {
           "title": "Diskretion als Grundprinzip",
-          "description": "Alles, was wir besprechen und messen, bleibt zwischen uns. Keine Delegation, keine Tools, die Sie selbst managen müssen - nur ein ruhiger, privater Überblick."
+          "description": "Alles, was wir besprechen und messen, bleibt zwischen uns. Keine Delegation, keine Tools, die Sie selbst bedienen müssen - einfach ein klarer, privater Überblick."
         },
         "continuity": {
           "title": "Kontinuität statt Episoden",
@@ -309,15 +309,15 @@
     },
     "cta": {
       "title": "Wenn Sie bereit sind.",
-      "subtitle": "Wenn Sie darüber nachdenken, sich zu melden - ein kurzes, persönliches Gespräch genügt, um zu wissen, ob das hier für uns beide das Richtige ist.",
+      "subtitle": "Falls Sie überlegen, sich zu melden - ein kurzes, persönliches Gespräch genügt, um zu wissen, ob das hier für uns beide das Richtige ist.",
       "button": "Private Einführung anfragen"
     }
   },
   "apply": {
     "hero": {
       "overline": "Vertrauliche Anfrage",
-      "title": "Ein Gespräch beginnen.",
-      "body": "Das hier ist kein Verkaufsformular. Es ist ein kurzer, reflektierter Austausch, damit ich verstehe, was Sie suchen - und ob diese Begleitung der richtige Rahmen dafür ist. Jede Antwort wird persönlich gelesen und vertraulich behandelt."
+      "title": "Ins Gespräch kommen.",
+      "body": "Das ist kein Verkaufsformular. Es ist ein kurzer, offener Austausch, damit ich verstehe, was Sie suchen - und ob diese Begleitung der richtige Rahmen dafür ist. Jede Antwort wird persönlich gelesen und vertraulich behandelt."
     },
     "next": {
       "title": "Wie es weitergeht",
@@ -330,11 +330,11 @@
         {
           "step": "2",
           "title": "Ein persönliches Gespräch",
-          "description": "Wenn es für beide Seiten stimmig wirkt, schlage ich ein kurzes, ungehetzes Gespräch vor. Kein Pitch - nur ein ehrlicher Austausch darüber, wo Sie stehen und was helfen könnte."
+          "description": "Wenn es für beide Seiten stimmig wirkt, schlage ich ein kurzes Gespräch vor - ohne Zeitdruck. Kein Pitch - nur ein ehrlicher Austausch darüber, wo Sie stehen und was helfen könnte."
         },
         {
           "step": "3",
-          "title": "Ein bedachter Anfang",
+          "title": "Der erste Schritt",
           "description": "Wenn wir uns für eine Zusammenarbeit entscheiden, beginnen wir mit vier Wochen stiller Beobachtung. Keine Änderungen, kein Druck - nur ein sorgfältiger Blick auf den Stand Ihrer Gesundheit."
         }
       ],
