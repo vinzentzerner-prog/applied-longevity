@@ -97,8 +97,8 @@
       ]
     },
     "about": {
-      "title": "Die Person hinter Aurelis.",
-      "body": "Mein Name ist Vinzent. Ich arbeite persönlich mit einer kleinen Zahl von Klient:innen - ohne Delegation. Ich widme mich jedem einzeln, und bei Bedarf stimme ich mich mit Ihren bestehenden Gesundheitsexperten ab.\n\nWer sich bei mir meldet, steckt selten in einer Krise. Die meisten kommen gut zurecht - aber sie tun es allein, zwischen verschiedenen Fachärzt:innen, einzelnen Empfehlungen und Entscheidungen, die niemand für sie zusammenführt.\n\nDiese Rolle übernehme ich. Ein kurzes, persönliches Gespräch genügt, um zu wissen, ob das hier das Richtige ist.",
+      "title": "Wer hinter Aurelis steht.",
+      "body": "Ich arbeite persönlich mit einer kleinen Zahl von Klient:innen - ohne Delegation. Ich widme mich jedem einzeln, und bei Bedarf stimme ich mich mit Ihren bestehenden Gesundheitsexperten ab.\n\nWer sich bei mir meldet, steckt selten in einer Krise. Die meisten kommen gut zurecht - aber sie tun es allein, zwischen verschiedenen Fachärzt:innen, einzelnen Empfehlungen und Entscheidungen, die niemand für sie zusammenführt.\n\nDiese Rolle übernehme ich. Ein kurzes, persönliches Gespräch genügt, um zu wissen, ob das hier das Richtige ist.",
       "cta": "Private Einführung anfragen"
     },
     "deliverables": {
@@ -347,11 +347,7 @@
     "sections": [
       {
         "title": "Unternehmen",
-        "body": "Aurelis\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich\nSchweiz"
-      },
-      {
-        "title": "Verantwortliche Person",
-        "body": "Vinzent Zerner"
+        "body": "Aurelis\nWerdstrasse 127\n8003 Zürich\nSchweiz"
       },
       {
         "title": "Haftungsausschluss - Keine verbindliche medizinische Beratung",
@@ -369,7 +365,7 @@
     "sections": [
       {
         "title": "Verantwortliche Stelle",
-        "body": "Aurelis\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich, Schweiz"
+        "body": "Aurelis\nWerdstrasse 127\n8003 Zürich, Schweiz"
       },
       {
         "title": "Datenerhebung",
@@ -411,7 +407,7 @@
     "sections": [
       {
         "title": "Geltungsbereich",
-        "body": "Diese Bedingungen gelten für alle Leistungen von Aurelis, betrieben von Vinzent Zerner, Werdstrasse 127, 8003 Zürich, Schweiz."
+        "body": "Diese Bedingungen gelten für alle Leistungen von Aurelis, Werdstrasse 127, 8003 Zürich, Schweiz."
       },
       {
         "title": "Leistungen",

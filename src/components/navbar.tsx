@@ -11,7 +11,6 @@ const navLinks = [
   { href: "/" as const, key: "home" as const },
   { href: "/how-it-works" as const, key: "howItWorks" as const },
   { href: "/pillars" as const, key: "pillars" as const },
-  { href: "/about" as const, key: "about" as const },
 ];
 
 export function Navbar() {

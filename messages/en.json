@@ -97,8 +97,8 @@
       ]
     },
     "about": {
-      "title": "The person behind Aurelis.",
-      "body": "I'm Vinzent. I work with a small number of clients personally - no delegation. I focus on everyone individually, and if needed, I align with your existing health experts.\n\nMost people who reach out aren't dealing with a crisis. They're managing well, but they're doing it alone - navigating fragmented advice, coordinating between different physicians, making health decisions without anyone who holds the full picture.\n\nThat's the role I take on. A brief private conversation is enough to know whether this is right.",
+      "title": "Who stands behind Aurelis.",
+      "body": "I work with a small number of clients personally - no delegation. I focus on everyone individually, and if needed, I align with your existing health experts.\n\nMost people who reach out aren't dealing with a crisis. They're managing well, but they're doing it alone - navigating fragmented advice, coordinating between different physicians, making health decisions without anyone who holds the full picture.\n\nThat's the role I take on. A brief private conversation is enough to know whether this is right.",
       "cta": "Request a private introduction"
     },
     "deliverables": {
@@ -347,11 +347,7 @@
     "sections": [
       {
         "title": "Company",
-        "body": "Aurelis\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich\nSwitzerland"
-      },
-      {
-        "title": "Responsible Person",
-        "body": "Vinzent Zerner"
+        "body": "Aurelis\nWerdstrasse 127\n8003 Zürich\nSwitzerland"
       },
       {
         "title": "Disclaimer - No Binding Medical Advice",
@@ -369,7 +365,7 @@
     "sections": [
       {
         "title": "Responsible Party",
-        "body": "Aurelis\nVinzent Zerner\nWerdstrasse 127\n8003 Zürich, Switzerland"
+        "body": "Aurelis\nWerdstrasse 127\n8003 Zürich, Switzerland"
       },
       {
         "title": "Data Collection",
@@ -411,7 +407,7 @@
     "sections": [
       {
         "title": "Scope",
-        "body": "These terms apply to all services provided by Aurelis, operated by Vinzent Zerner, Werdstrasse 127, 8003 Zürich, Switzerland."
+        "body": "These terms apply to all services provided by Aurelis, Werdstrasse 127, 8003 Zürich, Switzerland."
       },
       {
         "title": "Services",

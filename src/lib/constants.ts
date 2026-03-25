@@ -12,7 +12,6 @@ export const ALL_LOCALES = ["en", "de"] as const;
 
 export const PAGES = [
   "",
-  "/about",
   "/pillars",
   "/how-it-works",
   "/testimonials",
