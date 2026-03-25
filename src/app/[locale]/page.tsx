@@ -5,7 +5,6 @@ import { Link } from "@/i18n/navigation";
 import { Section } from "@/components/section";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { FounderImage } from "@/components/founder-image";
 import { HeroTwoState } from "@/components/hero-two-state";
 import { ScrollRevealInit } from "@/components/scroll-reveal-init";
 
@@ -172,27 +171,22 @@ export default function Home({
 
       {/* About */}
       <Section className="scroll-reveal bg-muted">
-        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 md:gap-16 items-start">
-          <div className="max-w-xl">
-            <h2>{t("about.title")}</h2>
-            <div className="mt-8 space-y-6">
-              {t("about.body")
-                .split("\n\n")
-                .map((paragraph: string, i: number) => (
-                  <p key={i} className="text-lg leading-relaxed text-muted-foreground">
-                    {paragraph}
-                  </p>
-                ))}
-            </div>
-            <Link href="/apply" className="mt-8 inline-block">
-              <Button variant="outline" size="lg">
-                {t("about.cta")}
-              </Button>
-            </Link>
+        <div className="max-w-2xl">
+          <h2>{t("about.title")}</h2>
+          <div className="mt-8 space-y-6">
+            {t("about.body")
+              .split("\n\n")
+              .map((paragraph: string, i: number) => (
+                <p key={i} className="text-lg leading-relaxed text-muted-foreground">
+                  {paragraph}
+                </p>
+              ))}
           </div>
-          <div className="w-full md:w-64 lg:w-72">
-            <FounderImage />
-          </div>
+          <Link href="/apply" className="mt-8 inline-block">
+            <Button variant="outline" size="lg">
+              {t("about.cta")}
+            </Button>
+          </Link>
         </div>
       </Section>
 
